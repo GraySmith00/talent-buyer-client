@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-
+import Routes from '../Routes/Routes';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Router>
-          <h1>Talent Buyer App!!!</h1>
-        </Router>
+        <Routes />
       </div>
     );
   }
