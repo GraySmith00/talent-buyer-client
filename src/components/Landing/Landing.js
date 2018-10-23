@@ -5,7 +5,8 @@ import './Landing.css';
 
 class Landing extends Component {
   state = {
-    signUpModalOpen: false
+    signUpModalOpen: false,
+    logInModalOpen: false
   };
 
   openSignUpModal = () => {
@@ -16,13 +17,23 @@ class Landing extends Component {
     this.setState({ signUpModalOpen: false });
   };
 
+  openLogInModal = () => {
+    this.setState({ logInModalOpen: true });
+  }
+
+  closeLogInModal = () => {
+    this.setState({ logInModalOpen: false });
+  }
+
   render() {
-    const { signUpModalOpen } = this.state;
+    const { signUpModalOpen, logInModalOpen } = this.state;
 
     return (
       <div className="landing">
         {signUpModalOpen && <SignUp closeSignUpModal={this.closeSignUpModal} />}
+        {logInModalOpen && <LogIn closeLogInModal={this.closeLogInModal} />}
         <button onClick={this.openSignUpModal}>Sign Up</button>
+        <button onClick={this.openLogInModal}>Log In</button>
       </div>
     );
   }
