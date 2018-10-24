@@ -6,3 +6,9 @@ script:
   - npm run build
 notifications:
   email: false
+deploy:
+  provider: heroku
+  api_key:
+    secure: M/iU0XZhChuykkpW7kPcQSmIN4Sf4YRIIJWWZyJgnAqIVCeasd5g+JtDA6rievMpTNNPjK5NsLgHNK9ZkRj0WPLloxwq/cUHa+qBWXpmrVhdAs7RIsXcVFq8Yvl5MczN0OgdwesIM7apRGPf8dMhp+5Fzv0hlY0sthOMt6407+X9xdZuPb8EKFFwZzwVHhwwO3dBtI1Eg6+DrlUDE0e6XNw2E5i9xcS6Lq/Y3pWfCCN7Qg1JRc1EXmvABXQTVhS7DWeoFeR4klQOxeZnRLxuamHFGUbJ2Etnly/L4glMvQDBDNnwR2zV4hu67hN3WGx/jT81O0OA2tBnU0jRRDBtiklByiHbCJXcGa9PHt350YRfei53/5MwdA3rJOyGYDvvRcgjhqCmEyMGSbvRKuTD0/879ZCtEUIgiVVgSUQDK+/jtcRoBTbpjXkQPdVJt0XyQzDUM+D5Vc2oN+bx6iZInD4orxfGD19PHEflwzegfOUXbstl2S7yl+a4NO5F+G2oMn5BFjVlhy7hrPag4QA+QI7UD/y5xI1qEpuPZSYg2zlPM9CynnFdbyeZLiIKTD/Mh/z2E6bMOEh93+W7++pQXmY/BllM8Dyye0rFEYT6klEGJYeE9MwJkM0DBJovMDtOLICsBjZXCbi0vjjc8bjnqsE3sxPZxSK8qn68swCx9mc=
+  app: talent-buyer
+  skip_cleanup: true
