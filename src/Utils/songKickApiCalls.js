@@ -4,10 +4,10 @@ export const getMatchingVenue = async (venueName, city) => {
   }&query=${venueName}%20${city}`;
   const response = await fetch(url);
   const data = await response.json();
-  if (!data.results.venue) {
+  if (!data.resultsPage.results.venue) {
     return `Sorry no venue was found with the name ${venueName} in ${city}`;
   }
-  const result = data.results.venue[0];
+  const result = data.resultsPage.results.venue[0];
   const venue = {
     city: result.city.displayName,
     state: result.city.state.displayName,
