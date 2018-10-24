@@ -1,0 +1,1411 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OfferForm component should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <OfferForm />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Offer Form
+</h1>,
+        <div
+          className="input-wrapper"
+>
+          <h4>
+                    Status:
+          </h4>
+          <select
+                    name="status"
+          >
+                    <option
+                              value="active"
+                    >
+                              active
+                    </option>
+                    <option
+                              value="pending"
+                    >
+                              pending
+                    </option>
+                    <option
+                              value="confirmed"
+                    >
+                              confirmed
+                    </option>
+          </select>
+</div>,
+        <div
+          className="input-wrapper"
+>
+          <h4>
+                    Artist:
+          </h4>
+          <input
+                    placeholder="artist"
+                    type="text"
+                    value={undefined}
+          />
+</div>,
+        <div
+          className="input-wrapper"
+>
+          <h4>
+                    Guarantee:
+          </h4>
+          <input
+                    placeholder="guarantee"
+                    type="number"
+                    value={undefined}
+          />
+</div>,
+        <div
+          className="input-wrapper"
+>
+          <h4>
+                    Bonuses:
+          </h4>
+          <input
+                    placeholder="bonuses"
+                    type="number"
+                    value={undefined}
+          />
+</div>,
+        <div
+          className="input-wrapper"
+>
+          <h4>
+                    Radius Clause:
+          </h4>
+          <input
+                    placeholder="Radius Clause"
+                    type="text"
+                    value={undefined}
+          />
+</div>,
+        <div
+          className="input-wrapper"
+>
+          <h4>
+                    Total Expenses:
+          </h4>
+          <input
+                    placeholder="Total Expenses"
+                    type="number"
+                    value={undefined}
+          />
+</div>,
+        <div
+          className="input-wrapper"
+>
+          <h4>
+                    Gross Potential:
+          </h4>
+          <input
+                    placeholder="Gross Potential"
+                    type="number"
+                    value={undefined}
+          />
+</div>,
+        <div
+          className="input-wrapper"
+>
+          <h4>
+                    Door Times:
+          </h4>
+          <input
+                    placeholder="Door Times"
+                    type="number"
+                    value={undefined}
+          />
+</div>,
+        <div
+          className="input-wrapper"
+>
+          <h4>
+                    Age Range:
+          </h4>
+          <input
+                    placeholder="Age Range"
+                    type="numer"
+                    value={undefined}
+          />
+</div>,
+        <div
+          className="input-wrapper"
+>
+          <h4>
+                    Merch Split:
+          </h4>
+          <input
+                    placeholder="Merch Split"
+                    type="numer"
+                    value={undefined}
+          />
+</div>,
+      ],
+      "className": "offer-form",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Offer Form",
+        },
+        "ref": null,
+        "rendered": "Offer Form",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h4>
+              Status:
+</h4>,
+            <select
+              name="status"
+>
+              <option
+                            value="active"
+              >
+                            active
+              </option>
+              <option
+                            value="pending"
+              >
+                            pending
+              </option>
+              <option
+                            value="confirmed"
+              >
+                            confirmed
+              </option>
+</select>,
+          ],
+          "className": "input-wrapper",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Status:",
+            },
+            "ref": null,
+            "rendered": "Status:",
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <option
+                  value="active"
+>
+                  active
+</option>,
+                <option
+                  value="pending"
+>
+                  pending
+</option>,
+                <option
+                  value="confirmed"
+>
+                  confirmed
+</option>,
+              ],
+              "name": "status",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "active",
+                  "value": "active",
+                },
+                "ref": null,
+                "rendered": "active",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "pending",
+                  "value": "pending",
+                },
+                "ref": null,
+                "rendered": "pending",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "confirmed",
+                  "value": "confirmed",
+                },
+                "ref": null,
+                "rendered": "confirmed",
+                "type": "option",
+              },
+            ],
+            "type": "select",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h4>
+              Artist:
+</h4>,
+            <input
+              placeholder="artist"
+              type="text"
+              value={undefined}
+/>,
+          ],
+          "className": "input-wrapper",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Artist:",
+            },
+            "ref": null,
+            "rendered": "Artist:",
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "placeholder": "artist",
+              "type": "text",
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h4>
+              Guarantee:
+</h4>,
+            <input
+              placeholder="guarantee"
+              type="number"
+              value={undefined}
+/>,
+          ],
+          "className": "input-wrapper",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Guarantee:",
+            },
+            "ref": null,
+            "rendered": "Guarantee:",
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "placeholder": "guarantee",
+              "type": "number",
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h4>
+              Bonuses:
+</h4>,
+            <input
+              placeholder="bonuses"
+              type="number"
+              value={undefined}
+/>,
+          ],
+          "className": "input-wrapper",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Bonuses:",
+            },
+            "ref": null,
+            "rendered": "Bonuses:",
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "placeholder": "bonuses",
+              "type": "number",
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h4>
+              Radius Clause:
+</h4>,
+            <input
+              placeholder="Radius Clause"
+              type="text"
+              value={undefined}
+/>,
+          ],
+          "className": "input-wrapper",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Radius Clause:",
+            },
+            "ref": null,
+            "rendered": "Radius Clause:",
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "placeholder": "Radius Clause",
+              "type": "text",
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h4>
+              Total Expenses:
+</h4>,
+            <input
+              placeholder="Total Expenses"
+              type="number"
+              value={undefined}
+/>,
+          ],
+          "className": "input-wrapper",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Total Expenses:",
+            },
+            "ref": null,
+            "rendered": "Total Expenses:",
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "placeholder": "Total Expenses",
+              "type": "number",
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h4>
+              Gross Potential:
+</h4>,
+            <input
+              placeholder="Gross Potential"
+              type="number"
+              value={undefined}
+/>,
+          ],
+          "className": "input-wrapper",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Gross Potential:",
+            },
+            "ref": null,
+            "rendered": "Gross Potential:",
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "placeholder": "Gross Potential",
+              "type": "number",
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h4>
+              Door Times:
+</h4>,
+            <input
+              placeholder="Door Times"
+              type="number"
+              value={undefined}
+/>,
+          ],
+          "className": "input-wrapper",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Door Times:",
+            },
+            "ref": null,
+            "rendered": "Door Times:",
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "placeholder": "Door Times",
+              "type": "number",
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h4>
+              Age Range:
+</h4>,
+            <input
+              placeholder="Age Range"
+              type="numer"
+              value={undefined}
+/>,
+          ],
+          "className": "input-wrapper",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Age Range:",
+            },
+            "ref": null,
+            "rendered": "Age Range:",
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "placeholder": "Age Range",
+              "type": "numer",
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h4>
+              Merch Split:
+</h4>,
+            <input
+              placeholder="Merch Split"
+              type="numer"
+              value={undefined}
+/>,
+          ],
+          "className": "input-wrapper",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Merch Split:",
+            },
+            "ref": null,
+            "rendered": "Merch Split:",
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "placeholder": "Merch Split",
+              "type": "numer",
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "form",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Offer Form
+</h1>,
+          <div
+            className="input-wrapper"
+>
+            <h4>
+                        Status:
+            </h4>
+            <select
+                        name="status"
+            >
+                        <option
+                                    value="active"
+                        >
+                                    active
+                        </option>
+                        <option
+                                    value="pending"
+                        >
+                                    pending
+                        </option>
+                        <option
+                                    value="confirmed"
+                        >
+                                    confirmed
+                        </option>
+            </select>
+</div>,
+          <div
+            className="input-wrapper"
+>
+            <h4>
+                        Artist:
+            </h4>
+            <input
+                        placeholder="artist"
+                        type="text"
+                        value={undefined}
+            />
+</div>,
+          <div
+            className="input-wrapper"
+>
+            <h4>
+                        Guarantee:
+            </h4>
+            <input
+                        placeholder="guarantee"
+                        type="number"
+                        value={undefined}
+            />
+</div>,
+          <div
+            className="input-wrapper"
+>
+            <h4>
+                        Bonuses:
+            </h4>
+            <input
+                        placeholder="bonuses"
+                        type="number"
+                        value={undefined}
+            />
+</div>,
+          <div
+            className="input-wrapper"
+>
+            <h4>
+                        Radius Clause:
+            </h4>
+            <input
+                        placeholder="Radius Clause"
+                        type="text"
+                        value={undefined}
+            />
+</div>,
+          <div
+            className="input-wrapper"
+>
+            <h4>
+                        Total Expenses:
+            </h4>
+            <input
+                        placeholder="Total Expenses"
+                        type="number"
+                        value={undefined}
+            />
+</div>,
+          <div
+            className="input-wrapper"
+>
+            <h4>
+                        Gross Potential:
+            </h4>
+            <input
+                        placeholder="Gross Potential"
+                        type="number"
+                        value={undefined}
+            />
+</div>,
+          <div
+            className="input-wrapper"
+>
+            <h4>
+                        Door Times:
+            </h4>
+            <input
+                        placeholder="Door Times"
+                        type="number"
+                        value={undefined}
+            />
+</div>,
+          <div
+            className="input-wrapper"
+>
+            <h4>
+                        Age Range:
+            </h4>
+            <input
+                        placeholder="Age Range"
+                        type="numer"
+                        value={undefined}
+            />
+</div>,
+          <div
+            className="input-wrapper"
+>
+            <h4>
+                        Merch Split:
+            </h4>
+            <input
+                        placeholder="Merch Split"
+                        type="numer"
+                        value={undefined}
+            />
+</div>,
+        ],
+        "className": "offer-form",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Offer Form",
+          },
+          "ref": null,
+          "rendered": "Offer Form",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4>
+                Status:
+</h4>,
+              <select
+                name="status"
+>
+                <option
+                                value="active"
+                >
+                                active
+                </option>
+                <option
+                                value="pending"
+                >
+                                pending
+                </option>
+                <option
+                                value="confirmed"
+                >
+                                confirmed
+                </option>
+</select>,
+            ],
+            "className": "input-wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Status:",
+              },
+              "ref": null,
+              "rendered": "Status:",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <option
+                    value="active"
+>
+                    active
+</option>,
+                  <option
+                    value="pending"
+>
+                    pending
+</option>,
+                  <option
+                    value="confirmed"
+>
+                    confirmed
+</option>,
+                ],
+                "name": "status",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "active",
+                    "value": "active",
+                  },
+                  "ref": null,
+                  "rendered": "active",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "pending",
+                    "value": "pending",
+                  },
+                  "ref": null,
+                  "rendered": "pending",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "confirmed",
+                    "value": "confirmed",
+                  },
+                  "ref": null,
+                  "rendered": "confirmed",
+                  "type": "option",
+                },
+              ],
+              "type": "select",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4>
+                Artist:
+</h4>,
+              <input
+                placeholder="artist"
+                type="text"
+                value={undefined}
+/>,
+            ],
+            "className": "input-wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Artist:",
+              },
+              "ref": null,
+              "rendered": "Artist:",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "placeholder": "artist",
+                "type": "text",
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4>
+                Guarantee:
+</h4>,
+              <input
+                placeholder="guarantee"
+                type="number"
+                value={undefined}
+/>,
+            ],
+            "className": "input-wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Guarantee:",
+              },
+              "ref": null,
+              "rendered": "Guarantee:",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "placeholder": "guarantee",
+                "type": "number",
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4>
+                Bonuses:
+</h4>,
+              <input
+                placeholder="bonuses"
+                type="number"
+                value={undefined}
+/>,
+            ],
+            "className": "input-wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Bonuses:",
+              },
+              "ref": null,
+              "rendered": "Bonuses:",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "placeholder": "bonuses",
+                "type": "number",
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4>
+                Radius Clause:
+</h4>,
+              <input
+                placeholder="Radius Clause"
+                type="text"
+                value={undefined}
+/>,
+            ],
+            "className": "input-wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Radius Clause:",
+              },
+              "ref": null,
+              "rendered": "Radius Clause:",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "placeholder": "Radius Clause",
+                "type": "text",
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4>
+                Total Expenses:
+</h4>,
+              <input
+                placeholder="Total Expenses"
+                type="number"
+                value={undefined}
+/>,
+            ],
+            "className": "input-wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Total Expenses:",
+              },
+              "ref": null,
+              "rendered": "Total Expenses:",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "placeholder": "Total Expenses",
+                "type": "number",
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4>
+                Gross Potential:
+</h4>,
+              <input
+                placeholder="Gross Potential"
+                type="number"
+                value={undefined}
+/>,
+            ],
+            "className": "input-wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Gross Potential:",
+              },
+              "ref": null,
+              "rendered": "Gross Potential:",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "placeholder": "Gross Potential",
+                "type": "number",
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4>
+                Door Times:
+</h4>,
+              <input
+                placeholder="Door Times"
+                type="number"
+                value={undefined}
+/>,
+            ],
+            "className": "input-wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Door Times:",
+              },
+              "ref": null,
+              "rendered": "Door Times:",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "placeholder": "Door Times",
+                "type": "number",
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4>
+                Age Range:
+</h4>,
+              <input
+                placeholder="Age Range"
+                type="numer"
+                value={undefined}
+/>,
+            ],
+            "className": "input-wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Age Range:",
+              },
+              "ref": null,
+              "rendered": "Age Range:",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "placeholder": "Age Range",
+                "type": "numer",
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4>
+                Merch Split:
+</h4>,
+              <input
+                placeholder="Merch Split"
+                type="numer"
+                value={undefined}
+/>,
+            ],
+            "className": "input-wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Merch Split:",
+              },
+              "ref": null,
+              "rendered": "Merch Split:",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "placeholder": "Merch Split",
+                "type": "numer",
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "form",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
