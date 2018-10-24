@@ -29,6 +29,7 @@ ShallowWrapper {
           </h4>
           <select
                     name="status"
+                    onChange={[Function]}
           >
                     <option
                               value="active"
@@ -54,9 +55,11 @@ ShallowWrapper {
                     Artist:
           </h4>
           <input
+                    name="artist"
+                    onChange={[Function]}
                     placeholder="artist"
                     type="text"
-                    value={undefined}
+                    value=""
           />
 </div>,
         <div
@@ -66,9 +69,11 @@ ShallowWrapper {
                     Guarantee:
           </h4>
           <input
+                    name="guarantee"
+                    onChange={[Function]}
                     placeholder="guarantee"
                     type="number"
-                    value={undefined}
+                    value={0}
           />
 </div>,
         <div
@@ -78,9 +83,11 @@ ShallowWrapper {
                     Bonuses:
           </h4>
           <input
+                    name="bonuses"
+                    onChange={[Function]}
                     placeholder="bonuses"
                     type="number"
-                    value={undefined}
+                    value={0}
           />
 </div>,
         <div
@@ -90,9 +97,11 @@ ShallowWrapper {
                     Radius Clause:
           </h4>
           <input
+                    name="radiusClause"
+                    onChange={[Function]}
                     placeholder="Radius Clause"
                     type="text"
-                    value={undefined}
+                    value=""
           />
 </div>,
         <div
@@ -102,9 +111,11 @@ ShallowWrapper {
                     Total Expenses:
           </h4>
           <input
+                    name="totalExpenses"
+                    onChange={[Function]}
                     placeholder="Total Expenses"
                     type="number"
-                    value={undefined}
+                    value={0}
           />
 </div>,
         <div
@@ -114,9 +125,11 @@ ShallowWrapper {
                     Gross Potential:
           </h4>
           <input
+                    name="grossPotential"
+                    onChange={[Function]}
                     placeholder="Gross Potential"
                     type="number"
-                    value={undefined}
+                    value={0}
           />
 </div>,
         <div
@@ -126,9 +139,11 @@ ShallowWrapper {
                     Door Times:
           </h4>
           <input
+                    name="doorTimes"
+                    onChange={[Function]}
                     placeholder="Door Times"
                     type="number"
-                    value={undefined}
+                    value={0}
           />
 </div>,
         <div
@@ -138,9 +153,11 @@ ShallowWrapper {
                     Age Range:
           </h4>
           <input
+                    name="ageRange"
+                    onChange={[Function]}
                     placeholder="Age Range"
                     type="numer"
-                    value={undefined}
+                    value={0}
           />
 </div>,
         <div
@@ -150,9 +167,11 @@ ShallowWrapper {
                     Merch Split:
           </h4>
           <input
+                    name="merchSplit"
+                    onChange={[Function]}
                     placeholder="Merch Split"
-                    type="numer"
-                    value={undefined}
+                    type="text"
+                    value=""
           />
 </div>,
       ],
@@ -182,6 +201,7 @@ ShallowWrapper {
 </h4>,
             <select
               name="status"
+              onChange={[Function]}
 >
               <option
                             value="active"
@@ -238,6 +258,7 @@ ShallowWrapper {
 </option>,
               ],
               "name": "status",
+              "onChange": [Function],
             },
             "ref": null,
             "rendered": Array [
@@ -293,9 +314,11 @@ ShallowWrapper {
               Artist:
 </h4>,
             <input
+              name="artist"
+              onChange={[Function]}
               placeholder="artist"
               type="text"
-              value={undefined}
+              value=""
 />,
           ],
           "className": "input-wrapper",
@@ -318,9 +341,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "name": "artist",
+              "onChange": [Function],
               "placeholder": "artist",
               "type": "text",
-              "value": undefined,
+              "value": "",
             },
             "ref": null,
             "rendered": null,
@@ -339,9 +364,11 @@ ShallowWrapper {
               Guarantee:
 </h4>,
             <input
+              name="guarantee"
+              onChange={[Function]}
               placeholder="guarantee"
               type="number"
-              value={undefined}
+              value={0}
 />,
           ],
           "className": "input-wrapper",
@@ -364,9 +391,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "name": "guarantee",
+              "onChange": [Function],
               "placeholder": "guarantee",
               "type": "number",
-              "value": undefined,
+              "value": 0,
             },
             "ref": null,
             "rendered": null,
@@ -385,9 +414,11 @@ ShallowWrapper {
               Bonuses:
 </h4>,
             <input
+              name="bonuses"
+              onChange={[Function]}
               placeholder="bonuses"
               type="number"
-              value={undefined}
+              value={0}
 />,
           ],
           "className": "input-wrapper",
@@ -410,9 +441,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "name": "bonuses",
+              "onChange": [Function],
               "placeholder": "bonuses",
               "type": "number",
-              "value": undefined,
+              "value": 0,
             },
             "ref": null,
             "rendered": null,
@@ -431,9 +464,11 @@ ShallowWrapper {
               Radius Clause:
 </h4>,
             <input
+              name="radiusClause"
+              onChange={[Function]}
               placeholder="Radius Clause"
               type="text"
-              value={undefined}
+              value=""
 />,
           ],
           "className": "input-wrapper",
@@ -456,9 +491,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "name": "radiusClause",
+              "onChange": [Function],
               "placeholder": "Radius Clause",
               "type": "text",
-              "value": undefined,
+              "value": "",
             },
             "ref": null,
             "rendered": null,
@@ -477,9 +514,11 @@ ShallowWrapper {
               Total Expenses:
 </h4>,
             <input
+              name="totalExpenses"
+              onChange={[Function]}
               placeholder="Total Expenses"
               type="number"
-              value={undefined}
+              value={0}
 />,
           ],
           "className": "input-wrapper",
@@ -502,9 +541,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "name": "totalExpenses",
+              "onChange": [Function],
               "placeholder": "Total Expenses",
               "type": "number",
-              "value": undefined,
+              "value": 0,
             },
             "ref": null,
             "rendered": null,
@@ -523,9 +564,11 @@ ShallowWrapper {
               Gross Potential:
 </h4>,
             <input
+              name="grossPotential"
+              onChange={[Function]}
               placeholder="Gross Potential"
               type="number"
-              value={undefined}
+              value={0}
 />,
           ],
           "className": "input-wrapper",
@@ -548,9 +591,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "name": "grossPotential",
+              "onChange": [Function],
               "placeholder": "Gross Potential",
               "type": "number",
-              "value": undefined,
+              "value": 0,
             },
             "ref": null,
             "rendered": null,
@@ -569,9 +614,11 @@ ShallowWrapper {
               Door Times:
 </h4>,
             <input
+              name="doorTimes"
+              onChange={[Function]}
               placeholder="Door Times"
               type="number"
-              value={undefined}
+              value={0}
 />,
           ],
           "className": "input-wrapper",
@@ -594,9 +641,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "name": "doorTimes",
+              "onChange": [Function],
               "placeholder": "Door Times",
               "type": "number",
-              "value": undefined,
+              "value": 0,
             },
             "ref": null,
             "rendered": null,
@@ -615,9 +664,11 @@ ShallowWrapper {
               Age Range:
 </h4>,
             <input
+              name="ageRange"
+              onChange={[Function]}
               placeholder="Age Range"
               type="numer"
-              value={undefined}
+              value={0}
 />,
           ],
           "className": "input-wrapper",
@@ -640,9 +691,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "name": "ageRange",
+              "onChange": [Function],
               "placeholder": "Age Range",
               "type": "numer",
-              "value": undefined,
+              "value": 0,
             },
             "ref": null,
             "rendered": null,
@@ -661,9 +714,11 @@ ShallowWrapper {
               Merch Split:
 </h4>,
             <input
+              name="merchSplit"
+              onChange={[Function]}
               placeholder="Merch Split"
-              type="numer"
-              value={undefined}
+              type="text"
+              value=""
 />,
           ],
           "className": "input-wrapper",
@@ -686,9 +741,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "name": "merchSplit",
+              "onChange": [Function],
               "placeholder": "Merch Split",
-              "type": "numer",
-              "value": undefined,
+              "type": "text",
+              "value": "",
             },
             "ref": null,
             "rendered": null,
@@ -718,6 +775,7 @@ ShallowWrapper {
             </h4>
             <select
                         name="status"
+                        onChange={[Function]}
             >
                         <option
                                     value="active"
@@ -743,9 +801,11 @@ ShallowWrapper {
                         Artist:
             </h4>
             <input
+                        name="artist"
+                        onChange={[Function]}
                         placeholder="artist"
                         type="text"
-                        value={undefined}
+                        value=""
             />
 </div>,
           <div
@@ -755,9 +815,11 @@ ShallowWrapper {
                         Guarantee:
             </h4>
             <input
+                        name="guarantee"
+                        onChange={[Function]}
                         placeholder="guarantee"
                         type="number"
-                        value={undefined}
+                        value={0}
             />
 </div>,
           <div
@@ -767,9 +829,11 @@ ShallowWrapper {
                         Bonuses:
             </h4>
             <input
+                        name="bonuses"
+                        onChange={[Function]}
                         placeholder="bonuses"
                         type="number"
-                        value={undefined}
+                        value={0}
             />
 </div>,
           <div
@@ -779,9 +843,11 @@ ShallowWrapper {
                         Radius Clause:
             </h4>
             <input
+                        name="radiusClause"
+                        onChange={[Function]}
                         placeholder="Radius Clause"
                         type="text"
-                        value={undefined}
+                        value=""
             />
 </div>,
           <div
@@ -791,9 +857,11 @@ ShallowWrapper {
                         Total Expenses:
             </h4>
             <input
+                        name="totalExpenses"
+                        onChange={[Function]}
                         placeholder="Total Expenses"
                         type="number"
-                        value={undefined}
+                        value={0}
             />
 </div>,
           <div
@@ -803,9 +871,11 @@ ShallowWrapper {
                         Gross Potential:
             </h4>
             <input
+                        name="grossPotential"
+                        onChange={[Function]}
                         placeholder="Gross Potential"
                         type="number"
-                        value={undefined}
+                        value={0}
             />
 </div>,
           <div
@@ -815,9 +885,11 @@ ShallowWrapper {
                         Door Times:
             </h4>
             <input
+                        name="doorTimes"
+                        onChange={[Function]}
                         placeholder="Door Times"
                         type="number"
-                        value={undefined}
+                        value={0}
             />
 </div>,
           <div
@@ -827,9 +899,11 @@ ShallowWrapper {
                         Age Range:
             </h4>
             <input
+                        name="ageRange"
+                        onChange={[Function]}
                         placeholder="Age Range"
                         type="numer"
-                        value={undefined}
+                        value={0}
             />
 </div>,
           <div
@@ -839,9 +913,11 @@ ShallowWrapper {
                         Merch Split:
             </h4>
             <input
+                        name="merchSplit"
+                        onChange={[Function]}
                         placeholder="Merch Split"
-                        type="numer"
-                        value={undefined}
+                        type="text"
+                        value=""
             />
 </div>,
         ],
@@ -871,6 +947,7 @@ ShallowWrapper {
 </h4>,
               <select
                 name="status"
+                onChange={[Function]}
 >
                 <option
                                 value="active"
@@ -927,6 +1004,7 @@ ShallowWrapper {
 </option>,
                 ],
                 "name": "status",
+                "onChange": [Function],
               },
               "ref": null,
               "rendered": Array [
@@ -982,9 +1060,11 @@ ShallowWrapper {
                 Artist:
 </h4>,
               <input
+                name="artist"
+                onChange={[Function]}
                 placeholder="artist"
                 type="text"
-                value={undefined}
+                value=""
 />,
             ],
             "className": "input-wrapper",
@@ -1007,9 +1087,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "name": "artist",
+                "onChange": [Function],
                 "placeholder": "artist",
                 "type": "text",
-                "value": undefined,
+                "value": "",
               },
               "ref": null,
               "rendered": null,
@@ -1028,9 +1110,11 @@ ShallowWrapper {
                 Guarantee:
 </h4>,
               <input
+                name="guarantee"
+                onChange={[Function]}
                 placeholder="guarantee"
                 type="number"
-                value={undefined}
+                value={0}
 />,
             ],
             "className": "input-wrapper",
@@ -1053,9 +1137,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "name": "guarantee",
+                "onChange": [Function],
                 "placeholder": "guarantee",
                 "type": "number",
-                "value": undefined,
+                "value": 0,
               },
               "ref": null,
               "rendered": null,
@@ -1074,9 +1160,11 @@ ShallowWrapper {
                 Bonuses:
 </h4>,
               <input
+                name="bonuses"
+                onChange={[Function]}
                 placeholder="bonuses"
                 type="number"
-                value={undefined}
+                value={0}
 />,
             ],
             "className": "input-wrapper",
@@ -1099,9 +1187,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "name": "bonuses",
+                "onChange": [Function],
                 "placeholder": "bonuses",
                 "type": "number",
-                "value": undefined,
+                "value": 0,
               },
               "ref": null,
               "rendered": null,
@@ -1120,9 +1210,11 @@ ShallowWrapper {
                 Radius Clause:
 </h4>,
               <input
+                name="radiusClause"
+                onChange={[Function]}
                 placeholder="Radius Clause"
                 type="text"
-                value={undefined}
+                value=""
 />,
             ],
             "className": "input-wrapper",
@@ -1145,9 +1237,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "name": "radiusClause",
+                "onChange": [Function],
                 "placeholder": "Radius Clause",
                 "type": "text",
-                "value": undefined,
+                "value": "",
               },
               "ref": null,
               "rendered": null,
@@ -1166,9 +1260,11 @@ ShallowWrapper {
                 Total Expenses:
 </h4>,
               <input
+                name="totalExpenses"
+                onChange={[Function]}
                 placeholder="Total Expenses"
                 type="number"
-                value={undefined}
+                value={0}
 />,
             ],
             "className": "input-wrapper",
@@ -1191,9 +1287,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "name": "totalExpenses",
+                "onChange": [Function],
                 "placeholder": "Total Expenses",
                 "type": "number",
-                "value": undefined,
+                "value": 0,
               },
               "ref": null,
               "rendered": null,
@@ -1212,9 +1310,11 @@ ShallowWrapper {
                 Gross Potential:
 </h4>,
               <input
+                name="grossPotential"
+                onChange={[Function]}
                 placeholder="Gross Potential"
                 type="number"
-                value={undefined}
+                value={0}
 />,
             ],
             "className": "input-wrapper",
@@ -1237,9 +1337,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "name": "grossPotential",
+                "onChange": [Function],
                 "placeholder": "Gross Potential",
                 "type": "number",
-                "value": undefined,
+                "value": 0,
               },
               "ref": null,
               "rendered": null,
@@ -1258,9 +1360,11 @@ ShallowWrapper {
                 Door Times:
 </h4>,
               <input
+                name="doorTimes"
+                onChange={[Function]}
                 placeholder="Door Times"
                 type="number"
-                value={undefined}
+                value={0}
 />,
             ],
             "className": "input-wrapper",
@@ -1283,9 +1387,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "name": "doorTimes",
+                "onChange": [Function],
                 "placeholder": "Door Times",
                 "type": "number",
-                "value": undefined,
+                "value": 0,
               },
               "ref": null,
               "rendered": null,
@@ -1304,9 +1410,11 @@ ShallowWrapper {
                 Age Range:
 </h4>,
               <input
+                name="ageRange"
+                onChange={[Function]}
                 placeholder="Age Range"
                 type="numer"
-                value={undefined}
+                value={0}
 />,
             ],
             "className": "input-wrapper",
@@ -1329,9 +1437,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "name": "ageRange",
+                "onChange": [Function],
                 "placeholder": "Age Range",
                 "type": "numer",
-                "value": undefined,
+                "value": 0,
               },
               "ref": null,
               "rendered": null,
@@ -1350,9 +1460,11 @@ ShallowWrapper {
                 Merch Split:
 </h4>,
               <input
+                name="merchSplit"
+                onChange={[Function]}
                 placeholder="Merch Split"
-                type="numer"
-                value={undefined}
+                type="text"
+                value=""
 />,
             ],
             "className": "input-wrapper",
@@ -1375,9 +1487,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "name": "merchSplit",
+                "onChange": [Function],
                 "placeholder": "Merch Split",
-                "type": "numer",
-                "value": undefined,
+                "type": "text",
+                "value": "",
               },
               "ref": null,
               "rendered": null,

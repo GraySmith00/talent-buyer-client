@@ -25,6 +25,96 @@ ShallowWrapper {
         <h1>
                 Sign Up
         </h1>
+        <div
+                className="input-wrapper"
+        >
+                <h4>
+                        First Name:
+                </h4>
+                <input
+                        name="firstName"
+                        onChange={[Function]}
+                        placeholder="first name"
+                        type="text"
+                        value=""
+                />
+        </div>
+        <div
+                className="input-wrapper"
+        >
+                <h4>
+                        Last Name:
+                </h4>
+                <input
+                        name="lastName"
+                        onChange={[Function]}
+                        placeholder="last name"
+                        type="text"
+                        value=""
+                />
+        </div>
+        <div
+                className="input-wrapper"
+        >
+                <h4>
+                        Email:
+                </h4>
+                <input
+                        name="email"
+                        onChange={[Function]}
+                        placeholder="email"
+                        type="email"
+                        value=""
+                />
+        </div>
+        <div
+                className="input-wrapper"
+        >
+                <h4>
+                        Password:
+                </h4>
+                <input
+                        name="password"
+                        onChange={[Function]}
+                        placeholder="password"
+                        type="password"
+                        value=""
+                />
+        </div>
+        <div
+                className="input-wrapper"
+        >
+                <h4>
+                        Venue Name:
+                </h4>
+                <input
+                        name="venueName"
+                        onChange={[Function]}
+                        placeholder="Venue Name"
+                        type="text"
+                        value=""
+                />
+        </div>
+        <div
+                className="input-wrapper"
+        >
+                <h4>
+                        Venue City:
+                </h4>
+                <input
+                        name="venueCity"
+                        onChange={[Function]}
+                        placeholder="Venue City"
+                        type="text"
+                        value=""
+                />
+        </div>
+        <button>
+                SUBMIT
+        </button>
+        <button>
+                Log In
+        </button>
         <p
                 onClick={[Function]}
         >
@@ -43,6 +133,96 @@ ShallowWrapper {
           <h1>
             Sign Up
 </h1>,
+          <div
+            className="input-wrapper"
+>
+            <h4>
+                        First Name:
+            </h4>
+            <input
+                        name="firstName"
+                        onChange={[Function]}
+                        placeholder="first name"
+                        type="text"
+                        value=""
+            />
+</div>,
+          <div
+            className="input-wrapper"
+>
+            <h4>
+                        Last Name:
+            </h4>
+            <input
+                        name="lastName"
+                        onChange={[Function]}
+                        placeholder="last name"
+                        type="text"
+                        value=""
+            />
+</div>,
+          <div
+            className="input-wrapper"
+>
+            <h4>
+                        Email:
+            </h4>
+            <input
+                        name="email"
+                        onChange={[Function]}
+                        placeholder="email"
+                        type="email"
+                        value=""
+            />
+</div>,
+          <div
+            className="input-wrapper"
+>
+            <h4>
+                        Password:
+            </h4>
+            <input
+                        name="password"
+                        onChange={[Function]}
+                        placeholder="password"
+                        type="password"
+                        value=""
+            />
+</div>,
+          <div
+            className="input-wrapper"
+>
+            <h4>
+                        Venue Name:
+            </h4>
+            <input
+                        name="venueName"
+                        onChange={[Function]}
+                        placeholder="Venue Name"
+                        type="text"
+                        value=""
+            />
+</div>,
+          <div
+            className="input-wrapper"
+>
+            <h4>
+                        Venue City:
+            </h4>
+            <input
+                        name="venueCity"
+                        onChange={[Function]}
+                        placeholder="Venue City"
+                        type="text"
+                        value=""
+            />
+</div>,
+          <button>
+            SUBMIT
+</button>,
+          <button>
+            Log In
+</button>,
           <p
             onClick={[Function]}
 >
@@ -69,6 +249,328 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "children": Array [
+              <h4>
+                First Name:
+</h4>,
+              <input
+                name="firstName"
+                onChange={[Function]}
+                placeholder="first name"
+                type="text"
+                value=""
+/>,
+            ],
+            "className": "input-wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "First Name:",
+              },
+              "ref": null,
+              "rendered": "First Name:",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "firstName",
+                "onChange": [Function],
+                "placeholder": "first name",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4>
+                Last Name:
+</h4>,
+              <input
+                name="lastName"
+                onChange={[Function]}
+                placeholder="last name"
+                type="text"
+                value=""
+/>,
+            ],
+            "className": "input-wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Last Name:",
+              },
+              "ref": null,
+              "rendered": "Last Name:",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "lastName",
+                "onChange": [Function],
+                "placeholder": "last name",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4>
+                Email:
+</h4>,
+              <input
+                name="email"
+                onChange={[Function]}
+                placeholder="email"
+                type="email"
+                value=""
+/>,
+            ],
+            "className": "input-wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Email:",
+              },
+              "ref": null,
+              "rendered": "Email:",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "email",
+                "onChange": [Function],
+                "placeholder": "email",
+                "type": "email",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4>
+                Password:
+</h4>,
+              <input
+                name="password"
+                onChange={[Function]}
+                placeholder="password"
+                type="password"
+                value=""
+/>,
+            ],
+            "className": "input-wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Password:",
+              },
+              "ref": null,
+              "rendered": "Password:",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "password",
+                "onChange": [Function],
+                "placeholder": "password",
+                "type": "password",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4>
+                Venue Name:
+</h4>,
+              <input
+                name="venueName"
+                onChange={[Function]}
+                placeholder="Venue Name"
+                type="text"
+                value=""
+/>,
+            ],
+            "className": "input-wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Venue Name:",
+              },
+              "ref": null,
+              "rendered": "Venue Name:",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "venueName",
+                "onChange": [Function],
+                "placeholder": "Venue Name",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4>
+                Venue City:
+</h4>,
+              <input
+                name="venueCity"
+                onChange={[Function]}
+                placeholder="Venue City"
+                type="text"
+                value=""
+/>,
+            ],
+            "className": "input-wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Venue City:",
+              },
+              "ref": null,
+              "rendered": "Venue City:",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "venueCity",
+                "onChange": [Function],
+                "placeholder": "Venue City",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "SUBMIT",
+          },
+          "ref": null,
+          "rendered": "SUBMIT",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Log In",
+          },
+          "ref": null,
+          "rendered": "Log In",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
             "children": "x",
             "onClick": [Function],
           },
@@ -79,7 +581,7 @@ ShallowWrapper {
       ],
       "type": "div",
     },
-    "type": "div",
+    "type": "form",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -93,6 +595,96 @@ ShallowWrapper {
           <h1>
                     Sign Up
           </h1>
+          <div
+                    className="input-wrapper"
+          >
+                    <h4>
+                              First Name:
+                    </h4>
+                    <input
+                              name="firstName"
+                              onChange={[Function]}
+                              placeholder="first name"
+                              type="text"
+                              value=""
+                    />
+          </div>
+          <div
+                    className="input-wrapper"
+          >
+                    <h4>
+                              Last Name:
+                    </h4>
+                    <input
+                              name="lastName"
+                              onChange={[Function]}
+                              placeholder="last name"
+                              type="text"
+                              value=""
+                    />
+          </div>
+          <div
+                    className="input-wrapper"
+          >
+                    <h4>
+                              Email:
+                    </h4>
+                    <input
+                              name="email"
+                              onChange={[Function]}
+                              placeholder="email"
+                              type="email"
+                              value=""
+                    />
+          </div>
+          <div
+                    className="input-wrapper"
+          >
+                    <h4>
+                              Password:
+                    </h4>
+                    <input
+                              name="password"
+                              onChange={[Function]}
+                              placeholder="password"
+                              type="password"
+                              value=""
+                    />
+          </div>
+          <div
+                    className="input-wrapper"
+          >
+                    <h4>
+                              Venue Name:
+                    </h4>
+                    <input
+                              name="venueName"
+                              onChange={[Function]}
+                              placeholder="Venue Name"
+                              type="text"
+                              value=""
+                    />
+          </div>
+          <div
+                    className="input-wrapper"
+          >
+                    <h4>
+                              Venue City:
+                    </h4>
+                    <input
+                              name="venueCity"
+                              onChange={[Function]}
+                              placeholder="Venue City"
+                              type="text"
+                              value=""
+                    />
+          </div>
+          <button>
+                    SUBMIT
+          </button>
+          <button>
+                    Log In
+          </button>
           <p
                     onClick={[Function]}
           >
@@ -111,6 +703,96 @@ ShallowWrapper {
             <h1>
               Sign Up
 </h1>,
+            <div
+              className="input-wrapper"
+>
+              <h4>
+                            First Name:
+              </h4>
+              <input
+                            name="firstName"
+                            onChange={[Function]}
+                            placeholder="first name"
+                            type="text"
+                            value=""
+              />
+</div>,
+            <div
+              className="input-wrapper"
+>
+              <h4>
+                            Last Name:
+              </h4>
+              <input
+                            name="lastName"
+                            onChange={[Function]}
+                            placeholder="last name"
+                            type="text"
+                            value=""
+              />
+</div>,
+            <div
+              className="input-wrapper"
+>
+              <h4>
+                            Email:
+              </h4>
+              <input
+                            name="email"
+                            onChange={[Function]}
+                            placeholder="email"
+                            type="email"
+                            value=""
+              />
+</div>,
+            <div
+              className="input-wrapper"
+>
+              <h4>
+                            Password:
+              </h4>
+              <input
+                            name="password"
+                            onChange={[Function]}
+                            placeholder="password"
+                            type="password"
+                            value=""
+              />
+</div>,
+            <div
+              className="input-wrapper"
+>
+              <h4>
+                            Venue Name:
+              </h4>
+              <input
+                            name="venueName"
+                            onChange={[Function]}
+                            placeholder="Venue Name"
+                            type="text"
+                            value=""
+              />
+</div>,
+            <div
+              className="input-wrapper"
+>
+              <h4>
+                            Venue City:
+              </h4>
+              <input
+                            name="venueCity"
+                            onChange={[Function]}
+                            placeholder="Venue City"
+                            type="text"
+                            value=""
+              />
+</div>,
+            <button>
+              SUBMIT
+</button>,
+            <button>
+              Log In
+</button>,
             <p
               onClick={[Function]}
 >
@@ -137,6 +819,328 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "children": Array [
+                <h4>
+                  First Name:
+</h4>,
+                <input
+                  name="firstName"
+                  onChange={[Function]}
+                  placeholder="first name"
+                  type="text"
+                  value=""
+/>,
+              ],
+              "className": "input-wrapper",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "First Name:",
+                },
+                "ref": null,
+                "rendered": "First Name:",
+                "type": "h4",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "firstName",
+                  "onChange": [Function],
+                  "placeholder": "first name",
+                  "type": "text",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h4>
+                  Last Name:
+</h4>,
+                <input
+                  name="lastName"
+                  onChange={[Function]}
+                  placeholder="last name"
+                  type="text"
+                  value=""
+/>,
+              ],
+              "className": "input-wrapper",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Last Name:",
+                },
+                "ref": null,
+                "rendered": "Last Name:",
+                "type": "h4",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "lastName",
+                  "onChange": [Function],
+                  "placeholder": "last name",
+                  "type": "text",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h4>
+                  Email:
+</h4>,
+                <input
+                  name="email"
+                  onChange={[Function]}
+                  placeholder="email"
+                  type="email"
+                  value=""
+/>,
+              ],
+              "className": "input-wrapper",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Email:",
+                },
+                "ref": null,
+                "rendered": "Email:",
+                "type": "h4",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "email",
+                  "onChange": [Function],
+                  "placeholder": "email",
+                  "type": "email",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h4>
+                  Password:
+</h4>,
+                <input
+                  name="password"
+                  onChange={[Function]}
+                  placeholder="password"
+                  type="password"
+                  value=""
+/>,
+              ],
+              "className": "input-wrapper",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Password:",
+                },
+                "ref": null,
+                "rendered": "Password:",
+                "type": "h4",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "password",
+                  "onChange": [Function],
+                  "placeholder": "password",
+                  "type": "password",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h4>
+                  Venue Name:
+</h4>,
+                <input
+                  name="venueName"
+                  onChange={[Function]}
+                  placeholder="Venue Name"
+                  type="text"
+                  value=""
+/>,
+              ],
+              "className": "input-wrapper",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Venue Name:",
+                },
+                "ref": null,
+                "rendered": "Venue Name:",
+                "type": "h4",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "venueName",
+                  "onChange": [Function],
+                  "placeholder": "Venue Name",
+                  "type": "text",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h4>
+                  Venue City:
+</h4>,
+                <input
+                  name="venueCity"
+                  onChange={[Function]}
+                  placeholder="Venue City"
+                  type="text"
+                  value=""
+/>,
+              ],
+              "className": "input-wrapper",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Venue City:",
+                },
+                "ref": null,
+                "rendered": "Venue City:",
+                "type": "h4",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "venueCity",
+                  "onChange": [Function],
+                  "placeholder": "Venue City",
+                  "type": "text",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "SUBMIT",
+            },
+            "ref": null,
+            "rendered": "SUBMIT",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Log In",
+            },
+            "ref": null,
+            "rendered": "Log In",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
               "children": "x",
               "onClick": [Function],
             },
@@ -147,7 +1151,7 @@ ShallowWrapper {
         ],
         "type": "div",
       },
-      "type": "div",
+      "type": "form",
     },
   ],
   Symbol(enzyme.__options__): Object {

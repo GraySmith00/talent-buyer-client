@@ -25,6 +25,34 @@ ShallowWrapper {
         <h1>
                 Log In
         </h1>
+        <div
+                className="input-wrapper"
+        >
+                <h4>
+                        Email:
+                </h4>
+                <input
+                        name="email"
+                        onChange={[Function]}
+                        placeholder="email"
+                        type="email"
+                        value=""
+                />
+        </div>
+        <div
+                className="input-wrapper"
+        >
+                <h4>
+                        Password:
+                </h4>
+                <input
+                        name="password"
+                        onChange={[Function]}
+                        placeholder="password"
+                        type="text"
+                        value=""
+                />
+        </div>
         <p
                 onClick={[Function]}
         >
@@ -43,6 +71,34 @@ ShallowWrapper {
           <h1>
             Log In
 </h1>,
+          <div
+            className="input-wrapper"
+>
+            <h4>
+                        Email:
+            </h4>
+            <input
+                        name="email"
+                        onChange={[Function]}
+                        placeholder="email"
+                        type="email"
+                        value=""
+            />
+</div>,
+          <div
+            className="input-wrapper"
+>
+            <h4>
+                        Password:
+            </h4>
+            <input
+                        name="password"
+                        onChange={[Function]}
+                        placeholder="password"
+                        type="text"
+                        value=""
+            />
+</div>,
           <p
             onClick={[Function]}
 >
@@ -69,6 +125,106 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "children": Array [
+              <h4>
+                Email:
+</h4>,
+              <input
+                name="email"
+                onChange={[Function]}
+                placeholder="email"
+                type="email"
+                value=""
+/>,
+            ],
+            "className": "input-wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Email:",
+              },
+              "ref": null,
+              "rendered": "Email:",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "email",
+                "onChange": [Function],
+                "placeholder": "email",
+                "type": "email",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4>
+                Password:
+</h4>,
+              <input
+                name="password"
+                onChange={[Function]}
+                placeholder="password"
+                type="text"
+                value=""
+/>,
+            ],
+            "className": "input-wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Password:",
+              },
+              "ref": null,
+              "rendered": "Password:",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "password",
+                "onChange": [Function],
+                "placeholder": "password",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
             "children": "x",
             "onClick": [Function],
           },
@@ -79,7 +235,7 @@ ShallowWrapper {
       ],
       "type": "div",
     },
-    "type": "div",
+    "type": "form",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -93,6 +249,34 @@ ShallowWrapper {
           <h1>
                     Log In
           </h1>
+          <div
+                    className="input-wrapper"
+          >
+                    <h4>
+                              Email:
+                    </h4>
+                    <input
+                              name="email"
+                              onChange={[Function]}
+                              placeholder="email"
+                              type="email"
+                              value=""
+                    />
+          </div>
+          <div
+                    className="input-wrapper"
+          >
+                    <h4>
+                              Password:
+                    </h4>
+                    <input
+                              name="password"
+                              onChange={[Function]}
+                              placeholder="password"
+                              type="text"
+                              value=""
+                    />
+          </div>
           <p
                     onClick={[Function]}
           >
@@ -111,6 +295,34 @@ ShallowWrapper {
             <h1>
               Log In
 </h1>,
+            <div
+              className="input-wrapper"
+>
+              <h4>
+                            Email:
+              </h4>
+              <input
+                            name="email"
+                            onChange={[Function]}
+                            placeholder="email"
+                            type="email"
+                            value=""
+              />
+</div>,
+            <div
+              className="input-wrapper"
+>
+              <h4>
+                            Password:
+              </h4>
+              <input
+                            name="password"
+                            onChange={[Function]}
+                            placeholder="password"
+                            type="text"
+                            value=""
+              />
+</div>,
             <p
               onClick={[Function]}
 >
@@ -137,6 +349,106 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "children": Array [
+                <h4>
+                  Email:
+</h4>,
+                <input
+                  name="email"
+                  onChange={[Function]}
+                  placeholder="email"
+                  type="email"
+                  value=""
+/>,
+              ],
+              "className": "input-wrapper",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Email:",
+                },
+                "ref": null,
+                "rendered": "Email:",
+                "type": "h4",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "email",
+                  "onChange": [Function],
+                  "placeholder": "email",
+                  "type": "email",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h4>
+                  Password:
+</h4>,
+                <input
+                  name="password"
+                  onChange={[Function]}
+                  placeholder="password"
+                  type="text"
+                  value=""
+/>,
+              ],
+              "className": "input-wrapper",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Password:",
+                },
+                "ref": null,
+                "rendered": "Password:",
+                "type": "h4",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "password",
+                  "onChange": [Function],
+                  "placeholder": "password",
+                  "type": "text",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
               "children": "x",
               "onClick": [Function],
             },
@@ -147,7 +459,7 @@ ShallowWrapper {
         ],
         "type": "div",
       },
-      "type": "div",
+      "type": "form",
     },
   ],
   Symbol(enzyme.__options__): Object {
