@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { getMatchingVenue } from '../../Utils/songKickApiCalls';
 import { userSignUp } from '../../Utils/backendApiCalls';
+import { registerUser } from '../../thunks/registerUser';
+import { connect } from 'react-redux';
 import './SignUp.css';
 
 class SignUp extends Component {
@@ -35,7 +37,7 @@ class SignUp extends Component {
         password
       }
     };
-    return await userSignUp(user);
+    return await registerUser(user);
   };
 
   render() {
@@ -117,4 +119,8 @@ SignUp.propTypes = {
   closeSignUpModal: PropTypes.func.isRequired
 };
 
-export default SignUp;
+export const mapDispatchToProps = dispatch => ({
+  registerUser: user => dispatch(registerUser(user))
+});
+
+export default connect(null, mapDispatchToProps)(SignUp);
