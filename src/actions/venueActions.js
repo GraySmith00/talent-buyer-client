@@ -1,4 +1,5 @@
 import { getMatchingVenue } from '../Utils/songKickApiCalls';
+import { venuePostRequest } from '../Utils/backendApiCalls';
 
 // setCurrentVenueState action
 export const setCurrentVenueState = venue => ({
@@ -8,12 +9,17 @@ export const setCurrentVenueState = venue => ({
 
 // setCurrentVenue thunk
 export const setCurrentVenue = (venueName, venueCity) => async dispatch => {
-  const venue = await getMatchingVenue(venueName, venueCity);
-  if (!venue) {
+  // get venue info from songkick
+  const venueInfo = await getMatchingVenue(venueName, venueCity);
+  if (!venueInfo) {
     throw new Error({
       message: 'Sorry, no venue with that name was found in that city'
     });
   }
-  dispatch(setCurrentVenueState(venue));
-  return venue;
+
+  // venue post request
+  const savedVenue = await venuePostRequest(venueInfo);
+
+  dispatch(setCurrentVenueState(savedVenue));
+  return savedVenue;
 };

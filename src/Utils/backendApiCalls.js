@@ -1,6 +1,15 @@
-// const venuePostRequest = (venue) => {
-//   const url = ``
-// }
+export const venuePostRequest = async venue => {
+  const url = `http://localhost:5000/api/v1/venues`;
+  const response = await fetch(url, {
+    method: 'POST',
+    body: JSON.stringify(venue),
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  });
+  const data = await response.json();
+  return data;
+};
 
 export const userSignUp = async user => {
   const url = `http://localhost:5000/signup`;
