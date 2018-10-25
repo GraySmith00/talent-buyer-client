@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import { registerUser } from '../../thunks/registerUser';
+import { setCurrentVenue } from '../../thunks/setCurrentVenue';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 import './SignUp.css';
@@ -122,7 +123,8 @@ SignUp.propTypes = {
 };
 
 export const mapDispatchToProps = dispatch => ({
-  registerUser: user => dispatch(registerUser(user))
+  registerUser: user => dispatch(registerUser(user)),
+  setCurrentVenue: (venueName, venueCity) => dispatch(setCurrentVenue(venueName, venueCity))
 });
 
 export default withRouter(
