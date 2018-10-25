@@ -58,8 +58,12 @@ ShallowWrapper {
         >
                 x
         </p>
+        <button>
+                Submit
+        </button>
 </div>,
       "className": "log-in",
+      "onSubmit": [Function],
     },
     "ref": null,
     "rendered": Object {
@@ -104,6 +108,9 @@ ShallowWrapper {
 >
             x
 </p>,
+          <button>
+            Submit
+</button>,
         ],
         "className": "inner-modal",
       },
@@ -232,6 +239,17 @@ ShallowWrapper {
           "rendered": "x",
           "type": "p",
         },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Submit",
+          },
+          "ref": null,
+          "rendered": "Submit",
+          "type": "button",
+        },
       ],
       "type": "div",
     },
@@ -282,8 +300,12 @@ ShallowWrapper {
           >
                     x
           </p>
+          <button>
+                    Submit
+          </button>
 </div>,
         "className": "log-in",
+        "onSubmit": [Function],
       },
       "ref": null,
       "rendered": Object {
@@ -328,6 +350,9 @@ ShallowWrapper {
 >
               x
 </p>,
+            <button>
+              Submit
+</button>,
           ],
           "className": "inner-modal",
         },
@@ -455,6 +480,17 @@ ShallowWrapper {
             "ref": null,
             "rendered": "x",
             "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Submit",
+            },
+            "ref": null,
+            "rendered": "Submit",
+            "type": "button",
           },
         ],
         "type": "div",
