@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 import { registerUser } from '../../thunks/registerUser';
 import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom';
 import './SignUp.css';
 
 class SignUp extends Component {
@@ -21,9 +22,11 @@ class SignUp extends Component {
   };
 
   handleSubmit = async e => {
-    const { venueName, venueCity } = this.state;
     e.preventDefault();
-    await this.saveUser();
+    const savedUser = await this.saveUser();
+    if (savedUser) {
+      this.props.history.push('/home');
+    }
   };
 
   saveUser = async () => {
@@ -122,7 +125,9 @@ export const mapDispatchToProps = dispatch => ({
   registerUser: user => dispatch(registerUser(user))
 });
 
-export default connect(
-  null,
-  mapDispatchToProps
-)(SignUp);
+export default withRouter(
+  connect(
+    null,
+    mapDispatchToProps
+  )(SignUp)
+);
