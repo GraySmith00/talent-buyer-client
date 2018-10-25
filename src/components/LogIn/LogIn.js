@@ -24,7 +24,7 @@ class LogIn extends Component {
       }
     };
 
-    const savedUser = await userLogIn(userCreds);
+    await userLogIn(userCreds);
   };
 
   render() {

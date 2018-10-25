@@ -30,6 +30,6 @@ export const userLogIn = async userCreds => {
     return data;
   } else {
     const error = await response.text();
-    console.log(error);
+    return error;
   }
 };

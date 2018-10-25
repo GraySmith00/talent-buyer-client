@@ -119,12 +119,16 @@ class SignUp extends Component {
 }
 
 SignUp.propTypes = {
-  closeSignUpModal: PropTypes.func.isRequired
+  closeSignUpModal: PropTypes.func.isRequired,
+  history: PropTypes.object.isRequired,
+  'history.push': PropTypes.func.isRequired,
+  registerUser: PropTypes.func.isRequired
 };
 
 export const mapDispatchToProps = dispatch => ({
   registerUser: user => dispatch(registerUser(user)),
-  setCurrentVenue: (venueName, venueCity) => dispatch(setCurrentVenue(venueName, venueCity))
+  setCurrentVenue: (venueName, venueCity) =>
+    dispatch(setCurrentVenue(venueName, venueCity))
 });
 
 export default withRouter(
