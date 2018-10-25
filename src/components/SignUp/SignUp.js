@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { getMatchingVenue } from '../../Utils/songKickApiCalls';
-import { userSignUp } from '../../Utils/backendApiCalls';
+
 import { registerUser } from '../../thunks/registerUser';
 import { connect } from 'react-redux';
 import './SignUp.css';
@@ -24,7 +23,7 @@ class SignUp extends Component {
   handleSubmit = async e => {
     const { venueName, venueCity } = this.state;
     e.preventDefault();
-    const savedUser = await this.saveUser();
+    await this.saveUser();
   };
 
   saveUser = async () => {
@@ -37,7 +36,7 @@ class SignUp extends Component {
         password
       }
     };
-    return await registerUser(user);
+    return await this.props.registerUser(user);
   };
 
   render() {
@@ -123,4 +122,7 @@ export const mapDispatchToProps = dispatch => ({
   registerUser: user => dispatch(registerUser(user))
 });
 
-export default connect(null, mapDispatchToProps)(SignUp);
+export default connect(
+  null,
+  mapDispatchToProps
+)(SignUp);
