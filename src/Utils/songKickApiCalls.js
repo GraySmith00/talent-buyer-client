@@ -31,33 +31,37 @@ export const getArtistInfo = async (artistName, agency) => {
 
   const spotifyInfo = await getSpotifyInfo(artistName);
 
-  return {
-    name: artistName,
-    agency: agency,
-    songkick_id: data.resultsPage.results.artist[0].id,
-    ...spotifyInfo
-  };
+  if (spotifyInfo) {
+    return {
+      name: artistName,
+      agency: agency,
+      songkick_id: data.resultsPage.results.artist[0].id,
+      ...spotifyInfo
+    };
+  }
 };
 
 export const getSpotifyInfo = async artistName => {
-  const url = 'https://api.spotify.com/v1/search?q=justice&type=artist';
+  const url = `https://api.spotify.com/v1/search?q=${artistName}&type=artist`;
   const response = await fetch(url, {
     headers: {
       Authorization: 'Bearer ' + process.env.REACT_APP_SPOTIFY_BEARER
     }
   });
   const data = await response.json();
-  const result = data.artists.items[0];
+  if (data.artists.items) {
+    const result = data.artists.items[0];
 
-  const spotifyInfo = {
-    name: result.name,
-    image_url: result.images[0].url,
-    popularity: result.popularity,
-    spotify_followers: result.followers.total,
-    spotify_url: result.external_urls.spotify,
-    spotify_id: result.id,
-    genres: result.genres.join(', ')
-  };
+    const spotifyInfo = {
+      name: result.name,
+      image_url: result.images[0].url,
+      popularity: result.popularity,
+      spotify_followers: result.followers.total,
+      spotify_url: result.external_urls.spotify,
+      spotify_id: result.id,
+      genres: result.genres.join(', ')
+    };
 
-  return spotifyInfo;
+    return spotifyInfo;
+  }
 };
