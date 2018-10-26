@@ -14,7 +14,7 @@ export const getMatchingVenue = async (venueName, city) => {
     city: result.city.displayName,
     state: result.city.state.displayName,
     name: result.displayName,
-    zip: parseInt(result.zip),
+    zip: parseInt(result.zip, 10),
     capacity: result.capacity,
     venue_songkick_id: result.id
   };
