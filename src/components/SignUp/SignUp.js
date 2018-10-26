@@ -64,11 +64,15 @@ class SignUp extends Component {
   render() {
     const { closeSignUpModal } = this.props;
     return (
-      <form className="sign-up" onSubmit={this.handleSubmit}>
+      <div className="sign-up">
         <div className="inner-modal">
-          <h1>Sign Up</h1>
-          <div className="input-wrapper">
-            <h4>First Name:</h4>
+          <div className="top-container">
+            <div className="top-inner">
+              <h3>Welcome to Talent Buyer!</h3>
+            </div>
+          </div>
+          <p>Sign Up With Email</p>
+          <form className="sign-up-form" onSubmit={this.handleSubmit}>
             <input
               type="text"
               name="firstName"
@@ -76,9 +80,6 @@ class SignUp extends Component {
               placeholder="first name"
               onChange={this.handleChange}
             />
-          </div>
-          <div className="input-wrapper">
-            <h4>Last Name:</h4>
             <input
               type="text"
               name="lastName"
@@ -86,9 +87,6 @@ class SignUp extends Component {
               placeholder="last name"
               onChange={this.handleChange}
             />
-          </div>
-          <div className="input-wrapper">
-            <h4>Email:</h4>
             <input
               type="email"
               name="email"
@@ -96,9 +94,6 @@ class SignUp extends Component {
               placeholder="email"
               onChange={this.handleChange}
             />
-          </div>
-          <div className="input-wrapper">
-            <h4>Password:</h4>
             <input
               type="password"
               name="password"
@@ -106,9 +101,6 @@ class SignUp extends Component {
               placeholder="password"
               onChange={this.handleChange}
             />
-          </div>
-          <div className="input-wrapper">
-            <h4>Venue Name:</h4>
             <input
               type="text"
               name="venueName"
@@ -116,9 +108,6 @@ class SignUp extends Component {
               placeholder="Venue Name"
               onChange={this.handleChange}
             />
-          </div>
-          <div className="input-wrapper">
-            <h4>Venue City:</h4>
             <input
               type="text"
               name="venueCity"
@@ -126,12 +115,13 @@ class SignUp extends Component {
               placeholder="Venue City"
               onChange={this.handleChange}
             />
-          </div>
-          <button>SUBMIT</button>
-          <button>Log In</button>
-          <p onClick={closeSignUpModal}>x</p>
+            <button>Sign Up</button>
+            <p onClick={closeSignUpModal} className="close-text">
+              x Cancel
+            </p>
+          </form>
         </div>
-      </form>
+      </div>
     );
   }
 }
