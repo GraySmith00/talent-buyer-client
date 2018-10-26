@@ -1,4 +1,4 @@
-const artistsByAgency = {
+export const artistsByAgency = {
   WME: [
     '2MANYDJs',
     'ADAM BEYER',
@@ -1793,5 +1793,3 @@ const artistsByAgency = {
     'Zomboy'
   ]
 };
-
-export default artistsByAgency;
