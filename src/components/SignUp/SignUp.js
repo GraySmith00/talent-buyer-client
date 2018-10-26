@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import { registerUser } from '../../thunks/registerUser';
-import { setCurrentVenue } from '../../thunks/setCurrentVenue';
+import { registerUser } from '../../actions/userActions';
+import { setCurrentVenue } from '../../actions/venueActions';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 import './SignUp.css';
@@ -14,7 +14,9 @@ class SignUp extends Component {
     email: '',
     password: '',
     venueName: '',
-    venueCity: ''
+    venueCity: '',
+    venueError: '',
+    userError: ''
   };
 
   handleChange = e => {
@@ -25,22 +27,38 @@ class SignUp extends Component {
   handleSubmit = async e => {
     e.preventDefault();
     const savedUser = await this.saveUser();
-    if (savedUser) {
+    const savedVenue = await this.saveVenue();
+    if (savedUser && savedVenue) {
       this.props.history.push('/home');
     }
   };
 
+  saveVenue = async () => {
+    try {
+      const { venueName, venueCity } = this.state;
+      const { setCurrentVenue } = this.props;
+      return await setCurrentVenue(venueName, venueCity);
+    } catch (error) {
+      this.setState({ venueError: error.message });
+    }
+  };
+
   saveUser = async () => {
-    const { firstName, lastName, email, password } = this.state;
-    const user = {
-      buyer: {
-        first_name: firstName,
-        last_name: lastName,
-        email,
-        password
-      }
-    };
-    return await this.props.registerUser(user);
+    try {
+      const { firstName, lastName, email, password } = this.state;
+      const { registerUser } = this.props;
+      const user = {
+        buyer: {
+          first_name: firstName,
+          last_name: lastName,
+          email,
+          password
+        }
+      };
+      return await registerUser(user);
+    } catch (error) {
+      this.setState({ userError: error.message });
+    }
   };
 
   render() {
@@ -121,7 +139,7 @@ class SignUp extends Component {
 SignUp.propTypes = {
   closeSignUpModal: PropTypes.func.isRequired,
   history: PropTypes.object.isRequired,
-  'history.push': PropTypes.func.isRequired,
+  'history.push': PropTypes.func,
   registerUser: PropTypes.func.isRequired
 };
 
