@@ -5,7 +5,6 @@ import Dashboard from '../Dashboard/Dashboard';
 import ArtistIndex from '../ArtistIndex/ArtistIndex';
 import ArtistShow from '../ArtistShow/ArtistShow';
 import OfferTemplate from '../OfferTemplate/OfferTemplate';
-import OfferForm from '../OfferForm/OfferForm';
 
 class Routes extends Component {
   render() {
@@ -16,8 +15,7 @@ class Routes extends Component {
           <Route exact path="/home" component={Dashboard} />
           <Route exact path="/artists" component={ArtistIndex} />
           <Route exact path="/artist" component={ArtistShow} />
-          <Route exact path="/offertemplate" component={OfferTemplate} />
-          <Route exact path="/offerform" component={OfferForm} />
+          <Route exact path="/template" component={OfferTemplate} />
         </Fragment>
       </Router>
     );

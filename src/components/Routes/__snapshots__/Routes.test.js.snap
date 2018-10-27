@@ -46,7 +46,7 @@ ShallowWrapper {
         <Route
                 component={[Function]}
                 exact={true}
-                path="/offerform"
+                path="/OfferModal"
         />
 </Unknown>,
     },
@@ -85,7 +85,7 @@ ShallowWrapper {
           <Route
             component={[Function]}
             exact={true}
-            path="/offerform"
+            path="/OfferModal"
 />,
         ],
       },
@@ -163,7 +163,7 @@ ShallowWrapper {
           "props": Object {
             "component": [Function],
             "exact": true,
-            "path": "/offerform",
+            "path": "/OfferModal",
           },
           "ref": null,
           "rendered": null,
@@ -209,7 +209,7 @@ ShallowWrapper {
           <Route
                     component={[Function]}
                     exact={true}
-                    path="/offerform"
+                    path="/OfferModal"
           />
 </Unknown>,
       },
@@ -248,7 +248,7 @@ ShallowWrapper {
             <Route
               component={[Function]}
               exact={true}
-              path="/offerform"
+              path="/OfferModal"
 />,
           ],
         },
@@ -326,7 +326,7 @@ ShallowWrapper {
             "props": Object {
               "component": [Function],
               "exact": true,
-              "path": "/offerform",
+              "path": "/OfferModal",
             },
             "ref": null,
             "rendered": null,
