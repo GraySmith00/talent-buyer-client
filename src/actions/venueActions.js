@@ -20,6 +20,7 @@ export const setCurrentVenue = (venueName, venueCity) => async dispatch => {
 
   // venue post request
   const savedVenue = await venuePostRequest(venueInfo);
+  console.log(savedVenue);
   dispatch(setCurrentVenueState(savedVenue));
   return savedVenue;
 };
