@@ -1,48 +1,25 @@
+import axios from 'axios';
 import { artistsByAgency } from './artistsByAgency';
 import { getArtistInfo } from './songKickApiCalls';
 
-export const userSignUp = async user => {
+export const signUpPostRequest = async user => {
   const url = `http://localhost:5000/signup`;
-  const response = await fetch(url, {
-    method: 'POST',
-    body: JSON.stringify(user),
-    headers: {
-      'Content-Type': 'application/json'
-    }
-  });
-  const data = await response.json();
-  return data;
+  const response = await axios.post(url, user);
+  return response.data;
 };
 
-export const userLogIn = async userCreds => {
+export const logInPostRequest = async userCreds => {
   const url = `http://localhost:5000/login`;
-  const response = await fetch(url, {
-    method: 'POST',
-    body: JSON.stringify(userCreds),
-    headers: {
-      'Content-Type': 'application/json'
-    }
-  });
-
-  if (response.status === 201) {
-    const data = await response.json();
-    return data;
-  } else {
-    const error = await response.text();
-    return error;
+  const response = await axios.post(url, userCreds);
+  if (response.status === 200) {
+    return response;
   }
 };
 
 export const venuePostRequest = async venue => {
   const url = `http://localhost:5000/api/v1/venues`;
-  const response = await fetch(url, {
-    method: 'POST',
-    body: JSON.stringify(venue),
-    headers: {
-      'Content-Type': 'application/json'
-    }
-  });
-  const data = await response.json();
+  const response = await axios.post(url, venue);
+  const data = response.data;
   return data;
 };
 

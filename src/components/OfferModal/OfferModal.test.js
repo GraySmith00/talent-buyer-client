@@ -1,13 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import OfferForm from './OfferForm';
+import OfferModal from './OfferModal';
 
-describe('OfferForm component', () => {
+describe('OfferModal component', () => {
   let wrapper;
 
   beforeEach(() => {
-    wrapper = shallow(<OfferForm />);
+    wrapper = shallow(<OfferModal />);
   });
 
   it('should match the snapshot', () => {

@@ -18,30 +18,45 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h1>
-          Dashboard
-</h1>,
         <Nav />,
+        <Calendar
+          maxDetail="month"
+          minDetail="century"
+          onChange={[Function]}
+          returnValue="start"
+          showNavigation={true}
+          showNeighboringMonth={true}
+          value={2018-10-27T22:33:44.228Z}
+          view="month"
+/>,
       ],
+      "className": "dashboard",
     },
     "ref": null,
     "rendered": Array [
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Dashboard",
-        },
+        "nodeType": "class",
+        "props": Object {},
         "ref": null,
-        "rendered": "Dashboard",
-        "type": "h1",
+        "rendered": null,
+        "type": [Function],
       },
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
-        "props": Object {},
+        "props": Object {
+          "maxDetail": "month",
+          "minDetail": "century",
+          "onChange": [Function],
+          "returnValue": "start",
+          "showNavigation": true,
+          "showNeighboringMonth": true,
+          "value": 2018-10-27T22:33:44.228Z,
+          "view": "month",
+        },
         "ref": null,
         "rendered": null,
         "type": [Function],
@@ -56,30 +71,45 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h1>
-            Dashboard
-</h1>,
           <Nav />,
+          <Calendar
+            maxDetail="month"
+            minDetail="century"
+            onChange={[Function]}
+            returnValue="start"
+            showNavigation={true}
+            showNeighboringMonth={true}
+            value={2018-10-27T22:33:44.228Z}
+            view="month"
+/>,
         ],
+        "className": "dashboard",
       },
       "ref": null,
       "rendered": Array [
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Dashboard",
-          },
+          "nodeType": "class",
+          "props": Object {},
           "ref": null,
-          "rendered": "Dashboard",
-          "type": "h1",
+          "rendered": null,
+          "type": [Function],
         },
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
-          "props": Object {},
+          "props": Object {
+            "maxDetail": "month",
+            "minDetail": "century",
+            "onChange": [Function],
+            "returnValue": "start",
+            "showNavigation": true,
+            "showNeighboringMonth": true,
+            "value": 2018-10-27T22:33:44.228Z,
+            "view": "month",
+          },
           "ref": null,
           "rendered": null,
           "type": [Function],

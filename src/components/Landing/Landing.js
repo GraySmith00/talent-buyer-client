@@ -19,11 +19,11 @@ class Landing extends Component {
 
   openLogInModal = () => {
     this.setState({ logInModalOpen: true });
-  }
+  };
 
   closeLogInModal = () => {
     this.setState({ logInModalOpen: false });
-  }
+  };
 
   render() {
     const { signUpModalOpen, logInModalOpen } = this.state;
@@ -32,8 +32,20 @@ class Landing extends Component {
       <div className="landing">
         {signUpModalOpen && <SignUp closeSignUpModal={this.closeSignUpModal} />}
         {logInModalOpen && <LogIn closeLogInModal={this.closeLogInModal} />}
-        <button onClick={this.openSignUpModal}>Sign Up</button>
-        <button onClick={this.openLogInModal}>Log In</button>
+        <div className="hero" />
+        <div className="button-container">
+          <p>
+            Marfa tousled freegan, health goth everyday carry prism four dollar
+            toast raclette blog. Pitchfork waistcoat +1 mlkshk roof party
+            aesthetic humblebrag ramps, yr selvage. Trust fund echo park
+            sartorial put a bird on it. Twee ennui bushwick celiac try-hard
+            pinterest. Bushwick microdosing edison bulb banh mi poutine DIY.
+            Cornhole tote bag twee, bespoke ramps roof party
+          </p>
+
+          <button onClick={this.openSignUpModal}>Sign Up</button>
+          <button onClick={this.openLogInModal}>Log In</button>
+        </div>
       </div>
     );
   }

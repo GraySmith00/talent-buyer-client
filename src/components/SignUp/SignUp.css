@@ -15,6 +15,60 @@
     flex-direction: column;
     align-items: center;
     height: 40rem;
-    width: 50%;
-    background-color: rgba(250, 250, 250, 0.8);
+    width: 30rem;
+    background-color: #21222b;
     border-radius: 10px; }
+  .sign-up .top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./concertBackground2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    -webkit-box-shadow: 0px 10px 67px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 67px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 67px -10px rgba(0, 0, 0, 0.75); }
+  .sign-up .top-inner {
+    width: 80%;
+    color: #fff;
+    font-size: 2.5rem; }
+  .sign-up .top-inner h3 {
+    margin: 0; }
+  .sign-up p {
+    margin: 0.8rem 0 0 0;
+    color: #fff; }
+  .sign-up .sign-up-form {
+    margin-top: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; }
+  .sign-up input {
+    width: 80%;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    background-color: rgba(250, 250, 250, 0.3);
+    color: #fff;
+    border-radius: 5px; }
+  .sign-up button {
+    margin-top: 15px;
+    width: 80%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background-color: #de0048;
+    color: #fff;
+    cursor: pointer; }
+  .sign-up .close-text {
+    color: #de0048;
+    cursor: pointer; }
