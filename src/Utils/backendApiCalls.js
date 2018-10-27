@@ -1,35 +1,25 @@
+import axios from 'axios';
 import { artistsByAgency } from './artistsByAgency';
 import { getArtistInfo } from './songKickApiCalls';
 
 export const userSignUp = async user => {
   const url = `http://localhost:5000/signup`;
-  const response = await fetch(url, {
-    method: 'POST',
-    body: JSON.stringify(user),
-    headers: {
-      'Content-Type': 'application/json'
-    }
-  });
-  const data = await response.json();
-  return data;
+  const response = await axios.post(url, user);
+  return response.data;
 };
 
 export const userLogIn = async userCreds => {
   const url = `http://localhost:5000/login`;
-  const response = await fetch(url, {
-    method: 'POST',
-    body: JSON.stringify(userCreds),
+  const response = await axios.post(url, userCreds, {
     headers: {
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json',
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Credentials': 'true'
     }
   });
-
-  if (response.status === 201) {
-    const data = await response.json();
-    return data;
-  } else {
-    const error = await response.text();
-    return error;
+  if (response.status === 200) {
+    console.log(response.headers);
+    return response.data;
   }
 };
 
