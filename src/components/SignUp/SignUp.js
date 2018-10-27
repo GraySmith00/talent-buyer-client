@@ -5,8 +5,8 @@ import { setCurrentVenue } from '../../actions/venueActions';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 import './SignUp.css';
-import styled from 'styled-components';
 import InputField from '../styledComponents/InputField';
+import ModalButton from '../styledComponents/ModalButton';
 
 class SignUp extends Component {
   state = {
@@ -123,7 +123,7 @@ class SignUp extends Component {
               placeholder="Venue City"
               onChange={this.handleChange}
             />
-            <button>Sign Up</button>
+            <ModalButton>Sign Up</ModalButton>
             <p onClick={closeSignUpModal} className="close-text">
               x Cancel
             </p>
