@@ -1,4 +1,4 @@
-import { userSignUp } from '../Utils/backendApiCalls';
+import { userSignUp, userLogIn } from '../Utils/backendApiCalls';
 
 // setCurrentUserState action
 export const setCurrentUserState = user => ({
@@ -9,6 +9,11 @@ export const setCurrentUserState = user => ({
 // registerUser thunk
 export const registerUser = user => async dispatch => {
   const savedUser = await userSignUp(user);
-  dispatch(setCurrentUserState(savedUser));
-  return savedUser;
+  if (savedUser.id) {
+    const { email } = savedUser;
+    const userCreds = { buyer: { email, password: user.buyer.password } };
+    await userLogIn(userCreds);
+    dispatch(setCurrentUserState(savedUser));
+    return savedUser;
+  }
 };
