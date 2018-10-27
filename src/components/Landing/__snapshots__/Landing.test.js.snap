@@ -20,16 +20,26 @@ ShallowWrapper {
       "children": Array [
         false,
         false,
-        <button
-          onClick={[Function]}
+        <div
+          className="hero"
+/>,
+        <div
+          className="button-container"
 >
-          Sign Up
-</button>,
-        <button
-          onClick={[Function]}
->
-          Log In
-</button>,
+          <p>
+                    Marfa tousled freegan, health goth everyday carry prism four dollar toast raclette blog. Pitchfork waistcoat +1 mlkshk roof party aesthetic humblebrag ramps, yr selvage. Trust fund echo park sartorial put a bird on it. Twee ennui bushwick celiac try-hard pinterest. Bushwick microdosing edison bulb banh mi poutine DIY. Cornhole tote bag twee, bespoke ramps roof party
+          </p>
+          <button
+                    onClick={[Function]}
+          >
+                    Sign Up
+          </button>
+          <button
+                    onClick={[Function]}
+          >
+                    Log In
+          </button>
+</div>,
       ],
       "className": "landing",
     },
@@ -42,24 +52,73 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Sign Up",
-          "onClick": [Function],
+          "className": "hero",
         },
         "ref": null,
-        "rendered": "Sign Up",
-        "type": "button",
+        "rendered": null,
+        "type": "div",
       },
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Log In",
-          "onClick": [Function],
+          "children": Array [
+            <p>
+              Marfa tousled freegan, health goth everyday carry prism four dollar toast raclette blog. Pitchfork waistcoat +1 mlkshk roof party aesthetic humblebrag ramps, yr selvage. Trust fund echo park sartorial put a bird on it. Twee ennui bushwick celiac try-hard pinterest. Bushwick microdosing edison bulb banh mi poutine DIY. Cornhole tote bag twee, bespoke ramps roof party
+</p>,
+            <button
+              onClick={[Function]}
+>
+              Sign Up
+</button>,
+            <button
+              onClick={[Function]}
+>
+              Log In
+</button>,
+          ],
+          "className": "button-container",
         },
         "ref": null,
-        "rendered": "Log In",
-        "type": "button",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Marfa tousled freegan, health goth everyday carry prism four dollar toast raclette blog. Pitchfork waistcoat +1 mlkshk roof party aesthetic humblebrag ramps, yr selvage. Trust fund echo park sartorial put a bird on it. Twee ennui bushwick celiac try-hard pinterest. Bushwick microdosing edison bulb banh mi poutine DIY. Cornhole tote bag twee, bespoke ramps roof party",
+            },
+            "ref": null,
+            "rendered": "Marfa tousled freegan, health goth everyday carry prism four dollar toast raclette blog. Pitchfork waistcoat +1 mlkshk roof party aesthetic humblebrag ramps, yr selvage. Trust fund echo park sartorial put a bird on it. Twee ennui bushwick celiac try-hard pinterest. Bushwick microdosing edison bulb banh mi poutine DIY. Cornhole tote bag twee, bespoke ramps roof party",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Sign Up",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Sign Up",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Log In",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Log In",
+            "type": "button",
+          },
+        ],
+        "type": "div",
       },
     ],
     "type": "div",
@@ -73,16 +132,26 @@ ShallowWrapper {
         "children": Array [
           false,
           false,
-          <button
-            onClick={[Function]}
+          <div
+            className="hero"
+/>,
+          <div
+            className="button-container"
 >
-            Sign Up
-</button>,
-          <button
-            onClick={[Function]}
->
-            Log In
-</button>,
+            <p>
+                        Marfa tousled freegan, health goth everyday carry prism four dollar toast raclette blog. Pitchfork waistcoat +1 mlkshk roof party aesthetic humblebrag ramps, yr selvage. Trust fund echo park sartorial put a bird on it. Twee ennui bushwick celiac try-hard pinterest. Bushwick microdosing edison bulb banh mi poutine DIY. Cornhole tote bag twee, bespoke ramps roof party
+            </p>
+            <button
+                        onClick={[Function]}
+            >
+                        Sign Up
+            </button>
+            <button
+                        onClick={[Function]}
+            >
+                        Log In
+            </button>
+</div>,
         ],
         "className": "landing",
       },
@@ -95,24 +164,73 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Sign Up",
-            "onClick": [Function],
+            "className": "hero",
           },
           "ref": null,
-          "rendered": "Sign Up",
-          "type": "button",
+          "rendered": null,
+          "type": "div",
         },
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Log In",
-            "onClick": [Function],
+            "children": Array [
+              <p>
+                Marfa tousled freegan, health goth everyday carry prism four dollar toast raclette blog. Pitchfork waistcoat +1 mlkshk roof party aesthetic humblebrag ramps, yr selvage. Trust fund echo park sartorial put a bird on it. Twee ennui bushwick celiac try-hard pinterest. Bushwick microdosing edison bulb banh mi poutine DIY. Cornhole tote bag twee, bespoke ramps roof party
+</p>,
+              <button
+                onClick={[Function]}
+>
+                Sign Up
+</button>,
+              <button
+                onClick={[Function]}
+>
+                Log In
+</button>,
+            ],
+            "className": "button-container",
           },
           "ref": null,
-          "rendered": "Log In",
-          "type": "button",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Marfa tousled freegan, health goth everyday carry prism four dollar toast raclette blog. Pitchfork waistcoat +1 mlkshk roof party aesthetic humblebrag ramps, yr selvage. Trust fund echo park sartorial put a bird on it. Twee ennui bushwick celiac try-hard pinterest. Bushwick microdosing edison bulb banh mi poutine DIY. Cornhole tote bag twee, bespoke ramps roof party",
+              },
+              "ref": null,
+              "rendered": "Marfa tousled freegan, health goth everyday carry prism four dollar toast raclette blog. Pitchfork waistcoat +1 mlkshk roof party aesthetic humblebrag ramps, yr selvage. Trust fund echo park sartorial put a bird on it. Twee ennui bushwick celiac try-hard pinterest. Bushwick microdosing edison bulb banh mi poutine DIY. Cornhole tote bag twee, bespoke ramps roof party",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Sign Up",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Sign Up",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Log In",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Log In",
+              "type": "button",
+            },
+          ],
+          "type": "div",
         },
       ],
       "type": "div",

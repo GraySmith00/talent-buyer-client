@@ -41,12 +41,7 @@ ShallowWrapper {
         <Route
                 component={[Function]}
                 exact={true}
-                path="/offertemplate"
-        />
-        <Route
-                component={[Function]}
-                exact={true}
-                path="/OfferModal"
+                path="/template"
         />
 </Unknown>,
     },
@@ -80,12 +75,7 @@ ShallowWrapper {
           <Route
             component={[Function]}
             exact={true}
-            path="/offertemplate"
-/>,
-          <Route
-            component={[Function]}
-            exact={true}
-            path="/OfferModal"
+            path="/template"
 />,
         ],
       },
@@ -150,20 +140,7 @@ ShallowWrapper {
           "props": Object {
             "component": [Function],
             "exact": true,
-            "path": "/offertemplate",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "component": [Function],
-            "exact": true,
-            "path": "/OfferModal",
+            "path": "/template",
           },
           "ref": null,
           "rendered": null,
@@ -204,12 +181,7 @@ ShallowWrapper {
           <Route
                     component={[Function]}
                     exact={true}
-                    path="/offertemplate"
-          />
-          <Route
-                    component={[Function]}
-                    exact={true}
-                    path="/OfferModal"
+                    path="/template"
           />
 </Unknown>,
       },
@@ -243,12 +215,7 @@ ShallowWrapper {
             <Route
               component={[Function]}
               exact={true}
-              path="/offertemplate"
-/>,
-            <Route
-              component={[Function]}
-              exact={true}
-              path="/OfferModal"
+              path="/template"
 />,
           ],
         },
@@ -313,20 +280,7 @@ ShallowWrapper {
             "props": Object {
               "component": [Function],
               "exact": true,
-              "path": "/offertemplate",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "component": [Function],
-              "exact": true,
-              "path": "/OfferModal",
+              "path": "/template",
             },
             "ref": null,
             "rendered": null,

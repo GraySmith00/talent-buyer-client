@@ -4,7 +4,7 @@ import { logInUser } from '../../actions/userActions';
 import { connect } from 'react-redux';
 import './LogIn.css';
 
-class LogIn extends Component {
+export class LogIn extends Component {
   state = {
     email: '',
     password: ''

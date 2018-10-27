@@ -20,6 +20,7 @@ ShallowWrapper {
       "children": <h2>
         Nav
 </h2>,
+      "className": "nav",
     },
     "ref": null,
     "rendered": Object {
@@ -44,6 +45,7 @@ ShallowWrapper {
         "children": <h2>
           Nav
 </h2>,
+        "className": "nav",
       },
       "ref": null,
       "rendered": Object {

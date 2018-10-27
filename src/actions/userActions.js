@@ -41,10 +41,6 @@ export const logInUser = userCreds => async dispatch => {
   const decoded = setToken(token);
 
   if (!isEmpty(decoded)) {
-    console.log({
-      ...loginResponse.data,
-      isAuthenticated: !isEmpty(decoded)
-    });
     dispatch(
       setCurrentUserState({
         ...loginResponse.data,
