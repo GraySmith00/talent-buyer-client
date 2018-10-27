@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-
 import { registerUser } from '../../actions/userActions';
 import { setCurrentVenue } from '../../actions/venueActions';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 import './SignUp.css';
+import styled from 'styled-components';
+import InputField from '../styledComponents/InputField';
 
 class SignUp extends Component {
   state = {
@@ -73,42 +74,49 @@ class SignUp extends Component {
           </div>
           <p>Sign Up With Email</p>
           <form className="sign-up-form" onSubmit={this.handleSubmit}>
-            <input
+            <InputField
               type="text"
               name="firstName"
               value={this.state.firstName}
               placeholder="first name"
               onChange={this.handleChange}
             />
-            <input
+            <InputField
+              type="text"
+              name="firstName"
+              value={this.state.firstName}
+              placeholder="first name"
+              onChange={this.handleChange}
+            />
+            <InputField
               type="text"
               name="lastName"
               value={this.state.lastName}
               placeholder="last name"
               onChange={this.handleChange}
             />
-            <input
+            <InputField
               type="email"
               name="email"
               value={this.state.email}
               placeholder="email"
               onChange={this.handleChange}
             />
-            <input
+            <InputField
               type="password"
               name="password"
               value={this.state.password}
               placeholder="password"
               onChange={this.handleChange}
             />
-            <input
+            <InputField
               type="text"
               name="venueName"
               value={this.state.venueName}
               placeholder="Venue Name"
               onChange={this.handleChange}
             />
-            <input
+            <InputField
               type="text"
               name="venueCity"
               value={this.state.venueCity}
