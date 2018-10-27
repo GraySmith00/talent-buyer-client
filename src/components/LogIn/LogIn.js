@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { userLogIn } from '../../Utils/backendApiCalls';
+import { logInUser } from '../../actions/userActions';
+import { connect } from 'react-redux';
 import './LogIn.css';
 
 class LogIn extends Component {
@@ -23,8 +24,7 @@ class LogIn extends Component {
         password
       }
     };
-
-    await userLogIn(userCreds);
+    await this.props.logInUser(userCreds);
   };
 
   render() {
@@ -62,7 +62,15 @@ class LogIn extends Component {
 }
 
 LogIn.propTypes = {
-  closeLogInModal: PropTypes.func.isRequired
+  closeLogInModal: PropTypes.func.isRequired,
+  logInUser: PropTypes.func.isRequired
 };
 
-export default LogIn;
+export const mapDispatchToProps = dispatch => ({
+  logInUser: userCreds => dispatch(logInUser(userCreds))
+});
+
+export default connect(
+  null,
+  mapDispatchToProps
+)(LogIn);

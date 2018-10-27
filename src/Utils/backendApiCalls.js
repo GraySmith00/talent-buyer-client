@@ -2,21 +2,15 @@ import axios from 'axios';
 import { artistsByAgency } from './artistsByAgency';
 import { getArtistInfo } from './songKickApiCalls';
 
-export const userSignUp = async user => {
+export const signUpPostRequest = async user => {
   const url = `http://localhost:5000/signup`;
   const response = await axios.post(url, user);
   return response.data;
 };
 
-export const userLogIn = async userCreds => {
+export const logInPostRequest = async userCreds => {
   const url = `http://localhost:5000/login`;
-  const response = await axios.post(url, userCreds, {
-    headers: {
-      'Content-Type': 'application/json',
-      'Access-Control-Allow-Origin': '*',
-      'Access-Control-Allow-Credentials': 'true'
-    }
-  });
+  const response = await axios.post(url, userCreds);
   if (response.status === 200) {
     return response;
   }

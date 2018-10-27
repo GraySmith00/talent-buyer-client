@@ -1,16 +1,7 @@
-const initialState = {
-  isAuthenticated: false,
-  user: {}
-};
-
-export const userReducer = (state = initialState, action) => {
+export const userReducer = (state = {}, action) => {
   switch (action.type) {
     case 'SET_CURRENT_USER_STATE':
-      return {
-        ...state,
-        user: action.user,
-        isAuthenticated: action.isAuthenticated
-      };
+      return action.user;
     default:
       return state;
   }
