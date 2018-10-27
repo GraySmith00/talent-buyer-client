@@ -18,21 +18,14 @@ export const userLogIn = async userCreds => {
     }
   });
   if (response.status === 200) {
-    console.log(response.headers);
-    return response.data;
+    return response;
   }
 };
 
 export const venuePostRequest = async venue => {
   const url = `http://localhost:5000/api/v1/venues`;
-  const response = await fetch(url, {
-    method: 'POST',
-    body: JSON.stringify(venue),
-    headers: {
-      'Content-Type': 'application/json'
-    }
-  });
-  const data = await response.json();
+  const response = await axios.post(url, venue);
+  const data = response.data;
   return data;
 };
 
