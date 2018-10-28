@@ -1,42 +1,65 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import axios from 'axios';
+import { connect } from 'react-redux';
+
+import { offerPostRequest } from '../../Utils/backendApiCalls';
 import './OfferModal.css';
 
-class OfferModal extends Component {
+export class OfferModal extends Component {
   state = {
-    status: '',
-    artist: '',
+    status: 0,
+    artist_name: '',
     guarantee: 5000,
     bonuses: '+$1k at 600 sold',
-    radiusClause: '120mi +/- 60days',
-    totalExpenses: 2000,
-    grossPotential: 8500,
-    doorTimes: '9pm-12am',
-    ageRange: '16+',
-    merchSplit: '80/20 artist/venue'
+    radius_clause: '120mi +/- 60days',
+    total_expenses: 2000,
+    gross_potential: 8500,
+    door_times: '9pm-12am',
+    age_range: '16+',
+    merch_split: '80/20 artist/venue'
   };
+
+  componentDidMount() {
+    axios.defaults.headers.common['Authorization'] = localStorage.getItem(
+      'jwtToken'
+    );
+  }
 
   handleChange = e => {
     const { name, value } = e.target;
     this.setState({ [name]: value });
   };
 
-  handleSubmit;
+  handleSubmit = async e => {
+    e.preventDefault();
+    const { currentUser, currentVenue } = this.props;
+
+    const offer = {
+      ...this.state,
+      buyer_id: currentUser.id,
+      venue_id: currentVenue.id
+    };
+
+    await offerPostRequest(offer);
+  };
 
   render() {
-    const { closeOfferModal } = this.props;
+    const { closeOfferModal, date } = this.props;
+    const dateString = date.toString().slice(0, 15);
     return (
       <div className="offer-modal">
         <div className="inner-modal">
+          <h3>{dateString}</h3>
           <form className="offer-form" onSubmit={this.handleSubmit}>
             <div className="input-column-1">
               <div className="select-wrapper">
                 <label>
                   <h4>Status</h4>
                   <select name="status" onChange={this.handleChange}>
-                    <option value="active">active</option>
-                    <option value="pending">pending</option>
-                    <option value="confirmed">confirmed</option>
+                    <option value={0}>Pending</option>
+                    <option value={1}>Confirmed</option>
+                    <option value={2}>Rejected</option>
                   </select>
                 </label>
               </div>
@@ -44,9 +67,9 @@ class OfferModal extends Component {
                 <h4>Artist</h4>
                 <input
                   type="text"
-                  name="artist"
-                  value={this.state.artist}
-                  placeholder="artist"
+                  name="artist_name"
+                  value={this.state.artist_name}
+                  placeholder="artist_name"
                   onChange={this.handleChange}
                 />
               </label>
@@ -74,8 +97,8 @@ class OfferModal extends Component {
                 <h4>Radius Clause</h4>
                 <input
                   type="text"
-                  name="radiusClause"
-                  value={this.state.radiusClause}
+                  name="radius_clause"
+                  value={this.state.radius_clause}
                   placeholder="Radius Clause"
                   onChange={this.handleChange}
                 />
@@ -84,8 +107,8 @@ class OfferModal extends Component {
                 <h4>Total Expenses</h4>
                 <input
                   type="number"
-                  name="totalExpenses"
-                  value={this.state.totalExpenses}
+                  name="total_expenses"
+                  value={this.state.total_expenses}
                   placeholder="Total Expenses"
                   onChange={this.handleChange}
                 />
@@ -96,8 +119,8 @@ class OfferModal extends Component {
                 <h4>Gross Potential</h4>
                 <input
                   type="number"
-                  name="grossPotential"
-                  value={this.state.grossPotential}
+                  name="gross_potential"
+                  value={this.state.gross_potential}
                   placeholder="Gross Potential"
                   onChange={this.handleChange}
                 />
@@ -106,8 +129,8 @@ class OfferModal extends Component {
                 <h4>Door Times</h4>
                 <input
                   type="text"
-                  name="doorTimes"
-                  value={this.state.doorTimes}
+                  name="door_times"
+                  value={this.state.door_times}
                   placeholder="Door Times"
                   onChange={this.handleChange}
                 />
@@ -116,8 +139,8 @@ class OfferModal extends Component {
                 <h4>Ages</h4>
                 <input
                   type="text"
-                  name="ageRange"
-                  value={this.state.ageRange}
+                  name="age_range"
+                  value={this.state.age_range}
                   placeholder="Age Range"
                   onChange={this.handleChange}
                 />
@@ -126,8 +149,8 @@ class OfferModal extends Component {
                 <h4>Merch Split</h4>
                 <input
                   type="text"
-                  name="merchSplit"
-                  value={this.state.merchSplit}
+                  name="merch_split"
+                  value={this.state.merch_split}
                   placeholder="Merch Split"
                   onChange={this.handleChange}
                 />
@@ -143,7 +166,13 @@ class OfferModal extends Component {
 }
 
 OfferModal.propTypes = {
-  closeOfferModal: PropTypes.func.isRequired
+  closeOfferModal: PropTypes.func.isRequired,
+  date: PropTypes.object.isRequired
 };
 
-export default OfferModal;
+export const mapStateToProps = state => ({
+  currentUser: state.currentUser,
+  currentVenue: state.currentVenue
+});
+
+export default connect(mapStateToProps)(OfferModal);
