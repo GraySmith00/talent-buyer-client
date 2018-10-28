@@ -29,16 +29,18 @@ ShallowWrapper {
           <p>
                     Marfa tousled freegan, health goth everyday carry prism four dollar toast raclette blog. Pitchfork waistcoat +1 mlkshk roof party aesthetic humblebrag ramps, yr selvage. Trust fund echo park sartorial put a bird on it. Twee ennui bushwick celiac try-hard pinterest. Bushwick microdosing edison bulb banh mi poutine DIY. Cornhole tote bag twee, bespoke ramps roof party
           </p>
-          <button
+          <Unknown
+                    className="half-button"
                     onClick={[Function]}
           >
                     Sign Up
-          </button>
-          <button
+          </Unknown>
+          <Unknown
+                    className="half-button"
                     onClick={[Function]}
           >
                     Log In
-          </button>
+          </Unknown>
 </div>,
       ],
       "className": "landing",
@@ -67,16 +69,18 @@ ShallowWrapper {
             <p>
               Marfa tousled freegan, health goth everyday carry prism four dollar toast raclette blog. Pitchfork waistcoat +1 mlkshk roof party aesthetic humblebrag ramps, yr selvage. Trust fund echo park sartorial put a bird on it. Twee ennui bushwick celiac try-hard pinterest. Bushwick microdosing edison bulb banh mi poutine DIY. Cornhole tote bag twee, bespoke ramps roof party
 </p>,
-            <button
+            <Unknown
+              className="half-button"
               onClick={[Function]}
 >
               Sign Up
-</button>,
-            <button
+</Unknown>,
+            <Unknown
+              className="half-button"
               onClick={[Function]}
 >
               Log In
-</button>,
+</Unknown>,
           ],
           "className": "button-container",
         },
@@ -96,26 +100,80 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "host",
+            "nodeType": "function",
             "props": Object {
               "children": "Sign Up",
+              "className": "half-button",
               "onClick": [Function],
             },
             "ref": null,
             "rendered": "Sign Up",
-            "type": "button",
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": undefined,
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-bwzfXH",
+                "isStatic": true,
+                "rules": Array [
+                  "
+  margin-top: 15px;
+  width: 80%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  background-color: #de0048;
+  color: #fff;
+  cursor: pointer;
+",
+                ],
+              },
+              "displayName": "styled.button",
+              "render": [Function],
+              "styledComponentId": "sc-bwzfXH",
+              "target": "button",
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
           },
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "host",
+            "nodeType": "function",
             "props": Object {
               "children": "Log In",
+              "className": "half-button",
               "onClick": [Function],
             },
             "ref": null,
             "rendered": "Log In",
-            "type": "button",
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": undefined,
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-bwzfXH",
+                "isStatic": true,
+                "rules": Array [
+                  "
+  margin-top: 15px;
+  width: 80%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  background-color: #de0048;
+  color: #fff;
+  cursor: pointer;
+",
+                ],
+              },
+              "displayName": "styled.button",
+              "render": [Function],
+              "styledComponentId": "sc-bwzfXH",
+              "target": "button",
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
           },
         ],
         "type": "div",
@@ -141,16 +199,18 @@ ShallowWrapper {
             <p>
                         Marfa tousled freegan, health goth everyday carry prism four dollar toast raclette blog. Pitchfork waistcoat +1 mlkshk roof party aesthetic humblebrag ramps, yr selvage. Trust fund echo park sartorial put a bird on it. Twee ennui bushwick celiac try-hard pinterest. Bushwick microdosing edison bulb banh mi poutine DIY. Cornhole tote bag twee, bespoke ramps roof party
             </p>
-            <button
+            <Unknown
+                        className="half-button"
                         onClick={[Function]}
             >
                         Sign Up
-            </button>
-            <button
+            </Unknown>
+            <Unknown
+                        className="half-button"
                         onClick={[Function]}
             >
                         Log In
-            </button>
+            </Unknown>
 </div>,
         ],
         "className": "landing",
@@ -179,16 +239,18 @@ ShallowWrapper {
               <p>
                 Marfa tousled freegan, health goth everyday carry prism four dollar toast raclette blog. Pitchfork waistcoat +1 mlkshk roof party aesthetic humblebrag ramps, yr selvage. Trust fund echo park sartorial put a bird on it. Twee ennui bushwick celiac try-hard pinterest. Bushwick microdosing edison bulb banh mi poutine DIY. Cornhole tote bag twee, bespoke ramps roof party
 </p>,
-              <button
+              <Unknown
+                className="half-button"
                 onClick={[Function]}
 >
                 Sign Up
-</button>,
-              <button
+</Unknown>,
+              <Unknown
+                className="half-button"
                 onClick={[Function]}
 >
                 Log In
-</button>,
+</Unknown>,
             ],
             "className": "button-container",
           },
@@ -208,26 +270,80 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "host",
+              "nodeType": "function",
               "props": Object {
                 "children": "Sign Up",
+                "className": "half-button",
                 "onClick": [Function],
               },
               "ref": null,
               "rendered": "Sign Up",
-              "type": "button",
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": undefined,
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+  margin-top: 15px;
+  width: 80%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  background-color: #de0048;
+  color: #fff;
+  cursor: pointer;
+",
+                  ],
+                },
+                "displayName": "styled.button",
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "button",
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
             },
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "host",
+              "nodeType": "function",
               "props": Object {
                 "children": "Log In",
+                "className": "half-button",
                 "onClick": [Function],
               },
               "ref": null,
               "rendered": "Log In",
-              "type": "button",
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": undefined,
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+  margin-top: 15px;
+  width: 80%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  background-color: #de0048;
+  color: #fff;
+  cursor: pointer;
+",
+                  ],
+                },
+                "displayName": "styled.button",
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "button",
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
             },
           ],
           "type": "div",

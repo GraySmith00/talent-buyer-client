@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import SignUp from '../SignUp/SignUp';
 import LogIn from '../LogIn/LogIn';
 import './Landing.css';
+import ModalButton from '../styledComponents/ModalButton';
 
 class Landing extends Component {
   state = {
@@ -43,8 +44,8 @@ class Landing extends Component {
             Cornhole tote bag twee, bespoke ramps roof party
           </p>
 
-          <button onClick={this.openSignUpModal}>Sign Up</button>
-          <button onClick={this.openLogInModal}>Log In</button>
+          <ModalButton className="half-button" onClick={this.openSignUpModal}>Sign Up</ModalButton>
+          <ModalButton className="half-button" onClick={this.openLogInModal}>Log In</ModalButton>
         </div>
       </div>
     );
