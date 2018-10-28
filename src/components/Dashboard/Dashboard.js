@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Calendar from 'react-calendar';
+import axios from 'axios';
 
 import Nav from '../Nav/Nav';
 import OfferModal from '../OfferModal/OfferModal';
@@ -13,6 +14,12 @@ class Dashboard extends Component {
     offerModalOpen: false
   };
 
+  componentDidMount() {
+    axios.defaults.headers.common['Authorization'] = localStorage.getItem(
+      'jwtToken'
+    );
+  }
+
   handleDateChange = date => this.setState({ date });
 
   openOfferModal = () => this.setState({ offerModalOpen: true });
@@ -20,11 +27,12 @@ class Dashboard extends Component {
   closeOfferModal = () => this.setState({ offerModalOpen: false });
 
   render() {
-    const { offerModalOpen } = this.state;
+    const { offerModalOpen, date } = this.state;
+
     return (
       <div className="dashboard">
         {offerModalOpen && (
-          <OfferModal closeOfferModal={this.closeOfferModal} />
+          <OfferModal closeOfferModal={this.closeOfferModal} date={date} />
         )}
         <Nav />
         <div className="main-content">

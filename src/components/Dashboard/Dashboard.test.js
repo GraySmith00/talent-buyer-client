@@ -11,7 +11,6 @@ describe('Dashboard component', () => {
   });
 
   it('should match the snapshot', () => {
-    // expect(wrapper).toMatchSnapshot();
-    expect(true).toEqual(true);
+    expect(wrapper).toMatchSnapshot();
   });
 });
