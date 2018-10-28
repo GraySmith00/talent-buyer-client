@@ -1,3 +1,5 @@
+@import '../../styles/variables.scss';
+
 .sign-up {
   display: flex;
   flex-direction: column;
@@ -12,6 +14,11 @@
   z-index: 99;
 
   background-color: rgba(0, 0, 0, 0.5);
+
+  .header-text {
+    font-family: $primary-font;
+  }
+
 
   .inner-modal {
     display: flex;

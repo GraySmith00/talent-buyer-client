@@ -7,6 +7,8 @@ import { withRouter } from 'react-router-dom';
 import './SignUp.css';
 import InputField from '../styledComponents/InputField';
 import ModalButton from '../styledComponents/ModalButton';
+import ModalForm from '../styledComponents/ModalForm';
+import InnerModal from '../styledComponents/InnerModal';
 
 class SignUp extends Component {
   state = {
@@ -66,21 +68,14 @@ class SignUp extends Component {
     const { closeSignUpModal } = this.props;
     return (
       <div className="sign-up">
-        <div className="inner-modal">
+        <InnerModal>
           <div className="top-container">
             <div className="top-inner">
-              <h3>Welcome to Talent Buyer!</h3>
+              <h3 className="header-text">Welcome to Talent Buyer!</h3>
             </div>
           </div>
           <p>Sign Up With Email</p>
-          <form className="sign-up-form" onSubmit={this.handleSubmit}>
-            <InputField
-              type="text"
-              name="firstName"
-              value={this.state.firstName}
-              placeholder="first name"
-              onChange={this.handleChange}
-            />
+          <ModalForm className="sign-up-form" onSubmit={this.handleSubmit}>
             <InputField
               type="text"
               name="firstName"
@@ -127,8 +122,8 @@ class SignUp extends Component {
             <p onClick={closeSignUpModal} className="close-text">
               x Cancel
             </p>
-          </form>
-        </div>
+          </ModalForm>
+        </InnerModal>
       </div>
     );
   }

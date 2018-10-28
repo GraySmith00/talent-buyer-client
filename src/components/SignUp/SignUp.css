@@ -10,6 +10,8 @@
   left: 0;
   z-index: 99;
   background-color: rgba(0, 0, 0, 0.5); }
+  .sign-up .header-text {
+    font-family: "Open Sans", sans-serif; }
   .sign-up .inner-modal {
     display: flex;
     flex-direction: column;
