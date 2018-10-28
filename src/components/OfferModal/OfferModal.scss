@@ -1,4 +1,83 @@
-.input-wrapper {
-  align-items: center;
+.offer-modal {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+
+  background-color: rgba(0, 0, 0, 0.5);
+
+  .inner-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 40rem;
+    width: 60rem;
+    background-color: #21222b;
+    border-radius: 10px;
+  }
+
+  .top-inner h3 {
+    margin: 0;
+  }
+
+  p {
+    margin: 0.8rem 0 0 0;
+    color: #fff;
+  }
+
+  .offer-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+
+    margin-top: 0.8rem;
+    width: 80%;
+  }
+
+  label {
+    width: 100%;
+    padding: 0;
+    font-size: 0.8rem;
+  }
+
+  h4 {
+    margin: 20px 0 0 0;
+  }
+
+  input {
+    width: 100%;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    background-color: rgba(250, 250, 250, 0.3);
+    color: #fff;
+    border-radius: 5px;
+  }
+
+  button {
+    margin-top: 15px;
+    width: 80%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background-color: #de0048;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .close-text {
+    color: #de0048;
+    cursor: pointer;
+  }
 }
