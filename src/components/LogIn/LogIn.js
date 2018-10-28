@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { logInUser } from '../../actions/userActions';
 import { connect } from 'react-redux';
+import ModalButton from '../styledComponents/ModalButton';
+import InputField from '../styledComponents/InputField';
+import ModalForm from '../styledComponents/ModalForm';
+import InnerModal from '../styledComponents/InnerModal';
 import './LogIn.css';
 
 export class LogIn extends Component {
@@ -30,33 +34,36 @@ export class LogIn extends Component {
   render() {
     const { closeLogInModal } = this.props;
     return (
-      <form className="log-in" onSubmit={this.handleSubmit}>
-        <div className="inner-modal">
-          <h1>Log In</h1>
-          <div className="input-wrapper">
-            <h4>Email:</h4>
-            <input
+      <div className="log-in">
+        <InnerModal>
+          <div className="top-container">
+            <div className="top-inner">
+              <h3 className="header-text">Welcome to Talent Buyer!</h3>
+            </div>
+          </div>
+          <ModalForm className="log-in-form" onSubmit={this.handleSubmit}>
+            <p>Log In With Email</p>
+            <InputField
               type="email"
               name="email"
               value={this.state.email}
               placeholder="email"
               onChange={this.handleChange}
             />
-          </div>
-          <div className="input-wrapper">
-            <h4>Password:</h4>
-            <input
+            <InputField
               type="text"
               name="password"
               value={this.state.password}
               placeholder="password"
               onChange={this.handleChange}
             />
-          </div>
-          <p onClick={closeLogInModal}>x</p>
-          <button>Submit</button>
-        </div>
-      </form>
+            <ModalButton>Submit</ModalButton>
+            <p onClick={closeLogInModal} className="close-text">
+              x Cancel
+            </p>
+          </ModalForm>
+        </InnerModal>
+      </div>
     );
   }
 }

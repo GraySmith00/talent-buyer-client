@@ -9,8 +9,12 @@
   top: 0;
   left: 0;
   z-index: 99;
-
   background-color: rgba(0, 0, 0, 0.5);
+
+  .close-text {
+    color: #de0048;
+    cursor: pointer;
+  }
 
   .inner-modal {
     display: flex;
@@ -21,5 +25,56 @@
     width: 50%;
     background-color: rgba(250, 250, 250, 0.8);
     border-radius: 10px;
+  }
+
+  .input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    width: 100%;
+  }
+
+  .log-in-form {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .top-inner {
+    width: 80%;
+    color: #fff;
+    font-size: 2.5rem;
+  }
+
+  .top-inner h3 {
+    margin: 0;
+  }
+
+  p {
+    margin: 0.8rem 0 0 0;
+    color: #fff;
+  }
+
+  .top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 30%;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    -webkit-box-shadow: 0px 10px 67px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 67px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 67px -10px rgba(0, 0, 0, 0.75);
   }
 }
