@@ -5,9 +5,11 @@ import OfferModal from './OfferModal';
 
 describe('OfferModal component', () => {
   let wrapper;
+  let mockCloseOfferModal;
 
   beforeEach(() => {
-    wrapper = shallow(<OfferModal />);
+    mockCloseOfferModal = jest.fn();
+    wrapper = shallow(<OfferModal closeOfferModal={mockCloseOfferModal} />);
   });
 
   it('should match the snapshot', () => {
