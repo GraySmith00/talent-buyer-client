@@ -33,12 +33,13 @@ export class OfferModal extends Component {
 
   handleSubmit = async e => {
     e.preventDefault();
-    const { currentUser, currentVenue } = this.props;
+    const { currentUser, currentVenue, date } = this.props;
 
     const offer = {
       ...this.state,
       buyer_id: currentUser.id,
-      venue_id: currentVenue.id
+      venue_id: currentVenue.id,
+      date
     };
 
     await offerPostRequest(offer);
