@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { logInUser } from '../../actions/userActions';
 import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom';
+
+import { setUserVenue } from '../../actions/venueActions';
+import { logInUser } from '../../actions/userActions';
+
 import ModalButton from '../styledComponents/ModalButton';
 import InputField from '../styledComponents/InputField';
 import ModalForm from '../styledComponents/ModalForm';
@@ -28,7 +32,11 @@ export class LogIn extends Component {
         password
       }
     };
-    await this.props.logInUser(userCreds);
+    const loggedInUser = await this.props.logInUser(userCreds);
+    const userVenue = await this.props.setUserVenue(loggedInUser.id);
+    if (loggedInUser && userVenue) {
+      this.props.history.push('/home');
+    }
   };
 
   render() {
@@ -74,10 +82,13 @@ LogIn.propTypes = {
 };
 
 export const mapDispatchToProps = dispatch => ({
-  logInUser: userCreds => dispatch(logInUser(userCreds))
+  logInUser: userCreds => dispatch(logInUser(userCreds)),
+  setUserVenue: userId => dispatch(setUserVenue(userId))
 });
 
-export default connect(
-  null,
-  mapDispatchToProps
-)(LogIn);
+export default withRouter(
+  connect(
+    null,
+    mapDispatchToProps
+  )(LogIn)
+);

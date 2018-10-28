@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { registerUser } from '../../actions/userActions';
-import { setCurrentVenue } from '../../actions/venueActions';
+import { setNewVenue } from '../../actions/venueActions';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 import './SignUp.css';
@@ -39,8 +39,8 @@ class SignUp extends Component {
   saveVenue = async () => {
     try {
       const { venueName, venueCity } = this.state;
-      const { setCurrentVenue } = this.props;
-      return await setCurrentVenue(venueName, venueCity);
+      const { setNewVenue } = this.props;
+      return await setNewVenue(venueName, venueCity);
     } catch (error) {
       this.setState({ venueError: error.message });
     }
@@ -138,8 +138,8 @@ SignUp.propTypes = {
 
 export const mapDispatchToProps = dispatch => ({
   registerUser: user => dispatch(registerUser(user)),
-  setCurrentVenue: (venueName, venueCity) =>
-    dispatch(setCurrentVenue(venueName, venueCity))
+  setNewVenue: (venueName, venueCity) =>
+    dispatch(setNewVenue(venueName, venueCity))
 });
 
 export default withRouter(
