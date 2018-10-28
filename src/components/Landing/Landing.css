@@ -24,3 +24,6 @@
     color: #fff; }
   .landing h1 {
     margin: 0; }
+  .landing .half-button {
+    margin: 1em;
+    width: 40%; }
