@@ -51,3 +51,9 @@ export const addCaaArtistsToBackend = () => {
     }
   });
 };
+
+export const getAllArtists = async () => {
+  const url = 'http://localhost:5000/api/v1/artists';
+  const artists = await axios.get(url);
+  return artists.data;
+};

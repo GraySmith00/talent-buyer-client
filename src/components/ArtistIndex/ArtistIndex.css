@@ -1,0 +1,27 @@
+.artist-index {
+  display: flex;
+  background-color: #21222b;
+  color: #fff; }
+  .artist-index .main-content {
+    height: 100vh;
+    width: 100%;
+    padding: 3rem 5rem; }
+  .artist-index .table-headings {
+    display: grid;
+    grid-template-columns: 5fr repeat(4, 10fr);
+    border-bottom: 1px solid #fff;
+    align-items: center; }
+  .artist-index .artists-container {
+    height: 400px;
+    overflow: scroll;
+    background-color: #32333e; }
+  .artist-index .artist-listing {
+    display: grid;
+    grid-template-columns: 5fr repeat(4, 10fr);
+    align-items: center;
+    cursor: pointer; }
+  .artist-index .artist-listing:hover {
+    background-color: #373945; }
+  .artist-index .artist-image {
+    width: 50px;
+    height: 50px; }

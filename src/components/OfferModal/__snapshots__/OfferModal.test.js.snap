@@ -3,7 +3,9 @@
 exports[`OfferModal component should match the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <OfferModal />,
+  Symbol(enzyme.__unrendered__): <OfferModal
+    closeOfferModal={[Function]}
+/>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -17,911 +19,337 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
-        <h1>
-          Offer Form
-</h1>,
-        <div
-          className="input-wrapper"
+      "children": <div
+        className="inner-modal"
 >
-          <h4>
-                    Status:
-          </h4>
-          <select
-                    name="status"
-                    onChange={[Function]}
-          >
-                    <option
-                              value="active"
-                    >
-                              active
-                    </option>
-                    <option
-                              value="pending"
-                    >
-                              pending
-                    </option>
-                    <option
-                              value="confirmed"
-                    >
-                              confirmed
-                    </option>
-          </select>
+        <form
+                className="offer-form"
+                onSubmit={undefined}
+        >
+                <div
+                        className="input-column-1"
+                >
+                        <div
+                                className="select-wrapper"
+                        >
+                                <label>
+                                        <h4>
+                                                Status
+                                        </h4>
+                                        <select
+                                                name="status"
+                                                onChange={[Function]}
+                                        >
+                                                <option
+                                                        value="active"
+                                                >
+                                                        active
+                                                </option>
+                                                <option
+                                                        value="pending"
+                                                >
+                                                        pending
+                                                </option>
+                                                <option
+                                                        value="confirmed"
+                                                >
+                                                        confirmed
+                                                </option>
+                                        </select>
+                                </label>
+                        </div>
+                        <label>
+                                <h4>
+                                        Artist
+                                </h4>
+                                <input
+                                        name="artist"
+                                        onChange={[Function]}
+                                        placeholder="artist"
+                                        type="text"
+                                        value=""
+                                />
+                        </label>
+                        <label>
+                                <h4>
+                                        Guarantee
+                                </h4>
+                                <input
+                                        name="guarantee"
+                                        onChange={[Function]}
+                                        placeholder="guarantee"
+                                        type="number"
+                                        value={5000}
+                                />
+                        </label>
+                        <label>
+                                <h4>
+                                        Bonuses
+                                </h4>
+                                <input
+                                        name="bonuses"
+                                        onChange={[Function]}
+                                        placeholder="bonuses"
+                                        type="text"
+                                        value="+$1k at 600 sold"
+                                />
+                        </label>
+                        <label>
+                                <h4>
+                                        Radius Clause
+                                </h4>
+                                <input
+                                        name="radiusClause"
+                                        onChange={[Function]}
+                                        placeholder="Radius Clause"
+                                        type="text"
+                                        value="120mi +/- 60days"
+                                />
+                        </label>
+                        <label>
+                                <h4>
+                                        Total Expenses
+                                </h4>
+                                <input
+                                        name="totalExpenses"
+                                        onChange={[Function]}
+                                        placeholder="Total Expenses"
+                                        type="number"
+                                        value={2000}
+                                />
+                        </label>
+                </div>
+                <div
+                        className="input-column-2"
+                >
+                        <label>
+                                <h4>
+                                        Gross Potential
+                                </h4>
+                                <input
+                                        name="grossPotential"
+                                        onChange={[Function]}
+                                        placeholder="Gross Potential"
+                                        type="number"
+                                        value={8500}
+                                />
+                        </label>
+                        <label>
+                                <h4>
+                                        Door Times
+                                </h4>
+                                <input
+                                        name="doorTimes"
+                                        onChange={[Function]}
+                                        placeholder="Door Times"
+                                        type="text"
+                                        value="9pm-12am"
+                                />
+                        </label>
+                        <label>
+                                <h4>
+                                        Ages
+                                </h4>
+                                <input
+                                        name="ageRange"
+                                        onChange={[Function]}
+                                        placeholder="Age Range"
+                                        type="text"
+                                        value="16+"
+                                />
+                        </label>
+                        <label>
+                                <h4>
+                                        Merch Split
+                                </h4>
+                                <input
+                                        name="merchSplit"
+                                        onChange={[Function]}
+                                        placeholder="Merch Split"
+                                        type="text"
+                                        value="80/20 artist/venue"
+                                />
+                        </label>
+                        <button>
+                                Submit
+                        </button>
+                </div>
+        </form>
+        <p
+                onClick={[Function]}
+        >
+                x Cancel
+        </p>
 </div>,
-        <div
-          className="input-wrapper"
->
-          <h4>
-                    Artist:
-          </h4>
-          <input
-                    name="artist"
-                    onChange={[Function]}
-                    placeholder="artist"
-                    type="text"
-                    value=""
-          />
-</div>,
-        <div
-          className="input-wrapper"
->
-          <h4>
-                    Guarantee:
-          </h4>
-          <input
-                    name="guarantee"
-                    onChange={[Function]}
-                    placeholder="guarantee"
-                    type="number"
-                    value={0}
-          />
-</div>,
-        <div
-          className="input-wrapper"
->
-          <h4>
-                    Bonuses:
-          </h4>
-          <input
-                    name="bonuses"
-                    onChange={[Function]}
-                    placeholder="bonuses"
-                    type="number"
-                    value={0}
-          />
-</div>,
-        <div
-          className="input-wrapper"
->
-          <h4>
-                    Radius Clause:
-          </h4>
-          <input
-                    name="radiusClause"
-                    onChange={[Function]}
-                    placeholder="Radius Clause"
-                    type="text"
-                    value=""
-          />
-</div>,
-        <div
-          className="input-wrapper"
->
-          <h4>
-                    Total Expenses:
-          </h4>
-          <input
-                    name="totalExpenses"
-                    onChange={[Function]}
-                    placeholder="Total Expenses"
-                    type="number"
-                    value={0}
-          />
-</div>,
-        <div
-          className="input-wrapper"
->
-          <h4>
-                    Gross Potential:
-          </h4>
-          <input
-                    name="grossPotential"
-                    onChange={[Function]}
-                    placeholder="Gross Potential"
-                    type="number"
-                    value={0}
-          />
-</div>,
-        <div
-          className="input-wrapper"
->
-          <h4>
-                    Door Times:
-          </h4>
-          <input
-                    name="doorTimes"
-                    onChange={[Function]}
-                    placeholder="Door Times"
-                    type="number"
-                    value={0}
-          />
-</div>,
-        <div
-          className="input-wrapper"
->
-          <h4>
-                    Age Range:
-          </h4>
-          <input
-                    name="ageRange"
-                    onChange={[Function]}
-                    placeholder="Age Range"
-                    type="numer"
-                    value={0}
-          />
-</div>,
-        <div
-          className="input-wrapper"
->
-          <h4>
-                    Merch Split:
-          </h4>
-          <input
-                    name="merchSplit"
-                    onChange={[Function]}
-                    placeholder="Merch Split"
-                    type="text"
-                    value=""
-          />
-</div>,
-      ],
-      "className": "offer-form",
+      "className": "offer-modal",
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Offer Form",
-        },
-        "ref": null,
-        "rendered": "Offer Form",
-        "type": "h1",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <h4>
-              Status:
-</h4>,
-            <select
-              name="status"
-              onChange={[Function]}
->
-              <option
-                            value="active"
-              >
-                            active
-              </option>
-              <option
-                            value="pending"
-              >
-                            pending
-              </option>
-              <option
-                            value="confirmed"
-              >
-                            confirmed
-              </option>
-</select>,
-          ],
-          "className": "input-wrapper",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Status:",
-            },
-            "ref": null,
-            "rendered": "Status:",
-            "type": "h4",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                <option
-                  value="active"
->
-                  active
-</option>,
-                <option
-                  value="pending"
->
-                  pending
-</option>,
-                <option
-                  value="confirmed"
->
-                  confirmed
-</option>,
-              ],
-              "name": "status",
-              "onChange": [Function],
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "active",
-                  "value": "active",
-                },
-                "ref": null,
-                "rendered": "active",
-                "type": "option",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "pending",
-                  "value": "pending",
-                },
-                "ref": null,
-                "rendered": "pending",
-                "type": "option",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "confirmed",
-                  "value": "confirmed",
-                },
-                "ref": null,
-                "rendered": "confirmed",
-                "type": "option",
-              },
-            ],
-            "type": "select",
-          },
-        ],
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <h4>
-              Artist:
-</h4>,
-            <input
-              name="artist"
-              onChange={[Function]}
-              placeholder="artist"
-              type="text"
-              value=""
-/>,
-          ],
-          "className": "input-wrapper",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Artist:",
-            },
-            "ref": null,
-            "rendered": "Artist:",
-            "type": "h4",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "name": "artist",
-              "onChange": [Function],
-              "placeholder": "artist",
-              "type": "text",
-              "value": "",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "input",
-          },
-        ],
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <h4>
-              Guarantee:
-</h4>,
-            <input
-              name="guarantee"
-              onChange={[Function]}
-              placeholder="guarantee"
-              type="number"
-              value={0}
-/>,
-          ],
-          "className": "input-wrapper",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Guarantee:",
-            },
-            "ref": null,
-            "rendered": "Guarantee:",
-            "type": "h4",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "name": "guarantee",
-              "onChange": [Function],
-              "placeholder": "guarantee",
-              "type": "number",
-              "value": 0,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "input",
-          },
-        ],
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <h4>
-              Bonuses:
-</h4>,
-            <input
-              name="bonuses"
-              onChange={[Function]}
-              placeholder="bonuses"
-              type="number"
-              value={0}
-/>,
-          ],
-          "className": "input-wrapper",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Bonuses:",
-            },
-            "ref": null,
-            "rendered": "Bonuses:",
-            "type": "h4",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "name": "bonuses",
-              "onChange": [Function],
-              "placeholder": "bonuses",
-              "type": "number",
-              "value": 0,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "input",
-          },
-        ],
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <h4>
-              Radius Clause:
-</h4>,
-            <input
-              name="radiusClause"
-              onChange={[Function]}
-              placeholder="Radius Clause"
-              type="text"
-              value=""
-/>,
-          ],
-          "className": "input-wrapper",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Radius Clause:",
-            },
-            "ref": null,
-            "rendered": "Radius Clause:",
-            "type": "h4",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "name": "radiusClause",
-              "onChange": [Function],
-              "placeholder": "Radius Clause",
-              "type": "text",
-              "value": "",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "input",
-          },
-        ],
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <h4>
-              Total Expenses:
-</h4>,
-            <input
-              name="totalExpenses"
-              onChange={[Function]}
-              placeholder="Total Expenses"
-              type="number"
-              value={0}
-/>,
-          ],
-          "className": "input-wrapper",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Total Expenses:",
-            },
-            "ref": null,
-            "rendered": "Total Expenses:",
-            "type": "h4",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "name": "totalExpenses",
-              "onChange": [Function],
-              "placeholder": "Total Expenses",
-              "type": "number",
-              "value": 0,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "input",
-          },
-        ],
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <h4>
-              Gross Potential:
-</h4>,
-            <input
-              name="grossPotential"
-              onChange={[Function]}
-              placeholder="Gross Potential"
-              type="number"
-              value={0}
-/>,
-          ],
-          "className": "input-wrapper",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Gross Potential:",
-            },
-            "ref": null,
-            "rendered": "Gross Potential:",
-            "type": "h4",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "name": "grossPotential",
-              "onChange": [Function],
-              "placeholder": "Gross Potential",
-              "type": "number",
-              "value": 0,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "input",
-          },
-        ],
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <h4>
-              Door Times:
-</h4>,
-            <input
-              name="doorTimes"
-              onChange={[Function]}
-              placeholder="Door Times"
-              type="number"
-              value={0}
-/>,
-          ],
-          "className": "input-wrapper",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Door Times:",
-            },
-            "ref": null,
-            "rendered": "Door Times:",
-            "type": "h4",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "name": "doorTimes",
-              "onChange": [Function],
-              "placeholder": "Door Times",
-              "type": "number",
-              "value": 0,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "input",
-          },
-        ],
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <h4>
-              Age Range:
-</h4>,
-            <input
-              name="ageRange"
-              onChange={[Function]}
-              placeholder="Age Range"
-              type="numer"
-              value={0}
-/>,
-          ],
-          "className": "input-wrapper",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Age Range:",
-            },
-            "ref": null,
-            "rendered": "Age Range:",
-            "type": "h4",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "name": "ageRange",
-              "onChange": [Function],
-              "placeholder": "Age Range",
-              "type": "numer",
-              "value": 0,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "input",
-          },
-        ],
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <h4>
-              Merch Split:
-</h4>,
-            <input
-              name="merchSplit"
-              onChange={[Function]}
-              placeholder="Merch Split"
-              type="text"
-              value=""
-/>,
-          ],
-          "className": "input-wrapper",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Merch Split:",
-            },
-            "ref": null,
-            "rendered": "Merch Split:",
-            "type": "h4",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "name": "merchSplit",
-              "onChange": [Function],
-              "placeholder": "Merch Split",
-              "type": "text",
-              "value": "",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "input",
-          },
-        ],
-        "type": "div",
-      },
-    ],
-    "type": "form",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
+    "rendered": Object {
       "instance": null,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h1>
-            Offer Form
-</h1>,
-          <div
-            className="input-wrapper"
+          <form
+            className="offer-form"
+            onSubmit={undefined}
 >
-            <h4>
-                        Status:
-            </h4>
-            <select
-                        name="status"
-                        onChange={[Function]}
+            <div
+                        className="input-column-1"
             >
-                        <option
-                                    value="active"
+                        <div
+                                    className="select-wrapper"
                         >
-                                    active
-                        </option>
-                        <option
-                                    value="pending"
-                        >
-                                    pending
-                        </option>
-                        <option
-                                    value="confirmed"
-                        >
-                                    confirmed
-                        </option>
-            </select>
-</div>,
-          <div
-            className="input-wrapper"
+                                    <label>
+                                                <h4>
+                                                            Status
+                                                </h4>
+                                                <select
+                                                            name="status"
+                                                            onChange={[Function]}
+                                                >
+                                                            <option
+                                                                        value="active"
+                                                            >
+                                                                        active
+                                                            </option>
+                                                            <option
+                                                                        value="pending"
+                                                            >
+                                                                        pending
+                                                            </option>
+                                                            <option
+                                                                        value="confirmed"
+                                                            >
+                                                                        confirmed
+                                                            </option>
+                                                </select>
+                                    </label>
+                        </div>
+                        <label>
+                                    <h4>
+                                                Artist
+                                    </h4>
+                                    <input
+                                                name="artist"
+                                                onChange={[Function]}
+                                                placeholder="artist"
+                                                type="text"
+                                                value=""
+                                    />
+                        </label>
+                        <label>
+                                    <h4>
+                                                Guarantee
+                                    </h4>
+                                    <input
+                                                name="guarantee"
+                                                onChange={[Function]}
+                                                placeholder="guarantee"
+                                                type="number"
+                                                value={5000}
+                                    />
+                        </label>
+                        <label>
+                                    <h4>
+                                                Bonuses
+                                    </h4>
+                                    <input
+                                                name="bonuses"
+                                                onChange={[Function]}
+                                                placeholder="bonuses"
+                                                type="text"
+                                                value="+$1k at 600 sold"
+                                    />
+                        </label>
+                        <label>
+                                    <h4>
+                                                Radius Clause
+                                    </h4>
+                                    <input
+                                                name="radiusClause"
+                                                onChange={[Function]}
+                                                placeholder="Radius Clause"
+                                                type="text"
+                                                value="120mi +/- 60days"
+                                    />
+                        </label>
+                        <label>
+                                    <h4>
+                                                Total Expenses
+                                    </h4>
+                                    <input
+                                                name="totalExpenses"
+                                                onChange={[Function]}
+                                                placeholder="Total Expenses"
+                                                type="number"
+                                                value={2000}
+                                    />
+                        </label>
+            </div>
+            <div
+                        className="input-column-2"
+            >
+                        <label>
+                                    <h4>
+                                                Gross Potential
+                                    </h4>
+                                    <input
+                                                name="grossPotential"
+                                                onChange={[Function]}
+                                                placeholder="Gross Potential"
+                                                type="number"
+                                                value={8500}
+                                    />
+                        </label>
+                        <label>
+                                    <h4>
+                                                Door Times
+                                    </h4>
+                                    <input
+                                                name="doorTimes"
+                                                onChange={[Function]}
+                                                placeholder="Door Times"
+                                                type="text"
+                                                value="9pm-12am"
+                                    />
+                        </label>
+                        <label>
+                                    <h4>
+                                                Ages
+                                    </h4>
+                                    <input
+                                                name="ageRange"
+                                                onChange={[Function]}
+                                                placeholder="Age Range"
+                                                type="text"
+                                                value="16+"
+                                    />
+                        </label>
+                        <label>
+                                    <h4>
+                                                Merch Split
+                                    </h4>
+                                    <input
+                                                name="merchSplit"
+                                                onChange={[Function]}
+                                                placeholder="Merch Split"
+                                                type="text"
+                                                value="80/20 artist/venue"
+                                    />
+                        </label>
+                        <button>
+                                    Submit
+                        </button>
+            </div>
+</form>,
+          <p
+            onClick={[Function]}
 >
-            <h4>
-                        Artist:
-            </h4>
-            <input
-                        name="artist"
-                        onChange={[Function]}
-                        placeholder="artist"
-                        type="text"
-                        value=""
-            />
-</div>,
-          <div
-            className="input-wrapper"
->
-            <h4>
-                        Guarantee:
-            </h4>
-            <input
-                        name="guarantee"
-                        onChange={[Function]}
-                        placeholder="guarantee"
-                        type="number"
-                        value={0}
-            />
-</div>,
-          <div
-            className="input-wrapper"
->
-            <h4>
-                        Bonuses:
-            </h4>
-            <input
-                        name="bonuses"
-                        onChange={[Function]}
-                        placeholder="bonuses"
-                        type="number"
-                        value={0}
-            />
-</div>,
-          <div
-            className="input-wrapper"
->
-            <h4>
-                        Radius Clause:
-            </h4>
-            <input
-                        name="radiusClause"
-                        onChange={[Function]}
-                        placeholder="Radius Clause"
-                        type="text"
-                        value=""
-            />
-</div>,
-          <div
-            className="input-wrapper"
->
-            <h4>
-                        Total Expenses:
-            </h4>
-            <input
-                        name="totalExpenses"
-                        onChange={[Function]}
-                        placeholder="Total Expenses"
-                        type="number"
-                        value={0}
-            />
-</div>,
-          <div
-            className="input-wrapper"
->
-            <h4>
-                        Gross Potential:
-            </h4>
-            <input
-                        name="grossPotential"
-                        onChange={[Function]}
-                        placeholder="Gross Potential"
-                        type="number"
-                        value={0}
-            />
-</div>,
-          <div
-            className="input-wrapper"
->
-            <h4>
-                        Door Times:
-            </h4>
-            <input
-                        name="doorTimes"
-                        onChange={[Function]}
-                        placeholder="Door Times"
-                        type="number"
-                        value={0}
-            />
-</div>,
-          <div
-            className="input-wrapper"
->
-            <h4>
-                        Age Range:
-            </h4>
-            <input
-                        name="ageRange"
-                        onChange={[Function]}
-                        placeholder="Age Range"
-                        type="numer"
-                        value={0}
-            />
-</div>,
-          <div
-            className="input-wrapper"
->
-            <h4>
-                        Merch Split:
-            </h4>
-            <input
-                        name="merchSplit"
-                        onChange={[Function]}
-                        placeholder="Merch Split"
-                        type="text"
-                        value=""
-            />
-</div>,
+            x Cancel
+</p>,
         ],
-        "className": "offer-form",
+        "className": "inner-modal",
       },
       "ref": null,
       "rendered": Array [
@@ -930,43 +358,158 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Offer Form",
-          },
-          "ref": null,
-          "rendered": "Offer Form",
-          "type": "h1",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
             "children": Array [
-              <h4>
-                Status:
-</h4>,
-              <select
-                name="status"
-                onChange={[Function]}
+              <div
+                className="input-column-1"
 >
-                <option
-                                value="active"
+                <div
+                                className="select-wrapper"
                 >
-                                active
-                </option>
-                <option
-                                value="pending"
-                >
-                                pending
-                </option>
-                <option
-                                value="confirmed"
-                >
-                                confirmed
-                </option>
-</select>,
+                                <label>
+                                                <h4>
+                                                                Status
+                                                </h4>
+                                                <select
+                                                                name="status"
+                                                                onChange={[Function]}
+                                                >
+                                                                <option
+                                                                                value="active"
+                                                                >
+                                                                                active
+                                                                </option>
+                                                                <option
+                                                                                value="pending"
+                                                                >
+                                                                                pending
+                                                                </option>
+                                                                <option
+                                                                                value="confirmed"
+                                                                >
+                                                                                confirmed
+                                                                </option>
+                                                </select>
+                                </label>
+                </div>
+                <label>
+                                <h4>
+                                                Artist
+                                </h4>
+                                <input
+                                                name="artist"
+                                                onChange={[Function]}
+                                                placeholder="artist"
+                                                type="text"
+                                                value=""
+                                />
+                </label>
+                <label>
+                                <h4>
+                                                Guarantee
+                                </h4>
+                                <input
+                                                name="guarantee"
+                                                onChange={[Function]}
+                                                placeholder="guarantee"
+                                                type="number"
+                                                value={5000}
+                                />
+                </label>
+                <label>
+                                <h4>
+                                                Bonuses
+                                </h4>
+                                <input
+                                                name="bonuses"
+                                                onChange={[Function]}
+                                                placeholder="bonuses"
+                                                type="text"
+                                                value="+$1k at 600 sold"
+                                />
+                </label>
+                <label>
+                                <h4>
+                                                Radius Clause
+                                </h4>
+                                <input
+                                                name="radiusClause"
+                                                onChange={[Function]}
+                                                placeholder="Radius Clause"
+                                                type="text"
+                                                value="120mi +/- 60days"
+                                />
+                </label>
+                <label>
+                                <h4>
+                                                Total Expenses
+                                </h4>
+                                <input
+                                                name="totalExpenses"
+                                                onChange={[Function]}
+                                                placeholder="Total Expenses"
+                                                type="number"
+                                                value={2000}
+                                />
+                </label>
+</div>,
+              <div
+                className="input-column-2"
+>
+                <label>
+                                <h4>
+                                                Gross Potential
+                                </h4>
+                                <input
+                                                name="grossPotential"
+                                                onChange={[Function]}
+                                                placeholder="Gross Potential"
+                                                type="number"
+                                                value={8500}
+                                />
+                </label>
+                <label>
+                                <h4>
+                                                Door Times
+                                </h4>
+                                <input
+                                                name="doorTimes"
+                                                onChange={[Function]}
+                                                placeholder="Door Times"
+                                                type="text"
+                                                value="9pm-12am"
+                                />
+                </label>
+                <label>
+                                <h4>
+                                                Ages
+                                </h4>
+                                <input
+                                                name="ageRange"
+                                                onChange={[Function]}
+                                                placeholder="Age Range"
+                                                type="text"
+                                                value="16+"
+                                />
+                </label>
+                <label>
+                                <h4>
+                                                Merch Split
+                                </h4>
+                                <input
+                                                name="merchSplit"
+                                                onChange={[Function]}
+                                                placeholder="Merch Split"
+                                                type="text"
+                                                value="80/20 artist/venue"
+                                />
+                </label>
+                <button>
+                                Submit
+                </button>
+</div>,
             ],
-            "className": "input-wrapper",
+            "className": "offer-form",
+            "onSubmit": undefined,
           },
           "ref": null,
           "rendered": Array [
@@ -975,36 +518,98 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Status:",
-              },
-              "ref": null,
-              "rendered": "Status:",
-              "type": "h4",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
                 "children": Array [
-                  <option
-                    value="active"
+                  <div
+                    className="select-wrapper"
 >
-                    active
-</option>,
-                  <option
-                    value="pending"
->
-                    pending
-</option>,
-                  <option
-                    value="confirmed"
->
-                    confirmed
-</option>,
+                    <label>
+                                        <h4>
+                                                            Status
+                                        </h4>
+                                        <select
+                                                            name="status"
+                                                            onChange={[Function]}
+                                        >
+                                                            <option
+                                                                                value="active"
+                                                            >
+                                                                                active
+                                                            </option>
+                                                            <option
+                                                                                value="pending"
+                                                            >
+                                                                                pending
+                                                            </option>
+                                                            <option
+                                                                                value="confirmed"
+                                                            >
+                                                                                confirmed
+                                                            </option>
+                                        </select>
+                    </label>
+</div>,
+                  <label>
+                    <h4>
+                                        Artist
+                    </h4>
+                    <input
+                                        name="artist"
+                                        onChange={[Function]}
+                                        placeholder="artist"
+                                        type="text"
+                                        value=""
+                    />
+</label>,
+                  <label>
+                    <h4>
+                                        Guarantee
+                    </h4>
+                    <input
+                                        name="guarantee"
+                                        onChange={[Function]}
+                                        placeholder="guarantee"
+                                        type="number"
+                                        value={5000}
+                    />
+</label>,
+                  <label>
+                    <h4>
+                                        Bonuses
+                    </h4>
+                    <input
+                                        name="bonuses"
+                                        onChange={[Function]}
+                                        placeholder="bonuses"
+                                        type="text"
+                                        value="+$1k at 600 sold"
+                    />
+</label>,
+                  <label>
+                    <h4>
+                                        Radius Clause
+                    </h4>
+                    <input
+                                        name="radiusClause"
+                                        onChange={[Function]}
+                                        placeholder="Radius Clause"
+                                        type="text"
+                                        value="120mi +/- 60days"
+                    />
+</label>,
+                  <label>
+                    <h4>
+                                        Total Expenses
+                    </h4>
+                    <input
+                                        name="totalExpenses"
+                                        onChange={[Function]}
+                                        placeholder="Total Expenses"
+                                        type="number"
+                                        value={2000}
+                    />
+</label>,
                 ],
-                "name": "status",
-                "onChange": [Function],
+                "className": "input-column-1",
               },
               "ref": null,
               "rendered": Array [
@@ -1013,495 +618,1976 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "active",
-                    "value": "active",
+                    "children": <label>
+                      <h4>
+                                            Status
+                      </h4>
+                      <select
+                                            name="status"
+                                            onChange={[Function]}
+                      >
+                                            <option
+                                                                  value="active"
+                                            >
+                                                                  active
+                                            </option>
+                                            <option
+                                                                  value="pending"
+                                            >
+                                                                  pending
+                                            </option>
+                                            <option
+                                                                  value="confirmed"
+                                            >
+                                                                  confirmed
+                                            </option>
+                      </select>
+</label>,
+                    "className": "select-wrapper",
                   },
                   "ref": null,
-                  "rendered": "active",
-                  "type": "option",
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h4>
+                          Status
+</h4>,
+                        <select
+                          name="status"
+                          onChange={[Function]}
+>
+                          <option
+                                                    value="active"
+                          >
+                                                    active
+                          </option>
+                          <option
+                                                    value="pending"
+                          >
+                                                    pending
+                          </option>
+                          <option
+                                                    value="confirmed"
+                          >
+                                                    confirmed
+                          </option>
+</select>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Status",
+                        },
+                        "ref": null,
+                        "rendered": "Status",
+                        "type": "h4",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <option
+                              value="active"
+>
+                              active
+</option>,
+                            <option
+                              value="pending"
+>
+                              pending
+</option>,
+                            <option
+                              value="confirmed"
+>
+                              confirmed
+</option>,
+                          ],
+                          "name": "status",
+                          "onChange": [Function],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "active",
+                              "value": "active",
+                            },
+                            "ref": null,
+                            "rendered": "active",
+                            "type": "option",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "pending",
+                              "value": "pending",
+                            },
+                            "ref": null,
+                            "rendered": "pending",
+                            "type": "option",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "confirmed",
+                              "value": "confirmed",
+                            },
+                            "ref": null,
+                            "rendered": "confirmed",
+                            "type": "option",
+                          },
+                        ],
+                        "type": "select",
+                      },
+                    ],
+                    "type": "label",
+                  },
+                  "type": "div",
                 },
                 Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "pending",
-                    "value": "pending",
+                    "children": Array [
+                      <h4>
+                        Artist
+</h4>,
+                      <input
+                        name="artist"
+                        onChange={[Function]}
+                        placeholder="artist"
+                        type="text"
+                        value=""
+/>,
+                    ],
                   },
                   "ref": null,
-                  "rendered": "pending",
-                  "type": "option",
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Artist",
+                      },
+                      "ref": null,
+                      "rendered": "Artist",
+                      "type": "h4",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "name": "artist",
+                        "onChange": [Function],
+                        "placeholder": "artist",
+                        "type": "text",
+                        "value": "",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                  ],
+                  "type": "label",
                 },
                 Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "confirmed",
-                    "value": "confirmed",
+                    "children": Array [
+                      <h4>
+                        Guarantee
+</h4>,
+                      <input
+                        name="guarantee"
+                        onChange={[Function]}
+                        placeholder="guarantee"
+                        type="number"
+                        value={5000}
+/>,
+                    ],
                   },
                   "ref": null,
-                  "rendered": "confirmed",
-                  "type": "option",
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Guarantee",
+                      },
+                      "ref": null,
+                      "rendered": "Guarantee",
+                      "type": "h4",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "name": "guarantee",
+                        "onChange": [Function],
+                        "placeholder": "guarantee",
+                        "type": "number",
+                        "value": 5000,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                  ],
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h4>
+                        Bonuses
+</h4>,
+                      <input
+                        name="bonuses"
+                        onChange={[Function]}
+                        placeholder="bonuses"
+                        type="text"
+                        value="+$1k at 600 sold"
+/>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Bonuses",
+                      },
+                      "ref": null,
+                      "rendered": "Bonuses",
+                      "type": "h4",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "name": "bonuses",
+                        "onChange": [Function],
+                        "placeholder": "bonuses",
+                        "type": "text",
+                        "value": "+$1k at 600 sold",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                  ],
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h4>
+                        Radius Clause
+</h4>,
+                      <input
+                        name="radiusClause"
+                        onChange={[Function]}
+                        placeholder="Radius Clause"
+                        type="text"
+                        value="120mi +/- 60days"
+/>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Radius Clause",
+                      },
+                      "ref": null,
+                      "rendered": "Radius Clause",
+                      "type": "h4",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "name": "radiusClause",
+                        "onChange": [Function],
+                        "placeholder": "Radius Clause",
+                        "type": "text",
+                        "value": "120mi +/- 60days",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                  ],
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h4>
+                        Total Expenses
+</h4>,
+                      <input
+                        name="totalExpenses"
+                        onChange={[Function]}
+                        placeholder="Total Expenses"
+                        type="number"
+                        value={2000}
+/>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Total Expenses",
+                      },
+                      "ref": null,
+                      "rendered": "Total Expenses",
+                      "type": "h4",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "name": "totalExpenses",
+                        "onChange": [Function],
+                        "placeholder": "Total Expenses",
+                        "type": "number",
+                        "value": 2000,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                  ],
+                  "type": "label",
                 },
               ],
-              "type": "select",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label>
+                    <h4>
+                                        Gross Potential
+                    </h4>
+                    <input
+                                        name="grossPotential"
+                                        onChange={[Function]}
+                                        placeholder="Gross Potential"
+                                        type="number"
+                                        value={8500}
+                    />
+</label>,
+                  <label>
+                    <h4>
+                                        Door Times
+                    </h4>
+                    <input
+                                        name="doorTimes"
+                                        onChange={[Function]}
+                                        placeholder="Door Times"
+                                        type="text"
+                                        value="9pm-12am"
+                    />
+</label>,
+                  <label>
+                    <h4>
+                                        Ages
+                    </h4>
+                    <input
+                                        name="ageRange"
+                                        onChange={[Function]}
+                                        placeholder="Age Range"
+                                        type="text"
+                                        value="16+"
+                    />
+</label>,
+                  <label>
+                    <h4>
+                                        Merch Split
+                    </h4>
+                    <input
+                                        name="merchSplit"
+                                        onChange={[Function]}
+                                        placeholder="Merch Split"
+                                        type="text"
+                                        value="80/20 artist/venue"
+                    />
+</label>,
+                  <button>
+                    Submit
+</button>,
+                ],
+                "className": "input-column-2",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h4>
+                        Gross Potential
+</h4>,
+                      <input
+                        name="grossPotential"
+                        onChange={[Function]}
+                        placeholder="Gross Potential"
+                        type="number"
+                        value={8500}
+/>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Gross Potential",
+                      },
+                      "ref": null,
+                      "rendered": "Gross Potential",
+                      "type": "h4",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "name": "grossPotential",
+                        "onChange": [Function],
+                        "placeholder": "Gross Potential",
+                        "type": "number",
+                        "value": 8500,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                  ],
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h4>
+                        Door Times
+</h4>,
+                      <input
+                        name="doorTimes"
+                        onChange={[Function]}
+                        placeholder="Door Times"
+                        type="text"
+                        value="9pm-12am"
+/>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Door Times",
+                      },
+                      "ref": null,
+                      "rendered": "Door Times",
+                      "type": "h4",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "name": "doorTimes",
+                        "onChange": [Function],
+                        "placeholder": "Door Times",
+                        "type": "text",
+                        "value": "9pm-12am",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                  ],
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h4>
+                        Ages
+</h4>,
+                      <input
+                        name="ageRange"
+                        onChange={[Function]}
+                        placeholder="Age Range"
+                        type="text"
+                        value="16+"
+/>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Ages",
+                      },
+                      "ref": null,
+                      "rendered": "Ages",
+                      "type": "h4",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "name": "ageRange",
+                        "onChange": [Function],
+                        "placeholder": "Age Range",
+                        "type": "text",
+                        "value": "16+",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                  ],
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h4>
+                        Merch Split
+</h4>,
+                      <input
+                        name="merchSplit"
+                        onChange={[Function]}
+                        placeholder="Merch Split"
+                        type="text"
+                        value="80/20 artist/venue"
+/>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Merch Split",
+                      },
+                      "ref": null,
+                      "rendered": "Merch Split",
+                      "type": "h4",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "name": "merchSplit",
+                        "onChange": [Function],
+                        "placeholder": "Merch Split",
+                        "type": "text",
+                        "value": "80/20 artist/venue",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                  ],
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Submit",
+                  },
+                  "ref": null,
+                  "rendered": "Submit",
+                  "type": "button",
+                },
+              ],
+              "type": "div",
             },
           ],
-          "type": "div",
+          "type": "form",
         },
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": Array [
-              <h4>
-                Artist:
-</h4>,
-              <input
-                name="artist"
-                onChange={[Function]}
-                placeholder="artist"
-                type="text"
-                value=""
-/>,
-            ],
-            "className": "input-wrapper",
+            "children": "x Cancel",
+            "onClick": [Function],
           },
           "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Artist:",
-              },
-              "ref": null,
-              "rendered": "Artist:",
-              "type": "h4",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "name": "artist",
-                "onChange": [Function],
-                "placeholder": "artist",
-                "type": "text",
-                "value": "",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "input",
-            },
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <h4>
-                Guarantee:
-</h4>,
-              <input
-                name="guarantee"
-                onChange={[Function]}
-                placeholder="guarantee"
-                type="number"
-                value={0}
-/>,
-            ],
-            "className": "input-wrapper",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Guarantee:",
-              },
-              "ref": null,
-              "rendered": "Guarantee:",
-              "type": "h4",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "name": "guarantee",
-                "onChange": [Function],
-                "placeholder": "guarantee",
-                "type": "number",
-                "value": 0,
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "input",
-            },
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <h4>
-                Bonuses:
-</h4>,
-              <input
-                name="bonuses"
-                onChange={[Function]}
-                placeholder="bonuses"
-                type="number"
-                value={0}
-/>,
-            ],
-            "className": "input-wrapper",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Bonuses:",
-              },
-              "ref": null,
-              "rendered": "Bonuses:",
-              "type": "h4",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "name": "bonuses",
-                "onChange": [Function],
-                "placeholder": "bonuses",
-                "type": "number",
-                "value": 0,
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "input",
-            },
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <h4>
-                Radius Clause:
-</h4>,
-              <input
-                name="radiusClause"
-                onChange={[Function]}
-                placeholder="Radius Clause"
-                type="text"
-                value=""
-/>,
-            ],
-            "className": "input-wrapper",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Radius Clause:",
-              },
-              "ref": null,
-              "rendered": "Radius Clause:",
-              "type": "h4",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "name": "radiusClause",
-                "onChange": [Function],
-                "placeholder": "Radius Clause",
-                "type": "text",
-                "value": "",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "input",
-            },
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <h4>
-                Total Expenses:
-</h4>,
-              <input
-                name="totalExpenses"
-                onChange={[Function]}
-                placeholder="Total Expenses"
-                type="number"
-                value={0}
-/>,
-            ],
-            "className": "input-wrapper",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Total Expenses:",
-              },
-              "ref": null,
-              "rendered": "Total Expenses:",
-              "type": "h4",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "name": "totalExpenses",
-                "onChange": [Function],
-                "placeholder": "Total Expenses",
-                "type": "number",
-                "value": 0,
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "input",
-            },
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <h4>
-                Gross Potential:
-</h4>,
-              <input
-                name="grossPotential"
-                onChange={[Function]}
-                placeholder="Gross Potential"
-                type="number"
-                value={0}
-/>,
-            ],
-            "className": "input-wrapper",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Gross Potential:",
-              },
-              "ref": null,
-              "rendered": "Gross Potential:",
-              "type": "h4",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "name": "grossPotential",
-                "onChange": [Function],
-                "placeholder": "Gross Potential",
-                "type": "number",
-                "value": 0,
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "input",
-            },
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <h4>
-                Door Times:
-</h4>,
-              <input
-                name="doorTimes"
-                onChange={[Function]}
-                placeholder="Door Times"
-                type="number"
-                value={0}
-/>,
-            ],
-            "className": "input-wrapper",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Door Times:",
-              },
-              "ref": null,
-              "rendered": "Door Times:",
-              "type": "h4",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "name": "doorTimes",
-                "onChange": [Function],
-                "placeholder": "Door Times",
-                "type": "number",
-                "value": 0,
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "input",
-            },
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <h4>
-                Age Range:
-</h4>,
-              <input
-                name="ageRange"
-                onChange={[Function]}
-                placeholder="Age Range"
-                type="numer"
-                value={0}
-/>,
-            ],
-            "className": "input-wrapper",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Age Range:",
-              },
-              "ref": null,
-              "rendered": "Age Range:",
-              "type": "h4",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "name": "ageRange",
-                "onChange": [Function],
-                "placeholder": "Age Range",
-                "type": "numer",
-                "value": 0,
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "input",
-            },
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <h4>
-                Merch Split:
-</h4>,
-              <input
-                name="merchSplit"
-                onChange={[Function]}
-                placeholder="Merch Split"
-                type="text"
-                value=""
-/>,
-            ],
-            "className": "input-wrapper",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Merch Split:",
-              },
-              "ref": null,
-              "rendered": "Merch Split:",
-              "type": "h4",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "name": "merchSplit",
-                "onChange": [Function],
-                "placeholder": "Merch Split",
-                "type": "text",
-                "value": "",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "input",
-            },
-          ],
-          "type": "div",
+          "rendered": "x Cancel",
+          "type": "p",
         },
       ],
-      "type": "form",
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="inner-modal"
+>
+          <form
+                    className="offer-form"
+                    onSubmit={undefined}
+          >
+                    <div
+                              className="input-column-1"
+                    >
+                              <div
+                                        className="select-wrapper"
+                              >
+                                        <label>
+                                                  <h4>
+                                                            Status
+                                                  </h4>
+                                                  <select
+                                                            name="status"
+                                                            onChange={[Function]}
+                                                  >
+                                                            <option
+                                                                      value="active"
+                                                            >
+                                                                      active
+                                                            </option>
+                                                            <option
+                                                                      value="pending"
+                                                            >
+                                                                      pending
+                                                            </option>
+                                                            <option
+                                                                      value="confirmed"
+                                                            >
+                                                                      confirmed
+                                                            </option>
+                                                  </select>
+                                        </label>
+                              </div>
+                              <label>
+                                        <h4>
+                                                  Artist
+                                        </h4>
+                                        <input
+                                                  name="artist"
+                                                  onChange={[Function]}
+                                                  placeholder="artist"
+                                                  type="text"
+                                                  value=""
+                                        />
+                              </label>
+                              <label>
+                                        <h4>
+                                                  Guarantee
+                                        </h4>
+                                        <input
+                                                  name="guarantee"
+                                                  onChange={[Function]}
+                                                  placeholder="guarantee"
+                                                  type="number"
+                                                  value={5000}
+                                        />
+                              </label>
+                              <label>
+                                        <h4>
+                                                  Bonuses
+                                        </h4>
+                                        <input
+                                                  name="bonuses"
+                                                  onChange={[Function]}
+                                                  placeholder="bonuses"
+                                                  type="text"
+                                                  value="+$1k at 600 sold"
+                                        />
+                              </label>
+                              <label>
+                                        <h4>
+                                                  Radius Clause
+                                        </h4>
+                                        <input
+                                                  name="radiusClause"
+                                                  onChange={[Function]}
+                                                  placeholder="Radius Clause"
+                                                  type="text"
+                                                  value="120mi +/- 60days"
+                                        />
+                              </label>
+                              <label>
+                                        <h4>
+                                                  Total Expenses
+                                        </h4>
+                                        <input
+                                                  name="totalExpenses"
+                                                  onChange={[Function]}
+                                                  placeholder="Total Expenses"
+                                                  type="number"
+                                                  value={2000}
+                                        />
+                              </label>
+                    </div>
+                    <div
+                              className="input-column-2"
+                    >
+                              <label>
+                                        <h4>
+                                                  Gross Potential
+                                        </h4>
+                                        <input
+                                                  name="grossPotential"
+                                                  onChange={[Function]}
+                                                  placeholder="Gross Potential"
+                                                  type="number"
+                                                  value={8500}
+                                        />
+                              </label>
+                              <label>
+                                        <h4>
+                                                  Door Times
+                                        </h4>
+                                        <input
+                                                  name="doorTimes"
+                                                  onChange={[Function]}
+                                                  placeholder="Door Times"
+                                                  type="text"
+                                                  value="9pm-12am"
+                                        />
+                              </label>
+                              <label>
+                                        <h4>
+                                                  Ages
+                                        </h4>
+                                        <input
+                                                  name="ageRange"
+                                                  onChange={[Function]}
+                                                  placeholder="Age Range"
+                                                  type="text"
+                                                  value="16+"
+                                        />
+                              </label>
+                              <label>
+                                        <h4>
+                                                  Merch Split
+                                        </h4>
+                                        <input
+                                                  name="merchSplit"
+                                                  onChange={[Function]}
+                                                  placeholder="Merch Split"
+                                                  type="text"
+                                                  value="80/20 artist/venue"
+                                        />
+                              </label>
+                              <button>
+                                        Submit
+                              </button>
+                    </div>
+          </form>
+          <p
+                    onClick={[Function]}
+          >
+                    x Cancel
+          </p>
+</div>,
+        "className": "offer-modal",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <form
+              className="offer-form"
+              onSubmit={undefined}
+>
+              <div
+                            className="input-column-1"
+              >
+                            <div
+                                          className="select-wrapper"
+                            >
+                                          <label>
+                                                        <h4>
+                                                                      Status
+                                                        </h4>
+                                                        <select
+                                                                      name="status"
+                                                                      onChange={[Function]}
+                                                        >
+                                                                      <option
+                                                                                    value="active"
+                                                                      >
+                                                                                    active
+                                                                      </option>
+                                                                      <option
+                                                                                    value="pending"
+                                                                      >
+                                                                                    pending
+                                                                      </option>
+                                                                      <option
+                                                                                    value="confirmed"
+                                                                      >
+                                                                                    confirmed
+                                                                      </option>
+                                                        </select>
+                                          </label>
+                            </div>
+                            <label>
+                                          <h4>
+                                                        Artist
+                                          </h4>
+                                          <input
+                                                        name="artist"
+                                                        onChange={[Function]}
+                                                        placeholder="artist"
+                                                        type="text"
+                                                        value=""
+                                          />
+                            </label>
+                            <label>
+                                          <h4>
+                                                        Guarantee
+                                          </h4>
+                                          <input
+                                                        name="guarantee"
+                                                        onChange={[Function]}
+                                                        placeholder="guarantee"
+                                                        type="number"
+                                                        value={5000}
+                                          />
+                            </label>
+                            <label>
+                                          <h4>
+                                                        Bonuses
+                                          </h4>
+                                          <input
+                                                        name="bonuses"
+                                                        onChange={[Function]}
+                                                        placeholder="bonuses"
+                                                        type="text"
+                                                        value="+$1k at 600 sold"
+                                          />
+                            </label>
+                            <label>
+                                          <h4>
+                                                        Radius Clause
+                                          </h4>
+                                          <input
+                                                        name="radiusClause"
+                                                        onChange={[Function]}
+                                                        placeholder="Radius Clause"
+                                                        type="text"
+                                                        value="120mi +/- 60days"
+                                          />
+                            </label>
+                            <label>
+                                          <h4>
+                                                        Total Expenses
+                                          </h4>
+                                          <input
+                                                        name="totalExpenses"
+                                                        onChange={[Function]}
+                                                        placeholder="Total Expenses"
+                                                        type="number"
+                                                        value={2000}
+                                          />
+                            </label>
+              </div>
+              <div
+                            className="input-column-2"
+              >
+                            <label>
+                                          <h4>
+                                                        Gross Potential
+                                          </h4>
+                                          <input
+                                                        name="grossPotential"
+                                                        onChange={[Function]}
+                                                        placeholder="Gross Potential"
+                                                        type="number"
+                                                        value={8500}
+                                          />
+                            </label>
+                            <label>
+                                          <h4>
+                                                        Door Times
+                                          </h4>
+                                          <input
+                                                        name="doorTimes"
+                                                        onChange={[Function]}
+                                                        placeholder="Door Times"
+                                                        type="text"
+                                                        value="9pm-12am"
+                                          />
+                            </label>
+                            <label>
+                                          <h4>
+                                                        Ages
+                                          </h4>
+                                          <input
+                                                        name="ageRange"
+                                                        onChange={[Function]}
+                                                        placeholder="Age Range"
+                                                        type="text"
+                                                        value="16+"
+                                          />
+                            </label>
+                            <label>
+                                          <h4>
+                                                        Merch Split
+                                          </h4>
+                                          <input
+                                                        name="merchSplit"
+                                                        onChange={[Function]}
+                                                        placeholder="Merch Split"
+                                                        type="text"
+                                                        value="80/20 artist/venue"
+                                          />
+                            </label>
+                            <button>
+                                          Submit
+                            </button>
+              </div>
+</form>,
+            <p
+              onClick={[Function]}
+>
+              x Cancel
+</p>,
+          ],
+          "className": "inner-modal",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="input-column-1"
+>
+                  <div
+                                    className="select-wrapper"
+                  >
+                                    <label>
+                                                      <h4>
+                                                                        Status
+                                                      </h4>
+                                                      <select
+                                                                        name="status"
+                                                                        onChange={[Function]}
+                                                      >
+                                                                        <option
+                                                                                          value="active"
+                                                                        >
+                                                                                          active
+                                                                        </option>
+                                                                        <option
+                                                                                          value="pending"
+                                                                        >
+                                                                                          pending
+                                                                        </option>
+                                                                        <option
+                                                                                          value="confirmed"
+                                                                        >
+                                                                                          confirmed
+                                                                        </option>
+                                                      </select>
+                                    </label>
+                  </div>
+                  <label>
+                                    <h4>
+                                                      Artist
+                                    </h4>
+                                    <input
+                                                      name="artist"
+                                                      onChange={[Function]}
+                                                      placeholder="artist"
+                                                      type="text"
+                                                      value=""
+                                    />
+                  </label>
+                  <label>
+                                    <h4>
+                                                      Guarantee
+                                    </h4>
+                                    <input
+                                                      name="guarantee"
+                                                      onChange={[Function]}
+                                                      placeholder="guarantee"
+                                                      type="number"
+                                                      value={5000}
+                                    />
+                  </label>
+                  <label>
+                                    <h4>
+                                                      Bonuses
+                                    </h4>
+                                    <input
+                                                      name="bonuses"
+                                                      onChange={[Function]}
+                                                      placeholder="bonuses"
+                                                      type="text"
+                                                      value="+$1k at 600 sold"
+                                    />
+                  </label>
+                  <label>
+                                    <h4>
+                                                      Radius Clause
+                                    </h4>
+                                    <input
+                                                      name="radiusClause"
+                                                      onChange={[Function]}
+                                                      placeholder="Radius Clause"
+                                                      type="text"
+                                                      value="120mi +/- 60days"
+                                    />
+                  </label>
+                  <label>
+                                    <h4>
+                                                      Total Expenses
+                                    </h4>
+                                    <input
+                                                      name="totalExpenses"
+                                                      onChange={[Function]}
+                                                      placeholder="Total Expenses"
+                                                      type="number"
+                                                      value={2000}
+                                    />
+                  </label>
+</div>,
+                <div
+                  className="input-column-2"
+>
+                  <label>
+                                    <h4>
+                                                      Gross Potential
+                                    </h4>
+                                    <input
+                                                      name="grossPotential"
+                                                      onChange={[Function]}
+                                                      placeholder="Gross Potential"
+                                                      type="number"
+                                                      value={8500}
+                                    />
+                  </label>
+                  <label>
+                                    <h4>
+                                                      Door Times
+                                    </h4>
+                                    <input
+                                                      name="doorTimes"
+                                                      onChange={[Function]}
+                                                      placeholder="Door Times"
+                                                      type="text"
+                                                      value="9pm-12am"
+                                    />
+                  </label>
+                  <label>
+                                    <h4>
+                                                      Ages
+                                    </h4>
+                                    <input
+                                                      name="ageRange"
+                                                      onChange={[Function]}
+                                                      placeholder="Age Range"
+                                                      type="text"
+                                                      value="16+"
+                                    />
+                  </label>
+                  <label>
+                                    <h4>
+                                                      Merch Split
+                                    </h4>
+                                    <input
+                                                      name="merchSplit"
+                                                      onChange={[Function]}
+                                                      placeholder="Merch Split"
+                                                      type="text"
+                                                      value="80/20 artist/venue"
+                                    />
+                  </label>
+                  <button>
+                                    Submit
+                  </button>
+</div>,
+              ],
+              "className": "offer-form",
+              "onSubmit": undefined,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="select-wrapper"
+>
+                      <label>
+                                            <h4>
+                                                                  Status
+                                            </h4>
+                                            <select
+                                                                  name="status"
+                                                                  onChange={[Function]}
+                                            >
+                                                                  <option
+                                                                                        value="active"
+                                                                  >
+                                                                                        active
+                                                                  </option>
+                                                                  <option
+                                                                                        value="pending"
+                                                                  >
+                                                                                        pending
+                                                                  </option>
+                                                                  <option
+                                                                                        value="confirmed"
+                                                                  >
+                                                                                        confirmed
+                                                                  </option>
+                                            </select>
+                      </label>
+</div>,
+                    <label>
+                      <h4>
+                                            Artist
+                      </h4>
+                      <input
+                                            name="artist"
+                                            onChange={[Function]}
+                                            placeholder="artist"
+                                            type="text"
+                                            value=""
+                      />
+</label>,
+                    <label>
+                      <h4>
+                                            Guarantee
+                      </h4>
+                      <input
+                                            name="guarantee"
+                                            onChange={[Function]}
+                                            placeholder="guarantee"
+                                            type="number"
+                                            value={5000}
+                      />
+</label>,
+                    <label>
+                      <h4>
+                                            Bonuses
+                      </h4>
+                      <input
+                                            name="bonuses"
+                                            onChange={[Function]}
+                                            placeholder="bonuses"
+                                            type="text"
+                                            value="+$1k at 600 sold"
+                      />
+</label>,
+                    <label>
+                      <h4>
+                                            Radius Clause
+                      </h4>
+                      <input
+                                            name="radiusClause"
+                                            onChange={[Function]}
+                                            placeholder="Radius Clause"
+                                            type="text"
+                                            value="120mi +/- 60days"
+                      />
+</label>,
+                    <label>
+                      <h4>
+                                            Total Expenses
+                      </h4>
+                      <input
+                                            name="totalExpenses"
+                                            onChange={[Function]}
+                                            placeholder="Total Expenses"
+                                            type="number"
+                                            value={2000}
+                      />
+</label>,
+                  ],
+                  "className": "input-column-1",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <label>
+                        <h4>
+                                                Status
+                        </h4>
+                        <select
+                                                name="status"
+                                                onChange={[Function]}
+                        >
+                                                <option
+                                                                        value="active"
+                                                >
+                                                                        active
+                                                </option>
+                                                <option
+                                                                        value="pending"
+                                                >
+                                                                        pending
+                                                </option>
+                                                <option
+                                                                        value="confirmed"
+                                                >
+                                                                        confirmed
+                                                </option>
+                        </select>
+</label>,
+                      "className": "select-wrapper",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <h4>
+                            Status
+</h4>,
+                          <select
+                            name="status"
+                            onChange={[Function]}
+>
+                            <option
+                                                        value="active"
+                            >
+                                                        active
+                            </option>
+                            <option
+                                                        value="pending"
+                            >
+                                                        pending
+                            </option>
+                            <option
+                                                        value="confirmed"
+                            >
+                                                        confirmed
+                            </option>
+</select>,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Status",
+                          },
+                          "ref": null,
+                          "rendered": "Status",
+                          "type": "h4",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <option
+                                value="active"
+>
+                                active
+</option>,
+                              <option
+                                value="pending"
+>
+                                pending
+</option>,
+                              <option
+                                value="confirmed"
+>
+                                confirmed
+</option>,
+                            ],
+                            "name": "status",
+                            "onChange": [Function],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "active",
+                                "value": "active",
+                              },
+                              "ref": null,
+                              "rendered": "active",
+                              "type": "option",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "pending",
+                                "value": "pending",
+                              },
+                              "ref": null,
+                              "rendered": "pending",
+                              "type": "option",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "confirmed",
+                                "value": "confirmed",
+                              },
+                              "ref": null,
+                              "rendered": "confirmed",
+                              "type": "option",
+                            },
+                          ],
+                          "type": "select",
+                        },
+                      ],
+                      "type": "label",
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h4>
+                          Artist
+</h4>,
+                        <input
+                          name="artist"
+                          onChange={[Function]}
+                          placeholder="artist"
+                          type="text"
+                          value=""
+/>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Artist",
+                        },
+                        "ref": null,
+                        "rendered": "Artist",
+                        "type": "h4",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "name": "artist",
+                          "onChange": [Function],
+                          "placeholder": "artist",
+                          "type": "text",
+                          "value": "",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                    ],
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h4>
+                          Guarantee
+</h4>,
+                        <input
+                          name="guarantee"
+                          onChange={[Function]}
+                          placeholder="guarantee"
+                          type="number"
+                          value={5000}
+/>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Guarantee",
+                        },
+                        "ref": null,
+                        "rendered": "Guarantee",
+                        "type": "h4",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "name": "guarantee",
+                          "onChange": [Function],
+                          "placeholder": "guarantee",
+                          "type": "number",
+                          "value": 5000,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                    ],
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h4>
+                          Bonuses
+</h4>,
+                        <input
+                          name="bonuses"
+                          onChange={[Function]}
+                          placeholder="bonuses"
+                          type="text"
+                          value="+$1k at 600 sold"
+/>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Bonuses",
+                        },
+                        "ref": null,
+                        "rendered": "Bonuses",
+                        "type": "h4",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "name": "bonuses",
+                          "onChange": [Function],
+                          "placeholder": "bonuses",
+                          "type": "text",
+                          "value": "+$1k at 600 sold",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                    ],
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h4>
+                          Radius Clause
+</h4>,
+                        <input
+                          name="radiusClause"
+                          onChange={[Function]}
+                          placeholder="Radius Clause"
+                          type="text"
+                          value="120mi +/- 60days"
+/>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Radius Clause",
+                        },
+                        "ref": null,
+                        "rendered": "Radius Clause",
+                        "type": "h4",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "name": "radiusClause",
+                          "onChange": [Function],
+                          "placeholder": "Radius Clause",
+                          "type": "text",
+                          "value": "120mi +/- 60days",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                    ],
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h4>
+                          Total Expenses
+</h4>,
+                        <input
+                          name="totalExpenses"
+                          onChange={[Function]}
+                          placeholder="Total Expenses"
+                          type="number"
+                          value={2000}
+/>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Total Expenses",
+                        },
+                        "ref": null,
+                        "rendered": "Total Expenses",
+                        "type": "h4",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "name": "totalExpenses",
+                          "onChange": [Function],
+                          "placeholder": "Total Expenses",
+                          "type": "number",
+                          "value": 2000,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                    ],
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <label>
+                      <h4>
+                                            Gross Potential
+                      </h4>
+                      <input
+                                            name="grossPotential"
+                                            onChange={[Function]}
+                                            placeholder="Gross Potential"
+                                            type="number"
+                                            value={8500}
+                      />
+</label>,
+                    <label>
+                      <h4>
+                                            Door Times
+                      </h4>
+                      <input
+                                            name="doorTimes"
+                                            onChange={[Function]}
+                                            placeholder="Door Times"
+                                            type="text"
+                                            value="9pm-12am"
+                      />
+</label>,
+                    <label>
+                      <h4>
+                                            Ages
+                      </h4>
+                      <input
+                                            name="ageRange"
+                                            onChange={[Function]}
+                                            placeholder="Age Range"
+                                            type="text"
+                                            value="16+"
+                      />
+</label>,
+                    <label>
+                      <h4>
+                                            Merch Split
+                      </h4>
+                      <input
+                                            name="merchSplit"
+                                            onChange={[Function]}
+                                            placeholder="Merch Split"
+                                            type="text"
+                                            value="80/20 artist/venue"
+                      />
+</label>,
+                    <button>
+                      Submit
+</button>,
+                  ],
+                  "className": "input-column-2",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h4>
+                          Gross Potential
+</h4>,
+                        <input
+                          name="grossPotential"
+                          onChange={[Function]}
+                          placeholder="Gross Potential"
+                          type="number"
+                          value={8500}
+/>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Gross Potential",
+                        },
+                        "ref": null,
+                        "rendered": "Gross Potential",
+                        "type": "h4",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "name": "grossPotential",
+                          "onChange": [Function],
+                          "placeholder": "Gross Potential",
+                          "type": "number",
+                          "value": 8500,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                    ],
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h4>
+                          Door Times
+</h4>,
+                        <input
+                          name="doorTimes"
+                          onChange={[Function]}
+                          placeholder="Door Times"
+                          type="text"
+                          value="9pm-12am"
+/>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Door Times",
+                        },
+                        "ref": null,
+                        "rendered": "Door Times",
+                        "type": "h4",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "name": "doorTimes",
+                          "onChange": [Function],
+                          "placeholder": "Door Times",
+                          "type": "text",
+                          "value": "9pm-12am",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                    ],
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h4>
+                          Ages
+</h4>,
+                        <input
+                          name="ageRange"
+                          onChange={[Function]}
+                          placeholder="Age Range"
+                          type="text"
+                          value="16+"
+/>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Ages",
+                        },
+                        "ref": null,
+                        "rendered": "Ages",
+                        "type": "h4",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "name": "ageRange",
+                          "onChange": [Function],
+                          "placeholder": "Age Range",
+                          "type": "text",
+                          "value": "16+",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                    ],
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h4>
+                          Merch Split
+</h4>,
+                        <input
+                          name="merchSplit"
+                          onChange={[Function]}
+                          placeholder="Merch Split"
+                          type="text"
+                          value="80/20 artist/venue"
+/>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Merch Split",
+                        },
+                        "ref": null,
+                        "rendered": "Merch Split",
+                        "type": "h4",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "name": "merchSplit",
+                          "onChange": [Function],
+                          "placeholder": "Merch Split",
+                          "type": "text",
+                          "value": "80/20 artist/venue",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                    ],
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Submit",
+                    },
+                    "ref": null,
+                    "rendered": "Submit",
+                    "type": "button",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "form",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "x Cancel",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "x Cancel",
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
     },
   ],
   Symbol(enzyme.__options__): Object {
