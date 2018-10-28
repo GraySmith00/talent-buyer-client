@@ -26,7 +26,7 @@ ShallowWrapper {
           returnValue="start"
           showNavigation={true}
           showNeighboringMonth={true}
-          value={2018-10-28T17:22:19.431Z}
+          value={2018-10-28T18:05:36.508Z}
           view="month"
 />,
       ],
@@ -54,7 +54,7 @@ ShallowWrapper {
           "returnValue": "start",
           "showNavigation": true,
           "showNeighboringMonth": true,
-          "value": 2018-10-28T17:22:19.431Z,
+          "value": 2018-10-28T18:05:36.508Z,
           "view": "month",
         },
         "ref": null,
@@ -79,7 +79,7 @@ ShallowWrapper {
             returnValue="start"
             showNavigation={true}
             showNeighboringMonth={true}
-            value={2018-10-28T17:22:19.431Z}
+            value={2018-10-28T18:05:36.508Z}
             view="month"
 />,
         ],
@@ -107,7 +107,7 @@ ShallowWrapper {
             "returnValue": "start",
             "showNavigation": true,
             "showNeighboringMonth": true,
-            "value": 2018-10-28T17:22:19.431Z,
+            "value": 2018-10-28T18:05:36.508Z,
             "view": "month",
           },
           "ref": null,
