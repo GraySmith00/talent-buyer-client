@@ -6,6 +6,7 @@ import Nav from '../Nav/Nav';
 import OfferModal from '../OfferModal/OfferModal';
 
 import './Dashboard.css';
+import OffersContainer from '../OffersContainer/OffersContainer';
 
 class Dashboard extends Component {
   state = {
@@ -20,13 +21,12 @@ class Dashboard extends Component {
   }
 
   handleDateChange = date => this.setState({ date });
-
   openOfferModal = () => this.setState({ offerModalOpen: true });
-
   closeOfferModal = () => this.setState({ offerModalOpen: false });
 
   render() {
     const { offerModalOpen, date } = this.state;
+    const dateString = date.toString().slice(0, 15);
 
     return (
       <div className="dashboard">
@@ -42,6 +42,7 @@ class Dashboard extends Component {
               className="calendar"
             />
             <div className="offers">
+              <h2>{dateString}</h2>
               <button
                 className="create-offer-button"
                 onClick={this.openOfferModal}
@@ -50,19 +51,11 @@ class Dashboard extends Component {
                 Create Offer
               </button>
               <div className="table-headings">
-                <h3>Day</h3>
-                <h3>Date</h3>
                 <h3>Artist</h3>
                 <h3>Status</h3>
                 <h3>Offer</h3>
               </div>
-              <div className="table-row">
-                <h3>Sat</h3>
-                <h3>Dec 01 2018</h3>
-                <h3>Justice</h3>
-                <h3>Pending</h3>
-                <button className="view-offer-button">View Offer</button>
-              </div>
+              <OffersContainer date={date} />
             </div>
           </div>
           <div className="recents" />
