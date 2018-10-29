@@ -1,6 +1,29 @@
+@import '../../styles/variables.scss';
+
+.frequency {
+  width: 2rem;
+}
+
+.logo-wrap {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+
 .nav {
   background-color: #131621;
   color: #fff;
   min-width: 15rem;
   height: 100vh;
+}
+
+.nav-link-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  color: #fff;
+  font-family: $secondary-font;
 }
