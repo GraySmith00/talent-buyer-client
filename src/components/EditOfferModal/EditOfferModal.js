@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import axios from 'axios';
 import { connect } from 'react-redux';
 
-import { addNewOffer } from '../../actions/offerActions';
+import { editExistingOffer } from '../../actions/offerActions';
 import './EditOfferModal.css';
 
 export class EditOfferModal extends Component {
@@ -60,21 +60,20 @@ export class EditOfferModal extends Component {
   handleSubmit = async e => {
     e.preventDefault();
     const {
-      currentUser,
-      currentVenue,
-      date,
-      addNewOffer,
-      closeEditOfferModal
+      closeEditOfferModal,
+      offerId,
+      offers,
+      editExistingOffer
     } = this.props;
 
-    const offer = {
-      ...this.state,
-      buyer_id: currentUser.id,
-      venue_id: currentVenue.id,
-      date
+    const offer = offers.find(offer => offer.id === offerId);
+
+    const newOffer = {
+      ...offer,
+      ...this.state
     };
 
-    await addNewOffer(offer);
+    await editExistingOffer(newOffer);
     closeEditOfferModal();
   };
 
@@ -209,7 +208,7 @@ export const mapStateToProps = state => ({
 });
 
 export const mapDispatchToProps = dispatch => ({
-  addNewOffer: offer => dispatch(addNewOffer(offer))
+  editExistingOffer: offer => dispatch(editExistingOffer(offer))
 });
 
 export default connect(
