@@ -8,7 +8,6 @@ class ArtistShow extends Component {
   async componentDidMount() {
     const { id } = this.props;
     const artist = await getArtist(id);
-    console.log(artist);
   }
 
   render() {
