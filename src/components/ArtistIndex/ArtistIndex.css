@@ -19,7 +19,10 @@
     display: grid;
     grid-template-columns: 5fr repeat(4, 10fr);
     align-items: center;
+    text-decoration: none;
     cursor: pointer; }
+    .artist-index .artist-listing p {
+      color: #FFF; }
   .artist-index .artist-listing:hover {
     background-color: #373945; }
   .artist-index .artist-image {

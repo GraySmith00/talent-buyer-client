@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { getAllArtists } from '../../Utils/backendApiCalls';
 import axios from 'axios';
 import Nav from '../Nav/Nav';
@@ -26,13 +27,13 @@ class ArtistIndex extends Component {
       displayArtists = <p>Loading...</p>;
     } else {
       displayArtists = artists.slice(0, 25).map(artist => (
-        <div key={artist.id} className="artist-listing">
+        <Link to={`/artists/${artist.id}`} key={artist.id} className="artist-listing">
           <img src={artist.image_url} alt="artist" className="artist-image" />
           <p>{artist.name}</p>
           <p>{artist.agency}</p>
           <p>{artist.popularity}</p>
           <p>{artist.spotify_followers}</p>
-        </div>
+        </Link>
       ));
     }
 
