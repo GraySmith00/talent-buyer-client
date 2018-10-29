@@ -1,0 +1,23 @@
+.recent-offers .recent-table-headings {
+  display: grid;
+  grid-template-columns: repeat(4, 10fr);
+  border-bottom: 1px solid #fff;
+  align-items: center;
+  padding-left: 2rem;
+  margin: 0; }
+  .recent-offers .recent-table-headings h3 {
+    margin-bottom: 5px; }
+
+.recent-offers .offers-container {
+  height: 140px;
+  overflow: scroll;
+  background-color: #32333e; }
+
+.recent-offers .table-row {
+  display: grid;
+  grid-template-columns: repeat(4, 10fr);
+  align-items: center;
+  justify-content: center;
+  margin-left: 2rem;
+  font-weight: 300;
+  font-size: 0.7rem; }

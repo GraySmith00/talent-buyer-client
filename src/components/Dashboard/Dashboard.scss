@@ -82,4 +82,14 @@
     -moz-box-shadow: 10px 10px 57px -16px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 57px -16px rgba(0, 0, 0, 0.75);
   }
+
+  .recents {
+    display: grid;
+    grid-template-columns: repeat(2, 10fr);
+    margin-top: 2rem;
+
+    h2 {
+      margin-bottom: 0;
+    }
+  }
 }

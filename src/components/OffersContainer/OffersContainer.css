@@ -2,11 +2,10 @@
   height: 140px;
   overflow: scroll;
   background-color: #32333e; }
-
-.table-row {
-  display: grid;
-  grid-template-columns: repeat(3, 10fr);
-  align-items: center;
-  justify-content: center;
-  margin-left: 2rem;
-  font-weight: 300; }
+  .offers-container .table-row {
+    display: grid;
+    grid-template-columns: repeat(3, 10fr);
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    font-weight: 300; }
