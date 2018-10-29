@@ -3,14 +3,16 @@ import { shallow } from 'enzyme';
 
 import ArtistIndex from './ArtistIndex';
 
-describe('ArtistIndex component', () => {
-  // let wrapper;
+jest.mock('../../Utils/backendApiCalls');
 
-  // beforeEach(() => {
-  //   wrapper = shallow(<ArtistIndex />);
-  // });
+describe('ArtistIndex component', () => {
+  let wrapper;
+
+  beforeEach(() => {
+    wrapper = shallow(<ArtistIndex />);
+  });
 
   it('should match the snapshot', () => {
-    expect(true).toEqual(true);
+    expect(wrapper).toMatchSnapshot();
   });
 });

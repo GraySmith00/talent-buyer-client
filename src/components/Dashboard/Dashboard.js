@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import Calendar from 'react-calendar';
+import axios from 'axios';
 
 import Nav from '../Nav/Nav';
 import OfferModal from '../OfferModal/OfferModal';
 import ModalButton from '../styledComponents/ModalButton';
 
 import './Dashboard.css';
+import OffersContainer from '../OffersContainer/OffersContainer';
 
 class Dashboard extends Component {
   state = {
@@ -13,18 +15,24 @@ class Dashboard extends Component {
     offerModalOpen: false
   };
 
+  componentDidMount() {
+    axios.defaults.headers.common['Authorization'] = localStorage.getItem(
+      'jwtToken'
+    );
+  }
+
   handleDateChange = date => this.setState({ date });
-
   openOfferModal = () => this.setState({ offerModalOpen: true });
-
   closeOfferModal = () => this.setState({ offerModalOpen: false });
 
   render() {
-    const { offerModalOpen } = this.state;
+    const { offerModalOpen, date } = this.state;
+    const dateString = date.toString().slice(0, 15);
+
     return (
       <div className="dashboard">
         {offerModalOpen && (
-          <OfferModal closeOfferModal={this.closeOfferModal} />
+          <OfferModal closeOfferModal={this.closeOfferModal} date={date} />
         )}
         <Nav />
         <div className="main-content">
@@ -35,6 +43,7 @@ class Dashboard extends Component {
               className="calendar"
             />
             <div className="offers">
+              <h2>{dateString}</h2>
               <ModalButton
                 className="create-offer-button"
                 onClick={this.openOfferModal}
@@ -43,19 +52,11 @@ class Dashboard extends Component {
                 Create Offer
               </ModalButton>
               <div className="table-headings">
-                <h3>Day</h3>
-                <h3>Date</h3>
                 <h3>Artist</h3>
                 <h3>Status</h3>
                 <h3>Offer</h3>
               </div>
-              <div className="table-row">
-                <h3>Sat</h3>
-                <h3>Dec 01 2018</h3>
-                <h3>Justice</h3>
-                <h3>Pending</h3>
-                <button className="view-offer-button">View Offer</button>
-              </div>
+              <OffersContainer date={date} />
             </div>
           </div>
           <div className="recents" />

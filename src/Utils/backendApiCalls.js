@@ -23,6 +23,13 @@ export const venuePostRequest = async venue => {
   return data;
 };
 
+export const getAllUserVunues = async userId => {
+  const url = `http://localhost:5000/api/v1/buyers/${userId}/venues`;
+  const response = await axios.get(url);
+  const data = response.data;
+  return data;
+};
+
 export const artistPostRequest = async artist => {
   const url = `http://localhost:5000/api/v1/artists`;
   await fetch(url, {
@@ -56,4 +63,16 @@ export const getAllArtists = async () => {
   const url = 'http://localhost:5000/api/v1/artists';
   const artists = await axios.get(url);
   return artists.data;
+};
+
+export const offerPostRequest = async offer => {
+  const url = 'http://localhost:5000/api/v1/offers';
+  const savedOffer = await axios.post(url, offer);
+  return savedOffer.data;
+};
+
+export const getAllUserOffers = async userId => {
+  const url = `http://localhost:5000/api/v1/buyers/${userId}/offers`;
+  const response = await axios.get(url);
+  return response.data;
 };

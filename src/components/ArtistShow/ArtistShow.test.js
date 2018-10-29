@@ -1,7 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-
 import ArtistShow from './ArtistShow';
+
+jest.mock('../../Utils/backendApiCalls');
 
 describe('ArtistShow component', () => {
   let wrapper;

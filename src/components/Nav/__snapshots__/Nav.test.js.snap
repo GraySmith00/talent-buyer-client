@@ -18,18 +18,32 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <Link
-          replace={false}
-          to="/artists"
+        <div
+          className="logo-wrap"
 >
-          Artists
-</Link>,
-        <Link
-          replace={false}
-          to="/home"
+          <img
+                    alt="frequency-logo"
+                    className="frequency"
+                    src="frequency.svg"
+          />
+          <h1
+                    className="logo"
+          >
+                    TalentBC
+          </h1>
+</div>,
+        <section
+          className="nav-link-wrapper"
 >
-          Home
-</Link>,
+          <NavLink
+                    displayText="Home"
+                    routeLink="/home"
+          />
+          <NavLink
+                    displayText="Artists"
+                    routeLink="/artists"
+          />
+</section>,
       ],
       "className": "nav",
     },
@@ -38,28 +52,97 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "host",
         "props": Object {
-          "children": "Artists",
-          "replace": false,
-          "to": "/artists",
+          "children": Array [
+            <img
+              alt="frequency-logo"
+              className="frequency"
+              src="frequency.svg"
+/>,
+            <h1
+              className="logo"
+>
+              TalentBC
+</h1>,
+          ],
+          "className": "logo-wrap",
         },
         "ref": null,
-        "rendered": "Artists",
-        "type": [Function],
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "frequency-logo",
+              "className": "frequency",
+              "src": "frequency.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "TalentBC",
+              "className": "logo",
+            },
+            "ref": null,
+            "rendered": "TalentBC",
+            "type": "h1",
+          },
+        ],
+        "type": "div",
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "host",
         "props": Object {
-          "children": "Home",
-          "replace": false,
-          "to": "/home",
+          "children": Array [
+            <NavLink
+              displayText="Home"
+              routeLink="/home"
+/>,
+            <NavLink
+              displayText="Artists"
+              routeLink="/artists"
+/>,
+          ],
+          "className": "nav-link-wrapper",
         },
         "ref": null,
-        "rendered": "Home",
-        "type": [Function],
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "displayText": "Home",
+              "routeLink": "/home",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "displayText": "Artists",
+              "routeLink": "/artists",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "section",
       },
     ],
     "type": "div",
@@ -71,18 +154,32 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <Link
-            replace={false}
-            to="/artists"
+          <div
+            className="logo-wrap"
 >
-            Artists
-</Link>,
-          <Link
-            replace={false}
-            to="/home"
+            <img
+                        alt="frequency-logo"
+                        className="frequency"
+                        src="frequency.svg"
+            />
+            <h1
+                        className="logo"
+            >
+                        TalentBC
+            </h1>
+</div>,
+          <section
+            className="nav-link-wrapper"
 >
-            Home
-</Link>,
+            <NavLink
+                        displayText="Home"
+                        routeLink="/home"
+            />
+            <NavLink
+                        displayText="Artists"
+                        routeLink="/artists"
+            />
+</section>,
         ],
         "className": "nav",
       },
@@ -91,28 +188,97 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "host",
           "props": Object {
-            "children": "Artists",
-            "replace": false,
-            "to": "/artists",
+            "children": Array [
+              <img
+                alt="frequency-logo"
+                className="frequency"
+                src="frequency.svg"
+/>,
+              <h1
+                className="logo"
+>
+                TalentBC
+</h1>,
+            ],
+            "className": "logo-wrap",
           },
           "ref": null,
-          "rendered": "Artists",
-          "type": [Function],
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "frequency-logo",
+                "className": "frequency",
+                "src": "frequency.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "TalentBC",
+                "className": "logo",
+              },
+              "ref": null,
+              "rendered": "TalentBC",
+              "type": "h1",
+            },
+          ],
+          "type": "div",
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "host",
           "props": Object {
-            "children": "Home",
-            "replace": false,
-            "to": "/home",
+            "children": Array [
+              <NavLink
+                displayText="Home"
+                routeLink="/home"
+/>,
+              <NavLink
+                displayText="Artists"
+                routeLink="/artists"
+/>,
+            ],
+            "className": "nav-link-wrapper",
           },
           "ref": null,
-          "rendered": "Home",
-          "type": [Function],
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "displayText": "Home",
+                "routeLink": "/home",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "displayText": "Artists",
+                "routeLink": "/artists",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "section",
         },
       ],
       "type": "div",

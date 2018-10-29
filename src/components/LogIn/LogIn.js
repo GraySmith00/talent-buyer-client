@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { logInUser } from '../../actions/userActions';
 import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom';
+
+import { setUserVenue } from '../../actions/venueActions';
+import { logInUser } from '../../actions/userActions';
+import { populateUserOffers } from '../../actions/offerActions';
+
 import ModalButton from '../styledComponents/ModalButton';
 import InputField from '../styledComponents/InputField';
 import ModalForm from '../styledComponents/ModalForm';
@@ -28,7 +33,13 @@ export class LogIn extends Component {
         password
       }
     };
-    await this.props.logInUser(userCreds);
+    const loggedInUser = await this.props.logInUser(userCreds);
+    const userVenue = await this.props.setUserVenue(loggedInUser.id);
+    await this.props.populateUserOffers(loggedInUser.id);
+
+    if (loggedInUser && userVenue) {
+      this.props.history.push('/home');
+    }
   };
 
   render() {
@@ -70,14 +81,21 @@ export class LogIn extends Component {
 
 LogIn.propTypes = {
   closeLogInModal: PropTypes.func.isRequired,
-  logInUser: PropTypes.func.isRequired
+  logInUser: PropTypes.func.isRequired,
+  setUserVenue: PropTypes.func.isRequired,
+  history: PropTypes.object.isRequired,
+  populateUserOffers: PropTypes.func.isRequired
 };
 
 export const mapDispatchToProps = dispatch => ({
-  logInUser: userCreds => dispatch(logInUser(userCreds))
+  logInUser: userCreds => dispatch(logInUser(userCreds)),
+  setUserVenue: userId => dispatch(setUserVenue(userId)),
+  populateUserOffers: userId => dispatch(populateUserOffers(userId))
 });
 
-export default connect(
-  null,
-  mapDispatchToProps
-)(LogIn);
+export default withRouter(
+  connect(
+    null,
+    mapDispatchToProps
+  )(LogIn)
+);
