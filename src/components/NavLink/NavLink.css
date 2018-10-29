@@ -1,0 +1,13 @@
+.nav-link {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #5d5d61;
+  font-size: 1.2rem;
+  padding-left: 1em;
+  text-decoration: none;
+  outline: none;
+  width: 20%; }
+  .nav-link:hover {
+    border-left: solid 3px #D52F7F;
+    color: #D52F7F;
+    cursor: pointer; }

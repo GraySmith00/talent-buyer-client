@@ -1,0 +1,9 @@
+@mixin primaryHeavy(){
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 700;
+}
+
+@mixin secondaryHeavy(){
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+}
