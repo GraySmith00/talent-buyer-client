@@ -70,3 +70,9 @@ export const offerPostRequest = async offer => {
   const savedOffer = await axios.post(url, offer);
   return savedOffer.data;
 };
+
+export const getAllUserOffers = async userId => {
+  const url = `http://localhost:5000/api/v1/buyers/${userId}/offers`;
+  const response = await axios.get(url);
+  return response.data;
+};
