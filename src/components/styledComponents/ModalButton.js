@@ -7,7 +7,7 @@ const ModalButton = styled.button`
   border: none;
   border-radius: 5px;
   font-size: 1.2rem;
-  background-color: #de0048;
+  background-color: #D52F7F;
   color: #fff;
   cursor: pointer;
 `;
