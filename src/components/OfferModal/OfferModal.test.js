@@ -17,7 +17,7 @@ describe('OfferModal component', () => {
     );
   });
 
-  it('should match the snapshot', () => {
-    expect(wrapper).toMatchSnapshot();
+  it('should render an offer form', () => {
+    expect(wrapper.find('.offer-form').length).toEqual(1);
   });
 });
