@@ -1,4 +1,4 @@
-import { getAllUserOffers, offerPostRequest, offerPutRequest } from '../Utils/backendApiCalls';
+import { getAllUserOffers, offerPostRequest } from '../Utils/backendApiCalls';
 
 // set user offers action
 export const setOffersState = offers => ({
@@ -37,7 +37,6 @@ export const editOfferAction = offer => ({
   type: 'EDIT_OFFER_ACTION',
   offer
 });
-
 
 //edit existing offer thunk
 export const editExistingOffer = offer => async dispatch => {

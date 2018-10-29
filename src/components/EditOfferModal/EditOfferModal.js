@@ -198,7 +198,9 @@ export class EditOfferModal extends Component {
 }
 
 EditOfferModal.propTypes = {
-  closeEditOfferModal: PropTypes.func.isRequired
+  closeEditOfferModal: PropTypes.func.isRequired,
+  offerId: PropTypes.number.isRequired,
+  offers: PropTypes.array.isRequired
 };
 
 export const mapStateToProps = state => ({
