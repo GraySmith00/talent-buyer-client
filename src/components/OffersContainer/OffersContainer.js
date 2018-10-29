@@ -13,6 +13,10 @@ class OffersContainer extends Component {
     return `${year}-${month}-${day}`;
   };
 
+  handleViewOffer = id => {
+    this.props.openEditOfferModal(id);
+  };
+
   render() {
     const { offers, date } = this.props;
     const formattedDate = this.formatDate(date);
@@ -26,7 +30,12 @@ class OffersContainer extends Component {
         <div className="table-row" key={offer.id}>
           <h3>{offer.artist_name}</h3>
           <h3>{offer.status}</h3>
-          <button className="view-offer-button">View Offer</button>
+          <button
+            className="view-offer-button"
+            onClick={() => this.handleViewOffer(offer.id)}
+          >
+            View Offer
+          </button>
         </div>
       ));
     }
@@ -37,7 +46,8 @@ class OffersContainer extends Component {
 
 OffersContainer.propTypes = {
   offers: PropTypes.array.isRequired,
-  date: PropTypes.object.isRequired
+  date: PropTypes.object.isRequired,
+  openEditOfferModal: PropTypes.func.isRequired
 };
 
 export const mapStateToProps = state => ({

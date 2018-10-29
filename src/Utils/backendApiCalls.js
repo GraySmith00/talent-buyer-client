@@ -76,3 +76,9 @@ export const getAllUserOffers = async userId => {
   const response = await axios.get(url);
   return response.data;
 };
+
+export const offerPutRequest = async offer => {
+  const url = `${process.env.REACT_APP_API}/api/v1/offers/${offer.id}`;
+  const response = await axios.put(url, offer);
+  return response.data;
+};

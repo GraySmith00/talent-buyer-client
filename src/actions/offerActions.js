@@ -1,4 +1,4 @@
-import { getAllUserOffers, offerPostRequest } from '../Utils/backendApiCalls';
+import { getAllUserOffers, offerPostRequest, offerPutRequest } from '../Utils/backendApiCalls';
 
 // set user offers action
 export const setOffersState = offers => ({
@@ -30,4 +30,21 @@ export const addNewOffer = offer => async dispatch => {
   }
   dispatch(addNewOfferToState(savedOffer));
   return savedOffer;
+};
+
+//edit offer action
+export const editOfferAction = offer => ({
+  type: 'EDIT_OFFER_ACTION',
+  offer
+});
+
+
+//edit existing offer thunk
+export const editExistingOffer = offer => async dispatch => {
+  // const editedOffer = await offerPutRequest(offer);
+  // if (!editedOffer) {
+  //   throw new Error({ message: 'Something went wrong' });
+  // }
+  dispatch(editOfferAction(offer));
+  return offer;
 };
