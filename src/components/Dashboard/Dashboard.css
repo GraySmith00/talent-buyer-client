@@ -21,11 +21,10 @@
     align-items: center;
     height: 3rem;
     width: 11rem;
-    padding: 15px;
+    padding: 13px;
     border: none;
     border-radius: 5px;
     font-size: 1.2rem;
-    background-color: #de0048;
     color: #fff;
     cursor: pointer;
     -webkit-box-shadow: 10px 10px 57px -16px rgba(0, 0, 0, 0.75);

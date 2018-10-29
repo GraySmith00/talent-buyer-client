@@ -3,6 +3,7 @@ import Calendar from 'react-calendar';
 
 import Nav from '../Nav/Nav';
 import OfferModal from '../OfferModal/OfferModal';
+import ModalButton from '../styledComponents/ModalButton';
 
 import './Dashboard.css';
 
@@ -34,13 +35,13 @@ class Dashboard extends Component {
               className="calendar"
             />
             <div className="offers">
-              <button
+              <ModalButton
                 className="create-offer-button"
                 onClick={this.openOfferModal}
               >
                 <i className="fas fa-plus" />
                 Create Offer
-              </button>
+              </ModalButton>
               <div className="table-headings">
                 <h3>Day</h3>
                 <h3>Date</h3>
