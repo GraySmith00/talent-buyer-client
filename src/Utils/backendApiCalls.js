@@ -3,13 +3,13 @@ import { artistsByAgency } from './artistsByAgency';
 import { getArtistInfo } from './songKickApiCalls';
 
 export const signUpPostRequest = async user => {
-  const url = `http://localhost:5000/signup`;
+  const url = `${process.env.REACT_APP_API}/signup`;
   const response = await axios.post(url, user);
   return response.data;
 };
 
 export const logInPostRequest = async userCreds => {
-  const url = `http://localhost:5000/login`;
+  const url = `${process.env.REACT_APP_API}/login`;
   const response = await axios.post(url, userCreds);
   if (response.status === 200) {
     return response;
@@ -17,21 +17,21 @@ export const logInPostRequest = async userCreds => {
 };
 
 export const venuePostRequest = async venue => {
-  const url = `http://localhost:5000/api/v1/venues`;
+  const url = `${process.env.REACT_APP_API}/api/v1/venues`;
   const response = await axios.post(url, venue);
   const data = response.data;
   return data;
 };
 
 export const getAllUserVunues = async userId => {
-  const url = `http://localhost:5000/api/v1/buyers/${userId}/venues`;
+  const url = `${process.env.REACT_APP_API}/api/v1/buyers/${userId}/venues`;
   const response = await axios.get(url);
   const data = response.data;
   return data;
 };
 
 export const artistPostRequest = async artist => {
-  const url = `http://localhost:5000/api/v1/artists`;
+  const url = `${process.env.REACT_APP_API}/api/v1/artists`;
   await fetch(url, {
     method: 'POST',
     body: JSON.stringify(artist),
@@ -60,19 +60,19 @@ export const addCaaArtistsToBackend = () => {
 };
 
 export const getAllArtists = async () => {
-  const url = 'http://localhost:5000/api/v1/artists';
+  const url = `${process.env.REACT_APP_API}/api/v1/artists`;
   const artists = await axios.get(url);
   return artists.data;
 };
 
 export const offerPostRequest = async offer => {
-  const url = 'http://localhost:5000/api/v1/offers';
+  const url = `${process.env.REACT_APP_API}/api/v1/offers`;
   const savedOffer = await axios.post(url, offer);
   return savedOffer.data;
 };
 
 export const getAllUserOffers = async userId => {
-  const url = `http://localhost:5000/api/v1/buyers/${userId}/offers`;
+  const url = `${process.env.REACT_APP_API}/api/v1/buyers/${userId}/offers`;
   const response = await axios.get(url);
   return response.data;
 };
