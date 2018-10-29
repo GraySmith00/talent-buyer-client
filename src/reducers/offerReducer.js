@@ -4,10 +4,7 @@ export const offerReducer = (state = [], action) => {
       return action.offers;
     case 'ADD_NEW_OFFER_TO_STATE': {
       const newOffer = action.offer;
-      return {
-        ...state,
-        newOffer
-      };
+      return [...state, action.offer];
     }
     default:
       return state;

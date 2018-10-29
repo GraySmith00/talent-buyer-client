@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import axios from 'axios';
 import { connect } from 'react-redux';
 
-import { offerPostRequest } from '../../Utils/backendApiCalls';
+import { addNewOffer } from '../../actions/offerActions';
 import './OfferModal.css';
 
 export class OfferModal extends Component {
@@ -33,7 +33,13 @@ export class OfferModal extends Component {
 
   handleSubmit = async e => {
     e.preventDefault();
-    const { currentUser, currentVenue, date } = this.props;
+    const {
+      currentUser,
+      currentVenue,
+      date,
+      addNewOffer,
+      closeOfferModal
+    } = this.props;
 
     const offer = {
       ...this.state,
@@ -42,7 +48,8 @@ export class OfferModal extends Component {
       date
     };
 
-    await offerPostRequest(offer);
+    await addNewOffer(offer);
+    closeOfferModal();
   };
 
   render() {
@@ -176,4 +183,11 @@ export const mapStateToProps = state => ({
   currentVenue: state.currentVenue
 });
 
-export default connect(mapStateToProps)(OfferModal);
+export const mapDispatchToProps = dispatch => ({
+  addNewOffer: offer => dispatch(addNewOffer(offer))
+});
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(OfferModal);
