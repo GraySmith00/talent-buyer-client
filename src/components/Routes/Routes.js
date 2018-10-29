@@ -14,7 +14,9 @@ class Routes extends Component {
           <Route exact path="/" component={Landing} />
           <Route exact path="/home" component={Dashboard} />
           <Route exact path="/artists" component={ArtistIndex} />
-          <Route exact path="/artist" component={ArtistShow} />
+          <Route exact path="/artists/:id" render={({ match }) => {
+            return <ArtistShow id={match.params.id} />;
+          }} />
           <Route exact path="/template" component={OfferTemplate} />
         </Fragment>
       </Router>
