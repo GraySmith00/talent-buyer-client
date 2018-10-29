@@ -8,11 +8,14 @@ import ModalButton from '../styledComponents/ModalButton';
 
 import './Dashboard.css';
 import OffersContainer from '../OffersContainer/OffersContainer';
+import EditOfferModal from '../EditOfferModal/EditOfferModal';
 
 class Dashboard extends Component {
   state = {
     date: new Date(),
-    offerModalOpen: false
+    offerModalOpen: false,
+    editOfferModalOpen: false,
+    editOfferId: ''
   };
 
   componentDidMount() {
@@ -24,15 +27,30 @@ class Dashboard extends Component {
   handleDateChange = date => this.setState({ date });
   openOfferModal = () => this.setState({ offerModalOpen: true });
   closeOfferModal = () => this.setState({ offerModalOpen: false });
+  openEditOfferModal = id => {
+    this.setState({ editOfferModalOpen: true, editOfferId: id });
+  };
+  closeEditOfferModal = () => this.setState({ editOfferModalOpen: false });
 
   render() {
-    const { offerModalOpen, date } = this.state;
+    const {
+      offerModalOpen,
+      date,
+      editOfferId,
+      editOfferModalOpen
+    } = this.state;
     const dateString = date.toString().slice(0, 15);
 
     return (
       <div className="dashboard">
         {offerModalOpen && (
           <OfferModal closeOfferModal={this.closeOfferModal} date={date} />
+        )}
+        {editOfferModalOpen && (
+          <EditOfferModal
+            offerId={editOfferId}
+            closeEditOfferModal={this.closeEditOfferModal}
+          />
         )}
         <Nav />
         <div className="main-content">
@@ -56,7 +74,10 @@ class Dashboard extends Component {
                 <h3>Status</h3>
                 <h3>Offer</h3>
               </div>
-              <OffersContainer date={date} />
+              <OffersContainer
+                date={date}
+                openEditOfferModal={this.openEditOfferModal}
+              />
             </div>
           </div>
           <div className="recents" />
