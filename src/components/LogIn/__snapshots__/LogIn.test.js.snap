@@ -5,7 +5,21 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <LogIn
     closeLogInModal={[Function]}
+    history={
+        Object {
+            "action": "PUSH",
+            "length": 50,
+            "location": Object {
+              "hash": "",
+              "key": "hvocjm",
+              "pathname": "/home",
+              "search": "",
+            },
+          }
+    }
     logInUser={[Function]}
+    populateUserOffers={[Function]}
+    setUserVenue={[Function]}
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],

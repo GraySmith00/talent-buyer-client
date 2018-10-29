@@ -11,6 +11,6 @@ describe('Dashboard component', () => {
   });
 
   it('should match the snapshot', () => {
-    expect(wrapper).toMatchSnapshot();
+    expect(wrapper.find('.calendar').length).toEqual(1);
   });
 });

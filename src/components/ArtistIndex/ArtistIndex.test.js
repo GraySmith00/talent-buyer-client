@@ -3,6 +3,8 @@ import { shallow } from 'enzyme';
 
 import ArtistIndex from './ArtistIndex';
 
+jest.mock('../../Utils/backendApiCalls');
+
 describe('ArtistIndex component', () => {
   let wrapper;
 
