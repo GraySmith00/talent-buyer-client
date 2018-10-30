@@ -40,12 +40,18 @@ ShallowWrapper {
                     <h3>
                               Spotify Followers
                     </h3>
+                    <h3
+                              className="watchlist-heading"
+                    >
+                              Watchlist
+                    </h3>
           </div>
           <div
                     className="artists-container"
           >
                     <div
                               className="artist-listing"
+                              onClick={undefined}
                     >
                               <img
                                         alt="artist"
@@ -64,9 +70,15 @@ ShallowWrapper {
                               <p>
                                         2296228
                               </p>
+                              <button
+                                        onClick={[Function]}
+                              >
+                                        Add
+                              </button>
                     </div>
                     <div
                               className="artist-listing"
+                              onClick={undefined}
                     >
                               <img
                                         alt="artist"
@@ -85,9 +97,15 @@ ShallowWrapper {
                               <p>
                                         128307
                               </p>
+                              <button
+                                        onClick={[Function]}
+                              >
+                                        Add
+                              </button>
                     </div>
                     <div
                               className="artist-listing"
+                              onClick={undefined}
                     >
                               <img
                                         alt="artist"
@@ -106,9 +124,15 @@ ShallowWrapper {
                               <p>
                                         326986
                               </p>
+                              <button
+                                        onClick={[Function]}
+                              >
+                                        Add
+                              </button>
                     </div>
                     <div
                               className="artist-listing"
+                              onClick={undefined}
                     >
                               <img
                                         alt="artist"
@@ -127,9 +151,15 @@ ShallowWrapper {
                               <p>
                                         2309822
                               </p>
+                              <button
+                                        onClick={[Function]}
+                              >
+                                        Add
+                              </button>
                     </div>
                     <div
                               className="artist-listing"
+                              onClick={undefined}
                     >
                               <img
                                         alt="artist"
@@ -148,9 +178,15 @@ ShallowWrapper {
                               <p>
                                         4236
                               </p>
+                              <button
+                                        onClick={[Function]}
+                              >
+                                        Add
+                              </button>
                     </div>
                     <div
                               className="artist-listing"
+                              onClick={undefined}
                     >
                               <img
                                         alt="artist"
@@ -169,9 +205,15 @@ ShallowWrapper {
                               <p>
                                         437122
                               </p>
+                              <button
+                                        onClick={[Function]}
+                              >
+                                        Add
+                              </button>
                     </div>
                     <div
                               className="artist-listing"
+                              onClick={undefined}
                     >
                               <img
                                         alt="artist"
@@ -190,9 +232,15 @@ ShallowWrapper {
                               <p>
                                         136557
                               </p>
+                              <button
+                                        onClick={[Function]}
+                              >
+                                        Add
+                              </button>
                     </div>
                     <div
                               className="artist-listing"
+                              onClick={undefined}
                     >
                               <img
                                         alt="artist"
@@ -211,9 +259,15 @@ ShallowWrapper {
                               <p>
                                         249350
                               </p>
+                              <button
+                                        onClick={[Function]}
+                              >
+                                        Add
+                              </button>
                     </div>
                     <div
                               className="artist-listing"
+                              onClick={undefined}
                     >
                               <img
                                         alt="artist"
@@ -232,9 +286,15 @@ ShallowWrapper {
                               <p>
                                         26214
                               </p>
+                              <button
+                                        onClick={[Function]}
+                              >
+                                        Add
+                              </button>
                     </div>
                     <div
                               className="artist-listing"
+                              onClick={undefined}
                     >
                               <img
                                         alt="artist"
@@ -253,9 +313,15 @@ ShallowWrapper {
                               <p>
                                         18730
                               </p>
+                              <button
+                                        onClick={[Function]}
+                              >
+                                        Add
+                              </button>
                     </div>
                     <div
                               className="artist-listing"
+                              onClick={undefined}
                     >
                               <img
                                         alt="artist"
@@ -274,9 +340,15 @@ ShallowWrapper {
                               <p>
                                         803225
                               </p>
+                              <button
+                                        onClick={[Function]}
+                              >
+                                        Add
+                              </button>
                     </div>
                     <div
                               className="artist-listing"
+                              onClick={undefined}
                     >
                               <img
                                         alt="artist"
@@ -295,9 +367,15 @@ ShallowWrapper {
                               <p>
                                         155714
                               </p>
+                              <button
+                                        onClick={[Function]}
+                              >
+                                        Add
+                              </button>
                     </div>
                     <div
                               className="artist-listing"
+                              onClick={undefined}
                     >
                               <img
                                         alt="artist"
@@ -316,9 +394,15 @@ ShallowWrapper {
                               <p>
                                         113010
                               </p>
+                              <button
+                                        onClick={[Function]}
+                              >
+                                        Add
+                              </button>
                     </div>
                     <div
                               className="artist-listing"
+                              onClick={undefined}
                     >
                               <img
                                         alt="artist"
@@ -337,9 +421,15 @@ ShallowWrapper {
                               <p>
                                         13691351
                               </p>
+                              <button
+                                        onClick={[Function]}
+                              >
+                                        Add
+                              </button>
                     </div>
                     <div
                               className="artist-listing"
+                              onClick={undefined}
                     >
                               <img
                                         alt="artist"
@@ -358,6 +448,11 @@ ShallowWrapper {
                               <p>
                                         77561
                               </p>
+                              <button
+                                        onClick={[Function]}
+                              >
+                                        Add
+                              </button>
                     </div>
           </div>
 </div>,
@@ -399,12 +494,18 @@ ShallowWrapper {
               <h3>
                             Spotify Followers
               </h3>
+              <h3
+                            className="watchlist-heading"
+              >
+                            Watchlist
+              </h3>
 </div>,
             <div
               className="artists-container"
 >
               <div
                             className="artist-listing"
+                            onClick={undefined}
               >
                             <img
                                           alt="artist"
@@ -423,9 +524,15 @@ ShallowWrapper {
                             <p>
                                           2296228
                             </p>
+                            <button
+                                          onClick={[Function]}
+                            >
+                                          Add
+                            </button>
               </div>
               <div
                             className="artist-listing"
+                            onClick={undefined}
               >
                             <img
                                           alt="artist"
@@ -444,9 +551,15 @@ ShallowWrapper {
                             <p>
                                           128307
                             </p>
+                            <button
+                                          onClick={[Function]}
+                            >
+                                          Add
+                            </button>
               </div>
               <div
                             className="artist-listing"
+                            onClick={undefined}
               >
                             <img
                                           alt="artist"
@@ -465,9 +578,15 @@ ShallowWrapper {
                             <p>
                                           326986
                             </p>
+                            <button
+                                          onClick={[Function]}
+                            >
+                                          Add
+                            </button>
               </div>
               <div
                             className="artist-listing"
+                            onClick={undefined}
               >
                             <img
                                           alt="artist"
@@ -486,9 +605,15 @@ ShallowWrapper {
                             <p>
                                           2309822
                             </p>
+                            <button
+                                          onClick={[Function]}
+                            >
+                                          Add
+                            </button>
               </div>
               <div
                             className="artist-listing"
+                            onClick={undefined}
               >
                             <img
                                           alt="artist"
@@ -507,9 +632,15 @@ ShallowWrapper {
                             <p>
                                           4236
                             </p>
+                            <button
+                                          onClick={[Function]}
+                            >
+                                          Add
+                            </button>
               </div>
               <div
                             className="artist-listing"
+                            onClick={undefined}
               >
                             <img
                                           alt="artist"
@@ -528,9 +659,15 @@ ShallowWrapper {
                             <p>
                                           437122
                             </p>
+                            <button
+                                          onClick={[Function]}
+                            >
+                                          Add
+                            </button>
               </div>
               <div
                             className="artist-listing"
+                            onClick={undefined}
               >
                             <img
                                           alt="artist"
@@ -549,9 +686,15 @@ ShallowWrapper {
                             <p>
                                           136557
                             </p>
+                            <button
+                                          onClick={[Function]}
+                            >
+                                          Add
+                            </button>
               </div>
               <div
                             className="artist-listing"
+                            onClick={undefined}
               >
                             <img
                                           alt="artist"
@@ -570,9 +713,15 @@ ShallowWrapper {
                             <p>
                                           249350
                             </p>
+                            <button
+                                          onClick={[Function]}
+                            >
+                                          Add
+                            </button>
               </div>
               <div
                             className="artist-listing"
+                            onClick={undefined}
               >
                             <img
                                           alt="artist"
@@ -591,9 +740,15 @@ ShallowWrapper {
                             <p>
                                           26214
                             </p>
+                            <button
+                                          onClick={[Function]}
+                            >
+                                          Add
+                            </button>
               </div>
               <div
                             className="artist-listing"
+                            onClick={undefined}
               >
                             <img
                                           alt="artist"
@@ -612,9 +767,15 @@ ShallowWrapper {
                             <p>
                                           18730
                             </p>
+                            <button
+                                          onClick={[Function]}
+                            >
+                                          Add
+                            </button>
               </div>
               <div
                             className="artist-listing"
+                            onClick={undefined}
               >
                             <img
                                           alt="artist"
@@ -633,9 +794,15 @@ ShallowWrapper {
                             <p>
                                           803225
                             </p>
+                            <button
+                                          onClick={[Function]}
+                            >
+                                          Add
+                            </button>
               </div>
               <div
                             className="artist-listing"
+                            onClick={undefined}
               >
                             <img
                                           alt="artist"
@@ -654,9 +821,15 @@ ShallowWrapper {
                             <p>
                                           155714
                             </p>
+                            <button
+                                          onClick={[Function]}
+                            >
+                                          Add
+                            </button>
               </div>
               <div
                             className="artist-listing"
+                            onClick={undefined}
               >
                             <img
                                           alt="artist"
@@ -675,9 +848,15 @@ ShallowWrapper {
                             <p>
                                           113010
                             </p>
+                            <button
+                                          onClick={[Function]}
+                            >
+                                          Add
+                            </button>
               </div>
               <div
                             className="artist-listing"
+                            onClick={undefined}
               >
                             <img
                                           alt="artist"
@@ -696,9 +875,15 @@ ShallowWrapper {
                             <p>
                                           13691351
                             </p>
+                            <button
+                                          onClick={[Function]}
+                            >
+                                          Add
+                            </button>
               </div>
               <div
                             className="artist-listing"
+                            onClick={undefined}
               >
                             <img
                                           alt="artist"
@@ -717,6 +902,11 @@ ShallowWrapper {
                             <p>
                                           77561
                             </p>
+                            <button
+                                          onClick={[Function]}
+                            >
+                                          Add
+                            </button>
               </div>
 </div>,
           ],
@@ -744,6 +934,11 @@ ShallowWrapper {
 </h3>,
                 <h3>
                   Spotify Followers
+</h3>,
+                <h3
+                  className="watchlist-heading"
+>
+                  Watchlist
 </h3>,
               ],
               "className": "table-headings",
@@ -805,6 +1000,18 @@ ShallowWrapper {
                 "rendered": "Spotify Followers",
                 "type": "h3",
               },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Watchlist",
+                  "className": "watchlist-heading",
+                },
+                "ref": null,
+                "rendered": "Watchlist",
+                "type": "h3",
+              },
             ],
             "type": "div",
           },
@@ -816,6 +1023,7 @@ ShallowWrapper {
               "children": Array [
                 <div
                   className="artist-listing"
+                  onClick={undefined}
 >
                   <img
                                     alt="artist"
@@ -834,9 +1042,15 @@ ShallowWrapper {
                   <p>
                                     2296228
                   </p>
+                  <button
+                                    onClick={[Function]}
+                  >
+                                    Add
+                  </button>
 </div>,
                 <div
                   className="artist-listing"
+                  onClick={undefined}
 >
                   <img
                                     alt="artist"
@@ -855,9 +1069,15 @@ ShallowWrapper {
                   <p>
                                     128307
                   </p>
+                  <button
+                                    onClick={[Function]}
+                  >
+                                    Add
+                  </button>
 </div>,
                 <div
                   className="artist-listing"
+                  onClick={undefined}
 >
                   <img
                                     alt="artist"
@@ -876,9 +1096,15 @@ ShallowWrapper {
                   <p>
                                     326986
                   </p>
+                  <button
+                                    onClick={[Function]}
+                  >
+                                    Add
+                  </button>
 </div>,
                 <div
                   className="artist-listing"
+                  onClick={undefined}
 >
                   <img
                                     alt="artist"
@@ -897,9 +1123,15 @@ ShallowWrapper {
                   <p>
                                     2309822
                   </p>
+                  <button
+                                    onClick={[Function]}
+                  >
+                                    Add
+                  </button>
 </div>,
                 <div
                   className="artist-listing"
+                  onClick={undefined}
 >
                   <img
                                     alt="artist"
@@ -918,9 +1150,15 @@ ShallowWrapper {
                   <p>
                                     4236
                   </p>
+                  <button
+                                    onClick={[Function]}
+                  >
+                                    Add
+                  </button>
 </div>,
                 <div
                   className="artist-listing"
+                  onClick={undefined}
 >
                   <img
                                     alt="artist"
@@ -939,9 +1177,15 @@ ShallowWrapper {
                   <p>
                                     437122
                   </p>
+                  <button
+                                    onClick={[Function]}
+                  >
+                                    Add
+                  </button>
 </div>,
                 <div
                   className="artist-listing"
+                  onClick={undefined}
 >
                   <img
                                     alt="artist"
@@ -960,9 +1204,15 @@ ShallowWrapper {
                   <p>
                                     136557
                   </p>
+                  <button
+                                    onClick={[Function]}
+                  >
+                                    Add
+                  </button>
 </div>,
                 <div
                   className="artist-listing"
+                  onClick={undefined}
 >
                   <img
                                     alt="artist"
@@ -981,9 +1231,15 @@ ShallowWrapper {
                   <p>
                                     249350
                   </p>
+                  <button
+                                    onClick={[Function]}
+                  >
+                                    Add
+                  </button>
 </div>,
                 <div
                   className="artist-listing"
+                  onClick={undefined}
 >
                   <img
                                     alt="artist"
@@ -1002,9 +1258,15 @@ ShallowWrapper {
                   <p>
                                     26214
                   </p>
+                  <button
+                                    onClick={[Function]}
+                  >
+                                    Add
+                  </button>
 </div>,
                 <div
                   className="artist-listing"
+                  onClick={undefined}
 >
                   <img
                                     alt="artist"
@@ -1023,9 +1285,15 @@ ShallowWrapper {
                   <p>
                                     18730
                   </p>
+                  <button
+                                    onClick={[Function]}
+                  >
+                                    Add
+                  </button>
 </div>,
                 <div
                   className="artist-listing"
+                  onClick={undefined}
 >
                   <img
                                     alt="artist"
@@ -1044,9 +1312,15 @@ ShallowWrapper {
                   <p>
                                     803225
                   </p>
+                  <button
+                                    onClick={[Function]}
+                  >
+                                    Add
+                  </button>
 </div>,
                 <div
                   className="artist-listing"
+                  onClick={undefined}
 >
                   <img
                                     alt="artist"
@@ -1065,9 +1339,15 @@ ShallowWrapper {
                   <p>
                                     155714
                   </p>
+                  <button
+                                    onClick={[Function]}
+                  >
+                                    Add
+                  </button>
 </div>,
                 <div
                   className="artist-listing"
+                  onClick={undefined}
 >
                   <img
                                     alt="artist"
@@ -1086,9 +1366,15 @@ ShallowWrapper {
                   <p>
                                     113010
                   </p>
+                  <button
+                                    onClick={[Function]}
+                  >
+                                    Add
+                  </button>
 </div>,
                 <div
                   className="artist-listing"
+                  onClick={undefined}
 >
                   <img
                                     alt="artist"
@@ -1107,9 +1393,15 @@ ShallowWrapper {
                   <p>
                                     13691351
                   </p>
+                  <button
+                                    onClick={[Function]}
+                  >
+                                    Add
+                  </button>
 </div>,
                 <div
                   className="artist-listing"
+                  onClick={undefined}
 >
                   <img
                                     alt="artist"
@@ -1128,6 +1420,11 @@ ShallowWrapper {
                   <p>
                                     77561
                   </p>
+                  <button
+                                    onClick={[Function]}
+                  >
+                                    Add
+                  </button>
 </div>,
               ],
               "className": "artists-container",
@@ -1157,8 +1454,14 @@ ShallowWrapper {
                     <p>
                       2296228
 </p>,
+                    <button
+                      onClick={[Function]}
+>
+                      Add
+</button>,
                   ],
                   "className": "artist-listing",
+                  "onClick": undefined,
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1219,6 +1522,18 @@ ShallowWrapper {
                     "rendered": 2296228,
                     "type": "p",
                   },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Add",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "Add",
+                    "type": "button",
+                  },
                 ],
                 "type": "div",
               },
@@ -1245,8 +1560,14 @@ ShallowWrapper {
                     <p>
                       128307
 </p>,
+                    <button
+                      onClick={[Function]}
+>
+                      Add
+</button>,
                   ],
                   "className": "artist-listing",
+                  "onClick": undefined,
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1307,6 +1628,18 @@ ShallowWrapper {
                     "rendered": 128307,
                     "type": "p",
                   },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Add",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "Add",
+                    "type": "button",
+                  },
                 ],
                 "type": "div",
               },
@@ -1333,8 +1666,14 @@ ShallowWrapper {
                     <p>
                       326986
 </p>,
+                    <button
+                      onClick={[Function]}
+>
+                      Add
+</button>,
                   ],
                   "className": "artist-listing",
+                  "onClick": undefined,
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1395,6 +1734,18 @@ ShallowWrapper {
                     "rendered": 326986,
                     "type": "p",
                   },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Add",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "Add",
+                    "type": "button",
+                  },
                 ],
                 "type": "div",
               },
@@ -1421,8 +1772,14 @@ ShallowWrapper {
                     <p>
                       2309822
 </p>,
+                    <button
+                      onClick={[Function]}
+>
+                      Add
+</button>,
                   ],
                   "className": "artist-listing",
+                  "onClick": undefined,
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1483,6 +1840,18 @@ ShallowWrapper {
                     "rendered": 2309822,
                     "type": "p",
                   },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Add",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "Add",
+                    "type": "button",
+                  },
                 ],
                 "type": "div",
               },
@@ -1509,8 +1878,14 @@ ShallowWrapper {
                     <p>
                       4236
 </p>,
+                    <button
+                      onClick={[Function]}
+>
+                      Add
+</button>,
                   ],
                   "className": "artist-listing",
+                  "onClick": undefined,
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1571,6 +1946,18 @@ ShallowWrapper {
                     "rendered": 4236,
                     "type": "p",
                   },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Add",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "Add",
+                    "type": "button",
+                  },
                 ],
                 "type": "div",
               },
@@ -1597,8 +1984,14 @@ ShallowWrapper {
                     <p>
                       437122
 </p>,
+                    <button
+                      onClick={[Function]}
+>
+                      Add
+</button>,
                   ],
                   "className": "artist-listing",
+                  "onClick": undefined,
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1659,6 +2052,18 @@ ShallowWrapper {
                     "rendered": 437122,
                     "type": "p",
                   },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Add",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "Add",
+                    "type": "button",
+                  },
                 ],
                 "type": "div",
               },
@@ -1685,8 +2090,14 @@ ShallowWrapper {
                     <p>
                       136557
 </p>,
+                    <button
+                      onClick={[Function]}
+>
+                      Add
+</button>,
                   ],
                   "className": "artist-listing",
+                  "onClick": undefined,
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1747,6 +2158,18 @@ ShallowWrapper {
                     "rendered": 136557,
                     "type": "p",
                   },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Add",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "Add",
+                    "type": "button",
+                  },
                 ],
                 "type": "div",
               },
@@ -1773,8 +2196,14 @@ ShallowWrapper {
                     <p>
                       249350
 </p>,
+                    <button
+                      onClick={[Function]}
+>
+                      Add
+</button>,
                   ],
                   "className": "artist-listing",
+                  "onClick": undefined,
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1835,6 +2264,18 @@ ShallowWrapper {
                     "rendered": 249350,
                     "type": "p",
                   },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Add",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "Add",
+                    "type": "button",
+                  },
                 ],
                 "type": "div",
               },
@@ -1861,8 +2302,14 @@ ShallowWrapper {
                     <p>
                       26214
 </p>,
+                    <button
+                      onClick={[Function]}
+>
+                      Add
+</button>,
                   ],
                   "className": "artist-listing",
+                  "onClick": undefined,
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1923,6 +2370,18 @@ ShallowWrapper {
                     "rendered": 26214,
                     "type": "p",
                   },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Add",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "Add",
+                    "type": "button",
+                  },
                 ],
                 "type": "div",
               },
@@ -1949,8 +2408,14 @@ ShallowWrapper {
                     <p>
                       18730
 </p>,
+                    <button
+                      onClick={[Function]}
+>
+                      Add
+</button>,
                   ],
                   "className": "artist-listing",
+                  "onClick": undefined,
                 },
                 "ref": null,
                 "rendered": Array [
@@ -2011,6 +2476,18 @@ ShallowWrapper {
                     "rendered": 18730,
                     "type": "p",
                   },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Add",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "Add",
+                    "type": "button",
+                  },
                 ],
                 "type": "div",
               },
@@ -2037,8 +2514,14 @@ ShallowWrapper {
                     <p>
                       803225
 </p>,
+                    <button
+                      onClick={[Function]}
+>
+                      Add
+</button>,
                   ],
                   "className": "artist-listing",
+                  "onClick": undefined,
                 },
                 "ref": null,
                 "rendered": Array [
@@ -2099,6 +2582,18 @@ ShallowWrapper {
                     "rendered": 803225,
                     "type": "p",
                   },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Add",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "Add",
+                    "type": "button",
+                  },
                 ],
                 "type": "div",
               },
@@ -2125,8 +2620,14 @@ ShallowWrapper {
                     <p>
                       155714
 </p>,
+                    <button
+                      onClick={[Function]}
+>
+                      Add
+</button>,
                   ],
                   "className": "artist-listing",
+                  "onClick": undefined,
                 },
                 "ref": null,
                 "rendered": Array [
@@ -2187,6 +2688,18 @@ ShallowWrapper {
                     "rendered": 155714,
                     "type": "p",
                   },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Add",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "Add",
+                    "type": "button",
+                  },
                 ],
                 "type": "div",
               },
@@ -2213,8 +2726,14 @@ ShallowWrapper {
                     <p>
                       113010
 </p>,
+                    <button
+                      onClick={[Function]}
+>
+                      Add
+</button>,
                   ],
                   "className": "artist-listing",
+                  "onClick": undefined,
                 },
                 "ref": null,
                 "rendered": Array [
@@ -2275,6 +2794,18 @@ ShallowWrapper {
                     "rendered": 113010,
                     "type": "p",
                   },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Add",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "Add",
+                    "type": "button",
+                  },
                 ],
                 "type": "div",
               },
@@ -2301,8 +2832,14 @@ ShallowWrapper {
                     <p>
                       13691351
 </p>,
+                    <button
+                      onClick={[Function]}
+>
+                      Add
+</button>,
                   ],
                   "className": "artist-listing",
+                  "onClick": undefined,
                 },
                 "ref": null,
                 "rendered": Array [
@@ -2363,6 +2900,18 @@ ShallowWrapper {
                     "rendered": 13691351,
                     "type": "p",
                   },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Add",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "Add",
+                    "type": "button",
+                  },
                 ],
                 "type": "div",
               },
@@ -2389,8 +2938,14 @@ ShallowWrapper {
                     <p>
                       77561
 </p>,
+                    <button
+                      onClick={[Function]}
+>
+                      Add
+</button>,
                   ],
                   "className": "artist-listing",
+                  "onClick": undefined,
                 },
                 "ref": null,
                 "rendered": Array [
@@ -2451,6 +3006,18 @@ ShallowWrapper {
                     "rendered": 77561,
                     "type": "p",
                   },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Add",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "Add",
+                    "type": "button",
+                  },
                 ],
                 "type": "div",
               },
@@ -2492,12 +3059,18 @@ ShallowWrapper {
                         <h3>
                                     Spotify Followers
                         </h3>
+                        <h3
+                                    className="watchlist-heading"
+                        >
+                                    Watchlist
+                        </h3>
             </div>
             <div
                         className="artists-container"
             >
                         <div
                                     className="artist-listing"
+                                    onClick={undefined}
                         >
                                     <img
                                                 alt="artist"
@@ -2516,9 +3089,15 @@ ShallowWrapper {
                                     <p>
                                                 2296228
                                     </p>
+                                    <button
+                                                onClick={[Function]}
+                                    >
+                                                Add
+                                    </button>
                         </div>
                         <div
                                     className="artist-listing"
+                                    onClick={undefined}
                         >
                                     <img
                                                 alt="artist"
@@ -2537,9 +3116,15 @@ ShallowWrapper {
                                     <p>
                                                 128307
                                     </p>
+                                    <button
+                                                onClick={[Function]}
+                                    >
+                                                Add
+                                    </button>
                         </div>
                         <div
                                     className="artist-listing"
+                                    onClick={undefined}
                         >
                                     <img
                                                 alt="artist"
@@ -2558,9 +3143,15 @@ ShallowWrapper {
                                     <p>
                                                 326986
                                     </p>
+                                    <button
+                                                onClick={[Function]}
+                                    >
+                                                Add
+                                    </button>
                         </div>
                         <div
                                     className="artist-listing"
+                                    onClick={undefined}
                         >
                                     <img
                                                 alt="artist"
@@ -2579,9 +3170,15 @@ ShallowWrapper {
                                     <p>
                                                 2309822
                                     </p>
+                                    <button
+                                                onClick={[Function]}
+                                    >
+                                                Add
+                                    </button>
                         </div>
                         <div
                                     className="artist-listing"
+                                    onClick={undefined}
                         >
                                     <img
                                                 alt="artist"
@@ -2600,9 +3197,15 @@ ShallowWrapper {
                                     <p>
                                                 4236
                                     </p>
+                                    <button
+                                                onClick={[Function]}
+                                    >
+                                                Add
+                                    </button>
                         </div>
                         <div
                                     className="artist-listing"
+                                    onClick={undefined}
                         >
                                     <img
                                                 alt="artist"
@@ -2621,9 +3224,15 @@ ShallowWrapper {
                                     <p>
                                                 437122
                                     </p>
+                                    <button
+                                                onClick={[Function]}
+                                    >
+                                                Add
+                                    </button>
                         </div>
                         <div
                                     className="artist-listing"
+                                    onClick={undefined}
                         >
                                     <img
                                                 alt="artist"
@@ -2642,9 +3251,15 @@ ShallowWrapper {
                                     <p>
                                                 136557
                                     </p>
+                                    <button
+                                                onClick={[Function]}
+                                    >
+                                                Add
+                                    </button>
                         </div>
                         <div
                                     className="artist-listing"
+                                    onClick={undefined}
                         >
                                     <img
                                                 alt="artist"
@@ -2663,9 +3278,15 @@ ShallowWrapper {
                                     <p>
                                                 249350
                                     </p>
+                                    <button
+                                                onClick={[Function]}
+                                    >
+                                                Add
+                                    </button>
                         </div>
                         <div
                                     className="artist-listing"
+                                    onClick={undefined}
                         >
                                     <img
                                                 alt="artist"
@@ -2684,9 +3305,15 @@ ShallowWrapper {
                                     <p>
                                                 26214
                                     </p>
+                                    <button
+                                                onClick={[Function]}
+                                    >
+                                                Add
+                                    </button>
                         </div>
                         <div
                                     className="artist-listing"
+                                    onClick={undefined}
                         >
                                     <img
                                                 alt="artist"
@@ -2705,9 +3332,15 @@ ShallowWrapper {
                                     <p>
                                                 18730
                                     </p>
+                                    <button
+                                                onClick={[Function]}
+                                    >
+                                                Add
+                                    </button>
                         </div>
                         <div
                                     className="artist-listing"
+                                    onClick={undefined}
                         >
                                     <img
                                                 alt="artist"
@@ -2726,9 +3359,15 @@ ShallowWrapper {
                                     <p>
                                                 803225
                                     </p>
+                                    <button
+                                                onClick={[Function]}
+                                    >
+                                                Add
+                                    </button>
                         </div>
                         <div
                                     className="artist-listing"
+                                    onClick={undefined}
                         >
                                     <img
                                                 alt="artist"
@@ -2747,9 +3386,15 @@ ShallowWrapper {
                                     <p>
                                                 155714
                                     </p>
+                                    <button
+                                                onClick={[Function]}
+                                    >
+                                                Add
+                                    </button>
                         </div>
                         <div
                                     className="artist-listing"
+                                    onClick={undefined}
                         >
                                     <img
                                                 alt="artist"
@@ -2768,9 +3413,15 @@ ShallowWrapper {
                                     <p>
                                                 113010
                                     </p>
+                                    <button
+                                                onClick={[Function]}
+                                    >
+                                                Add
+                                    </button>
                         </div>
                         <div
                                     className="artist-listing"
+                                    onClick={undefined}
                         >
                                     <img
                                                 alt="artist"
@@ -2789,9 +3440,15 @@ ShallowWrapper {
                                     <p>
                                                 13691351
                                     </p>
+                                    <button
+                                                onClick={[Function]}
+                                    >
+                                                Add
+                                    </button>
                         </div>
                         <div
                                     className="artist-listing"
+                                    onClick={undefined}
                         >
                                     <img
                                                 alt="artist"
@@ -2810,6 +3467,11 @@ ShallowWrapper {
                                     <p>
                                                 77561
                                     </p>
+                                    <button
+                                                onClick={[Function]}
+                                    >
+                                                Add
+                                    </button>
                         </div>
             </div>
 </div>,
@@ -2851,12 +3513,18 @@ ShallowWrapper {
                 <h3>
                                 Spotify Followers
                 </h3>
+                <h3
+                                className="watchlist-heading"
+                >
+                                Watchlist
+                </h3>
 </div>,
               <div
                 className="artists-container"
 >
                 <div
                                 className="artist-listing"
+                                onClick={undefined}
                 >
                                 <img
                                                 alt="artist"
@@ -2875,9 +3543,15 @@ ShallowWrapper {
                                 <p>
                                                 2296228
                                 </p>
+                                <button
+                                                onClick={[Function]}
+                                >
+                                                Add
+                                </button>
                 </div>
                 <div
                                 className="artist-listing"
+                                onClick={undefined}
                 >
                                 <img
                                                 alt="artist"
@@ -2896,9 +3570,15 @@ ShallowWrapper {
                                 <p>
                                                 128307
                                 </p>
+                                <button
+                                                onClick={[Function]}
+                                >
+                                                Add
+                                </button>
                 </div>
                 <div
                                 className="artist-listing"
+                                onClick={undefined}
                 >
                                 <img
                                                 alt="artist"
@@ -2917,9 +3597,15 @@ ShallowWrapper {
                                 <p>
                                                 326986
                                 </p>
+                                <button
+                                                onClick={[Function]}
+                                >
+                                                Add
+                                </button>
                 </div>
                 <div
                                 className="artist-listing"
+                                onClick={undefined}
                 >
                                 <img
                                                 alt="artist"
@@ -2938,9 +3624,15 @@ ShallowWrapper {
                                 <p>
                                                 2309822
                                 </p>
+                                <button
+                                                onClick={[Function]}
+                                >
+                                                Add
+                                </button>
                 </div>
                 <div
                                 className="artist-listing"
+                                onClick={undefined}
                 >
                                 <img
                                                 alt="artist"
@@ -2959,9 +3651,15 @@ ShallowWrapper {
                                 <p>
                                                 4236
                                 </p>
+                                <button
+                                                onClick={[Function]}
+                                >
+                                                Add
+                                </button>
                 </div>
                 <div
                                 className="artist-listing"
+                                onClick={undefined}
                 >
                                 <img
                                                 alt="artist"
@@ -2980,9 +3678,15 @@ ShallowWrapper {
                                 <p>
                                                 437122
                                 </p>
+                                <button
+                                                onClick={[Function]}
+                                >
+                                                Add
+                                </button>
                 </div>
                 <div
                                 className="artist-listing"
+                                onClick={undefined}
                 >
                                 <img
                                                 alt="artist"
@@ -3001,9 +3705,15 @@ ShallowWrapper {
                                 <p>
                                                 136557
                                 </p>
+                                <button
+                                                onClick={[Function]}
+                                >
+                                                Add
+                                </button>
                 </div>
                 <div
                                 className="artist-listing"
+                                onClick={undefined}
                 >
                                 <img
                                                 alt="artist"
@@ -3022,9 +3732,15 @@ ShallowWrapper {
                                 <p>
                                                 249350
                                 </p>
+                                <button
+                                                onClick={[Function]}
+                                >
+                                                Add
+                                </button>
                 </div>
                 <div
                                 className="artist-listing"
+                                onClick={undefined}
                 >
                                 <img
                                                 alt="artist"
@@ -3043,9 +3759,15 @@ ShallowWrapper {
                                 <p>
                                                 26214
                                 </p>
+                                <button
+                                                onClick={[Function]}
+                                >
+                                                Add
+                                </button>
                 </div>
                 <div
                                 className="artist-listing"
+                                onClick={undefined}
                 >
                                 <img
                                                 alt="artist"
@@ -3064,9 +3786,15 @@ ShallowWrapper {
                                 <p>
                                                 18730
                                 </p>
+                                <button
+                                                onClick={[Function]}
+                                >
+                                                Add
+                                </button>
                 </div>
                 <div
                                 className="artist-listing"
+                                onClick={undefined}
                 >
                                 <img
                                                 alt="artist"
@@ -3085,9 +3813,15 @@ ShallowWrapper {
                                 <p>
                                                 803225
                                 </p>
+                                <button
+                                                onClick={[Function]}
+                                >
+                                                Add
+                                </button>
                 </div>
                 <div
                                 className="artist-listing"
+                                onClick={undefined}
                 >
                                 <img
                                                 alt="artist"
@@ -3106,9 +3840,15 @@ ShallowWrapper {
                                 <p>
                                                 155714
                                 </p>
+                                <button
+                                                onClick={[Function]}
+                                >
+                                                Add
+                                </button>
                 </div>
                 <div
                                 className="artist-listing"
+                                onClick={undefined}
                 >
                                 <img
                                                 alt="artist"
@@ -3127,9 +3867,15 @@ ShallowWrapper {
                                 <p>
                                                 113010
                                 </p>
+                                <button
+                                                onClick={[Function]}
+                                >
+                                                Add
+                                </button>
                 </div>
                 <div
                                 className="artist-listing"
+                                onClick={undefined}
                 >
                                 <img
                                                 alt="artist"
@@ -3148,9 +3894,15 @@ ShallowWrapper {
                                 <p>
                                                 13691351
                                 </p>
+                                <button
+                                                onClick={[Function]}
+                                >
+                                                Add
+                                </button>
                 </div>
                 <div
                                 className="artist-listing"
+                                onClick={undefined}
                 >
                                 <img
                                                 alt="artist"
@@ -3169,6 +3921,11 @@ ShallowWrapper {
                                 <p>
                                                 77561
                                 </p>
+                                <button
+                                                onClick={[Function]}
+                                >
+                                                Add
+                                </button>
                 </div>
 </div>,
             ],
@@ -3196,6 +3953,11 @@ ShallowWrapper {
 </h3>,
                   <h3>
                     Spotify Followers
+</h3>,
+                  <h3
+                    className="watchlist-heading"
+>
+                    Watchlist
 </h3>,
                 ],
                 "className": "table-headings",
@@ -3257,6 +4019,18 @@ ShallowWrapper {
                   "rendered": "Spotify Followers",
                   "type": "h3",
                 },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Watchlist",
+                    "className": "watchlist-heading",
+                  },
+                  "ref": null,
+                  "rendered": "Watchlist",
+                  "type": "h3",
+                },
               ],
               "type": "div",
             },
@@ -3268,6 +4042,7 @@ ShallowWrapper {
                 "children": Array [
                   <div
                     className="artist-listing"
+                    onClick={undefined}
 >
                     <img
                                         alt="artist"
@@ -3286,9 +4061,15 @@ ShallowWrapper {
                     <p>
                                         2296228
                     </p>
+                    <button
+                                        onClick={[Function]}
+                    >
+                                        Add
+                    </button>
 </div>,
                   <div
                     className="artist-listing"
+                    onClick={undefined}
 >
                     <img
                                         alt="artist"
@@ -3307,9 +4088,15 @@ ShallowWrapper {
                     <p>
                                         128307
                     </p>
+                    <button
+                                        onClick={[Function]}
+                    >
+                                        Add
+                    </button>
 </div>,
                   <div
                     className="artist-listing"
+                    onClick={undefined}
 >
                     <img
                                         alt="artist"
@@ -3328,9 +4115,15 @@ ShallowWrapper {
                     <p>
                                         326986
                     </p>
+                    <button
+                                        onClick={[Function]}
+                    >
+                                        Add
+                    </button>
 </div>,
                   <div
                     className="artist-listing"
+                    onClick={undefined}
 >
                     <img
                                         alt="artist"
@@ -3349,9 +4142,15 @@ ShallowWrapper {
                     <p>
                                         2309822
                     </p>
+                    <button
+                                        onClick={[Function]}
+                    >
+                                        Add
+                    </button>
 </div>,
                   <div
                     className="artist-listing"
+                    onClick={undefined}
 >
                     <img
                                         alt="artist"
@@ -3370,9 +4169,15 @@ ShallowWrapper {
                     <p>
                                         4236
                     </p>
+                    <button
+                                        onClick={[Function]}
+                    >
+                                        Add
+                    </button>
 </div>,
                   <div
                     className="artist-listing"
+                    onClick={undefined}
 >
                     <img
                                         alt="artist"
@@ -3391,9 +4196,15 @@ ShallowWrapper {
                     <p>
                                         437122
                     </p>
+                    <button
+                                        onClick={[Function]}
+                    >
+                                        Add
+                    </button>
 </div>,
                   <div
                     className="artist-listing"
+                    onClick={undefined}
 >
                     <img
                                         alt="artist"
@@ -3412,9 +4223,15 @@ ShallowWrapper {
                     <p>
                                         136557
                     </p>
+                    <button
+                                        onClick={[Function]}
+                    >
+                                        Add
+                    </button>
 </div>,
                   <div
                     className="artist-listing"
+                    onClick={undefined}
 >
                     <img
                                         alt="artist"
@@ -3433,9 +4250,15 @@ ShallowWrapper {
                     <p>
                                         249350
                     </p>
+                    <button
+                                        onClick={[Function]}
+                    >
+                                        Add
+                    </button>
 </div>,
                   <div
                     className="artist-listing"
+                    onClick={undefined}
 >
                     <img
                                         alt="artist"
@@ -3454,9 +4277,15 @@ ShallowWrapper {
                     <p>
                                         26214
                     </p>
+                    <button
+                                        onClick={[Function]}
+                    >
+                                        Add
+                    </button>
 </div>,
                   <div
                     className="artist-listing"
+                    onClick={undefined}
 >
                     <img
                                         alt="artist"
@@ -3475,9 +4304,15 @@ ShallowWrapper {
                     <p>
                                         18730
                     </p>
+                    <button
+                                        onClick={[Function]}
+                    >
+                                        Add
+                    </button>
 </div>,
                   <div
                     className="artist-listing"
+                    onClick={undefined}
 >
                     <img
                                         alt="artist"
@@ -3496,9 +4331,15 @@ ShallowWrapper {
                     <p>
                                         803225
                     </p>
+                    <button
+                                        onClick={[Function]}
+                    >
+                                        Add
+                    </button>
 </div>,
                   <div
                     className="artist-listing"
+                    onClick={undefined}
 >
                     <img
                                         alt="artist"
@@ -3517,9 +4358,15 @@ ShallowWrapper {
                     <p>
                                         155714
                     </p>
+                    <button
+                                        onClick={[Function]}
+                    >
+                                        Add
+                    </button>
 </div>,
                   <div
                     className="artist-listing"
+                    onClick={undefined}
 >
                     <img
                                         alt="artist"
@@ -3538,9 +4385,15 @@ ShallowWrapper {
                     <p>
                                         113010
                     </p>
+                    <button
+                                        onClick={[Function]}
+                    >
+                                        Add
+                    </button>
 </div>,
                   <div
                     className="artist-listing"
+                    onClick={undefined}
 >
                     <img
                                         alt="artist"
@@ -3559,9 +4412,15 @@ ShallowWrapper {
                     <p>
                                         13691351
                     </p>
+                    <button
+                                        onClick={[Function]}
+                    >
+                                        Add
+                    </button>
 </div>,
                   <div
                     className="artist-listing"
+                    onClick={undefined}
 >
                     <img
                                         alt="artist"
@@ -3580,6 +4439,11 @@ ShallowWrapper {
                     <p>
                                         77561
                     </p>
+                    <button
+                                        onClick={[Function]}
+                    >
+                                        Add
+                    </button>
 </div>,
                 ],
                 "className": "artists-container",
@@ -3609,8 +4473,14 @@ ShallowWrapper {
                       <p>
                         2296228
 </p>,
+                      <button
+                        onClick={[Function]}
+>
+                        Add
+</button>,
                     ],
                     "className": "artist-listing",
+                    "onClick": undefined,
                   },
                   "ref": null,
                   "rendered": Array [
@@ -3671,6 +4541,18 @@ ShallowWrapper {
                       "rendered": 2296228,
                       "type": "p",
                     },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Add",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": "Add",
+                      "type": "button",
+                    },
                   ],
                   "type": "div",
                 },
@@ -3697,8 +4579,14 @@ ShallowWrapper {
                       <p>
                         128307
 </p>,
+                      <button
+                        onClick={[Function]}
+>
+                        Add
+</button>,
                     ],
                     "className": "artist-listing",
+                    "onClick": undefined,
                   },
                   "ref": null,
                   "rendered": Array [
@@ -3759,6 +4647,18 @@ ShallowWrapper {
                       "rendered": 128307,
                       "type": "p",
                     },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Add",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": "Add",
+                      "type": "button",
+                    },
                   ],
                   "type": "div",
                 },
@@ -3785,8 +4685,14 @@ ShallowWrapper {
                       <p>
                         326986
 </p>,
+                      <button
+                        onClick={[Function]}
+>
+                        Add
+</button>,
                     ],
                     "className": "artist-listing",
+                    "onClick": undefined,
                   },
                   "ref": null,
                   "rendered": Array [
@@ -3847,6 +4753,18 @@ ShallowWrapper {
                       "rendered": 326986,
                       "type": "p",
                     },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Add",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": "Add",
+                      "type": "button",
+                    },
                   ],
                   "type": "div",
                 },
@@ -3873,8 +4791,14 @@ ShallowWrapper {
                       <p>
                         2309822
 </p>,
+                      <button
+                        onClick={[Function]}
+>
+                        Add
+</button>,
                     ],
                     "className": "artist-listing",
+                    "onClick": undefined,
                   },
                   "ref": null,
                   "rendered": Array [
@@ -3935,6 +4859,18 @@ ShallowWrapper {
                       "rendered": 2309822,
                       "type": "p",
                     },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Add",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": "Add",
+                      "type": "button",
+                    },
                   ],
                   "type": "div",
                 },
@@ -3961,8 +4897,14 @@ ShallowWrapper {
                       <p>
                         4236
 </p>,
+                      <button
+                        onClick={[Function]}
+>
+                        Add
+</button>,
                     ],
                     "className": "artist-listing",
+                    "onClick": undefined,
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4023,6 +4965,18 @@ ShallowWrapper {
                       "rendered": 4236,
                       "type": "p",
                     },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Add",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": "Add",
+                      "type": "button",
+                    },
                   ],
                   "type": "div",
                 },
@@ -4049,8 +5003,14 @@ ShallowWrapper {
                       <p>
                         437122
 </p>,
+                      <button
+                        onClick={[Function]}
+>
+                        Add
+</button>,
                     ],
                     "className": "artist-listing",
+                    "onClick": undefined,
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4111,6 +5071,18 @@ ShallowWrapper {
                       "rendered": 437122,
                       "type": "p",
                     },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Add",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": "Add",
+                      "type": "button",
+                    },
                   ],
                   "type": "div",
                 },
@@ -4137,8 +5109,14 @@ ShallowWrapper {
                       <p>
                         136557
 </p>,
+                      <button
+                        onClick={[Function]}
+>
+                        Add
+</button>,
                     ],
                     "className": "artist-listing",
+                    "onClick": undefined,
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4199,6 +5177,18 @@ ShallowWrapper {
                       "rendered": 136557,
                       "type": "p",
                     },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Add",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": "Add",
+                      "type": "button",
+                    },
                   ],
                   "type": "div",
                 },
@@ -4225,8 +5215,14 @@ ShallowWrapper {
                       <p>
                         249350
 </p>,
+                      <button
+                        onClick={[Function]}
+>
+                        Add
+</button>,
                     ],
                     "className": "artist-listing",
+                    "onClick": undefined,
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4287,6 +5283,18 @@ ShallowWrapper {
                       "rendered": 249350,
                       "type": "p",
                     },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Add",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": "Add",
+                      "type": "button",
+                    },
                   ],
                   "type": "div",
                 },
@@ -4313,8 +5321,14 @@ ShallowWrapper {
                       <p>
                         26214
 </p>,
+                      <button
+                        onClick={[Function]}
+>
+                        Add
+</button>,
                     ],
                     "className": "artist-listing",
+                    "onClick": undefined,
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4375,6 +5389,18 @@ ShallowWrapper {
                       "rendered": 26214,
                       "type": "p",
                     },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Add",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": "Add",
+                      "type": "button",
+                    },
                   ],
                   "type": "div",
                 },
@@ -4401,8 +5427,14 @@ ShallowWrapper {
                       <p>
                         18730
 </p>,
+                      <button
+                        onClick={[Function]}
+>
+                        Add
+</button>,
                     ],
                     "className": "artist-listing",
+                    "onClick": undefined,
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4463,6 +5495,18 @@ ShallowWrapper {
                       "rendered": 18730,
                       "type": "p",
                     },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Add",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": "Add",
+                      "type": "button",
+                    },
                   ],
                   "type": "div",
                 },
@@ -4489,8 +5533,14 @@ ShallowWrapper {
                       <p>
                         803225
 </p>,
+                      <button
+                        onClick={[Function]}
+>
+                        Add
+</button>,
                     ],
                     "className": "artist-listing",
+                    "onClick": undefined,
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4551,6 +5601,18 @@ ShallowWrapper {
                       "rendered": 803225,
                       "type": "p",
                     },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Add",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": "Add",
+                      "type": "button",
+                    },
                   ],
                   "type": "div",
                 },
@@ -4577,8 +5639,14 @@ ShallowWrapper {
                       <p>
                         155714
 </p>,
+                      <button
+                        onClick={[Function]}
+>
+                        Add
+</button>,
                     ],
                     "className": "artist-listing",
+                    "onClick": undefined,
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4639,6 +5707,18 @@ ShallowWrapper {
                       "rendered": 155714,
                       "type": "p",
                     },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Add",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": "Add",
+                      "type": "button",
+                    },
                   ],
                   "type": "div",
                 },
@@ -4665,8 +5745,14 @@ ShallowWrapper {
                       <p>
                         113010
 </p>,
+                      <button
+                        onClick={[Function]}
+>
+                        Add
+</button>,
                     ],
                     "className": "artist-listing",
+                    "onClick": undefined,
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4727,6 +5813,18 @@ ShallowWrapper {
                       "rendered": 113010,
                       "type": "p",
                     },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Add",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": "Add",
+                      "type": "button",
+                    },
                   ],
                   "type": "div",
                 },
@@ -4753,8 +5851,14 @@ ShallowWrapper {
                       <p>
                         13691351
 </p>,
+                      <button
+                        onClick={[Function]}
+>
+                        Add
+</button>,
                     ],
                     "className": "artist-listing",
+                    "onClick": undefined,
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4815,6 +5919,18 @@ ShallowWrapper {
                       "rendered": 13691351,
                       "type": "p",
                     },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Add",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": "Add",
+                      "type": "button",
+                    },
                   ],
                   "type": "div",
                 },
@@ -4841,8 +5957,14 @@ ShallowWrapper {
                       <p>
                         77561
 </p>,
+                      <button
+                        onClick={[Function]}
+>
+                        Add
+</button>,
                     ],
                     "className": "artist-listing",
+                    "onClick": undefined,
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4902,6 +6024,18 @@ ShallowWrapper {
                       "ref": null,
                       "rendered": 77561,
                       "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Add",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": "Add",
+                      "type": "button",
                     },
                   ],
                   "type": "div",
