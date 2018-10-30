@@ -64,9 +64,6 @@ export const getAllArtists = async ({
   genre = null,
   sort = null
 }) => {
-  // agency: wme, caa
-  // genre: genre name
-  // sort: alphabetical, followers, popularity
   let url = `${process.env.REACT_APP_API}/api/v1/artists`;
 
   if (agency || genre || sort) {
