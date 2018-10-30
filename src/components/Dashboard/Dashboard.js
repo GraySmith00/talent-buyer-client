@@ -10,6 +10,7 @@ import './Dashboard.css';
 import OffersContainer from '../OffersContainer/OffersContainer';
 import EditOfferModal from '../EditOfferModal/EditOfferModal';
 import RecentOffers from '../RecentOffers/RecentOffers';
+import Watchlist from '../Watchlist/Watchlist';
 
 class Dashboard extends Component {
   state = {
@@ -82,9 +83,7 @@ class Dashboard extends Component {
             </div>
           </div>
           <div className="recents">
-            <div className="artist-watchlist">
-              <h2>Artist Watchlist</h2>
-            </div>
+            <Watchlist />
             <RecentOffers openEditOfferModal={this.openEditOfferModal} />
           </div>
         </div>

@@ -86,6 +86,7 @@
   .recents {
     display: grid;
     grid-template-columns: repeat(2, 10fr);
+    grid-gap: 2rem;
     margin-top: 2rem;
 
     h2 {

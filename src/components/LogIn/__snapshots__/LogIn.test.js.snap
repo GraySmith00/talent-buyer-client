@@ -19,6 +19,7 @@ ShallowWrapper {
     }
     logInUser={[Function]}
     populateUserOffers={[Function]}
+    populateUserWatchlist={[Function]}
     setUserVenue={[Function]}
 />,
   Symbol(enzyme.__renderer__): Object {

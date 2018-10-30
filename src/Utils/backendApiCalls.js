@@ -84,7 +84,29 @@ export const getAllUserOffers = async userId => {
 };
 
 export const offerPutRequest = async offer => {
-  const url = `${process.env.REACT_APP_API}/api/v1/buyers/${offer.buyer_id}/offers/${offer.id}`;
+  const url = `${process.env.REACT_APP_API}/api/v1/buyers/${
+    offer.buyer_id
+  }/offers/${offer.id}`;
   const response = await axios.put(url, offer);
   return response.data;
+};
+
+export const watchlistPostRequest = async artistId => {
+  const url = `${process.env.REACT_APP_API}/api/v1/favorite_artists`;
+  const response = await axios.post(url, { artist_id: artistId });
+  return response;
+};
+
+export const watchlistDeleteRequest = async artistId => {
+  const url = `${
+    process.env.REACT_APP_API
+  }/api/v1/favorite_artists/${artistId}`;
+  const response = await axios.delete(url);
+  return response;
+};
+
+export const getUserWatchlist = async () => {
+  const url = `${process.env.REACT_APP_API}/api/v1/favorite_artists`;
+  const response = await axios.get(url);
+  return response;
 };
