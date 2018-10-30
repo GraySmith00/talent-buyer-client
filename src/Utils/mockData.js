@@ -11,7 +11,7 @@ export const mockArtist = {
     'alternative dance, dance-punk, electro house, electronic, filter house, indietronica, new rave'
 };
 
-const mockArtist2 = {
+export const mockArtist2 = {
   id: 4,
   name: 'Alesso',
   agency: 'WME',
