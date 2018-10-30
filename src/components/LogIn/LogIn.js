@@ -6,6 +6,7 @@ import { withRouter } from 'react-router-dom';
 import { setUserVenue } from '../../actions/venueActions';
 import { logInUser } from '../../actions/userActions';
 import { populateUserOffers } from '../../actions/offerActions';
+import { populateUserWatchlist } from '../../actions/watchlistActions';
 
 import ModalButton from '../styledComponents/ModalButton';
 import InputField from '../styledComponents/InputField';
@@ -36,6 +37,7 @@ export class LogIn extends Component {
     const loggedInUser = await this.props.logInUser(userCreds);
     const userVenue = await this.props.setUserVenue(loggedInUser.id);
     await this.props.populateUserOffers(loggedInUser.id);
+    await this.props.populateUserWatchlist();
 
     if (loggedInUser && userVenue) {
       this.props.history.push('/home');
@@ -84,13 +86,15 @@ LogIn.propTypes = {
   logInUser: PropTypes.func.isRequired,
   setUserVenue: PropTypes.func.isRequired,
   history: PropTypes.object.isRequired,
-  populateUserOffers: PropTypes.func.isRequired
+  populateUserOffers: PropTypes.func.isRequired,
+  populateUserWatchlist: PropTypes.func.isRequired
 };
 
 export const mapDispatchToProps = dispatch => ({
   logInUser: userCreds => dispatch(logInUser(userCreds)),
   setUserVenue: userId => dispatch(setUserVenue(userId)),
-  populateUserOffers: userId => dispatch(populateUserOffers(userId))
+  populateUserOffers: userId => dispatch(populateUserOffers(userId)),
+  populateUserWatchlist: () => dispatch(populateUserWatchlist())
 });
 
 export default withRouter(
