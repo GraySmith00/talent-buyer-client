@@ -3,7 +3,9 @@
 exports[`ArtistIndex component should match the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ArtistIndex />,
+  Symbol(enzyme.__unrendered__): <ArtistIndex
+    getArtist={[Function]}
+/>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -44,8 +46,10 @@ ShallowWrapper {
           <div
                     className="artists-container"
           >
-                    <div
+                    <Link
                               className="artist-listing"
+                              replace={false}
+                              to="/artists/4"
                     >
                               <img
                                         alt="artist"
@@ -64,9 +68,11 @@ ShallowWrapper {
                               <p>
                                         2296228
                               </p>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
+                              replace={false}
+                              to="/artists/5"
                     >
                               <img
                                         alt="artist"
@@ -85,9 +91,11 @@ ShallowWrapper {
                               <p>
                                         128307
                               </p>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
+                              replace={false}
+                              to="/artists/6"
                     >
                               <img
                                         alt="artist"
@@ -106,9 +114,11 @@ ShallowWrapper {
                               <p>
                                         326986
                               </p>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
+                              replace={false}
+                              to="/artists/7"
                     >
                               <img
                                         alt="artist"
@@ -127,9 +137,11 @@ ShallowWrapper {
                               <p>
                                         2309822
                               </p>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
+                              replace={false}
+                              to="/artists/8"
                     >
                               <img
                                         alt="artist"
@@ -148,9 +160,11 @@ ShallowWrapper {
                               <p>
                                         4236
                               </p>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
+                              replace={false}
+                              to="/artists/9"
                     >
                               <img
                                         alt="artist"
@@ -169,9 +183,11 @@ ShallowWrapper {
                               <p>
                                         437122
                               </p>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
+                              replace={false}
+                              to="/artists/10"
                     >
                               <img
                                         alt="artist"
@@ -190,9 +206,11 @@ ShallowWrapper {
                               <p>
                                         136557
                               </p>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
+                              replace={false}
+                              to="/artists/11"
                     >
                               <img
                                         alt="artist"
@@ -211,9 +229,11 @@ ShallowWrapper {
                               <p>
                                         249350
                               </p>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
+                              replace={false}
+                              to="/artists/12"
                     >
                               <img
                                         alt="artist"
@@ -232,9 +252,11 @@ ShallowWrapper {
                               <p>
                                         26214
                               </p>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
+                              replace={false}
+                              to="/artists/13"
                     >
                               <img
                                         alt="artist"
@@ -253,9 +275,11 @@ ShallowWrapper {
                               <p>
                                         18730
                               </p>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
+                              replace={false}
+                              to="/artists/14"
                     >
                               <img
                                         alt="artist"
@@ -274,9 +298,11 @@ ShallowWrapper {
                               <p>
                                         803225
                               </p>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
+                              replace={false}
+                              to="/artists/15"
                     >
                               <img
                                         alt="artist"
@@ -295,9 +321,11 @@ ShallowWrapper {
                               <p>
                                         155714
                               </p>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
+                              replace={false}
+                              to="/artists/18"
                     >
                               <img
                                         alt="artist"
@@ -316,9 +344,11 @@ ShallowWrapper {
                               <p>
                                         113010
                               </p>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
+                              replace={false}
+                              to="/artists/19"
                     >
                               <img
                                         alt="artist"
@@ -337,9 +367,11 @@ ShallowWrapper {
                               <p>
                                         13691351
                               </p>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
+                              replace={false}
+                              to="/artists/22"
                     >
                               <img
                                         alt="artist"
@@ -358,7 +390,7 @@ ShallowWrapper {
                               <p>
                                         77561
                               </p>
-                    </div>
+                    </Link>
           </div>
 </div>,
       ],
@@ -403,8 +435,10 @@ ShallowWrapper {
             <div
               className="artists-container"
 >
-              <div
+              <Link
                             className="artist-listing"
+                            replace={false}
+                            to="/artists/4"
               >
                             <img
                                           alt="artist"
@@ -423,9 +457,11 @@ ShallowWrapper {
                             <p>
                                           2296228
                             </p>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
+                            replace={false}
+                            to="/artists/5"
               >
                             <img
                                           alt="artist"
@@ -444,9 +480,11 @@ ShallowWrapper {
                             <p>
                                           128307
                             </p>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
+                            replace={false}
+                            to="/artists/6"
               >
                             <img
                                           alt="artist"
@@ -465,9 +503,11 @@ ShallowWrapper {
                             <p>
                                           326986
                             </p>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
+                            replace={false}
+                            to="/artists/7"
               >
                             <img
                                           alt="artist"
@@ -486,9 +526,11 @@ ShallowWrapper {
                             <p>
                                           2309822
                             </p>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
+                            replace={false}
+                            to="/artists/8"
               >
                             <img
                                           alt="artist"
@@ -507,9 +549,11 @@ ShallowWrapper {
                             <p>
                                           4236
                             </p>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
+                            replace={false}
+                            to="/artists/9"
               >
                             <img
                                           alt="artist"
@@ -528,9 +572,11 @@ ShallowWrapper {
                             <p>
                                           437122
                             </p>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
+                            replace={false}
+                            to="/artists/10"
               >
                             <img
                                           alt="artist"
@@ -549,9 +595,11 @@ ShallowWrapper {
                             <p>
                                           136557
                             </p>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
+                            replace={false}
+                            to="/artists/11"
               >
                             <img
                                           alt="artist"
@@ -570,9 +618,11 @@ ShallowWrapper {
                             <p>
                                           249350
                             </p>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
+                            replace={false}
+                            to="/artists/12"
               >
                             <img
                                           alt="artist"
@@ -591,9 +641,11 @@ ShallowWrapper {
                             <p>
                                           26214
                             </p>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
+                            replace={false}
+                            to="/artists/13"
               >
                             <img
                                           alt="artist"
@@ -612,9 +664,11 @@ ShallowWrapper {
                             <p>
                                           18730
                             </p>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
+                            replace={false}
+                            to="/artists/14"
               >
                             <img
                                           alt="artist"
@@ -633,9 +687,11 @@ ShallowWrapper {
                             <p>
                                           803225
                             </p>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
+                            replace={false}
+                            to="/artists/15"
               >
                             <img
                                           alt="artist"
@@ -654,9 +710,11 @@ ShallowWrapper {
                             <p>
                                           155714
                             </p>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
+                            replace={false}
+                            to="/artists/18"
               >
                             <img
                                           alt="artist"
@@ -675,9 +733,11 @@ ShallowWrapper {
                             <p>
                                           113010
                             </p>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
+                            replace={false}
+                            to="/artists/19"
               >
                             <img
                                           alt="artist"
@@ -696,9 +756,11 @@ ShallowWrapper {
                             <p>
                                           13691351
                             </p>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
+                            replace={false}
+                            to="/artists/22"
               >
                             <img
                                           alt="artist"
@@ -717,7 +779,7 @@ ShallowWrapper {
                             <p>
                                           77561
                             </p>
-              </div>
+              </Link>
 </div>,
           ],
           "className": "main-content",
@@ -814,8 +876,10 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <div
+                <Link
                   className="artist-listing"
+                  replace={false}
+                  to="/artists/4"
 >
                   <img
                                     alt="artist"
@@ -834,9 +898,11 @@ ShallowWrapper {
                   <p>
                                     2296228
                   </p>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
+                  replace={false}
+                  to="/artists/5"
 >
                   <img
                                     alt="artist"
@@ -855,9 +921,11 @@ ShallowWrapper {
                   <p>
                                     128307
                   </p>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
+                  replace={false}
+                  to="/artists/6"
 >
                   <img
                                     alt="artist"
@@ -876,9 +944,11 @@ ShallowWrapper {
                   <p>
                                     326986
                   </p>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
+                  replace={false}
+                  to="/artists/7"
 >
                   <img
                                     alt="artist"
@@ -897,9 +967,11 @@ ShallowWrapper {
                   <p>
                                     2309822
                   </p>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
+                  replace={false}
+                  to="/artists/8"
 >
                   <img
                                     alt="artist"
@@ -918,9 +990,11 @@ ShallowWrapper {
                   <p>
                                     4236
                   </p>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
+                  replace={false}
+                  to="/artists/9"
 >
                   <img
                                     alt="artist"
@@ -939,9 +1013,11 @@ ShallowWrapper {
                   <p>
                                     437122
                   </p>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
+                  replace={false}
+                  to="/artists/10"
 >
                   <img
                                     alt="artist"
@@ -960,9 +1036,11 @@ ShallowWrapper {
                   <p>
                                     136557
                   </p>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
+                  replace={false}
+                  to="/artists/11"
 >
                   <img
                                     alt="artist"
@@ -981,9 +1059,11 @@ ShallowWrapper {
                   <p>
                                     249350
                   </p>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
+                  replace={false}
+                  to="/artists/12"
 >
                   <img
                                     alt="artist"
@@ -1002,9 +1082,11 @@ ShallowWrapper {
                   <p>
                                     26214
                   </p>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
+                  replace={false}
+                  to="/artists/13"
 >
                   <img
                                     alt="artist"
@@ -1023,9 +1105,11 @@ ShallowWrapper {
                   <p>
                                     18730
                   </p>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
+                  replace={false}
+                  to="/artists/14"
 >
                   <img
                                     alt="artist"
@@ -1044,9 +1128,11 @@ ShallowWrapper {
                   <p>
                                     803225
                   </p>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
+                  replace={false}
+                  to="/artists/15"
 >
                   <img
                                     alt="artist"
@@ -1065,9 +1151,11 @@ ShallowWrapper {
                   <p>
                                     155714
                   </p>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
+                  replace={false}
+                  to="/artists/18"
 >
                   <img
                                     alt="artist"
@@ -1086,9 +1174,11 @@ ShallowWrapper {
                   <p>
                                     113010
                   </p>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
+                  replace={false}
+                  to="/artists/19"
 >
                   <img
                                     alt="artist"
@@ -1107,9 +1197,11 @@ ShallowWrapper {
                   <p>
                                     13691351
                   </p>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
+                  replace={false}
+                  to="/artists/22"
 >
                   <img
                                     alt="artist"
@@ -1128,7 +1220,7 @@ ShallowWrapper {
                   <p>
                                     77561
                   </p>
-</div>,
+</Link>,
               ],
               "className": "artists-container",
             },
@@ -1137,7 +1229,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": "4",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -1159,6 +1251,8 @@ ShallowWrapper {
 </p>,
                   ],
                   "className": "artist-listing",
+                  "replace": false,
+                  "to": "/artists/4",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1220,12 +1314,12 @@ ShallowWrapper {
                     "type": "p",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "5",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -1247,6 +1341,8 @@ ShallowWrapper {
 </p>,
                   ],
                   "className": "artist-listing",
+                  "replace": false,
+                  "to": "/artists/5",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1308,12 +1404,12 @@ ShallowWrapper {
                     "type": "p",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "6",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -1335,6 +1431,8 @@ ShallowWrapper {
 </p>,
                   ],
                   "className": "artist-listing",
+                  "replace": false,
+                  "to": "/artists/6",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1396,12 +1494,12 @@ ShallowWrapper {
                     "type": "p",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "7",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -1423,6 +1521,8 @@ ShallowWrapper {
 </p>,
                   ],
                   "className": "artist-listing",
+                  "replace": false,
+                  "to": "/artists/7",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1484,12 +1584,12 @@ ShallowWrapper {
                     "type": "p",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "8",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -1511,6 +1611,8 @@ ShallowWrapper {
 </p>,
                   ],
                   "className": "artist-listing",
+                  "replace": false,
+                  "to": "/artists/8",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1572,12 +1674,12 @@ ShallowWrapper {
                     "type": "p",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "9",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -1599,6 +1701,8 @@ ShallowWrapper {
 </p>,
                   ],
                   "className": "artist-listing",
+                  "replace": false,
+                  "to": "/artists/9",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1660,12 +1764,12 @@ ShallowWrapper {
                     "type": "p",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "10",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -1687,6 +1791,8 @@ ShallowWrapper {
 </p>,
                   ],
                   "className": "artist-listing",
+                  "replace": false,
+                  "to": "/artists/10",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1748,12 +1854,12 @@ ShallowWrapper {
                     "type": "p",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "11",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -1775,6 +1881,8 @@ ShallowWrapper {
 </p>,
                   ],
                   "className": "artist-listing",
+                  "replace": false,
+                  "to": "/artists/11",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1836,12 +1944,12 @@ ShallowWrapper {
                     "type": "p",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "12",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -1863,6 +1971,8 @@ ShallowWrapper {
 </p>,
                   ],
                   "className": "artist-listing",
+                  "replace": false,
+                  "to": "/artists/12",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1924,12 +2034,12 @@ ShallowWrapper {
                     "type": "p",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "13",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -1951,6 +2061,8 @@ ShallowWrapper {
 </p>,
                   ],
                   "className": "artist-listing",
+                  "replace": false,
+                  "to": "/artists/13",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -2012,12 +2124,12 @@ ShallowWrapper {
                     "type": "p",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "14",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -2039,6 +2151,8 @@ ShallowWrapper {
 </p>,
                   ],
                   "className": "artist-listing",
+                  "replace": false,
+                  "to": "/artists/14",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -2100,12 +2214,12 @@ ShallowWrapper {
                     "type": "p",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "15",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -2127,6 +2241,8 @@ ShallowWrapper {
 </p>,
                   ],
                   "className": "artist-listing",
+                  "replace": false,
+                  "to": "/artists/15",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -2188,12 +2304,12 @@ ShallowWrapper {
                     "type": "p",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "18",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -2215,6 +2331,8 @@ ShallowWrapper {
 </p>,
                   ],
                   "className": "artist-listing",
+                  "replace": false,
+                  "to": "/artists/18",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -2276,12 +2394,12 @@ ShallowWrapper {
                     "type": "p",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "19",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -2303,6 +2421,8 @@ ShallowWrapper {
 </p>,
                   ],
                   "className": "artist-listing",
+                  "replace": false,
+                  "to": "/artists/19",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -2364,12 +2484,12 @@ ShallowWrapper {
                     "type": "p",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "22",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -2391,6 +2511,8 @@ ShallowWrapper {
 </p>,
                   ],
                   "className": "artist-listing",
+                  "replace": false,
+                  "to": "/artists/22",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -2452,7 +2574,7 @@ ShallowWrapper {
                     "type": "p",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
             ],
             "type": "div",
@@ -2496,8 +2618,10 @@ ShallowWrapper {
             <div
                         className="artists-container"
             >
-                        <div
+                        <Link
                                     className="artist-listing"
+                                    replace={false}
+                                    to="/artists/4"
                         >
                                     <img
                                                 alt="artist"
@@ -2516,9 +2640,11 @@ ShallowWrapper {
                                     <p>
                                                 2296228
                                     </p>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
+                                    replace={false}
+                                    to="/artists/5"
                         >
                                     <img
                                                 alt="artist"
@@ -2537,9 +2663,11 @@ ShallowWrapper {
                                     <p>
                                                 128307
                                     </p>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
+                                    replace={false}
+                                    to="/artists/6"
                         >
                                     <img
                                                 alt="artist"
@@ -2558,9 +2686,11 @@ ShallowWrapper {
                                     <p>
                                                 326986
                                     </p>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
+                                    replace={false}
+                                    to="/artists/7"
                         >
                                     <img
                                                 alt="artist"
@@ -2579,9 +2709,11 @@ ShallowWrapper {
                                     <p>
                                                 2309822
                                     </p>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
+                                    replace={false}
+                                    to="/artists/8"
                         >
                                     <img
                                                 alt="artist"
@@ -2600,9 +2732,11 @@ ShallowWrapper {
                                     <p>
                                                 4236
                                     </p>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
+                                    replace={false}
+                                    to="/artists/9"
                         >
                                     <img
                                                 alt="artist"
@@ -2621,9 +2755,11 @@ ShallowWrapper {
                                     <p>
                                                 437122
                                     </p>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
+                                    replace={false}
+                                    to="/artists/10"
                         >
                                     <img
                                                 alt="artist"
@@ -2642,9 +2778,11 @@ ShallowWrapper {
                                     <p>
                                                 136557
                                     </p>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
+                                    replace={false}
+                                    to="/artists/11"
                         >
                                     <img
                                                 alt="artist"
@@ -2663,9 +2801,11 @@ ShallowWrapper {
                                     <p>
                                                 249350
                                     </p>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
+                                    replace={false}
+                                    to="/artists/12"
                         >
                                     <img
                                                 alt="artist"
@@ -2684,9 +2824,11 @@ ShallowWrapper {
                                     <p>
                                                 26214
                                     </p>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
+                                    replace={false}
+                                    to="/artists/13"
                         >
                                     <img
                                                 alt="artist"
@@ -2705,9 +2847,11 @@ ShallowWrapper {
                                     <p>
                                                 18730
                                     </p>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
+                                    replace={false}
+                                    to="/artists/14"
                         >
                                     <img
                                                 alt="artist"
@@ -2726,9 +2870,11 @@ ShallowWrapper {
                                     <p>
                                                 803225
                                     </p>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
+                                    replace={false}
+                                    to="/artists/15"
                         >
                                     <img
                                                 alt="artist"
@@ -2747,9 +2893,11 @@ ShallowWrapper {
                                     <p>
                                                 155714
                                     </p>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
+                                    replace={false}
+                                    to="/artists/18"
                         >
                                     <img
                                                 alt="artist"
@@ -2768,9 +2916,11 @@ ShallowWrapper {
                                     <p>
                                                 113010
                                     </p>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
+                                    replace={false}
+                                    to="/artists/19"
                         >
                                     <img
                                                 alt="artist"
@@ -2789,9 +2939,11 @@ ShallowWrapper {
                                     <p>
                                                 13691351
                                     </p>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
+                                    replace={false}
+                                    to="/artists/22"
                         >
                                     <img
                                                 alt="artist"
@@ -2810,7 +2962,7 @@ ShallowWrapper {
                                     <p>
                                                 77561
                                     </p>
-                        </div>
+                        </Link>
             </div>
 </div>,
         ],
@@ -2855,8 +3007,10 @@ ShallowWrapper {
               <div
                 className="artists-container"
 >
-                <div
+                <Link
                                 className="artist-listing"
+                                replace={false}
+                                to="/artists/4"
                 >
                                 <img
                                                 alt="artist"
@@ -2875,9 +3029,11 @@ ShallowWrapper {
                                 <p>
                                                 2296228
                                 </p>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
+                                replace={false}
+                                to="/artists/5"
                 >
                                 <img
                                                 alt="artist"
@@ -2896,9 +3052,11 @@ ShallowWrapper {
                                 <p>
                                                 128307
                                 </p>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
+                                replace={false}
+                                to="/artists/6"
                 >
                                 <img
                                                 alt="artist"
@@ -2917,9 +3075,11 @@ ShallowWrapper {
                                 <p>
                                                 326986
                                 </p>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
+                                replace={false}
+                                to="/artists/7"
                 >
                                 <img
                                                 alt="artist"
@@ -2938,9 +3098,11 @@ ShallowWrapper {
                                 <p>
                                                 2309822
                                 </p>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
+                                replace={false}
+                                to="/artists/8"
                 >
                                 <img
                                                 alt="artist"
@@ -2959,9 +3121,11 @@ ShallowWrapper {
                                 <p>
                                                 4236
                                 </p>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
+                                replace={false}
+                                to="/artists/9"
                 >
                                 <img
                                                 alt="artist"
@@ -2980,9 +3144,11 @@ ShallowWrapper {
                                 <p>
                                                 437122
                                 </p>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
+                                replace={false}
+                                to="/artists/10"
                 >
                                 <img
                                                 alt="artist"
@@ -3001,9 +3167,11 @@ ShallowWrapper {
                                 <p>
                                                 136557
                                 </p>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
+                                replace={false}
+                                to="/artists/11"
                 >
                                 <img
                                                 alt="artist"
@@ -3022,9 +3190,11 @@ ShallowWrapper {
                                 <p>
                                                 249350
                                 </p>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
+                                replace={false}
+                                to="/artists/12"
                 >
                                 <img
                                                 alt="artist"
@@ -3043,9 +3213,11 @@ ShallowWrapper {
                                 <p>
                                                 26214
                                 </p>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
+                                replace={false}
+                                to="/artists/13"
                 >
                                 <img
                                                 alt="artist"
@@ -3064,9 +3236,11 @@ ShallowWrapper {
                                 <p>
                                                 18730
                                 </p>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
+                                replace={false}
+                                to="/artists/14"
                 >
                                 <img
                                                 alt="artist"
@@ -3085,9 +3259,11 @@ ShallowWrapper {
                                 <p>
                                                 803225
                                 </p>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
+                                replace={false}
+                                to="/artists/15"
                 >
                                 <img
                                                 alt="artist"
@@ -3106,9 +3282,11 @@ ShallowWrapper {
                                 <p>
                                                 155714
                                 </p>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
+                                replace={false}
+                                to="/artists/18"
                 >
                                 <img
                                                 alt="artist"
@@ -3127,9 +3305,11 @@ ShallowWrapper {
                                 <p>
                                                 113010
                                 </p>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
+                                replace={false}
+                                to="/artists/19"
                 >
                                 <img
                                                 alt="artist"
@@ -3148,9 +3328,11 @@ ShallowWrapper {
                                 <p>
                                                 13691351
                                 </p>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
+                                replace={false}
+                                to="/artists/22"
                 >
                                 <img
                                                 alt="artist"
@@ -3169,7 +3351,7 @@ ShallowWrapper {
                                 <p>
                                                 77561
                                 </p>
-                </div>
+                </Link>
 </div>,
             ],
             "className": "main-content",
@@ -3266,8 +3448,10 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  <div
+                  <Link
                     className="artist-listing"
+                    replace={false}
+                    to="/artists/4"
 >
                     <img
                                         alt="artist"
@@ -3286,9 +3470,11 @@ ShallowWrapper {
                     <p>
                                         2296228
                     </p>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
+                    replace={false}
+                    to="/artists/5"
 >
                     <img
                                         alt="artist"
@@ -3307,9 +3493,11 @@ ShallowWrapper {
                     <p>
                                         128307
                     </p>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
+                    replace={false}
+                    to="/artists/6"
 >
                     <img
                                         alt="artist"
@@ -3328,9 +3516,11 @@ ShallowWrapper {
                     <p>
                                         326986
                     </p>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
+                    replace={false}
+                    to="/artists/7"
 >
                     <img
                                         alt="artist"
@@ -3349,9 +3539,11 @@ ShallowWrapper {
                     <p>
                                         2309822
                     </p>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
+                    replace={false}
+                    to="/artists/8"
 >
                     <img
                                         alt="artist"
@@ -3370,9 +3562,11 @@ ShallowWrapper {
                     <p>
                                         4236
                     </p>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
+                    replace={false}
+                    to="/artists/9"
 >
                     <img
                                         alt="artist"
@@ -3391,9 +3585,11 @@ ShallowWrapper {
                     <p>
                                         437122
                     </p>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
+                    replace={false}
+                    to="/artists/10"
 >
                     <img
                                         alt="artist"
@@ -3412,9 +3608,11 @@ ShallowWrapper {
                     <p>
                                         136557
                     </p>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
+                    replace={false}
+                    to="/artists/11"
 >
                     <img
                                         alt="artist"
@@ -3433,9 +3631,11 @@ ShallowWrapper {
                     <p>
                                         249350
                     </p>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
+                    replace={false}
+                    to="/artists/12"
 >
                     <img
                                         alt="artist"
@@ -3454,9 +3654,11 @@ ShallowWrapper {
                     <p>
                                         26214
                     </p>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
+                    replace={false}
+                    to="/artists/13"
 >
                     <img
                                         alt="artist"
@@ -3475,9 +3677,11 @@ ShallowWrapper {
                     <p>
                                         18730
                     </p>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
+                    replace={false}
+                    to="/artists/14"
 >
                     <img
                                         alt="artist"
@@ -3496,9 +3700,11 @@ ShallowWrapper {
                     <p>
                                         803225
                     </p>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
+                    replace={false}
+                    to="/artists/15"
 >
                     <img
                                         alt="artist"
@@ -3517,9 +3723,11 @@ ShallowWrapper {
                     <p>
                                         155714
                     </p>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
+                    replace={false}
+                    to="/artists/18"
 >
                     <img
                                         alt="artist"
@@ -3538,9 +3746,11 @@ ShallowWrapper {
                     <p>
                                         113010
                     </p>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
+                    replace={false}
+                    to="/artists/19"
 >
                     <img
                                         alt="artist"
@@ -3559,9 +3769,11 @@ ShallowWrapper {
                     <p>
                                         13691351
                     </p>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
+                    replace={false}
+                    to="/artists/22"
 >
                     <img
                                         alt="artist"
@@ -3580,7 +3792,7 @@ ShallowWrapper {
                     <p>
                                         77561
                     </p>
-</div>,
+</Link>,
                 ],
                 "className": "artists-container",
               },
@@ -3589,7 +3801,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": "4",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -3611,6 +3823,8 @@ ShallowWrapper {
 </p>,
                     ],
                     "className": "artist-listing",
+                    "replace": false,
+                    "to": "/artists/4",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -3672,12 +3886,12 @@ ShallowWrapper {
                       "type": "p",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "5",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -3699,6 +3913,8 @@ ShallowWrapper {
 </p>,
                     ],
                     "className": "artist-listing",
+                    "replace": false,
+                    "to": "/artists/5",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -3760,12 +3976,12 @@ ShallowWrapper {
                       "type": "p",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "6",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -3787,6 +4003,8 @@ ShallowWrapper {
 </p>,
                     ],
                     "className": "artist-listing",
+                    "replace": false,
+                    "to": "/artists/6",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -3848,12 +4066,12 @@ ShallowWrapper {
                       "type": "p",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "7",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -3875,6 +4093,8 @@ ShallowWrapper {
 </p>,
                     ],
                     "className": "artist-listing",
+                    "replace": false,
+                    "to": "/artists/7",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -3936,12 +4156,12 @@ ShallowWrapper {
                       "type": "p",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "8",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -3963,6 +4183,8 @@ ShallowWrapper {
 </p>,
                     ],
                     "className": "artist-listing",
+                    "replace": false,
+                    "to": "/artists/8",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4024,12 +4246,12 @@ ShallowWrapper {
                       "type": "p",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "9",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -4051,6 +4273,8 @@ ShallowWrapper {
 </p>,
                     ],
                     "className": "artist-listing",
+                    "replace": false,
+                    "to": "/artists/9",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4112,12 +4336,12 @@ ShallowWrapper {
                       "type": "p",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "10",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -4139,6 +4363,8 @@ ShallowWrapper {
 </p>,
                     ],
                     "className": "artist-listing",
+                    "replace": false,
+                    "to": "/artists/10",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4200,12 +4426,12 @@ ShallowWrapper {
                       "type": "p",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "11",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -4227,6 +4453,8 @@ ShallowWrapper {
 </p>,
                     ],
                     "className": "artist-listing",
+                    "replace": false,
+                    "to": "/artists/11",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4288,12 +4516,12 @@ ShallowWrapper {
                       "type": "p",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "12",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -4315,6 +4543,8 @@ ShallowWrapper {
 </p>,
                     ],
                     "className": "artist-listing",
+                    "replace": false,
+                    "to": "/artists/12",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4376,12 +4606,12 @@ ShallowWrapper {
                       "type": "p",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "13",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -4403,6 +4633,8 @@ ShallowWrapper {
 </p>,
                     ],
                     "className": "artist-listing",
+                    "replace": false,
+                    "to": "/artists/13",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4464,12 +4696,12 @@ ShallowWrapper {
                       "type": "p",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "14",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -4491,6 +4723,8 @@ ShallowWrapper {
 </p>,
                     ],
                     "className": "artist-listing",
+                    "replace": false,
+                    "to": "/artists/14",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4552,12 +4786,12 @@ ShallowWrapper {
                       "type": "p",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "15",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -4579,6 +4813,8 @@ ShallowWrapper {
 </p>,
                     ],
                     "className": "artist-listing",
+                    "replace": false,
+                    "to": "/artists/15",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4640,12 +4876,12 @@ ShallowWrapper {
                       "type": "p",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "18",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -4667,6 +4903,8 @@ ShallowWrapper {
 </p>,
                     ],
                     "className": "artist-listing",
+                    "replace": false,
+                    "to": "/artists/18",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4728,12 +4966,12 @@ ShallowWrapper {
                       "type": "p",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "19",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -4755,6 +4993,8 @@ ShallowWrapper {
 </p>,
                     ],
                     "className": "artist-listing",
+                    "replace": false,
+                    "to": "/artists/19",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4816,12 +5056,12 @@ ShallowWrapper {
                       "type": "p",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "22",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -4843,6 +5083,8 @@ ShallowWrapper {
 </p>,
                     ],
                     "className": "artist-listing",
+                    "replace": false,
+                    "to": "/artists/22",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4904,7 +5146,7 @@ ShallowWrapper {
                       "type": "p",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
               ],
               "type": "div",
