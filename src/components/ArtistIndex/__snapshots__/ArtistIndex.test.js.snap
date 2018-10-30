@@ -3,7 +3,9 @@
 exports[`ArtistIndex component should match the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ArtistIndex />,
+  Symbol(enzyme.__unrendered__): <ArtistIndex
+    getArtist={[Function]}
+/>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -49,9 +51,10 @@ ShallowWrapper {
           <div
                     className="artists-container"
           >
-                    <div
+                    <Link
                               className="artist-listing"
-                              onClick={undefined}
+                              replace={false}
+                              to="/artists/4"
                     >
                               <img
                                         alt="artist"
@@ -75,10 +78,11 @@ ShallowWrapper {
                               >
                                         Add
                               </button>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
-                              onClick={undefined}
+                              replace={false}
+                              to="/artists/5"
                     >
                               <img
                                         alt="artist"
@@ -102,10 +106,11 @@ ShallowWrapper {
                               >
                                         Add
                               </button>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
-                              onClick={undefined}
+                              replace={false}
+                              to="/artists/6"
                     >
                               <img
                                         alt="artist"
@@ -129,10 +134,11 @@ ShallowWrapper {
                               >
                                         Add
                               </button>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
-                              onClick={undefined}
+                              replace={false}
+                              to="/artists/7"
                     >
                               <img
                                         alt="artist"
@@ -156,10 +162,11 @@ ShallowWrapper {
                               >
                                         Add
                               </button>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
-                              onClick={undefined}
+                              replace={false}
+                              to="/artists/8"
                     >
                               <img
                                         alt="artist"
@@ -183,10 +190,11 @@ ShallowWrapper {
                               >
                                         Add
                               </button>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
-                              onClick={undefined}
+                              replace={false}
+                              to="/artists/9"
                     >
                               <img
                                         alt="artist"
@@ -210,10 +218,11 @@ ShallowWrapper {
                               >
                                         Add
                               </button>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
-                              onClick={undefined}
+                              replace={false}
+                              to="/artists/10"
                     >
                               <img
                                         alt="artist"
@@ -237,10 +246,11 @@ ShallowWrapper {
                               >
                                         Add
                               </button>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
-                              onClick={undefined}
+                              replace={false}
+                              to="/artists/11"
                     >
                               <img
                                         alt="artist"
@@ -264,10 +274,11 @@ ShallowWrapper {
                               >
                                         Add
                               </button>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
-                              onClick={undefined}
+                              replace={false}
+                              to="/artists/12"
                     >
                               <img
                                         alt="artist"
@@ -291,10 +302,11 @@ ShallowWrapper {
                               >
                                         Add
                               </button>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
-                              onClick={undefined}
+                              replace={false}
+                              to="/artists/13"
                     >
                               <img
                                         alt="artist"
@@ -318,10 +330,11 @@ ShallowWrapper {
                               >
                                         Add
                               </button>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
-                              onClick={undefined}
+                              replace={false}
+                              to="/artists/14"
                     >
                               <img
                                         alt="artist"
@@ -345,10 +358,11 @@ ShallowWrapper {
                               >
                                         Add
                               </button>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
-                              onClick={undefined}
+                              replace={false}
+                              to="/artists/15"
                     >
                               <img
                                         alt="artist"
@@ -372,10 +386,11 @@ ShallowWrapper {
                               >
                                         Add
                               </button>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
-                              onClick={undefined}
+                              replace={false}
+                              to="/artists/18"
                     >
                               <img
                                         alt="artist"
@@ -399,10 +414,11 @@ ShallowWrapper {
                               >
                                         Add
                               </button>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
-                              onClick={undefined}
+                              replace={false}
+                              to="/artists/19"
                     >
                               <img
                                         alt="artist"
@@ -426,10 +442,11 @@ ShallowWrapper {
                               >
                                         Add
                               </button>
-                    </div>
-                    <div
+                    </Link>
+                    <Link
                               className="artist-listing"
-                              onClick={undefined}
+                              replace={false}
+                              to="/artists/22"
                     >
                               <img
                                         alt="artist"
@@ -453,7 +470,7 @@ ShallowWrapper {
                               >
                                         Add
                               </button>
-                    </div>
+                    </Link>
           </div>
 </div>,
       ],
@@ -503,9 +520,10 @@ ShallowWrapper {
             <div
               className="artists-container"
 >
-              <div
+              <Link
                             className="artist-listing"
-                            onClick={undefined}
+                            replace={false}
+                            to="/artists/4"
               >
                             <img
                                           alt="artist"
@@ -529,10 +547,11 @@ ShallowWrapper {
                             >
                                           Add
                             </button>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
-                            onClick={undefined}
+                            replace={false}
+                            to="/artists/5"
               >
                             <img
                                           alt="artist"
@@ -556,10 +575,11 @@ ShallowWrapper {
                             >
                                           Add
                             </button>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
-                            onClick={undefined}
+                            replace={false}
+                            to="/artists/6"
               >
                             <img
                                           alt="artist"
@@ -583,10 +603,11 @@ ShallowWrapper {
                             >
                                           Add
                             </button>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
-                            onClick={undefined}
+                            replace={false}
+                            to="/artists/7"
               >
                             <img
                                           alt="artist"
@@ -610,10 +631,11 @@ ShallowWrapper {
                             >
                                           Add
                             </button>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
-                            onClick={undefined}
+                            replace={false}
+                            to="/artists/8"
               >
                             <img
                                           alt="artist"
@@ -637,10 +659,11 @@ ShallowWrapper {
                             >
                                           Add
                             </button>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
-                            onClick={undefined}
+                            replace={false}
+                            to="/artists/9"
               >
                             <img
                                           alt="artist"
@@ -664,10 +687,11 @@ ShallowWrapper {
                             >
                                           Add
                             </button>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
-                            onClick={undefined}
+                            replace={false}
+                            to="/artists/10"
               >
                             <img
                                           alt="artist"
@@ -691,10 +715,11 @@ ShallowWrapper {
                             >
                                           Add
                             </button>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
-                            onClick={undefined}
+                            replace={false}
+                            to="/artists/11"
               >
                             <img
                                           alt="artist"
@@ -718,10 +743,11 @@ ShallowWrapper {
                             >
                                           Add
                             </button>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
-                            onClick={undefined}
+                            replace={false}
+                            to="/artists/12"
               >
                             <img
                                           alt="artist"
@@ -745,10 +771,11 @@ ShallowWrapper {
                             >
                                           Add
                             </button>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
-                            onClick={undefined}
+                            replace={false}
+                            to="/artists/13"
               >
                             <img
                                           alt="artist"
@@ -772,10 +799,11 @@ ShallowWrapper {
                             >
                                           Add
                             </button>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
-                            onClick={undefined}
+                            replace={false}
+                            to="/artists/14"
               >
                             <img
                                           alt="artist"
@@ -799,10 +827,11 @@ ShallowWrapper {
                             >
                                           Add
                             </button>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
-                            onClick={undefined}
+                            replace={false}
+                            to="/artists/15"
               >
                             <img
                                           alt="artist"
@@ -826,10 +855,11 @@ ShallowWrapper {
                             >
                                           Add
                             </button>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
-                            onClick={undefined}
+                            replace={false}
+                            to="/artists/18"
               >
                             <img
                                           alt="artist"
@@ -853,10 +883,11 @@ ShallowWrapper {
                             >
                                           Add
                             </button>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
-                            onClick={undefined}
+                            replace={false}
+                            to="/artists/19"
               >
                             <img
                                           alt="artist"
@@ -880,10 +911,11 @@ ShallowWrapper {
                             >
                                           Add
                             </button>
-              </div>
-              <div
+              </Link>
+              <Link
                             className="artist-listing"
-                            onClick={undefined}
+                            replace={false}
+                            to="/artists/22"
               >
                             <img
                                           alt="artist"
@@ -907,7 +939,7 @@ ShallowWrapper {
                             >
                                           Add
                             </button>
-              </div>
+              </Link>
 </div>,
           ],
           "className": "main-content",
@@ -1021,9 +1053,10 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <div
+                <Link
                   className="artist-listing"
-                  onClick={undefined}
+                  replace={false}
+                  to="/artists/4"
 >
                   <img
                                     alt="artist"
@@ -1047,10 +1080,11 @@ ShallowWrapper {
                   >
                                     Add
                   </button>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
-                  onClick={undefined}
+                  replace={false}
+                  to="/artists/5"
 >
                   <img
                                     alt="artist"
@@ -1074,10 +1108,11 @@ ShallowWrapper {
                   >
                                     Add
                   </button>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
-                  onClick={undefined}
+                  replace={false}
+                  to="/artists/6"
 >
                   <img
                                     alt="artist"
@@ -1101,10 +1136,11 @@ ShallowWrapper {
                   >
                                     Add
                   </button>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
-                  onClick={undefined}
+                  replace={false}
+                  to="/artists/7"
 >
                   <img
                                     alt="artist"
@@ -1128,10 +1164,11 @@ ShallowWrapper {
                   >
                                     Add
                   </button>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
-                  onClick={undefined}
+                  replace={false}
+                  to="/artists/8"
 >
                   <img
                                     alt="artist"
@@ -1155,10 +1192,11 @@ ShallowWrapper {
                   >
                                     Add
                   </button>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
-                  onClick={undefined}
+                  replace={false}
+                  to="/artists/9"
 >
                   <img
                                     alt="artist"
@@ -1182,10 +1220,11 @@ ShallowWrapper {
                   >
                                     Add
                   </button>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
-                  onClick={undefined}
+                  replace={false}
+                  to="/artists/10"
 >
                   <img
                                     alt="artist"
@@ -1209,10 +1248,11 @@ ShallowWrapper {
                   >
                                     Add
                   </button>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
-                  onClick={undefined}
+                  replace={false}
+                  to="/artists/11"
 >
                   <img
                                     alt="artist"
@@ -1236,10 +1276,11 @@ ShallowWrapper {
                   >
                                     Add
                   </button>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
-                  onClick={undefined}
+                  replace={false}
+                  to="/artists/12"
 >
                   <img
                                     alt="artist"
@@ -1263,10 +1304,11 @@ ShallowWrapper {
                   >
                                     Add
                   </button>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
-                  onClick={undefined}
+                  replace={false}
+                  to="/artists/13"
 >
                   <img
                                     alt="artist"
@@ -1290,10 +1332,11 @@ ShallowWrapper {
                   >
                                     Add
                   </button>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
-                  onClick={undefined}
+                  replace={false}
+                  to="/artists/14"
 >
                   <img
                                     alt="artist"
@@ -1317,10 +1360,11 @@ ShallowWrapper {
                   >
                                     Add
                   </button>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
-                  onClick={undefined}
+                  replace={false}
+                  to="/artists/15"
 >
                   <img
                                     alt="artist"
@@ -1344,10 +1388,11 @@ ShallowWrapper {
                   >
                                     Add
                   </button>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
-                  onClick={undefined}
+                  replace={false}
+                  to="/artists/18"
 >
                   <img
                                     alt="artist"
@@ -1371,10 +1416,11 @@ ShallowWrapper {
                   >
                                     Add
                   </button>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
-                  onClick={undefined}
+                  replace={false}
+                  to="/artists/19"
 >
                   <img
                                     alt="artist"
@@ -1398,10 +1444,11 @@ ShallowWrapper {
                   >
                                     Add
                   </button>
-</div>,
-                <div
+</Link>,
+                <Link
                   className="artist-listing"
-                  onClick={undefined}
+                  replace={false}
+                  to="/artists/22"
 >
                   <img
                                     alt="artist"
@@ -1425,7 +1472,7 @@ ShallowWrapper {
                   >
                                     Add
                   </button>
-</div>,
+</Link>,
               ],
               "className": "artists-container",
             },
@@ -1434,7 +1481,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": "4",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -1461,7 +1508,8 @@ ShallowWrapper {
 </button>,
                   ],
                   "className": "artist-listing",
-                  "onClick": undefined,
+                  "replace": false,
+                  "to": "/artists/4",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1535,12 +1583,12 @@ ShallowWrapper {
                     "type": "button",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "5",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -1567,7 +1615,8 @@ ShallowWrapper {
 </button>,
                   ],
                   "className": "artist-listing",
-                  "onClick": undefined,
+                  "replace": false,
+                  "to": "/artists/5",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1641,12 +1690,12 @@ ShallowWrapper {
                     "type": "button",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "6",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -1673,7 +1722,8 @@ ShallowWrapper {
 </button>,
                   ],
                   "className": "artist-listing",
-                  "onClick": undefined,
+                  "replace": false,
+                  "to": "/artists/6",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1747,12 +1797,12 @@ ShallowWrapper {
                     "type": "button",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "7",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -1779,7 +1829,8 @@ ShallowWrapper {
 </button>,
                   ],
                   "className": "artist-listing",
-                  "onClick": undefined,
+                  "replace": false,
+                  "to": "/artists/7",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1853,12 +1904,12 @@ ShallowWrapper {
                     "type": "button",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "8",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -1885,7 +1936,8 @@ ShallowWrapper {
 </button>,
                   ],
                   "className": "artist-listing",
-                  "onClick": undefined,
+                  "replace": false,
+                  "to": "/artists/8",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1959,12 +2011,12 @@ ShallowWrapper {
                     "type": "button",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "9",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -1991,7 +2043,8 @@ ShallowWrapper {
 </button>,
                   ],
                   "className": "artist-listing",
-                  "onClick": undefined,
+                  "replace": false,
+                  "to": "/artists/9",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -2065,12 +2118,12 @@ ShallowWrapper {
                     "type": "button",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "10",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -2097,7 +2150,8 @@ ShallowWrapper {
 </button>,
                   ],
                   "className": "artist-listing",
-                  "onClick": undefined,
+                  "replace": false,
+                  "to": "/artists/10",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -2171,12 +2225,12 @@ ShallowWrapper {
                     "type": "button",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "11",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -2203,7 +2257,8 @@ ShallowWrapper {
 </button>,
                   ],
                   "className": "artist-listing",
-                  "onClick": undefined,
+                  "replace": false,
+                  "to": "/artists/11",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -2277,12 +2332,12 @@ ShallowWrapper {
                     "type": "button",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "12",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -2309,7 +2364,8 @@ ShallowWrapper {
 </button>,
                   ],
                   "className": "artist-listing",
-                  "onClick": undefined,
+                  "replace": false,
+                  "to": "/artists/12",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -2383,12 +2439,12 @@ ShallowWrapper {
                     "type": "button",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "13",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -2415,7 +2471,8 @@ ShallowWrapper {
 </button>,
                   ],
                   "className": "artist-listing",
-                  "onClick": undefined,
+                  "replace": false,
+                  "to": "/artists/13",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -2489,12 +2546,12 @@ ShallowWrapper {
                     "type": "button",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "14",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -2521,7 +2578,8 @@ ShallowWrapper {
 </button>,
                   ],
                   "className": "artist-listing",
-                  "onClick": undefined,
+                  "replace": false,
+                  "to": "/artists/14",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -2595,12 +2653,12 @@ ShallowWrapper {
                     "type": "button",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "15",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -2627,7 +2685,8 @@ ShallowWrapper {
 </button>,
                   ],
                   "className": "artist-listing",
-                  "onClick": undefined,
+                  "replace": false,
+                  "to": "/artists/15",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -2701,12 +2760,12 @@ ShallowWrapper {
                     "type": "button",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "18",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -2733,7 +2792,8 @@ ShallowWrapper {
 </button>,
                   ],
                   "className": "artist-listing",
-                  "onClick": undefined,
+                  "replace": false,
+                  "to": "/artists/18",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -2807,12 +2867,12 @@ ShallowWrapper {
                     "type": "button",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "19",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -2839,7 +2899,8 @@ ShallowWrapper {
 </button>,
                   ],
                   "className": "artist-listing",
-                  "onClick": undefined,
+                  "replace": false,
+                  "to": "/artists/19",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -2913,12 +2974,12 @@ ShallowWrapper {
                     "type": "button",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": "22",
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": Array [
                     <img
@@ -2945,7 +3006,8 @@ ShallowWrapper {
 </button>,
                   ],
                   "className": "artist-listing",
-                  "onClick": undefined,
+                  "replace": false,
+                  "to": "/artists/22",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -3019,7 +3081,7 @@ ShallowWrapper {
                     "type": "button",
                   },
                 ],
-                "type": "div",
+                "type": [Function],
               },
             ],
             "type": "div",
@@ -3068,9 +3130,10 @@ ShallowWrapper {
             <div
                         className="artists-container"
             >
-                        <div
+                        <Link
                                     className="artist-listing"
-                                    onClick={undefined}
+                                    replace={false}
+                                    to="/artists/4"
                         >
                                     <img
                                                 alt="artist"
@@ -3094,10 +3157,11 @@ ShallowWrapper {
                                     >
                                                 Add
                                     </button>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
-                                    onClick={undefined}
+                                    replace={false}
+                                    to="/artists/5"
                         >
                                     <img
                                                 alt="artist"
@@ -3121,10 +3185,11 @@ ShallowWrapper {
                                     >
                                                 Add
                                     </button>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
-                                    onClick={undefined}
+                                    replace={false}
+                                    to="/artists/6"
                         >
                                     <img
                                                 alt="artist"
@@ -3148,10 +3213,11 @@ ShallowWrapper {
                                     >
                                                 Add
                                     </button>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
-                                    onClick={undefined}
+                                    replace={false}
+                                    to="/artists/7"
                         >
                                     <img
                                                 alt="artist"
@@ -3175,10 +3241,11 @@ ShallowWrapper {
                                     >
                                                 Add
                                     </button>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
-                                    onClick={undefined}
+                                    replace={false}
+                                    to="/artists/8"
                         >
                                     <img
                                                 alt="artist"
@@ -3202,10 +3269,11 @@ ShallowWrapper {
                                     >
                                                 Add
                                     </button>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
-                                    onClick={undefined}
+                                    replace={false}
+                                    to="/artists/9"
                         >
                                     <img
                                                 alt="artist"
@@ -3229,10 +3297,11 @@ ShallowWrapper {
                                     >
                                                 Add
                                     </button>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
-                                    onClick={undefined}
+                                    replace={false}
+                                    to="/artists/10"
                         >
                                     <img
                                                 alt="artist"
@@ -3256,10 +3325,11 @@ ShallowWrapper {
                                     >
                                                 Add
                                     </button>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
-                                    onClick={undefined}
+                                    replace={false}
+                                    to="/artists/11"
                         >
                                     <img
                                                 alt="artist"
@@ -3283,10 +3353,11 @@ ShallowWrapper {
                                     >
                                                 Add
                                     </button>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
-                                    onClick={undefined}
+                                    replace={false}
+                                    to="/artists/12"
                         >
                                     <img
                                                 alt="artist"
@@ -3310,10 +3381,11 @@ ShallowWrapper {
                                     >
                                                 Add
                                     </button>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
-                                    onClick={undefined}
+                                    replace={false}
+                                    to="/artists/13"
                         >
                                     <img
                                                 alt="artist"
@@ -3337,10 +3409,11 @@ ShallowWrapper {
                                     >
                                                 Add
                                     </button>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
-                                    onClick={undefined}
+                                    replace={false}
+                                    to="/artists/14"
                         >
                                     <img
                                                 alt="artist"
@@ -3364,10 +3437,11 @@ ShallowWrapper {
                                     >
                                                 Add
                                     </button>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
-                                    onClick={undefined}
+                                    replace={false}
+                                    to="/artists/15"
                         >
                                     <img
                                                 alt="artist"
@@ -3391,10 +3465,11 @@ ShallowWrapper {
                                     >
                                                 Add
                                     </button>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
-                                    onClick={undefined}
+                                    replace={false}
+                                    to="/artists/18"
                         >
                                     <img
                                                 alt="artist"
@@ -3418,10 +3493,11 @@ ShallowWrapper {
                                     >
                                                 Add
                                     </button>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
-                                    onClick={undefined}
+                                    replace={false}
+                                    to="/artists/19"
                         >
                                     <img
                                                 alt="artist"
@@ -3445,10 +3521,11 @@ ShallowWrapper {
                                     >
                                                 Add
                                     </button>
-                        </div>
-                        <div
+                        </Link>
+                        <Link
                                     className="artist-listing"
-                                    onClick={undefined}
+                                    replace={false}
+                                    to="/artists/22"
                         >
                                     <img
                                                 alt="artist"
@@ -3472,7 +3549,7 @@ ShallowWrapper {
                                     >
                                                 Add
                                     </button>
-                        </div>
+                        </Link>
             </div>
 </div>,
         ],
@@ -3522,9 +3599,10 @@ ShallowWrapper {
               <div
                 className="artists-container"
 >
-                <div
+                <Link
                                 className="artist-listing"
-                                onClick={undefined}
+                                replace={false}
+                                to="/artists/4"
                 >
                                 <img
                                                 alt="artist"
@@ -3548,10 +3626,11 @@ ShallowWrapper {
                                 >
                                                 Add
                                 </button>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
-                                onClick={undefined}
+                                replace={false}
+                                to="/artists/5"
                 >
                                 <img
                                                 alt="artist"
@@ -3575,10 +3654,11 @@ ShallowWrapper {
                                 >
                                                 Add
                                 </button>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
-                                onClick={undefined}
+                                replace={false}
+                                to="/artists/6"
                 >
                                 <img
                                                 alt="artist"
@@ -3602,10 +3682,11 @@ ShallowWrapper {
                                 >
                                                 Add
                                 </button>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
-                                onClick={undefined}
+                                replace={false}
+                                to="/artists/7"
                 >
                                 <img
                                                 alt="artist"
@@ -3629,10 +3710,11 @@ ShallowWrapper {
                                 >
                                                 Add
                                 </button>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
-                                onClick={undefined}
+                                replace={false}
+                                to="/artists/8"
                 >
                                 <img
                                                 alt="artist"
@@ -3656,10 +3738,11 @@ ShallowWrapper {
                                 >
                                                 Add
                                 </button>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
-                                onClick={undefined}
+                                replace={false}
+                                to="/artists/9"
                 >
                                 <img
                                                 alt="artist"
@@ -3683,10 +3766,11 @@ ShallowWrapper {
                                 >
                                                 Add
                                 </button>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
-                                onClick={undefined}
+                                replace={false}
+                                to="/artists/10"
                 >
                                 <img
                                                 alt="artist"
@@ -3710,10 +3794,11 @@ ShallowWrapper {
                                 >
                                                 Add
                                 </button>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
-                                onClick={undefined}
+                                replace={false}
+                                to="/artists/11"
                 >
                                 <img
                                                 alt="artist"
@@ -3737,10 +3822,11 @@ ShallowWrapper {
                                 >
                                                 Add
                                 </button>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
-                                onClick={undefined}
+                                replace={false}
+                                to="/artists/12"
                 >
                                 <img
                                                 alt="artist"
@@ -3764,10 +3850,11 @@ ShallowWrapper {
                                 >
                                                 Add
                                 </button>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
-                                onClick={undefined}
+                                replace={false}
+                                to="/artists/13"
                 >
                                 <img
                                                 alt="artist"
@@ -3791,10 +3878,11 @@ ShallowWrapper {
                                 >
                                                 Add
                                 </button>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
-                                onClick={undefined}
+                                replace={false}
+                                to="/artists/14"
                 >
                                 <img
                                                 alt="artist"
@@ -3818,10 +3906,11 @@ ShallowWrapper {
                                 >
                                                 Add
                                 </button>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
-                                onClick={undefined}
+                                replace={false}
+                                to="/artists/15"
                 >
                                 <img
                                                 alt="artist"
@@ -3845,10 +3934,11 @@ ShallowWrapper {
                                 >
                                                 Add
                                 </button>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
-                                onClick={undefined}
+                                replace={false}
+                                to="/artists/18"
                 >
                                 <img
                                                 alt="artist"
@@ -3872,10 +3962,11 @@ ShallowWrapper {
                                 >
                                                 Add
                                 </button>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
-                                onClick={undefined}
+                                replace={false}
+                                to="/artists/19"
                 >
                                 <img
                                                 alt="artist"
@@ -3899,10 +3990,11 @@ ShallowWrapper {
                                 >
                                                 Add
                                 </button>
-                </div>
-                <div
+                </Link>
+                <Link
                                 className="artist-listing"
-                                onClick={undefined}
+                                replace={false}
+                                to="/artists/22"
                 >
                                 <img
                                                 alt="artist"
@@ -3926,7 +4018,7 @@ ShallowWrapper {
                                 >
                                                 Add
                                 </button>
-                </div>
+                </Link>
 </div>,
             ],
             "className": "main-content",
@@ -4040,9 +4132,10 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  <div
+                  <Link
                     className="artist-listing"
-                    onClick={undefined}
+                    replace={false}
+                    to="/artists/4"
 >
                     <img
                                         alt="artist"
@@ -4066,10 +4159,11 @@ ShallowWrapper {
                     >
                                         Add
                     </button>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
-                    onClick={undefined}
+                    replace={false}
+                    to="/artists/5"
 >
                     <img
                                         alt="artist"
@@ -4093,10 +4187,11 @@ ShallowWrapper {
                     >
                                         Add
                     </button>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
-                    onClick={undefined}
+                    replace={false}
+                    to="/artists/6"
 >
                     <img
                                         alt="artist"
@@ -4120,10 +4215,11 @@ ShallowWrapper {
                     >
                                         Add
                     </button>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
-                    onClick={undefined}
+                    replace={false}
+                    to="/artists/7"
 >
                     <img
                                         alt="artist"
@@ -4147,10 +4243,11 @@ ShallowWrapper {
                     >
                                         Add
                     </button>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
-                    onClick={undefined}
+                    replace={false}
+                    to="/artists/8"
 >
                     <img
                                         alt="artist"
@@ -4174,10 +4271,11 @@ ShallowWrapper {
                     >
                                         Add
                     </button>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
-                    onClick={undefined}
+                    replace={false}
+                    to="/artists/9"
 >
                     <img
                                         alt="artist"
@@ -4201,10 +4299,11 @@ ShallowWrapper {
                     >
                                         Add
                     </button>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
-                    onClick={undefined}
+                    replace={false}
+                    to="/artists/10"
 >
                     <img
                                         alt="artist"
@@ -4228,10 +4327,11 @@ ShallowWrapper {
                     >
                                         Add
                     </button>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
-                    onClick={undefined}
+                    replace={false}
+                    to="/artists/11"
 >
                     <img
                                         alt="artist"
@@ -4255,10 +4355,11 @@ ShallowWrapper {
                     >
                                         Add
                     </button>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
-                    onClick={undefined}
+                    replace={false}
+                    to="/artists/12"
 >
                     <img
                                         alt="artist"
@@ -4282,10 +4383,11 @@ ShallowWrapper {
                     >
                                         Add
                     </button>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
-                    onClick={undefined}
+                    replace={false}
+                    to="/artists/13"
 >
                     <img
                                         alt="artist"
@@ -4309,10 +4411,11 @@ ShallowWrapper {
                     >
                                         Add
                     </button>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
-                    onClick={undefined}
+                    replace={false}
+                    to="/artists/14"
 >
                     <img
                                         alt="artist"
@@ -4336,10 +4439,11 @@ ShallowWrapper {
                     >
                                         Add
                     </button>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
-                    onClick={undefined}
+                    replace={false}
+                    to="/artists/15"
 >
                     <img
                                         alt="artist"
@@ -4363,10 +4467,11 @@ ShallowWrapper {
                     >
                                         Add
                     </button>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
-                    onClick={undefined}
+                    replace={false}
+                    to="/artists/18"
 >
                     <img
                                         alt="artist"
@@ -4390,10 +4495,11 @@ ShallowWrapper {
                     >
                                         Add
                     </button>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
-                    onClick={undefined}
+                    replace={false}
+                    to="/artists/19"
 >
                     <img
                                         alt="artist"
@@ -4417,10 +4523,11 @@ ShallowWrapper {
                     >
                                         Add
                     </button>
-</div>,
-                  <div
+</Link>,
+                  <Link
                     className="artist-listing"
-                    onClick={undefined}
+                    replace={false}
+                    to="/artists/22"
 >
                     <img
                                         alt="artist"
@@ -4444,7 +4551,7 @@ ShallowWrapper {
                     >
                                         Add
                     </button>
-</div>,
+</Link>,
                 ],
                 "className": "artists-container",
               },
@@ -4453,7 +4560,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": "4",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -4480,7 +4587,8 @@ ShallowWrapper {
 </button>,
                     ],
                     "className": "artist-listing",
-                    "onClick": undefined,
+                    "replace": false,
+                    "to": "/artists/4",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4554,12 +4662,12 @@ ShallowWrapper {
                       "type": "button",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "5",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -4586,7 +4694,8 @@ ShallowWrapper {
 </button>,
                     ],
                     "className": "artist-listing",
-                    "onClick": undefined,
+                    "replace": false,
+                    "to": "/artists/5",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4660,12 +4769,12 @@ ShallowWrapper {
                       "type": "button",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "6",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -4692,7 +4801,8 @@ ShallowWrapper {
 </button>,
                     ],
                     "className": "artist-listing",
-                    "onClick": undefined,
+                    "replace": false,
+                    "to": "/artists/6",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4766,12 +4876,12 @@ ShallowWrapper {
                       "type": "button",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "7",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -4798,7 +4908,8 @@ ShallowWrapper {
 </button>,
                     ],
                     "className": "artist-listing",
-                    "onClick": undefined,
+                    "replace": false,
+                    "to": "/artists/7",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4872,12 +4983,12 @@ ShallowWrapper {
                       "type": "button",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "8",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -4904,7 +5015,8 @@ ShallowWrapper {
 </button>,
                     ],
                     "className": "artist-listing",
-                    "onClick": undefined,
+                    "replace": false,
+                    "to": "/artists/8",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -4978,12 +5090,12 @@ ShallowWrapper {
                       "type": "button",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "9",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -5010,7 +5122,8 @@ ShallowWrapper {
 </button>,
                     ],
                     "className": "artist-listing",
-                    "onClick": undefined,
+                    "replace": false,
+                    "to": "/artists/9",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -5084,12 +5197,12 @@ ShallowWrapper {
                       "type": "button",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "10",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -5116,7 +5229,8 @@ ShallowWrapper {
 </button>,
                     ],
                     "className": "artist-listing",
-                    "onClick": undefined,
+                    "replace": false,
+                    "to": "/artists/10",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -5190,12 +5304,12 @@ ShallowWrapper {
                       "type": "button",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "11",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -5222,7 +5336,8 @@ ShallowWrapper {
 </button>,
                     ],
                     "className": "artist-listing",
-                    "onClick": undefined,
+                    "replace": false,
+                    "to": "/artists/11",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -5296,12 +5411,12 @@ ShallowWrapper {
                       "type": "button",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "12",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -5328,7 +5443,8 @@ ShallowWrapper {
 </button>,
                     ],
                     "className": "artist-listing",
-                    "onClick": undefined,
+                    "replace": false,
+                    "to": "/artists/12",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -5402,12 +5518,12 @@ ShallowWrapper {
                       "type": "button",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "13",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -5434,7 +5550,8 @@ ShallowWrapper {
 </button>,
                     ],
                     "className": "artist-listing",
-                    "onClick": undefined,
+                    "replace": false,
+                    "to": "/artists/13",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -5508,12 +5625,12 @@ ShallowWrapper {
                       "type": "button",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "14",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -5540,7 +5657,8 @@ ShallowWrapper {
 </button>,
                     ],
                     "className": "artist-listing",
-                    "onClick": undefined,
+                    "replace": false,
+                    "to": "/artists/14",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -5614,12 +5732,12 @@ ShallowWrapper {
                       "type": "button",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "15",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -5646,7 +5764,8 @@ ShallowWrapper {
 </button>,
                     ],
                     "className": "artist-listing",
-                    "onClick": undefined,
+                    "replace": false,
+                    "to": "/artists/15",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -5720,12 +5839,12 @@ ShallowWrapper {
                       "type": "button",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "18",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -5752,7 +5871,8 @@ ShallowWrapper {
 </button>,
                     ],
                     "className": "artist-listing",
-                    "onClick": undefined,
+                    "replace": false,
+                    "to": "/artists/18",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -5826,12 +5946,12 @@ ShallowWrapper {
                       "type": "button",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "19",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -5858,7 +5978,8 @@ ShallowWrapper {
 </button>,
                     ],
                     "className": "artist-listing",
-                    "onClick": undefined,
+                    "replace": false,
+                    "to": "/artists/19",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -5932,12 +6053,12 @@ ShallowWrapper {
                       "type": "button",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": "22",
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       <img
@@ -5964,7 +6085,8 @@ ShallowWrapper {
 </button>,
                     ],
                     "className": "artist-listing",
-                    "onClick": undefined,
+                    "replace": false,
+                    "to": "/artists/22",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -6038,7 +6160,7 @@ ShallowWrapper {
                       "type": "button",
                     },
                   ],
-                  "type": "div",
+                  "type": [Function],
                 },
               ],
               "type": "div",

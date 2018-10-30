@@ -27,7 +27,13 @@
     display: grid;
     grid-template-columns: 4fr repeat(5, 10fr);
     align-items: center;
+    text-decoration: none;
+
     cursor: pointer;
+    p {
+      color: #FFF;
+      
+    }
   }
 
   .artist-listing:hover {

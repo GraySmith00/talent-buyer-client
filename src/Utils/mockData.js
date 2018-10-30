@@ -11,6 +11,18 @@ export const mockArtist = {
     'alternative dance, dance-punk, electro house, electronic, filter house, indietronica, new rave'
 };
 
+export const mockArtist2 = {
+  id: 4,
+  name: 'Alesso',
+  agency: 'WME',
+  image_url: 'https://i.scdn.co/image/021f014a6809e5b7f1ef1c18bf247fd9ccacb193',
+  popularity: 81,
+  songkick_id: 4329851,
+  spotify_url: 'https://open.spotify.com/artist/4AVFqumd2ogHFlRbKIjp1t',
+  spotify_id: '4AVFqumd2ogHFlRbKIjp1t',
+  spotify_followers: 2296228
+};
+
 export const mockArtists = [
   {
     id: 4,

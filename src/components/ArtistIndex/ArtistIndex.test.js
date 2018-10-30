@@ -9,7 +9,9 @@ describe('ArtistIndex component', () => {
   let wrapper;
 
   beforeEach(() => {
-    wrapper = shallow(<ArtistIndex />);
+    const mockFunction = jest.fn();
+    let getArtist = mockFunction;
+    wrapper = shallow(<ArtistIndex getArtist={getArtist} />);
   });
 
   it('should match the snapshot', () => {
