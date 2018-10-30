@@ -1,6 +1,5 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-
 import ArtistIndex from './ArtistIndex';
 
 jest.mock('../../Utils/backendApiCalls');
@@ -10,7 +9,7 @@ describe('ArtistIndex component', () => {
 
   beforeEach(() => {
     const mockFunction = jest.fn();
-    const getArtist = mockFunction;
+    let getArtist = mockFunction;
     wrapper = shallow(<ArtistIndex getArtist={getArtist} />);
   });
 

@@ -34,9 +34,9 @@ ShallowWrapper {
                 path="/artists"
         />
         <Route
-                component={[Function]}
                 exact={true}
-                path="/artist"
+                path="/artists/:id"
+                render={[Function]}
         />
         <Route
                 component={[Function]}
@@ -68,9 +68,9 @@ ShallowWrapper {
             path="/artists"
 />,
           <Route
-            component={[Function]}
             exact={true}
-            path="/artist"
+            path="/artists/:id"
+            render={[Function]}
 />,
           <Route
             component={[Function]}
@@ -125,9 +125,9 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "component": [Function],
             "exact": true,
-            "path": "/artist",
+            "path": "/artists/:id",
+            "render": [Function],
           },
           "ref": null,
           "rendered": null,
@@ -174,9 +174,9 @@ ShallowWrapper {
                     path="/artists"
           />
           <Route
-                    component={[Function]}
                     exact={true}
-                    path="/artist"
+                    path="/artists/:id"
+                    render={[Function]}
           />
           <Route
                     component={[Function]}
@@ -208,9 +208,9 @@ ShallowWrapper {
               path="/artists"
 />,
             <Route
-              component={[Function]}
               exact={true}
-              path="/artist"
+              path="/artists/:id"
+              render={[Function]}
 />,
             <Route
               component={[Function]}
@@ -265,9 +265,9 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "component": [Function],
               "exact": true,
-              "path": "/artist",
+              "path": "/artists/:id",
+              "render": [Function],
             },
             "ref": null,
             "rendered": null,

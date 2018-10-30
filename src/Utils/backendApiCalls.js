@@ -65,7 +65,7 @@ export const getAllArtists = async () => {
   return artists.data;
 };
 
-export const getArtist = async (id) => {
+export const getArtist = async id => {
   const url = `${process.env.REACT_APP_API}/api/v1/artists/${id}`;
   const artist = await axios.get(url);
   return artist.data;

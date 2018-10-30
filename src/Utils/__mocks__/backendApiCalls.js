@@ -1,4 +1,4 @@
-import { mockArtists } from '../mockData';
+import { mockArtists, mockArtist2 } from '../mockData';
 
 export const signUpPostRequest = jest.fn();
 
@@ -16,6 +16,10 @@ export const addCaaArtistsToBackend = jest.fn();
 
 export const getAllArtists = jest.fn().mockImplementation(() => {
   return Promise.resolve(mockArtists);
+});
+
+export const getArtist = jest.fn().mockImplementation(() => {
+  return Promise.resolve(mockArtist2);
 });
 
 export const offerPostRequest = jest.fn();

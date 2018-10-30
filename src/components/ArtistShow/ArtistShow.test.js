@@ -6,9 +6,13 @@ jest.mock('../../Utils/backendApiCalls');
 
 describe('ArtistShow component', () => {
   let wrapper;
+  let mockId;
 
   beforeEach(() => {
-    wrapper = shallow(<ArtistShow />);
+    mockId = 4;
+    wrapper = shallow(<ArtistShow id={mockId} />, {
+      disableLifecycleMethods: true
+    });
   });
 
   it('should match the snapshot', () => {
