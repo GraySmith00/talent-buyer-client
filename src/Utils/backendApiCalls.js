@@ -59,8 +59,29 @@ export const addCaaArtistsToBackend = () => {
   });
 };
 
-export const getAllArtists = async () => {
-  const url = `${process.env.REACT_APP_API}/api/v1/artists`;
+export const getAllArtists = async ({
+  agency = null,
+  genre = null,
+  sort = null
+}) => {
+  let url = `${process.env.REACT_APP_API}/api/v1/artists`;
+
+  if (agency || genre || sort) {
+    url += `?`;
+  }
+
+  if (agency) {
+    url += `agency=${agency}&`;
+  }
+
+  if (genre) {
+    url += `genre=${genre}&`;
+  }
+
+  if (sort) {
+    url += `sort=${sort}&`;
+  }
+
   const artists = await axios.get(url);
   return artists.data;
 };

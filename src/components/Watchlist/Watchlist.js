@@ -12,7 +12,7 @@ export class Watchlist extends Component {
       displayArtists = <p>Loading...</p>;
     } else {
       displayArtists = watchlist.map(artist => (
-        <div className="table-row" key={artist.id}>
+        <div className="table-row" key={artist.name}>
           <img src={artist.image_url} alt="artist" className="artist-image" />
           <h3>{artist.name}</h3>
           <h3>{artist.agency}</h3>

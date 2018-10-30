@@ -286,7 +286,7 @@ ShallowWrapper {
         "rendered": Array [
           Object {
             "instance": null,
-            "key": "4",
+            "key": "Alesso",
             "nodeType": "host",
             "props": Object {
               "children": Array [
@@ -360,7 +360,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "18",
+            "key": "Booka Shade",
             "nodeType": "host",
             "props": Object {
               "children": Array [
@@ -434,7 +434,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "23",
+            "key": "Chuckie",
             "nodeType": "host",
             "props": Object {
               "children": Array [
@@ -749,7 +749,7 @@ ShallowWrapper {
           "rendered": Array [
             Object {
               "instance": null,
-              "key": "4",
+              "key": "Alesso",
               "nodeType": "host",
               "props": Object {
                 "children": Array [
@@ -823,7 +823,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": "18",
+              "key": "Booka Shade",
               "nodeType": "host",
               "props": Object {
                 "children": Array [
@@ -897,7 +897,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": "23",
+              "key": "Chuckie",
               "nodeType": "host",
               "props": Object {
                 "children": Array [
