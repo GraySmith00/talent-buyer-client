@@ -1,7 +1,7 @@
-export const watchlistReducer = (state = {}, action) => {
+export const watchlistReducer = (state = [], action) => {
   switch (action.type) {
-    case 'ADD_ARTIST_TO_WATCHLIST':
-      return action.artist;
+    case 'TOGGLE_ARTIST_ACTION':
+      return action.watchlist;
     default:
       return state;
   }

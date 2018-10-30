@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { getAllArtists } from '../../Utils/backendApiCalls';
-import { AddNewArtistToWatchlist } from '../../actions/watchlistActions';
+import { toggleArtistThunk } from '../../actions/watchlistActions';
+import { connect } from 'react-redux';
 import axios from 'axios';
 import Nav from '../Nav/Nav';
 
 import './ArtistIndex.css';
 
-class ArtistIndex extends Component {
+export class ArtistIndex extends Component {
   state = {
     artists: []
   };
@@ -19,9 +20,10 @@ class ArtistIndex extends Component {
     this.setState({ artists });
   }
 
-  handleClick = (e) => {
-    (e.currentTarget.id);
+  toggleWatchlist = async (artist) => {
+    const { watchlist, toggleArtistThunk } = this.props;
 
+    await toggleArtistThunk({ artist, watchlist });
   }
 
   render() {
@@ -32,12 +34,13 @@ class ArtistIndex extends Component {
       displayArtists = <p>Loading...</p>;
     } else {
       displayArtists = artists.slice(0, 25).map(artist => (
-        < div onClick={this.handleClick} key={artist.id} id={artist.id} className="artist-listing" >
+        < div onClick={this.handleClick} key={artist.id} className="artist-listing" >
           <img src={artist.image_url} alt="artist" className="artist-image" />
           <p>{artist.name}</p>
           <p>{artist.agency}</p>
           <p>{artist.popularity}</p>
           <p>{artist.spotify_followers}</p>
+          <button onClick={() => this.toggleWatchlist(artist)}>Add</button>
         </div >
       ));
     }
@@ -61,4 +64,12 @@ class ArtistIndex extends Component {
   }
 }
 
-export default ArtistIndex;
+export const mapStateToProps = state => ({
+  watchlist: state.watchlist
+});
+
+export const mapDispatchToProps = dispatch => ({
+  toggleArtistThunk: ({ artist, watchlist }) => dispatch(toggleArtistThunk({ artist, watchlist }))
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(ArtistIndex);

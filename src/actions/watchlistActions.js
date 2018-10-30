@@ -1,16 +1,21 @@
 //action to add artist to watchlist
-export const addArtistToWatchlistAction = artist => ({
-  type: 'ADD_ARTIST_TO_WATCHLIST',
-  artist
+export const toggleArtistAction = watchlist => ({
+  type: 'TOGGLE_ARTIST_ACTION',
+  watchlist
 });
 
 //thunk to add artist to watchlist, take in an artist object
 
-export const AddNewArtistToWatchlist = (artist) => async dispatch => {
-  console.log(artist);
-}
+export const toggleArtistThunk = ({ artist, watchlist }) => async dispatch => {
+  const alreadyWatched = watchlist.find(band => band.id === artist.id);
 
+  let newWatchlist;
 
-//watchlist reducer, add to root
-
-//call thunk in artistindex
+  if (alreadyWatched) {
+    newWatchlist = watchlist.filter(band => band.id !== artist.id);
+  } else {
+    newWatchlist = [...watchlist, artist];
+  }
+  dispatch(toggleArtistAction(newWatchlist));
+  return artist;
+};
