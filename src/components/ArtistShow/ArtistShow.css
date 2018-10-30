@@ -3,3 +3,5 @@
   background-color: #21222b;
   color: #fff;
   overflow: scroll; }
+  .artist-show .profile-image {
+    width: 20rem; }
