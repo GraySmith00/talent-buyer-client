@@ -12,7 +12,7 @@
 
   .table-headings {
     display: grid;
-    grid-template-columns: 5fr repeat(5, 10fr);
+    grid-template-columns: 8fr repeat(5, 10fr);
     border-bottom: 1px solid #fff;
     align-items: center;
   }
@@ -25,14 +25,13 @@
 
   .artist-listing {
     display: grid;
-    grid-template-columns: 4fr repeat(5, 10fr);
+    grid-template-columns: 8fr repeat(5, 10fr);
     align-items: center;
     text-decoration: none;
 
     cursor: pointer;
     p {
-      color: #FFF;
-      
+      color: #fff;
     }
   }
 
@@ -47,5 +46,9 @@
 
   .watchlist-heading {
     width: 6rem;
+  }
+
+  .genre-selector {
+    max-height: 40px;
   }
 }

@@ -8,7 +8,7 @@
     padding: 3rem 3rem; }
   .artist-index .table-headings {
     display: grid;
-    grid-template-columns: 5fr repeat(5, 10fr);
+    grid-template-columns: 8fr repeat(5, 10fr);
     border-bottom: 1px solid #fff;
     align-items: center; }
   .artist-index .artists-container {
@@ -17,12 +17,12 @@
     background-color: #32333e; }
   .artist-index .artist-listing {
     display: grid;
-    grid-template-columns: 4fr repeat(5, 10fr);
+    grid-template-columns: 8fr repeat(5, 10fr);
     align-items: center;
     text-decoration: none;
     cursor: pointer; }
     .artist-index .artist-listing p {
-      color: #FFF; }
+      color: #fff; }
   .artist-index .artist-listing:hover {
     background-color: #373945; }
   .artist-index .artist-image {
@@ -30,3 +30,5 @@
     height: 50px; }
   .artist-index .watchlist-heading {
     width: 6rem; }
+  .artist-index .genre-selector {
+    max-height: 40px; }
