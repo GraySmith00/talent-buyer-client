@@ -5,9 +5,9 @@ import { getArtist } from '../../Utils/backendApiCalls';
 
 class ArtistShow extends Component {
   state = {
-    name: "",
-    image_url: ""
-  }
+    name: '',
+    image_url: ''
+  };
 
   async componentDidMount() {
     const { id } = this.props;
@@ -22,7 +22,7 @@ class ArtistShow extends Component {
         <Nav />
         <div className="main-content">
           <h1>{name}</h1>
-          <img className="profile-image" src={image_url} alt="artist-display-image" />
+          <img className="profile-image" src={image_url} alt="artist-profile" />
         </div>
       </div>
     );
