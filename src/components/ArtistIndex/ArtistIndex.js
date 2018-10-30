@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { getAllArtists } from '../../Utils/backendApiCalls';
+import { AddNewArtistToWatchlist } from '../../actions/watchlistActions';
 import axios from 'axios';
 import Nav from '../Nav/Nav';
 
@@ -18,6 +19,11 @@ class ArtistIndex extends Component {
     this.setState({ artists });
   }
 
+  handleClick = (e) => {
+    (e.currentTarget.id);
+
+  }
+
   render() {
     const { artists } = this.state;
     let displayArtists;
@@ -26,13 +32,13 @@ class ArtistIndex extends Component {
       displayArtists = <p>Loading...</p>;
     } else {
       displayArtists = artists.slice(0, 25).map(artist => (
-        <div key={artist.id} className="artist-listing">
+        < div onClick={this.handleClick} key={artist.id} id={artist.id} className="artist-listing" >
           <img src={artist.image_url} alt="artist" className="artist-image" />
           <p>{artist.name}</p>
           <p>{artist.agency}</p>
           <p>{artist.popularity}</p>
           <p>{artist.spotify_followers}</p>
-        </div>
+        </div >
       ));
     }
 
@@ -46,6 +52,7 @@ class ArtistIndex extends Component {
             <h3>Agency</h3>
             <h3>Popularity</h3>
             <h3>Spotify Followers</h3>
+            <h3 className="watchlist-heading">Watchlist</h3>
           </div>
           <div className="artists-container">{displayArtists}</div>
         </div>
