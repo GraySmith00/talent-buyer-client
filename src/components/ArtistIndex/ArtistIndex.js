@@ -21,7 +21,9 @@ export class ArtistIndex extends Component {
     this.setState({ artists });
   }
 
-  toggleWatchlist = async artist => {
+  toggleWatchlist = async (e, artist) => {
+    e.preventDefault();
+    e.stopPropagation();
     const { watchlist, toggleArtistThunk } = this.props;
 
     await toggleArtistThunk({ artist, watchlist });
@@ -29,6 +31,7 @@ export class ArtistIndex extends Component {
 
   render() {
     const { artists } = this.state;
+
     let displayArtists;
 
     if (!artists.length) {
@@ -45,7 +48,7 @@ export class ArtistIndex extends Component {
           <p>{artist.agency}</p>
           <p>{artist.popularity}</p>
           <p>{artist.spotify_followers}</p>
-          <button onClick={() => this.toggleWatchlist(artist)}>Add</button>
+          <button onClick={e => this.toggleWatchlist(e, artist)}>Add</button>
         </Link>
       ));
     }
