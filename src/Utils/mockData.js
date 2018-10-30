@@ -508,3 +508,42 @@ export const mockOffers = [
     artist_name: 'Booka Shade'
   }
 ];
+
+export const mockWatchlist = [
+  {
+    id: 4,
+    name: 'Alesso',
+    agency: 'WME',
+    image_url:
+      'https://i.scdn.co/image/021f014a6809e5b7f1ef1c18bf247fd9ccacb193',
+    popularity: 81,
+    songkick_id: 4329851,
+    spotify_url: 'https://open.spotify.com/artist/4AVFqumd2ogHFlRbKIjp1t',
+    spotify_id: '4AVFqumd2ogHFlRbKIjp1t',
+    spotify_followers: 2296228
+  },
+  {
+    id: 18,
+    name: 'Booka Shade',
+    agency: 'WME',
+    image_url:
+      'https://i.scdn.co/image/8c0fbe0fb1c86825adeb18bf0a019a22827c4422',
+    popularity: 51,
+    songkick_id: 295932,
+    spotify_url: 'https://open.spotify.com/artist/2CKaDZ1Yo8YnWega9IeUzB',
+    spotify_id: '2CKaDZ1Yo8YnWega9IeUzB',
+    spotify_followers: 113010
+  },
+  {
+    id: 23,
+    name: 'Chuckie',
+    agency: 'WME',
+    image_url:
+      'https://i.scdn.co/image/1cbc13e4131461d8631d527c955ba83dddde099d',
+    popularity: 51,
+    songkick_id: 937055,
+    spotify_url: 'https://open.spotify.com/artist/4x7gxsrTH3gThvSKZPPwaQ',
+    spotify_id: '4x7gxsrTH3gThvSKZPPwaQ',
+    spotify_followers: 100998
+  }
+];

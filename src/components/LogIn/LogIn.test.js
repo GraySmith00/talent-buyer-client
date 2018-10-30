@@ -9,12 +9,14 @@ describe('LogIn component', () => {
   let mockLogInUser;
   let mockSetUserVenue;
   let mockPopulateUserOffers;
+  let mockPopulateUserWatchlist;
 
   beforeEach(() => {
     mockLogInUser = jest.fn();
     mockCloseLoginModal = jest.fn();
     mockSetUserVenue = jest.fn();
     mockPopulateUserOffers = jest.fn();
+    mockPopulateUserWatchlist = jest.fn();
 
     wrapper = shallow(
       <LogIn
@@ -23,6 +25,7 @@ describe('LogIn component', () => {
         setUserVenue={mockSetUserVenue}
         history={mockHistory}
         populateUserOffers={mockPopulateUserOffers}
+        populateUserWatchlist={mockPopulateUserWatchlist}
       />
     );
   });

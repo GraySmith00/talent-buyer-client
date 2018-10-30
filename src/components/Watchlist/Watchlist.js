@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import './Watchlist.css';
 
-class Watchlist extends Component {
+export class Watchlist extends Component {
   render() {
     const { watchlist } = this.props;
     let displayArtists;
@@ -37,8 +37,7 @@ class Watchlist extends Component {
 }
 
 Watchlist.propTypes = {
-  offers: PropTypes.array.isRequired,
-  openEditOfferModal: PropTypes.func.isRequired
+  watchlist: PropTypes.array.isRequired
 };
 
 export const mapStateToProps = state => ({
