@@ -50,6 +50,8 @@ Additional enhancements will include:
 
 Clone the repo
 
+Email gray.smith00@gmail.com for Private Keys
+
 Run `npm install` from the root directory
 
 Run `npm start` and visit localhost:3000 in your browser
@@ -57,14 +59,16 @@ Run `npm start` and visit localhost:3000 in your browser
 #### Back-end
 Clone the associated [back-end repo](https://github.com/colinwarmstrong/talent-buyer-api)
 
-Run `npm install` from the root directory
+Run `bundle install` from the root directory
 
-Run `node server.js`
+Run `rails db:{create,migrate,seed}`
+
+Run `rails s`
 
 ### Test Driven Development
-Club Reads uses Jest and Enzyme for front-end testing, and Mocha and Chai for back-end testing
+Talent Buyer uses Jest and Enzyme for front-end testing, and Rspec for back-end testing
 
-Run with `npm test` from the associated root directory
+Run with `npm test` in the root directory on the Front-End
 
 ### Contributors
 
