@@ -730,3 +730,14 @@ export const mockVenue = {
   zip: 80218,
   capacity: 1600
 };
+
+export const mockSignUpState = {
+  firstName: 'Paul',
+  lastName: 'Blart',
+  email: 'Blartboi@gmail.com',
+  password: 'hotdogz',
+  venueName: 'Ogden',
+  venueCity: 'Denver',
+  venueError: '',
+  userError: ''
+};

@@ -1,7 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import { mockSignUpState } from '../../Utils/mockData';
+import { setNewVenue } from '../../actions/venueActions';
 
-import SignUp from './SignUp';
+import { SignUp, saveVenue } from './SignUp';
 
 describe('SignUp component', () => {
   let wrapper;
@@ -14,5 +16,11 @@ describe('SignUp component', () => {
 
   it('should match the snapshot', () => {
     expect(wrapper).toMatchSnapshot();
+  });
+
+  it('saveVenue, should save the current venue', async () => {
+    await wrapper.setState({ mockSignUpState });
+    await wrapper.instance().saveVenue();
+    await expect(setNewVenue).toHaveBeenCalled();
   });
 });
