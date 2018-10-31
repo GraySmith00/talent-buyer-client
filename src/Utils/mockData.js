@@ -559,3 +559,154 @@ export const mockWatchlist = [
     spotify_followers: 100998
   }
 ];
+
+export const mockSingleOffer = {
+  id: 5,
+  venue_id: 3,
+  artist_id: 19,
+  buyer_id: 3,
+  guarantee: 5000,
+  bonuses: '+$1k at 600 sold',
+  radius_clause: '120mi +/- 60days',
+  total_expenses: 2000,
+  gross_potential: 8500,
+  door_times: '9pm-12am',
+  age_range: '16+',
+  merch_split: '80/20 artist/venue',
+  date: '2018-10-29',
+  status: 'pending',
+  artist_name: 'Calvin Harris'
+};
+
+export const mockSingleOfferEdited = {
+  id: 5,
+  venue_id: 3,
+  artist_id: 19,
+  buyer_id: 3,
+  guarantee: 5000,
+  bonuses: '+$1k at 600 sold',
+  radius_clause: '120mi +/- 60days',
+  total_expenses: 4000,
+  gross_potential: 1500,
+  door_times: '9pm-12am',
+  age_range: '16+',
+  merch_split: '80/20 artist/venue',
+  date: '2018-10-29',
+  status: 'pending',
+  artist_name: 'Calvin Harris'
+};
+
+export const mockTwoOffers = [
+  {
+    id: 18,
+    name: 'Booka Shade',
+    agency: 'WME',
+    image_url:
+      'https://i.scdn.co/image/8c0fbe0fb1c86825adeb18bf0a019a22827c4422',
+    popularity: 51,
+    songkick_id: 295932,
+    spotify_url: 'https://open.spotify.com/artist/2CKaDZ1Yo8YnWega9IeUzB',
+    spotify_id: '2CKaDZ1Yo8YnWega9IeUzB',
+    spotify_followers: 113010
+  },
+  {
+    id: 23,
+    name: 'Chuckie',
+    agency: 'WME',
+    image_url:
+      'https://i.scdn.co/image/1cbc13e4131461d8631d527c955ba83dddde099d',
+    popularity: 51,
+    songkick_id: 937055,
+    spotify_url: 'https://open.spotify.com/artist/4x7gxsrTH3gThvSKZPPwaQ',
+    spotify_id: '4x7gxsrTH3gThvSKZPPwaQ',
+    spotify_followers: 100998
+  }
+];
+
+export const mockCombinedOffers = [
+  {
+    id: 18,
+    name: 'Booka Shade',
+    agency: 'WME',
+    image_url:
+      'https://i.scdn.co/image/8c0fbe0fb1c86825adeb18bf0a019a22827c4422',
+    popularity: 51,
+    songkick_id: 295932,
+    spotify_url: 'https://open.spotify.com/artist/2CKaDZ1Yo8YnWega9IeUzB',
+    spotify_id: '2CKaDZ1Yo8YnWega9IeUzB',
+    spotify_followers: 113010
+  },
+  {
+    id: 23,
+    name: 'Chuckie',
+    agency: 'WME',
+    image_url:
+      'https://i.scdn.co/image/1cbc13e4131461d8631d527c955ba83dddde099d',
+    popularity: 51,
+    songkick_id: 937055,
+    spotify_url: 'https://open.spotify.com/artist/4x7gxsrTH3gThvSKZPPwaQ',
+    spotify_id: '4x7gxsrTH3gThvSKZPPwaQ',
+    spotify_followers: 100998
+  },
+  {
+    id: 5,
+    venue_id: 3,
+    artist_id: 19,
+    buyer_id: 3,
+    guarantee: 5000,
+    bonuses: '+$1k at 600 sold',
+    radius_clause: '120mi +/- 60days',
+    total_expenses: 2000,
+    gross_potential: 8500,
+    door_times: '9pm-12am',
+    age_range: '16+',
+    merch_split: '80/20 artist/venue',
+    date: '2018-10-29',
+    status: 'pending',
+    artist_name: 'Calvin Harris'
+  }
+];
+
+export const mockCombinedOffersEdited = [
+  {
+    id: 18,
+    name: 'Booka Shade',
+    agency: 'WME',
+    image_url:
+      'https://i.scdn.co/image/8c0fbe0fb1c86825adeb18bf0a019a22827c4422',
+    popularity: 51,
+    songkick_id: 295932,
+    spotify_url: 'https://open.spotify.com/artist/2CKaDZ1Yo8YnWega9IeUzB',
+    spotify_id: '2CKaDZ1Yo8YnWega9IeUzB',
+    spotify_followers: 113010
+  },
+  {
+    id: 23,
+    name: 'Chuckie',
+    agency: 'WME',
+    image_url:
+      'https://i.scdn.co/image/1cbc13e4131461d8631d527c955ba83dddde099d',
+    popularity: 51,
+    songkick_id: 937055,
+    spotify_url: 'https://open.spotify.com/artist/4x7gxsrTH3gThvSKZPPwaQ',
+    spotify_id: '4x7gxsrTH3gThvSKZPPwaQ',
+    spotify_followers: 100998
+  },
+  {
+    id: 5,
+    venue_id: 3,
+    artist_id: 19,
+    buyer_id: 3,
+    guarantee: 5000,
+    bonuses: '+$1k at 600 sold',
+    radius_clause: '120mi +/- 60days',
+    total_expenses: 4000,
+    gross_potential: 1500,
+    door_times: '9pm-12am',
+    age_range: '16+',
+    merch_split: '80/20 artist/venue',
+    date: '2018-10-29',
+    status: 'pending',
+    artist_name: 'Calvin Harris'
+  }
+];
