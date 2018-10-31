@@ -710,3 +710,23 @@ export const mockCombinedOffersEdited = [
     artist_name: 'Calvin Harris'
   }
 ];
+
+export const mockUser = {
+  id: 7,
+  first_name: 'Michael',
+  last_name: 'Jackson',
+  email: 'michael@example.com',
+  created_at: '2018-10-27T22:15:12.939Z',
+  updated_at: '2018-10-27T22:15:12.939Z',
+  isAuthenticated: true
+};
+
+export const mockVenue = {
+  id: 1,
+  name: 'Ogden Theatre',
+  street_address: '935 East Colfax Avenue',
+  city: 'Denver',
+  state: 'CO',
+  zip: 80218,
+  capacity: 1600
+};
