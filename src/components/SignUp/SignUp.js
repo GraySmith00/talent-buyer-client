@@ -10,7 +10,7 @@ import ModalButton from '../styledComponents/ModalButton';
 import ModalForm from '../styledComponents/ModalForm';
 import InnerModal from '../styledComponents/InnerModal';
 
-class SignUp extends Component {
+export class SignUp extends Component {
   state = {
     firstName: '',
     lastName: '',
