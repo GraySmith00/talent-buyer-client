@@ -4,7 +4,6 @@ import Landing from '../Landing/Landing';
 import Dashboard from '../Dashboard/Dashboard';
 import ArtistIndex from '../ArtistIndex/ArtistIndex';
 import ArtistShow from '../ArtistShow/ArtistShow';
-import OfferTemplate from '../OfferTemplate/OfferTemplate';
 
 class Routes extends Component {
   render() {
@@ -14,10 +13,13 @@ class Routes extends Component {
           <Route exact path="/" component={Landing} />
           <Route exact path="/home" component={Dashboard} />
           <Route exact path="/artists" component={ArtistIndex} />
-          <Route exact path="/artists/:id" render={({ match }) => {
-            return <ArtistShow id={match.params.id} />;
-          }} />
-          <Route exact path="/template" component={OfferTemplate} />
+          <Route
+            exact
+            path="/artists/:id"
+            render={({ match }) => {
+              return <ArtistShow id={match.params.id} />;
+            }}
+          />
         </Fragment>
       </Router>
     );
