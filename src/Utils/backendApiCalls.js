@@ -23,7 +23,7 @@ export const venuePostRequest = async venue => {
   return data;
 };
 
-export const getAllUserVunues = async userId => {
+export const getAllUserVenues = async userId => {
   const url = `${process.env.REACT_APP_API}/api/v1/buyers/${userId}/venues`;
   const response = await axios.get(url);
   const data = response.data;
