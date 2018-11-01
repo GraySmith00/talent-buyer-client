@@ -123,25 +123,27 @@ export class ArtistIndex extends Component {
       <div className="artist-index">
         <Nav />
         <div className="main-content">
-          <form className="agency-form">
-            <label>
-              Agency
-              <select onChange={this.setAgency}>
-                <option value="All Agencies">All Agencies</option>
-                <option value="caa">CAA</option>
-                <option value="wme">WME</option>
-              </select>
-            </label>
-          </form>
-          <form className="genre-form">
-            <label>
-              Genre
-              <select className="genre-selector" onChange={this.setGenre}>
-                <option value={null}>All Genres</option>
-                {displayGenres}
-              </select>
-            </label>
-          </form>
+          <section className="filters">
+            <form className="agency-form">
+              <label>
+                <h3>Agency</h3>
+                <select onChange={this.setAgency}>
+                  <option value="All Agencies">All Agencies</option>
+                  <option value="caa">CAA</option>
+                  <option value="wme">WME</option>
+                </select>
+              </label>
+            </form>
+            <form className="genre-form">
+              <label>
+                <h3>Genre</h3>
+                <select className="genre-selector" onChange={this.setGenre}>
+                  <option value={null}>All Genres</option>
+                  {displayGenres}
+                </select>
+              </label>
+            </form>
+          </section>
           <div className="table-headings">
             <h3>Image</h3>
             <ArtistTableHeader

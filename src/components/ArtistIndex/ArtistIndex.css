@@ -10,7 +10,8 @@
     display: grid;
     grid-template-columns: 8fr repeat(5, 10fr);
     border-bottom: 1px solid #fff;
-    align-items: center; }
+    align-items: center;
+    margin-top: 3rem; }
   .artist-index .artists-container {
     height: 400px;
     overflow: scroll;
@@ -32,3 +33,14 @@
     width: 6rem; }
   .artist-index .genre-selector {
     max-height: 40px; }
+  .artist-index .filters {
+    display: flex; }
+  .artist-index .agency-form select {
+    margin-left: 1rem; }
+  .artist-index .genre-form {
+    margin-left: 2rem; }
+    .artist-index .genre-form select {
+      margin-left: 1rem; }
+  .artist-index label {
+    display: flex;
+    align-items: center; }
