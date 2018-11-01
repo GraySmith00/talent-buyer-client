@@ -1,13 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-
-import Nav from './Nav';
+import { mockVenue } from '../../Utils/mockData';
+import { Nav } from './Nav';
 
 describe('Nav component', () => {
   let wrapper;
 
   beforeEach(() => {
-    wrapper = shallow(<Nav />);
+    wrapper = shallow(<Nav currentVenue={mockVenue} />);
   });
 
   it('should match the snapshot', () => {

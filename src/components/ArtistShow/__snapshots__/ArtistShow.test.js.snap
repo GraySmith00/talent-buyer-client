@@ -20,7 +20,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <Nav />,
+        <Connect(Nav) />,
         <div
           className="main-content"
 >
@@ -99,7 +99,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <Nav />,
+          <Connect(Nav) />,
           <div
             className="main-content"
 >

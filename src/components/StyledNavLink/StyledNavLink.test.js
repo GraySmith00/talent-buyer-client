@@ -1,22 +1,23 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import NavLink from './NavLink';
+import StyledNavLink from './StyledNavLink';
 
-describe('NavLink', () => {
+describe('StyledNavLink', () => {
   let wrapper;
 
   beforeEach(() => {
-    const mockDisplayText = "mock";
+    const mockDisplayText = 'mock';
     const displayText = mockDisplayText;
-    const mockRouteLink = "/mock";
+    const mockRouteLink = '/mock';
     const routeLink = mockRouteLink;
 
-    wrapper = shallow(<NavLink displayText={displayText} routeLink={routeLink} />);
+    wrapper = shallow(
+      <StyledNavLink displayText={displayText} routeLink={routeLink} />
+    );
   });
 
   it('should match the snapshot', () => {
     expect(wrapper).toMatchSnapshot();
   });
-
 });
