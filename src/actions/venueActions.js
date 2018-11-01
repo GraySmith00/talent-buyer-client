@@ -1,5 +1,5 @@
 import { getMatchingVenue } from '../Utils/songKickApiCalls';
-import { venuePostRequest, getAllUserVunues } from '../Utils/backendApiCalls';
+import { venuePostRequest, getAllUserVenues } from '../Utils/backendApiCalls';
 
 // setCurrentVenueState action
 export const setCurrentVenueState = venue => ({
@@ -11,7 +11,6 @@ export const setCurrentVenueState = venue => ({
 export const setNewVenue = (venueName, venueCity) => async dispatch => {
   // get venue info from songkick
   const venueInfo = await getMatchingVenue(venueName, venueCity);
-
   if (!venueInfo) {
     throw new Error({
       message: 'Sorry, no venue with that name was found in that city'
@@ -26,7 +25,7 @@ export const setNewVenue = (venueName, venueCity) => async dispatch => {
 
 // setUserVenue thunk
 export const setUserVenue = userId => async dispatch => {
-  const userVenues = await getAllUserVunues(userId);
+  const userVenues = await getAllUserVenues(userId);
   if (!userVenues.length) {
     throw new Error({
       message: 'Sorry, this user is not associated with any venues'
