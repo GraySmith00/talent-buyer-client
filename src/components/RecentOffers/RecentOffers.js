@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import './RecentOffers.css';
 
-class RecentOffers extends Component {
+export class RecentOffers extends Component {
   render() {
     const { offers, openEditOfferModal } = this.props;
     let displayOffers;

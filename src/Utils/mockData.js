@@ -754,5 +754,6 @@ export const mockSignUpState = {
   userError: ''
 };
 
+export const mockDate = new Date(2019, 11, 10);
 export const mockVenueName = 'Ogden';
 export const mockVenueCity = 'Denver';
