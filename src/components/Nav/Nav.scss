@@ -32,11 +32,11 @@
 
 .nav-link {
   @include primaryHeavy();
-  box-sizing: border-box;
 
   width: 100%;
   padding: 1.5rem 0 1.5rem 2rem;
 
+  border-left: solid 5px #131621;
   color: $grey-one;
   font-size: 1.5rem;
   text-decoration: none;
@@ -55,4 +55,36 @@
   background-color: #1e2334;
   cursor: pointer;
   color: $pink-two;
+}
+
+.venue-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 2rem auto;
+  width: 80%;
+  background-color: rgba(250, 250, 250, 0.1);
+  height: 300px;
+  border-radius: 6px;
+  color: #fff;
+
+  header {
+    @include primaryHeavy();
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100%;
+    font-size: 1.3rem;
+    background-color: #5a668a;
+    border-radius: 6px 6px 0px 0px;
+    -moz-border-radius: 6px 6px 0px 0px;
+    -webkit-border-radius: 6px 6px 0px 0px;
+    border: 0px solid #000000;
+  }
+
+  .venue-info-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }

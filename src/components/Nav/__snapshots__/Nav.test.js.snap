@@ -3,7 +3,19 @@
 exports[`Nav component should match the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Nav />,
+  Symbol(enzyme.__unrendered__): <Nav
+    currentVenue={
+        Object {
+            "capacity": 1600,
+            "city": "Denver",
+            "id": 1,
+            "name": "Ogden Theatre",
+            "state": "CO",
+            "street_address": "935 East Colfax Avenue",
+            "zip": 80218,
+          }
+    }
+/>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -35,14 +47,48 @@ ShallowWrapper {
         <section
           className="nav-link-wrapper"
 >
-          <StyledNavLink
-                    displayText="Home"
-                    routeLink="/home"
-          />
-          <StyledNavLink
-                    displayText="Artists"
-                    routeLink="/artists"
-          />
+          <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="nav-link"
+                    to="/home"
+          >
+                    Home
+          </NavLink>
+          <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="nav-link"
+                    to="/artists"
+          >
+                    Artists
+          </NavLink>
+</section>,
+        <section
+          className="venue-info"
+>
+          <header>
+                    Current Venue
+          </header>
+          <div
+                    className="venue-info-main"
+          >
+                    <p>
+                              Ogden Theatre
+                    </p>
+                    <p>
+                              935 East Colfax Avenue
+                    </p>
+                    <p>
+                              Denver
+                              , 
+                              CO
+                    </p>
+                    <p>
+                              Capacity: 
+                              1600
+                    </p>
+          </div>
 </section>,
       ],
       "className": "nav",
@@ -104,14 +150,22 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <StyledNavLink
-              displayText="Home"
-              routeLink="/home"
-/>,
-            <StyledNavLink
-              displayText="Artists"
-              routeLink="/artists"
-/>,
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              className="nav-link"
+              to="/home"
+>
+              Home
+</NavLink>,
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              className="nav-link"
+              to="/artists"
+>
+              Artists
+</NavLink>,
           ],
           "className": "nav-link-wrapper",
         },
@@ -122,11 +176,14 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "displayText": "Home",
-              "routeLink": "/home",
+              "activeClassName": "active",
+              "aria-current": "page",
+              "children": "Home",
+              "className": "nav-link",
+              "to": "/home",
             },
             "ref": null,
-            "rendered": null,
+            "rendered": "Home",
             "type": [Function],
           },
           Object {
@@ -134,12 +191,149 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "displayText": "Artists",
-              "routeLink": "/artists",
+              "activeClassName": "active",
+              "aria-current": "page",
+              "children": "Artists",
+              "className": "nav-link",
+              "to": "/artists",
             },
             "ref": null,
-            "rendered": null,
+            "rendered": "Artists",
             "type": [Function],
+          },
+        ],
+        "type": "section",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <header>
+              Current Venue
+</header>,
+            <div
+              className="venue-info-main"
+>
+              <p>
+                            Ogden Theatre
+              </p>
+              <p>
+                            935 East Colfax Avenue
+              </p>
+              <p>
+                            Denver
+                            , 
+                            CO
+              </p>
+              <p>
+                            Capacity: 
+                            1600
+              </p>
+</div>,
+          ],
+          "className": "venue-info",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Current Venue",
+            },
+            "ref": null,
+            "rendered": "Current Venue",
+            "type": "header",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p>
+                  Ogden Theatre
+</p>,
+                <p>
+                  935 East Colfax Avenue
+</p>,
+                <p>
+                  Denver
+                  , 
+                  CO
+</p>,
+                <p>
+                  Capacity: 
+                  1600
+</p>,
+              ],
+              "className": "venue-info-main",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Ogden Theatre",
+                },
+                "ref": null,
+                "rendered": "Ogden Theatre",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "935 East Colfax Avenue",
+                },
+                "ref": null,
+                "rendered": "935 East Colfax Avenue",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Denver",
+                    ", ",
+                    "CO",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Denver",
+                  ", ",
+                  "CO",
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Capacity: ",
+                    1600,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Capacity: ",
+                  1600,
+                ],
+                "type": "p",
+              },
+            ],
+            "type": "div",
           },
         ],
         "type": "section",
@@ -171,14 +365,48 @@ ShallowWrapper {
           <section
             className="nav-link-wrapper"
 >
-            <StyledNavLink
-                        displayText="Home"
-                        routeLink="/home"
-            />
-            <StyledNavLink
-                        displayText="Artists"
-                        routeLink="/artists"
-            />
+            <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        className="nav-link"
+                        to="/home"
+            >
+                        Home
+            </NavLink>
+            <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        className="nav-link"
+                        to="/artists"
+            >
+                        Artists
+            </NavLink>
+</section>,
+          <section
+            className="venue-info"
+>
+            <header>
+                        Current Venue
+            </header>
+            <div
+                        className="venue-info-main"
+            >
+                        <p>
+                                    Ogden Theatre
+                        </p>
+                        <p>
+                                    935 East Colfax Avenue
+                        </p>
+                        <p>
+                                    Denver
+                                    , 
+                                    CO
+                        </p>
+                        <p>
+                                    Capacity: 
+                                    1600
+                        </p>
+            </div>
 </section>,
         ],
         "className": "nav",
@@ -240,14 +468,22 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <StyledNavLink
-                displayText="Home"
-                routeLink="/home"
-/>,
-              <StyledNavLink
-                displayText="Artists"
-                routeLink="/artists"
-/>,
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                className="nav-link"
+                to="/home"
+>
+                Home
+</NavLink>,
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                className="nav-link"
+                to="/artists"
+>
+                Artists
+</NavLink>,
             ],
             "className": "nav-link-wrapper",
           },
@@ -258,11 +494,14 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "displayText": "Home",
-                "routeLink": "/home",
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": "Home",
+                "className": "nav-link",
+                "to": "/home",
               },
               "ref": null,
-              "rendered": null,
+              "rendered": "Home",
               "type": [Function],
             },
             Object {
@@ -270,12 +509,149 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "displayText": "Artists",
-                "routeLink": "/artists",
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": "Artists",
+                "className": "nav-link",
+                "to": "/artists",
               },
               "ref": null,
-              "rendered": null,
+              "rendered": "Artists",
               "type": [Function],
+            },
+          ],
+          "type": "section",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <header>
+                Current Venue
+</header>,
+              <div
+                className="venue-info-main"
+>
+                <p>
+                                Ogden Theatre
+                </p>
+                <p>
+                                935 East Colfax Avenue
+                </p>
+                <p>
+                                Denver
+                                , 
+                                CO
+                </p>
+                <p>
+                                Capacity: 
+                                1600
+                </p>
+</div>,
+            ],
+            "className": "venue-info",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Current Venue",
+              },
+              "ref": null,
+              "rendered": "Current Venue",
+              "type": "header",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p>
+                    Ogden Theatre
+</p>,
+                  <p>
+                    935 East Colfax Avenue
+</p>,
+                  <p>
+                    Denver
+                    , 
+                    CO
+</p>,
+                  <p>
+                    Capacity: 
+                    1600
+</p>,
+                ],
+                "className": "venue-info-main",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Ogden Theatre",
+                  },
+                  "ref": null,
+                  "rendered": "Ogden Theatre",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "935 East Colfax Avenue",
+                  },
+                  "ref": null,
+                  "rendered": "935 East Colfax Avenue",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Denver",
+                      ", ",
+                      "CO",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Denver",
+                    ", ",
+                    "CO",
+                  ],
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Capacity: ",
+                      1600,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Capacity: ",
+                    1600,
+                  ],
+                  "type": "p",
+                },
+              ],
+              "type": "div",
             },
           ],
           "type": "section",
