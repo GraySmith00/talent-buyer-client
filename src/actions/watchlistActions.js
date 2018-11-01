@@ -14,7 +14,6 @@ export const setUserWatchlist = watchlist => ({
 export const populateUserWatchlist = () => async dispatch => {
   const response = await getUserWatchlist();
   if (response.status === 200) {
-    console.log(response.data);
     dispatch(setUserWatchlist(response.data));
   }
 };
