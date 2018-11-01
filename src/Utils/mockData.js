@@ -731,6 +731,18 @@ export const mockVenue = {
   capacity: 1600
 };
 
+export const mockVenues = [
+  {
+    id: 1,
+    name: 'Ogden Theatre',
+    street_address: '935 East Colfax Avenue',
+    city: 'Denver',
+    state: 'CO',
+    zip: 80218,
+    capacity: 1600
+  }
+];
+
 export const mockSignUpState = {
   firstName: 'Paul',
   lastName: 'Blart',
@@ -741,3 +753,6 @@ export const mockSignUpState = {
   venueError: '',
   userError: ''
 };
+
+export const mockVenueName = 'Ogden';
+export const mockVenueCity = 'Denver';
