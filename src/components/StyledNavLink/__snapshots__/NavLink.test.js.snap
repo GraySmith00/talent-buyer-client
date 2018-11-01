@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`NavLink should match the snapshot 1`] = `
+exports[`StyledNavLink should match the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <NavLink
+  Symbol(enzyme.__unrendered__): <StyledNavLink
     displayText="mock"
     routeLink="/mock"
 />,

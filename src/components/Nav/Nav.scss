@@ -1,4 +1,5 @@
 @import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
 
 .frequency {
   width: 2rem;
@@ -8,7 +9,8 @@
   align-items: center;
   display: flex;
   justify-content: space-around;
-  width: 70%;
+  width: 80%;
+  padding-left: 2rem;
 }
 
 .nav {
@@ -26,4 +28,31 @@
 .logo {
   color: #fff;
   font-family: $secondary-font;
+}
+
+.nav-link {
+  @include primaryHeavy();
+  box-sizing: border-box;
+
+  width: 100%;
+  padding: 1.5rem 0 1.5rem 2rem;
+
+  color: $grey-one;
+  font-size: 1.5rem;
+  text-decoration: none;
+  outline: none;
+
+  &:hover {
+    border-left: solid 5px $pink-two;
+    background-color: #1e2334;
+    cursor: pointer;
+    color: $pink-two;
+  }
+}
+
+.active {
+  border-left: solid 5px $pink-two;
+  background-color: #1e2334;
+  cursor: pointer;
+  color: $pink-two;
 }

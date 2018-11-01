@@ -35,11 +35,11 @@ ShallowWrapper {
         <section
           className="nav-link-wrapper"
 >
-          <NavLink
+          <StyledNavLink
                     displayText="Home"
                     routeLink="/home"
           />
-          <NavLink
+          <StyledNavLink
                     displayText="Artists"
                     routeLink="/artists"
           />
@@ -104,11 +104,11 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <NavLink
+            <StyledNavLink
               displayText="Home"
               routeLink="/home"
 />,
-            <NavLink
+            <StyledNavLink
               displayText="Artists"
               routeLink="/artists"
 />,
@@ -171,11 +171,11 @@ ShallowWrapper {
           <section
             className="nav-link-wrapper"
 >
-            <NavLink
+            <StyledNavLink
                         displayText="Home"
                         routeLink="/home"
             />
-            <NavLink
+            <StyledNavLink
                         displayText="Artists"
                         routeLink="/artists"
             />
@@ -240,11 +240,11 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <NavLink
+              <StyledNavLink
                 displayText="Home"
                 routeLink="/home"
 />,
-              <NavLink
+              <StyledNavLink
                 displayText="Artists"
                 routeLink="/artists"
 />,

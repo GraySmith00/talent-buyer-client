@@ -5,7 +5,8 @@
   align-items: center;
   display: flex;
   justify-content: space-around;
-  width: 70%; }
+  width: 80%;
+  padding-left: 2rem; }
 
 .nav {
   background-color: #131621;
@@ -20,3 +21,25 @@
 .logo {
   color: #fff;
   font-family: "PT Sans", sans-serif; }
+
+.nav-link {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1.5rem 0 1.5rem 2rem;
+  color: #5d5d61;
+  font-size: 1.5rem;
+  text-decoration: none;
+  outline: none; }
+  .nav-link:hover {
+    border-left: solid 5px #D52F7F;
+    background-color: #1e2334;
+    cursor: pointer;
+    color: #D52F7F; }
+
+.active {
+  border-left: solid 5px #D52F7F;
+  background-color: #1e2334;
+  cursor: pointer;
+  color: #D52F7F; }
