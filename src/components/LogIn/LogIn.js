@@ -64,7 +64,7 @@ export class LogIn extends Component {
               onChange={this.handleChange}
             />
             <InputField
-              type="text"
+              type="password"
               name="password"
               value={this.state.password}
               placeholder="password"

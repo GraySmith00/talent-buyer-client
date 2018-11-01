@@ -67,7 +67,7 @@ ShallowWrapper {
                         name="password"
                         onChange={[Function]}
                         placeholder="password"
-                        type="text"
+                        type="password"
                         value=""
                 />
                 <Unknown>
@@ -121,7 +121,7 @@ ShallowWrapper {
                         name="password"
                         onChange={[Function]}
                         placeholder="password"
-                        type="text"
+                        type="password"
                         value=""
             />
             <Unknown>
@@ -204,7 +204,7 @@ ShallowWrapper {
                 name="password"
                 onChange={[Function]}
                 placeholder="password"
-                type="text"
+                type="password"
                 value=""
 />,
               <Unknown>
@@ -282,7 +282,7 @@ ShallowWrapper {
                 "name": "password",
                 "onChange": [Function],
                 "placeholder": "password",
-                "type": "text",
+                "type": "password",
                 "value": "",
               },
               "ref": null,
@@ -456,7 +456,7 @@ border-radius: 10px;
                               name="password"
                               onChange={[Function]}
                               placeholder="password"
-                              type="text"
+                              type="password"
                               value=""
                     />
                     <Unknown>
@@ -510,7 +510,7 @@ border-radius: 10px;
                             name="password"
                             onChange={[Function]}
                             placeholder="password"
-                            type="text"
+                            type="password"
                             value=""
               />
               <Unknown>
@@ -593,7 +593,7 @@ border-radius: 10px;
                   name="password"
                   onChange={[Function]}
                   placeholder="password"
-                  type="text"
+                  type="password"
                   value=""
 />,
                 <Unknown>
@@ -671,7 +671,7 @@ border-radius: 10px;
                   "name": "password",
                   "onChange": [Function],
                   "placeholder": "password",
-                  "type": "text",
+                  "type": "password",
                   "value": "",
                 },
                 "ref": null,
