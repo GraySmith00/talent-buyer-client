@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { getAllArtists } from '../../Utils/backendApiCalls';
 import { toggleArtistThunk } from '../../actions/watchlistActions';
@@ -78,15 +79,14 @@ export class ArtistIndex extends Component {
 
   render() {
     const { artists } = this.state;
+    const { watchlist } = this.props;
     let displayArtists;
 
     if (!artists.length) {
       displayArtists = <p>Loading...</p>;
     } else {
       displayArtists = artists.map(artist => {
-        let onList = this.props.watchlist.find(
-          watched => watched.id === artist.id
-        );
+        let onList = watchlist.find(watched => watched.id === artist.id);
         onList ? (onList = true) : (onList = false);
 
         return (
@@ -169,6 +169,10 @@ export class ArtistIndex extends Component {
     );
   }
 }
+
+ArtistIndex.propTypes = {
+  watchlist: PropTypes.array.isRequired
+};
 
 export const mapStateToProps = state => ({
   watchlist: state.watchlist
