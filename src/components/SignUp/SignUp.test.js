@@ -9,6 +9,7 @@ import { SignUp } from './SignUp';
 jest.mock('../../actions/venueActions');
 jest.mock('../../actions/userActions');
 
+
 describe('SignUp component', () => {
   let wrapper;
   let mockCloseSignUpModal;
