@@ -20,9 +20,24 @@ describe('watchListActions', () => {
     );
 
     describe('populateUserWatchlist', () => {
-      it.skip('should call the getUserWatchlist method', async () => {
-        await populateUserWatchlist();
-        await expect(getUserWatchlist()).toBeCalled();
+      let thunk;
+      let mockDispatch;
+
+      beforeEach(() => {
+        thunk = populateUserWatchlist();
+        mockDispatch = jest.fn();
+      });
+
+      it('should call getUserWatchlist', async () => {
+        await thunk(mockDispatch);
+        expect(getUserWatchlist).toHaveBeenCalled();
+      });
+
+      it.skip('should dispatch setUserWatchlist if response is ok', async () => {
+        await thunk(mockDispatch);
+        expect(mockDispatch).toHaveBeenCalledWith(
+          setUserWatchlist(mockWatchlist)
+        );
       });
     });
   });
