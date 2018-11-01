@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { getAllArtists } from '../../Utils/backendApiCalls';
 import { toggleArtistThunk } from '../../actions/watchlistActions';
@@ -78,26 +79,36 @@ export class ArtistIndex extends Component {
 
   render() {
     const { artists } = this.state;
-
+    const { watchlist } = this.props;
     let displayArtists;
 
     if (!artists.length) {
       displayArtists = <p>Loading...</p>;
     } else {
-      displayArtists = artists.map(artist => (
-        <Link
-          to={`/artists/${artist.id}`}
-          key={artist.id}
-          className="artist-listing"
-        >
-          <img src={artist.image_url} alt="artist" className="artist-image" />
-          <p>{artist.name}</p>
-          <p>{artist.agency}</p>
-          <p>{artist.popularity}</p>
-          <p>{artist.spotify_followers}</p>
-          <button onClick={e => this.toggleWatchlist(e, artist)}>Add</button>
-        </Link>
-      ));
+      displayArtists = artists.map(artist => {
+        let onList = watchlist.find(watched => watched.id === artist.id);
+        onList ? (onList = true) : (onList = false);
+
+        return (
+          <Link
+            to={`/artists/${artist.id}`}
+            key={artist.id}
+            className="artist-listing"
+          >
+            <img src={artist.image_url} alt="artist" className="artist-image" />
+            <p>{artist.name}</p>
+            <p>{artist.agency}</p>
+            <p>{artist.popularity}</p>
+            <p>{artist.spotify_followers}</p>
+            <input
+              type="checkbox"
+              checked={onList}
+              className="checkbox-input"
+              onClick={e => this.toggleWatchlist(e, artist)}
+            />
+          </Link>
+        );
+      });
     }
 
     let displayGenres = allGenres.map(genre => (
@@ -158,6 +169,10 @@ export class ArtistIndex extends Component {
     );
   }
 }
+
+ArtistIndex.propTypes = {
+  watchlist: PropTypes.array.isRequired
+};
 
 export const mapStateToProps = state => ({
   watchlist: state.watchlist
