@@ -21,7 +21,7 @@ describe('OffersContainer component', () => {
     );
   });
 
-  it('should match the snapshot', () => {
-    expect(wrapper).toMatchSnapshot();
+  it('should have an offers container', () => {
+    expect(wrapper.find('.offers-container').length).toEqual(1);
   });
 });
