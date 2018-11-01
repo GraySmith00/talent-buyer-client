@@ -1,0 +1,1741 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecentOffers component should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RecentOffers
+    offers={
+        Array [
+            Object {
+              "age_range": "16+",
+              "artist_id": 19,
+              "artist_name": "Calvin Harris",
+              "bonuses": "+$1k at 600 sold",
+              "buyer_id": 3,
+              "date": "2018-10-29",
+              "door_times": "9pm-12am",
+              "gross_potential": 8500,
+              "guarantee": 5000,
+              "id": 5,
+              "merch_split": "80/20 artist/venue",
+              "radius_clause": "120mi +/- 60days",
+              "status": "pending",
+              "total_expenses": 2000,
+              "venue_id": 3,
+            },
+            Object {
+              "age_range": "16+",
+              "artist_id": 19,
+              "artist_name": "Calvin Harris",
+              "bonuses": "+$1k at 600 sold",
+              "buyer_id": 3,
+              "date": "2018-10-29",
+              "door_times": "9pm-12am",
+              "gross_potential": 8500,
+              "guarantee": 5000,
+              "id": 6,
+              "merch_split": "80/20 artist/venue",
+              "radius_clause": "120mi +/- 60days",
+              "status": "pending",
+              "total_expenses": 2000,
+              "venue_id": 3,
+            },
+            Object {
+              "age_range": "16+",
+              "artist_id": 19,
+              "artist_name": "Calvin Harris",
+              "bonuses": "+$1k at 600 sold",
+              "buyer_id": 3,
+              "date": "2018-10-29",
+              "door_times": "9pm-12am",
+              "gross_potential": 8500,
+              "guarantee": 5000,
+              "id": 7,
+              "merch_split": "80/20 artist/venue",
+              "radius_clause": "120mi +/- 60days",
+              "status": "pending",
+              "total_expenses": 2000,
+              "venue_id": 3,
+            },
+            Object {
+              "age_range": "16+",
+              "artist_id": 4,
+              "artist_name": "Alesso",
+              "bonuses": "+$1k at 600 sold",
+              "buyer_id": 3,
+              "date": "2018-10-29",
+              "door_times": "9pm-12am",
+              "gross_potential": 8500,
+              "guarantee": 100032,
+              "id": 8,
+              "merch_split": "80/20 artist/venue",
+              "radius_clause": "120mi +/- 60days",
+              "status": "pending",
+              "total_expenses": 2000,
+              "venue_id": 3,
+            },
+            Object {
+              "age_range": "16+",
+              "artist_id": 7,
+              "artist_name": "Afrojack",
+              "bonuses": "+$1k at 600 sold",
+              "buyer_id": 3,
+              "date": "2018-10-29",
+              "door_times": "9pm-12am",
+              "gross_potential": 8500,
+              "guarantee": 5000,
+              "id": 9,
+              "merch_split": "80/20 artist/venue",
+              "radius_clause": "120mi +/- 60days",
+              "status": "pending",
+              "total_expenses": 2000,
+              "venue_id": 3,
+            },
+            Object {
+              "age_range": "16+",
+              "artist_id": 7,
+              "artist_name": "Afrojack",
+              "bonuses": "+$1k at 600 sold",
+              "buyer_id": 3,
+              "date": "2018-10-29",
+              "door_times": "9pm-12am",
+              "gross_potential": 8500,
+              "guarantee": 5000,
+              "id": 10,
+              "merch_split": "80/20 artist/venue",
+              "radius_clause": "120mi +/- 60days",
+              "status": "pending",
+              "total_expenses": 2000,
+              "venue_id": 3,
+            },
+            Object {
+              "age_range": "16+",
+              "artist_id": 99,
+              "artist_name": "Savoy",
+              "bonuses": "+$1k at 600 sold",
+              "buyer_id": 3,
+              "date": "2018-10-29",
+              "door_times": "9pm-12am",
+              "gross_potential": 8500,
+              "guarantee": 5000,
+              "id": 11,
+              "merch_split": "80/20 artist/venue",
+              "radius_clause": "120mi +/- 60days",
+              "status": "pending",
+              "total_expenses": 2000,
+              "venue_id": 3,
+            },
+            Object {
+              "age_range": "16+",
+              "artist_id": 4,
+              "artist_name": "Alesso",
+              "bonuses": "+$1k at 600 sold",
+              "buyer_id": 3,
+              "date": "2018-10-29",
+              "door_times": "9pm-12am",
+              "gross_potential": 8500,
+              "guarantee": 5000,
+              "id": 12,
+              "merch_split": "80/20 artist/venue",
+              "radius_clause": "120mi +/- 60days",
+              "status": "pending",
+              "total_expenses": 2000,
+              "venue_id": 3,
+            },
+            Object {
+              "age_range": "16+",
+              "artist_id": 22,
+              "artist_name": "Chris Lake",
+              "bonuses": "+$1k at 600 sold",
+              "buyer_id": 3,
+              "date": "2018-10-29",
+              "door_times": "9pm-12am",
+              "gross_potential": 8500,
+              "guarantee": 5000,
+              "id": 13,
+              "merch_split": "80/20 artist/venue",
+              "radius_clause": "120mi +/- 60days",
+              "status": "pending",
+              "total_expenses": 2000,
+              "venue_id": 3,
+            },
+            Object {
+              "age_range": "16+",
+              "artist_id": 19,
+              "artist_name": "Calvin Harris",
+              "bonuses": "+$1k at 600 sold",
+              "buyer_id": 3,
+              "date": "2018-10-30",
+              "door_times": "9pm-12am",
+              "gross_potential": 8500,
+              "guarantee": 5000,
+              "id": 14,
+              "merch_split": "80/20 artist/venue",
+              "radius_clause": "120mi +/- 60days",
+              "status": "pending",
+              "total_expenses": 2000,
+              "venue_id": 3,
+            },
+            Object {
+              "age_range": "16+",
+              "artist_id": 7,
+              "artist_name": "Afrojack",
+              "bonuses": "+$1k at 600 sold",
+              "buyer_id": 3,
+              "date": "2018-10-29",
+              "door_times": "9pm-12am",
+              "gross_potential": 8500,
+              "guarantee": 5000,
+              "id": 15,
+              "merch_split": "80/20 artist/venue",
+              "radius_clause": "120mi +/- 60days",
+              "status": "pending",
+              "total_expenses": 2000,
+              "venue_id": 3,
+            },
+            Object {
+              "age_range": "16+",
+              "artist_id": 4,
+              "artist_name": "Alesso",
+              "bonuses": "+$1k at 600 sold",
+              "buyer_id": 3,
+              "date": "2018-11-24",
+              "door_times": "9pm-12am",
+              "gross_potential": 8500,
+              "guarantee": 5000,
+              "id": 16,
+              "merch_split": "80/20 artist/venue",
+              "radius_clause": "120mi +/- 60days",
+              "status": "pending",
+              "total_expenses": 2000,
+              "venue_id": 3,
+            },
+            Object {
+              "age_range": "16+",
+              "artist_id": 16,
+              "artist_name": "Borgore",
+              "bonuses": "+$1k at 600 sold",
+              "buyer_id": 3,
+              "date": "2018-10-29",
+              "door_times": "9pm-12am",
+              "gross_potential": 8500,
+              "guarantee": 5000,
+              "id": 17,
+              "merch_split": "80/20 artist/venue",
+              "radius_clause": "120mi +/- 60days",
+              "status": "pending",
+              "total_expenses": 2000,
+              "venue_id": 3,
+            },
+            Object {
+              "age_range": "16+",
+              "artist_id": 4,
+              "artist_name": "Alesso",
+              "bonuses": "+$1k at 600 sold",
+              "buyer_id": 3,
+              "date": "2018-11-16",
+              "door_times": "9pm-12am",
+              "gross_potential": 8500,
+              "guarantee": 5000,
+              "id": 18,
+              "merch_split": "80/20 artist/venue",
+              "radius_clause": "120mi +/- 60days",
+              "status": "pending",
+              "total_expenses": 2000,
+              "venue_id": 3,
+            },
+            Object {
+              "age_range": "16+",
+              "artist_id": 16,
+              "artist_name": "Borgore",
+              "bonuses": "+$1k at 600 sold",
+              "buyer_id": 3,
+              "date": "2018-11-01",
+              "door_times": "9pm-12am",
+              "gross_potential": 8500,
+              "guarantee": 5000,
+              "id": 19,
+              "merch_split": "80/20 artist/venue",
+              "radius_clause": "120mi +/- 60days",
+              "status": "pending",
+              "total_expenses": 2000,
+              "venue_id": 3,
+            },
+            Object {
+              "age_range": "16+",
+              "artist_id": 4,
+              "artist_name": "Alesso",
+              "bonuses": "+$1k at 600 sold",
+              "buyer_id": 3,
+              "date": "2018-11-01",
+              "door_times": "9pm-12am",
+              "gross_potential": 8500,
+              "guarantee": 5000,
+              "id": 20,
+              "merch_split": "80/20 artist/venue",
+              "radius_clause": "120mi +/- 60days",
+              "status": "pending",
+              "total_expenses": 2000,
+              "venue_id": 3,
+            },
+            Object {
+              "age_range": "16+",
+              "artist_id": 7,
+              "artist_name": "Afrojack",
+              "bonuses": "+$1k at 600 sold",
+              "buyer_id": 3,
+              "date": "2018-11-08",
+              "door_times": "9pm-12am",
+              "gross_potential": 8500,
+              "guarantee": 5000,
+              "id": 21,
+              "merch_split": "80/20 artist/venue",
+              "radius_clause": "120mi +/- 60days",
+              "status": "pending",
+              "total_expenses": 2000,
+              "venue_id": 3,
+            },
+            Object {
+              "age_range": "16+",
+              "artist_id": 18,
+              "artist_name": "Booka Shade",
+              "bonuses": "+$1k at 600 sold",
+              "buyer_id": 3,
+              "date": "2018-11-02",
+              "door_times": "9pm-12am",
+              "gross_potential": 8500,
+              "guarantee": 5000,
+              "id": 22,
+              "merch_split": "80/20 artist/venue",
+              "radius_clause": "120mi +/- 60days",
+              "status": "pending",
+              "total_expenses": 2000,
+              "venue_id": 3,
+            },
+          ]
+    }
+    openEditOfferModal={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Recent Offers
+</h2>,
+        <div
+          className="recent-table-headings"
+>
+          <h3>
+                    Date
+          </h3>
+          <h3>
+                    Artist
+          </h3>
+          <h3>
+                    Status
+          </h3>
+          <h3>
+                    Offer
+          </h3>
+</div>,
+        <div
+          className="offers-container"
+>
+          <div
+                    className="table-row"
+          >
+                    <h3>
+                              2018-10-29
+                    </h3>
+                    <h3>
+                              Afrojack
+                    </h3>
+                    <h3>
+                              pending
+                    </h3>
+                    <button
+                              className="view-offer-button"
+                              onClick={[Function]}
+                    >
+                              View Offer
+                    </button>
+          </div>
+          <div
+                    className="table-row"
+          >
+                    <h3>
+                              2018-10-29
+                    </h3>
+                    <h3>
+                              Alesso
+                    </h3>
+                    <h3>
+                              pending
+                    </h3>
+                    <button
+                              className="view-offer-button"
+                              onClick={[Function]}
+                    >
+                              View Offer
+                    </button>
+          </div>
+          <div
+                    className="table-row"
+          >
+                    <h3>
+                              2018-10-29
+                    </h3>
+                    <h3>
+                              Calvin Harris
+                    </h3>
+                    <h3>
+                              pending
+                    </h3>
+                    <button
+                              className="view-offer-button"
+                              onClick={[Function]}
+                    >
+                              View Offer
+                    </button>
+          </div>
+          <div
+                    className="table-row"
+          >
+                    <h3>
+                              2018-10-29
+                    </h3>
+                    <h3>
+                              Calvin Harris
+                    </h3>
+                    <h3>
+                              pending
+                    </h3>
+                    <button
+                              className="view-offer-button"
+                              onClick={[Function]}
+                    >
+                              View Offer
+                    </button>
+          </div>
+          <div
+                    className="table-row"
+          >
+                    <h3>
+                              2018-10-29
+                    </h3>
+                    <h3>
+                              Calvin Harris
+                    </h3>
+                    <h3>
+                              pending
+                    </h3>
+                    <button
+                              className="view-offer-button"
+                              onClick={[Function]}
+                    >
+                              View Offer
+                    </button>
+          </div>
+</div>,
+      ],
+      "className": "recent-offers",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Recent Offers",
+        },
+        "ref": null,
+        "rendered": "Recent Offers",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3>
+              Date
+</h3>,
+            <h3>
+              Artist
+</h3>,
+            <h3>
+              Status
+</h3>,
+            <h3>
+              Offer
+</h3>,
+          ],
+          "className": "recent-table-headings",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Date",
+            },
+            "ref": null,
+            "rendered": "Date",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Artist",
+            },
+            "ref": null,
+            "rendered": "Artist",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Status",
+            },
+            "ref": null,
+            "rendered": "Status",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Offer",
+            },
+            "ref": null,
+            "rendered": "Offer",
+            "type": "h3",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="table-row"
+>
+              <h3>
+                            2018-10-29
+              </h3>
+              <h3>
+                            Afrojack
+              </h3>
+              <h3>
+                            pending
+              </h3>
+              <button
+                            className="view-offer-button"
+                            onClick={[Function]}
+              >
+                            View Offer
+              </button>
+</div>,
+            <div
+              className="table-row"
+>
+              <h3>
+                            2018-10-29
+              </h3>
+              <h3>
+                            Alesso
+              </h3>
+              <h3>
+                            pending
+              </h3>
+              <button
+                            className="view-offer-button"
+                            onClick={[Function]}
+              >
+                            View Offer
+              </button>
+</div>,
+            <div
+              className="table-row"
+>
+              <h3>
+                            2018-10-29
+              </h3>
+              <h3>
+                            Calvin Harris
+              </h3>
+              <h3>
+                            pending
+              </h3>
+              <button
+                            className="view-offer-button"
+                            onClick={[Function]}
+              >
+                            View Offer
+              </button>
+</div>,
+            <div
+              className="table-row"
+>
+              <h3>
+                            2018-10-29
+              </h3>
+              <h3>
+                            Calvin Harris
+              </h3>
+              <h3>
+                            pending
+              </h3>
+              <button
+                            className="view-offer-button"
+                            onClick={[Function]}
+              >
+                            View Offer
+              </button>
+</div>,
+            <div
+              className="table-row"
+>
+              <h3>
+                            2018-10-29
+              </h3>
+              <h3>
+                            Calvin Harris
+              </h3>
+              <h3>
+                            pending
+              </h3>
+              <button
+                            className="view-offer-button"
+                            onClick={[Function]}
+              >
+                            View Offer
+              </button>
+</div>,
+          ],
+          "className": "offers-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "9",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3>
+                  2018-10-29
+</h3>,
+                <h3>
+                  Afrojack
+</h3>,
+                <h3>
+                  pending
+</h3>,
+                <button
+                  className="view-offer-button"
+                  onClick={[Function]}
+>
+                  View Offer
+</button>,
+              ],
+              "className": "table-row",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "2018-10-29",
+                },
+                "ref": null,
+                "rendered": "2018-10-29",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Afrojack",
+                },
+                "ref": null,
+                "rendered": "Afrojack",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "pending",
+                },
+                "ref": null,
+                "rendered": "pending",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "View Offer",
+                  "className": "view-offer-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "View Offer",
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "8",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3>
+                  2018-10-29
+</h3>,
+                <h3>
+                  Alesso
+</h3>,
+                <h3>
+                  pending
+</h3>,
+                <button
+                  className="view-offer-button"
+                  onClick={[Function]}
+>
+                  View Offer
+</button>,
+              ],
+              "className": "table-row",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "2018-10-29",
+                },
+                "ref": null,
+                "rendered": "2018-10-29",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Alesso",
+                },
+                "ref": null,
+                "rendered": "Alesso",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "pending",
+                },
+                "ref": null,
+                "rendered": "pending",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "View Offer",
+                  "className": "view-offer-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "View Offer",
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "7",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3>
+                  2018-10-29
+</h3>,
+                <h3>
+                  Calvin Harris
+</h3>,
+                <h3>
+                  pending
+</h3>,
+                <button
+                  className="view-offer-button"
+                  onClick={[Function]}
+>
+                  View Offer
+</button>,
+              ],
+              "className": "table-row",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "2018-10-29",
+                },
+                "ref": null,
+                "rendered": "2018-10-29",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Calvin Harris",
+                },
+                "ref": null,
+                "rendered": "Calvin Harris",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "pending",
+                },
+                "ref": null,
+                "rendered": "pending",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "View Offer",
+                  "className": "view-offer-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "View Offer",
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "6",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3>
+                  2018-10-29
+</h3>,
+                <h3>
+                  Calvin Harris
+</h3>,
+                <h3>
+                  pending
+</h3>,
+                <button
+                  className="view-offer-button"
+                  onClick={[Function]}
+>
+                  View Offer
+</button>,
+              ],
+              "className": "table-row",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "2018-10-29",
+                },
+                "ref": null,
+                "rendered": "2018-10-29",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Calvin Harris",
+                },
+                "ref": null,
+                "rendered": "Calvin Harris",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "pending",
+                },
+                "ref": null,
+                "rendered": "pending",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "View Offer",
+                  "className": "view-offer-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "View Offer",
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "5",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3>
+                  2018-10-29
+</h3>,
+                <h3>
+                  Calvin Harris
+</h3>,
+                <h3>
+                  pending
+</h3>,
+                <button
+                  className="view-offer-button"
+                  onClick={[Function]}
+>
+                  View Offer
+</button>,
+              ],
+              "className": "table-row",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "2018-10-29",
+                },
+                "ref": null,
+                "rendered": "2018-10-29",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Calvin Harris",
+                },
+                "ref": null,
+                "rendered": "Calvin Harris",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "pending",
+                },
+                "ref": null,
+                "rendered": "pending",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "View Offer",
+                  "className": "view-offer-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "View Offer",
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Recent Offers
+</h2>,
+          <div
+            className="recent-table-headings"
+>
+            <h3>
+                        Date
+            </h3>
+            <h3>
+                        Artist
+            </h3>
+            <h3>
+                        Status
+            </h3>
+            <h3>
+                        Offer
+            </h3>
+</div>,
+          <div
+            className="offers-container"
+>
+            <div
+                        className="table-row"
+            >
+                        <h3>
+                                    2018-10-29
+                        </h3>
+                        <h3>
+                                    Afrojack
+                        </h3>
+                        <h3>
+                                    pending
+                        </h3>
+                        <button
+                                    className="view-offer-button"
+                                    onClick={[Function]}
+                        >
+                                    View Offer
+                        </button>
+            </div>
+            <div
+                        className="table-row"
+            >
+                        <h3>
+                                    2018-10-29
+                        </h3>
+                        <h3>
+                                    Alesso
+                        </h3>
+                        <h3>
+                                    pending
+                        </h3>
+                        <button
+                                    className="view-offer-button"
+                                    onClick={[Function]}
+                        >
+                                    View Offer
+                        </button>
+            </div>
+            <div
+                        className="table-row"
+            >
+                        <h3>
+                                    2018-10-29
+                        </h3>
+                        <h3>
+                                    Calvin Harris
+                        </h3>
+                        <h3>
+                                    pending
+                        </h3>
+                        <button
+                                    className="view-offer-button"
+                                    onClick={[Function]}
+                        >
+                                    View Offer
+                        </button>
+            </div>
+            <div
+                        className="table-row"
+            >
+                        <h3>
+                                    2018-10-29
+                        </h3>
+                        <h3>
+                                    Calvin Harris
+                        </h3>
+                        <h3>
+                                    pending
+                        </h3>
+                        <button
+                                    className="view-offer-button"
+                                    onClick={[Function]}
+                        >
+                                    View Offer
+                        </button>
+            </div>
+            <div
+                        className="table-row"
+            >
+                        <h3>
+                                    2018-10-29
+                        </h3>
+                        <h3>
+                                    Calvin Harris
+                        </h3>
+                        <h3>
+                                    pending
+                        </h3>
+                        <button
+                                    className="view-offer-button"
+                                    onClick={[Function]}
+                        >
+                                    View Offer
+                        </button>
+            </div>
+</div>,
+        ],
+        "className": "recent-offers",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Recent Offers",
+          },
+          "ref": null,
+          "rendered": "Recent Offers",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3>
+                Date
+</h3>,
+              <h3>
+                Artist
+</h3>,
+              <h3>
+                Status
+</h3>,
+              <h3>
+                Offer
+</h3>,
+            ],
+            "className": "recent-table-headings",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Date",
+              },
+              "ref": null,
+              "rendered": "Date",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Artist",
+              },
+              "ref": null,
+              "rendered": "Artist",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Status",
+              },
+              "ref": null,
+              "rendered": "Status",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Offer",
+              },
+              "ref": null,
+              "rendered": "Offer",
+              "type": "h3",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="table-row"
+>
+                <h3>
+                                2018-10-29
+                </h3>
+                <h3>
+                                Afrojack
+                </h3>
+                <h3>
+                                pending
+                </h3>
+                <button
+                                className="view-offer-button"
+                                onClick={[Function]}
+                >
+                                View Offer
+                </button>
+</div>,
+              <div
+                className="table-row"
+>
+                <h3>
+                                2018-10-29
+                </h3>
+                <h3>
+                                Alesso
+                </h3>
+                <h3>
+                                pending
+                </h3>
+                <button
+                                className="view-offer-button"
+                                onClick={[Function]}
+                >
+                                View Offer
+                </button>
+</div>,
+              <div
+                className="table-row"
+>
+                <h3>
+                                2018-10-29
+                </h3>
+                <h3>
+                                Calvin Harris
+                </h3>
+                <h3>
+                                pending
+                </h3>
+                <button
+                                className="view-offer-button"
+                                onClick={[Function]}
+                >
+                                View Offer
+                </button>
+</div>,
+              <div
+                className="table-row"
+>
+                <h3>
+                                2018-10-29
+                </h3>
+                <h3>
+                                Calvin Harris
+                </h3>
+                <h3>
+                                pending
+                </h3>
+                <button
+                                className="view-offer-button"
+                                onClick={[Function]}
+                >
+                                View Offer
+                </button>
+</div>,
+              <div
+                className="table-row"
+>
+                <h3>
+                                2018-10-29
+                </h3>
+                <h3>
+                                Calvin Harris
+                </h3>
+                <h3>
+                                pending
+                </h3>
+                <button
+                                className="view-offer-button"
+                                onClick={[Function]}
+                >
+                                View Offer
+                </button>
+</div>,
+            ],
+            "className": "offers-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "9",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h3>
+                    2018-10-29
+</h3>,
+                  <h3>
+                    Afrojack
+</h3>,
+                  <h3>
+                    pending
+</h3>,
+                  <button
+                    className="view-offer-button"
+                    onClick={[Function]}
+>
+                    View Offer
+</button>,
+                ],
+                "className": "table-row",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "2018-10-29",
+                  },
+                  "ref": null,
+                  "rendered": "2018-10-29",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Afrojack",
+                  },
+                  "ref": null,
+                  "rendered": "Afrojack",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "pending",
+                  },
+                  "ref": null,
+                  "rendered": "pending",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "View Offer",
+                    "className": "view-offer-button",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "View Offer",
+                  "type": "button",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "8",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h3>
+                    2018-10-29
+</h3>,
+                  <h3>
+                    Alesso
+</h3>,
+                  <h3>
+                    pending
+</h3>,
+                  <button
+                    className="view-offer-button"
+                    onClick={[Function]}
+>
+                    View Offer
+</button>,
+                ],
+                "className": "table-row",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "2018-10-29",
+                  },
+                  "ref": null,
+                  "rendered": "2018-10-29",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Alesso",
+                  },
+                  "ref": null,
+                  "rendered": "Alesso",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "pending",
+                  },
+                  "ref": null,
+                  "rendered": "pending",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "View Offer",
+                    "className": "view-offer-button",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "View Offer",
+                  "type": "button",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "7",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h3>
+                    2018-10-29
+</h3>,
+                  <h3>
+                    Calvin Harris
+</h3>,
+                  <h3>
+                    pending
+</h3>,
+                  <button
+                    className="view-offer-button"
+                    onClick={[Function]}
+>
+                    View Offer
+</button>,
+                ],
+                "className": "table-row",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "2018-10-29",
+                  },
+                  "ref": null,
+                  "rendered": "2018-10-29",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Calvin Harris",
+                  },
+                  "ref": null,
+                  "rendered": "Calvin Harris",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "pending",
+                  },
+                  "ref": null,
+                  "rendered": "pending",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "View Offer",
+                    "className": "view-offer-button",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "View Offer",
+                  "type": "button",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "6",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h3>
+                    2018-10-29
+</h3>,
+                  <h3>
+                    Calvin Harris
+</h3>,
+                  <h3>
+                    pending
+</h3>,
+                  <button
+                    className="view-offer-button"
+                    onClick={[Function]}
+>
+                    View Offer
+</button>,
+                ],
+                "className": "table-row",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "2018-10-29",
+                  },
+                  "ref": null,
+                  "rendered": "2018-10-29",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Calvin Harris",
+                  },
+                  "ref": null,
+                  "rendered": "Calvin Harris",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "pending",
+                  },
+                  "ref": null,
+                  "rendered": "pending",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "View Offer",
+                    "className": "view-offer-button",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "View Offer",
+                  "type": "button",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "5",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h3>
+                    2018-10-29
+</h3>,
+                  <h3>
+                    Calvin Harris
+</h3>,
+                  <h3>
+                    pending
+</h3>,
+                  <button
+                    className="view-offer-button"
+                    onClick={[Function]}
+>
+                    View Offer
+</button>,
+                ],
+                "className": "table-row",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "2018-10-29",
+                  },
+                  "ref": null,
+                  "rendered": "2018-10-29",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Calvin Harris",
+                  },
+                  "ref": null,
+                  "rendered": "Calvin Harris",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "pending",
+                  },
+                  "ref": null,
+                  "rendered": "pending",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "View Offer",
+                    "className": "view-offer-button",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "View Offer",
+                  "type": "button",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
