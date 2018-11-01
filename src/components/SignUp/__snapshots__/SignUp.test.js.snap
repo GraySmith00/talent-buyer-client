@@ -5,6 +5,19 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <SignUp
     closeSignUpModal={[Function]}
+    history={
+        Object {
+            "action": "PUSH",
+            "length": 50,
+            "location": Object {
+              "hash": "",
+              "key": "hvocjm",
+              "pathname": "/home",
+              "search": "",
+            },
+          }
+    }
+    registerUser={[Function]}
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
