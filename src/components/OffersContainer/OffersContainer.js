@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 
 import './OffersContainer.css';
 
-class OffersContainer extends Component {
+export class OffersContainer extends Component {
   formatDate = date => {
     let day = date.getDate();
     if (day < 10) day = `0${day}`;
