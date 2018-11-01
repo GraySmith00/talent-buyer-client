@@ -741,3 +741,5 @@ export const mockSignUpState = {
   venueError: '',
   userError: ''
 };
+
+export const mockDate = new Date(2019, 11, 10);
