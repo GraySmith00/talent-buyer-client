@@ -32,7 +32,7 @@ An organizational tool for music talent buyers to browse artists at all the majo
 ![signUpPage](https://i.imgur.com/a1xB2vn.png)
 
 ##### Buyer Dashboard
-![dashboard](https://i.imgur.com/Je4OJt6.png)
+![dashboard](https://i.imgur.com/0qkjZtW.png)
 
 
 
