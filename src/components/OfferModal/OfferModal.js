@@ -8,7 +8,7 @@ import './OfferModal.css';
 
 export class OfferModal extends Component {
   state = {
-    status: 0,
+    status: 'Pending',
     artist_name: '',
     guarantee: 5000,
     bonuses: '+$1k at 600 sold',
@@ -42,9 +42,10 @@ export class OfferModal extends Component {
     } = this.props;
 
     const offer = {
-      ...this.state,
+      status: this.state.status.toLowerCase(),
       buyer_id: currentUser.id,
       venue_id: currentVenue.id,
+      ...this.state,
       date
     };
 
@@ -65,9 +66,9 @@ export class OfferModal extends Component {
                 <label>
                   <h4>Status</h4>
                   <select name="status" onChange={this.handleChange}>
-                    <option value={0}>Pending</option>
-                    <option value={1}>Confirmed</option>
-                    <option value={2}>Rejected</option>
+                    <option value={'Pending'}>Pending</option>
+                    <option value={'Confirmed'}>Confirmed</option>
+                    <option value={'Rejected'}>Rejected</option>
                   </select>
                 </label>
               </div>

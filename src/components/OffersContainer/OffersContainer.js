@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-
+import { capitalize } from '../../Utils/capitalize';
 import './OffersContainer.css';
 
 export class OffersContainer extends Component {
@@ -29,7 +29,7 @@ export class OffersContainer extends Component {
       displayOffers = filteredOffers.map(offer => (
         <div className="table-row" key={offer.id}>
           <h3>{offer.artist_name}</h3>
-          <h3>{offer.status}</h3>
+          <h3>{capitalize(offer.status)}</h3>
           <button
             className="view-offer-button"
             onClick={() => this.handleViewOffer(offer.id)}
