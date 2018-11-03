@@ -3,7 +3,7 @@ import './ArtistTableHeader.css';
 import PropTypes from 'prop-types';
 import classNames from 'classnames/bind';
 
-const ArtistTableHeader = ({ category, onClick, activeSort, name }) => {
+export const ArtistTableHeader = ({ category, onClick, activeSort, name }) => {
   const buttonClass = classNames({
     header: true,
     active: activeSort === name
@@ -26,5 +26,3 @@ ArtistTableHeader.propTypes = {
   activeSort: PropTypes.string,
   name: PropTypes.string.isRequired
 };
-
-export default ArtistTableHeader;

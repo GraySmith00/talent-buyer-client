@@ -7,7 +7,7 @@ import { connect } from 'react-redux';
 import axios from 'axios';
 import { allGenres } from '../../Utils/allGenres';
 import { capitalize } from '../../Utils/capitalize';
-import ArtistTableHeader from '../ArtistTableHeader/ArtistTableHeader';
+import { ArtistTableHeader } from '../ArtistTableHeader/ArtistTableHeader';
 import './ArtistIndex.css';
 
 import Nav from '../Nav/Nav';
@@ -70,7 +70,6 @@ export class ArtistIndex extends Component {
 
   setSort = async (sort, e) => {
     const { innerText } = e.target;
-    console.log(innerText);
     const { agency, genre } = this.state;
     const artists = await getAllArtists({
       sort,
