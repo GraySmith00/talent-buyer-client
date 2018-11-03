@@ -34,9 +34,7 @@ export class ArtistIndex extends Component {
 
   toggleWatchlist = async (e, artist) => {
     e.preventDefault();
-    e.stopPropagation();
     const { watchlist, toggleArtistThunk } = this.props;
-
     await toggleArtistThunk({ artist, watchlist });
   };
 
@@ -106,7 +104,8 @@ export class ArtistIndex extends Component {
               type="checkbox"
               checked={onList}
               className="checkbox-input"
-              onClick={e => this.toggleWatchlist(e, artist)}
+              onChange={e => this.toggleWatchlist(e, artist)}
+              onClick={event => event.stopPropagation()}
             />
           </Link>
         );
