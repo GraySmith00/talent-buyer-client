@@ -5,9 +5,9 @@ import { getAllArtists } from '../../Utils/backendApiCalls';
 import { toggleArtistThunk } from '../../actions/watchlistActions';
 import { connect } from 'react-redux';
 import axios from 'axios';
-
 import { allGenres } from '../../Utils/allGenres';
 import { capitalize } from '../../Utils/capitalize';
+import { ArtistTableHeader } from '../ArtistTableHeader/ArtistTableHeader';
 import './ArtistIndex.css';
 
 import Nav from '../Nav/Nav';
@@ -17,7 +17,8 @@ export class ArtistIndex extends Component {
     artists: [],
     sort: null,
     genre: null,
-    agency: null
+    agency: null,
+    activeSort: null
   };
 
   async componentDidMount() {
@@ -67,18 +68,19 @@ export class ArtistIndex extends Component {
     this.setState({ artists, genre });
   };
 
-  setSort = async sort => {
+  setSort = async (sort, e) => {
+    const { innerText } = e.target;
     const { agency, genre } = this.state;
     const artists = await getAllArtists({
       sort,
       agency,
       genre
     });
-    this.setState({ artists, sort });
+    this.setState({ artists, sort, activeSort: innerText });
   };
 
   render() {
-    const { artists } = this.state;
+    const { artists, activeSort } = this.state;
     const { watchlist } = this.props;
     let displayArtists;
 
@@ -142,25 +144,30 @@ export class ArtistIndex extends Component {
           </form>
           <div className="table-headings">
             <h3>Image</h3>
-            <h3
-              onClick={() => this.setSort('alphabetical')}
-              style={{ cursor: 'pointer' }}
-            >
-              Name
-            </h3>
-            <h3>Agency</h3>
-            <h3
-              onClick={() => this.setSort('popularity')}
-              style={{ cursor: 'pointer' }}
-            >
-              Popularity
-            </h3>
-            <h3
-              onClick={() => this.setSort('popularity')}
-              style={{ cursor: 'pointer' }}
-            >
-              Spotify Followers
-            </h3>
+            <ArtistTableHeader
+              activeSort={activeSort}
+              onClick={event => this.setSort('alphabetical', event)}
+              category="Name"
+              name="Name"
+            />
+            <ArtistTableHeader
+              activeSort={activeSort}
+              onClick={event => this.setSort('agency', event)}
+              category="Agency"
+              name="Agency"
+            />
+            <ArtistTableHeader
+              activeSort={activeSort}
+              onClick={event => this.setSort('popularity', event)}
+              category="Popularity"
+              name="Popularity"
+            />
+            <ArtistTableHeader
+              activeSort={activeSort}
+              onClick={event => this.setSort('popularity', event)}
+              category="Spotify Followers"
+              name="Spotify Followers"
+            />
             <h3 className="watchlist-heading">Watchlist</h3>
           </div>
           <div className="artists-container">{displayArtists}</div>
