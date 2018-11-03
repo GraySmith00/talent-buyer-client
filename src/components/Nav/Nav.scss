@@ -18,6 +18,13 @@
   color: #fff;
   min-width: 15rem;
   height: 100vh;
+
+  .active {
+    border-left: solid 5px $pink-two;
+    background-color: #1e2334;
+    cursor: pointer;
+    color: $pink-two;
+  }
 }
 
 .nav-link-wrapper {
@@ -48,13 +55,6 @@
     cursor: pointer;
     color: $pink-two;
   }
-}
-
-.active {
-  border-left: solid 5px $pink-two;
-  background-color: #1e2334;
-  cursor: pointer;
-  color: $pink-two;
 }
 
 .venue-info {

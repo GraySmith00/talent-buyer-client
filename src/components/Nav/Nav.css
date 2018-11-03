@@ -13,6 +13,11 @@
   color: #fff;
   min-width: 15rem;
   height: 100vh; }
+  .nav .active {
+    border-left: solid 5px #D52F7F;
+    background-color: #1e2334;
+    cursor: pointer;
+    color: #D52F7F; }
 
 .nav-link-wrapper {
   display: flex;
@@ -37,12 +42,6 @@
     background-color: #1e2334;
     cursor: pointer;
     color: #D52F7F; }
-
-.active {
-  border-left: solid 5px #D52F7F;
-  background-color: #1e2334;
-  cursor: pointer;
-  color: #D52F7F; }
 
 .venue-info {
   display: flex;
