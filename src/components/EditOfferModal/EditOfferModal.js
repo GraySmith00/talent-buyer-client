@@ -8,7 +8,7 @@ import './EditOfferModal.css';
 
 export class EditOfferModal extends Component {
   state = {
-    status: 0,
+    status: 'pending',
     artist_name: '',
     guarantee: 5000,
     bonuses: '+$1k at 600 sold',
@@ -79,6 +79,7 @@ export class EditOfferModal extends Component {
 
   render() {
     const { closeEditOfferModal } = this.props;
+    const { status } = this.state;
 
     return (
       <div className="offer-modal">
@@ -88,10 +89,14 @@ export class EditOfferModal extends Component {
               <div className="select-wrapper">
                 <label>
                   <h4>Status</h4>
-                  <select name="status" onChange={this.handleChange}>
-                    <option value={0}>Pending</option>
-                    <option value={1}>Confirmed</option>
-                    <option value={2}>Rejected</option>
+                  <select
+                    name="status"
+                    onChange={this.handleChange}
+                    value={status}
+                  >
+                    <option value={'pending'}>Pending</option>
+                    <option value={'confirmed'}>Confirmed</option>
+                    <option value={'rejected'}>Rejected</option>
                   </select>
                 </label>
               </div>

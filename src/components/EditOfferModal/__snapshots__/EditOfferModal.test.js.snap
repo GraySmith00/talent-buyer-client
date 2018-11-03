@@ -350,19 +350,20 @@ ShallowWrapper {
                                         <select
                                                 name="status"
                                                 onChange={[Function]}
+                                                value="pending"
                                         >
                                                 <option
-                                                        value={0}
+                                                        value="pending"
                                                 >
                                                         Pending
                                                 </option>
                                                 <option
-                                                        value={1}
+                                                        value="confirmed"
                                                 >
                                                         Confirmed
                                                 </option>
                                                 <option
-                                                        value={2}
+                                                        value="rejected"
                                                 >
                                                         Rejected
                                                 </option>
@@ -518,19 +519,20 @@ ShallowWrapper {
                                                 <select
                                                             name="status"
                                                             onChange={[Function]}
+                                                            value="pending"
                                                 >
                                                             <option
-                                                                        value={0}
+                                                                        value="pending"
                                                             >
                                                                         Pending
                                                             </option>
                                                             <option
-                                                                        value={1}
+                                                                        value="confirmed"
                                                             >
                                                                         Confirmed
                                                             </option>
                                                             <option
-                                                                        value={2}
+                                                                        value="rejected"
                                                             >
                                                                         Rejected
                                                             </option>
@@ -683,19 +685,20 @@ ShallowWrapper {
                                                 <select
                                                                 name="status"
                                                                 onChange={[Function]}
+                                                                value="pending"
                                                 >
                                                                 <option
-                                                                                value={0}
+                                                                                value="pending"
                                                                 >
                                                                                 Pending
                                                                 </option>
                                                                 <option
-                                                                                value={1}
+                                                                                value="confirmed"
                                                                 >
                                                                                 Confirmed
                                                                 </option>
                                                                 <option
-                                                                                value={2}
+                                                                                value="rejected"
                                                                 >
                                                                                 Rejected
                                                                 </option>
@@ -840,19 +843,20 @@ ShallowWrapper {
                                         <select
                                                             name="status"
                                                             onChange={[Function]}
+                                                            value="pending"
                                         >
                                                             <option
-                                                                                value={0}
+                                                                                value="pending"
                                                             >
                                                                                 Pending
                                                             </option>
                                                             <option
-                                                                                value={1}
+                                                                                value="confirmed"
                                                             >
                                                                                 Confirmed
                                                             </option>
                                                             <option
-                                                                                value={2}
+                                                                                value="rejected"
                                                             >
                                                                                 Rejected
                                                             </option>
@@ -936,19 +940,20 @@ ShallowWrapper {
                       <select
                                             name="status"
                                             onChange={[Function]}
+                                            value="pending"
                       >
                                             <option
-                                                                  value={0}
+                                                                  value="pending"
                                             >
                                                                   Pending
                                             </option>
                                             <option
-                                                                  value={1}
+                                                                  value="confirmed"
                                             >
                                                                   Confirmed
                                             </option>
                                             <option
-                                                                  value={2}
+                                                                  value="rejected"
                                             >
                                                                   Rejected
                                             </option>
@@ -969,19 +974,20 @@ ShallowWrapper {
                         <select
                           name="status"
                           onChange={[Function]}
+                          value="pending"
 >
                           <option
-                                                    value={0}
+                                                    value="pending"
                           >
                                                     Pending
                           </option>
                           <option
-                                                    value={1}
+                                                    value="confirmed"
                           >
                                                     Confirmed
                           </option>
                           <option
-                                                    value={2}
+                                                    value="rejected"
                           >
                                                     Rejected
                           </option>
@@ -1008,23 +1014,24 @@ ShallowWrapper {
                         "props": Object {
                           "children": Array [
                             <option
-                              value={0}
+                              value="pending"
 >
                               Pending
 </option>,
                             <option
-                              value={1}
+                              value="confirmed"
 >
                               Confirmed
 </option>,
                             <option
-                              value={2}
+                              value="rejected"
 >
                               Rejected
 </option>,
                           ],
                           "name": "status",
                           "onChange": [Function],
+                          "value": "pending",
                         },
                         "ref": null,
                         "rendered": Array [
@@ -1034,7 +1041,7 @@ ShallowWrapper {
                             "nodeType": "host",
                             "props": Object {
                               "children": "Pending",
-                              "value": 0,
+                              "value": "pending",
                             },
                             "ref": null,
                             "rendered": "Pending",
@@ -1046,7 +1053,7 @@ ShallowWrapper {
                             "nodeType": "host",
                             "props": Object {
                               "children": "Confirmed",
-                              "value": 1,
+                              "value": "confirmed",
                             },
                             "ref": null,
                             "rendered": "Confirmed",
@@ -1058,7 +1065,7 @@ ShallowWrapper {
                             "nodeType": "host",
                             "props": Object {
                               "children": "Rejected",
-                              "value": 2,
+                              "value": "rejected",
                             },
                             "ref": null,
                             "rendered": "Rejected",
@@ -1638,19 +1645,20 @@ ShallowWrapper {
                                                   <select
                                                             name="status"
                                                             onChange={[Function]}
+                                                            value="pending"
                                                   >
                                                             <option
-                                                                      value={0}
+                                                                      value="pending"
                                                             >
                                                                       Pending
                                                             </option>
                                                             <option
-                                                                      value={1}
+                                                                      value="confirmed"
                                                             >
                                                                       Confirmed
                                                             </option>
                                                             <option
-                                                                      value={2}
+                                                                      value="rejected"
                                                             >
                                                                       Rejected
                                                             </option>
@@ -1806,19 +1814,20 @@ ShallowWrapper {
                                                         <select
                                                                       name="status"
                                                                       onChange={[Function]}
+                                                                      value="pending"
                                                         >
                                                                       <option
-                                                                                    value={0}
+                                                                                    value="pending"
                                                                       >
                                                                                     Pending
                                                                       </option>
                                                                       <option
-                                                                                    value={1}
+                                                                                    value="confirmed"
                                                                       >
                                                                                     Confirmed
                                                                       </option>
                                                                       <option
-                                                                                    value={2}
+                                                                                    value="rejected"
                                                                       >
                                                                                     Rejected
                                                                       </option>
@@ -1971,19 +1980,20 @@ ShallowWrapper {
                                                       <select
                                                                         name="status"
                                                                         onChange={[Function]}
+                                                                        value="pending"
                                                       >
                                                                         <option
-                                                                                          value={0}
+                                                                                          value="pending"
                                                                         >
                                                                                           Pending
                                                                         </option>
                                                                         <option
-                                                                                          value={1}
+                                                                                          value="confirmed"
                                                                         >
                                                                                           Confirmed
                                                                         </option>
                                                                         <option
-                                                                                          value={2}
+                                                                                          value="rejected"
                                                                         >
                                                                                           Rejected
                                                                         </option>
@@ -2128,19 +2138,20 @@ ShallowWrapper {
                                             <select
                                                                   name="status"
                                                                   onChange={[Function]}
+                                                                  value="pending"
                                             >
                                                                   <option
-                                                                                        value={0}
+                                                                                        value="pending"
                                                                   >
                                                                                         Pending
                                                                   </option>
                                                                   <option
-                                                                                        value={1}
+                                                                                        value="confirmed"
                                                                   >
                                                                                         Confirmed
                                                                   </option>
                                                                   <option
-                                                                                        value={2}
+                                                                                        value="rejected"
                                                                   >
                                                                                         Rejected
                                                                   </option>
@@ -2224,19 +2235,20 @@ ShallowWrapper {
                         <select
                                                 name="status"
                                                 onChange={[Function]}
+                                                value="pending"
                         >
                                                 <option
-                                                                        value={0}
+                                                                        value="pending"
                                                 >
                                                                         Pending
                                                 </option>
                                                 <option
-                                                                        value={1}
+                                                                        value="confirmed"
                                                 >
                                                                         Confirmed
                                                 </option>
                                                 <option
-                                                                        value={2}
+                                                                        value="rejected"
                                                 >
                                                                         Rejected
                                                 </option>
@@ -2257,19 +2269,20 @@ ShallowWrapper {
                           <select
                             name="status"
                             onChange={[Function]}
+                            value="pending"
 >
                             <option
-                                                        value={0}
+                                                        value="pending"
                             >
                                                         Pending
                             </option>
                             <option
-                                                        value={1}
+                                                        value="confirmed"
                             >
                                                         Confirmed
                             </option>
                             <option
-                                                        value={2}
+                                                        value="rejected"
                             >
                                                         Rejected
                             </option>
@@ -2296,23 +2309,24 @@ ShallowWrapper {
                           "props": Object {
                             "children": Array [
                               <option
-                                value={0}
+                                value="pending"
 >
                                 Pending
 </option>,
                               <option
-                                value={1}
+                                value="confirmed"
 >
                                 Confirmed
 </option>,
                               <option
-                                value={2}
+                                value="rejected"
 >
                                 Rejected
 </option>,
                             ],
                             "name": "status",
                             "onChange": [Function],
+                            "value": "pending",
                           },
                           "ref": null,
                           "rendered": Array [
@@ -2322,7 +2336,7 @@ ShallowWrapper {
                               "nodeType": "host",
                               "props": Object {
                                 "children": "Pending",
-                                "value": 0,
+                                "value": "pending",
                               },
                               "ref": null,
                               "rendered": "Pending",
@@ -2334,7 +2348,7 @@ ShallowWrapper {
                               "nodeType": "host",
                               "props": Object {
                                 "children": "Confirmed",
-                                "value": 1,
+                                "value": "confirmed",
                               },
                               "ref": null,
                               "rendered": "Confirmed",
@@ -2346,7 +2360,7 @@ ShallowWrapper {
                               "nodeType": "host",
                               "props": Object {
                                 "children": "Rejected",
-                                "value": 2,
+                                "value": "rejected",
                               },
                               "ref": null,
                               "rendered": "Rejected",
