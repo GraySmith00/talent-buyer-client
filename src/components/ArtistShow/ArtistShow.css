@@ -3,5 +3,80 @@
   background-color: #21222b;
   color: #fff;
   overflow: scroll; }
+  .artist-show .artist-name {
+    text-decoration: underline;
+    text-decoration-color: #C73B96; }
+  .artist-show .back-button {
+    width: 3em; }
+  .artist-show .bio {
+    font-size: 1.45em; }
+  .artist-show .button {
+    padding-left: 1em; }
+  .artist-show .genre {
+    color: #D52F7F;
+    padding-left: 1em; }
+  .artist-show .genre-wrap {
+    align-items: center;
+    display: flex;
+    font-size: 1.2em;
+    width: 100%; }
+  .artist-show .followers {
+    color: #D52F7F;
+    padding-left: 1em;
+    padding-right: 1em; }
+  .artist-show .followers-wrap {
+    align-items: center;
+    display: flex;
+    font-size: 1.2em; }
+  .artist-show .main-content {
+    background-color: #131621;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    height: 40em;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 1em;
+    width: 60em; }
+  .artist-show .main-content-frame {
+    align-items: center;
+    background-color: #C73B96;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    height: 40.1em;
+    margin: auto;
+    width: 60.1em; }
+  .artist-show .name-wrap {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 96%; }
+  .artist-show .portrait-wrap {
+    display: flex;
+    width: 100%; }
   .artist-show .profile-image {
-    width: 20rem; }
+    border-radius: 50%;
+    width: 15em; }
+  .artist-show .profile-frame {
+    align-items: center;
+    background-color: #131621;
+    border-radius: 50%;
+    display: flex;
+    height: 15.25rem;
+    justify-content: center;
+    width: 15.25rem; }
+  .artist-show .similar {
+    color: #D52F7F;
+    padding-left: 1em; }
+  .artist-show .similar-wrap {
+    align-items: center;
+    display: flex;
+    font-size: 1.2em; }
+  .artist-show .spotify-icon {
+    width: 3em; }
+  .artist-show .stat-wrap {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    width: 100%; }
