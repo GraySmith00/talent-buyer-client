@@ -53,9 +53,10 @@ ShallowWrapper {
                                                   >
                                                             <a
                                                                       href=""
+                                                                      target="_blank"
                                                             >
                                                                       <img
-                                                                                alt="rediret-to-artist-spotify"
+                                                                                alt="spotify"
                                                                                 className="spotify-icon button"
                                                                                 src="Spotify_Icon_RGB_White.png"
                                                                       />
@@ -65,7 +66,7 @@ ShallowWrapper {
                                                                       to="/artists"
                                                             >
                                                                       <img
-                                                                                alt="rediret-to-artist-index"
+                                                                                alt="back"
                                                                                 className="back-button button"
                                                                                 src="back.svg"
                                                                       />
@@ -155,9 +156,10 @@ ShallowWrapper {
                                                 >
                                                             <a
                                                                         href=""
+                                                                        target="_blank"
                                                             >
                                                                         <img
-                                                                                    alt="rediret-to-artist-spotify"
+                                                                                    alt="spotify"
                                                                                     className="spotify-icon button"
                                                                                     src="Spotify_Icon_RGB_White.png"
                                                                         />
@@ -167,7 +169,7 @@ ShallowWrapper {
                                                                         to="/artists"
                                                             >
                                                                         <img
-                                                                                    alt="rediret-to-artist-index"
+                                                                                    alt="back"
                                                                                     className="back-button button"
                                                                                     src="back.svg"
                                                                         />
@@ -243,9 +245,10 @@ ShallowWrapper {
                                                 >
                                                                 <a
                                                                                 href=""
+                                                                                target="_blank"
                                                                 >
                                                                                 <img
-                                                                                                alt="rediret-to-artist-spotify"
+                                                                                                alt="spotify"
                                                                                                 className="spotify-icon button"
                                                                                                 src="Spotify_Icon_RGB_White.png"
                                                                                 />
@@ -255,7 +258,7 @@ ShallowWrapper {
                                                                                 to="/artists"
                                                                 >
                                                                                 <img
-                                                                                                alt="rediret-to-artist-index"
+                                                                                                alt="back"
                                                                                                 className="back-button button"
                                                                                                 src="back.svg"
                                                                                 />
@@ -329,9 +332,10 @@ ShallowWrapper {
                                         >
                                                             <a
                                                                                 href=""
+                                                                                target="_blank"
                                                             >
                                                                                 <img
-                                                                                                    alt="rediret-to-artist-spotify"
+                                                                                                    alt="spotify"
                                                                                                     className="spotify-icon button"
                                                                                                     src="Spotify_Icon_RGB_White.png"
                                                                                 />
@@ -341,7 +345,7 @@ ShallowWrapper {
                                                                                 to="/artists"
                                                             >
                                                                                 <img
-                                                                                                    alt="rediret-to-artist-index"
+                                                                                                    alt="back"
                                                                                                     className="back-button button"
                                                                                                     src="back.svg"
                                                                                 />
@@ -418,9 +422,10 @@ ShallowWrapper {
                         >
                                                 <a
                                                                         href=""
+                                                                        target="_blank"
                                                 >
                                                                         <img
-                                                                                                alt="rediret-to-artist-spotify"
+                                                                                                alt="spotify"
                                                                                                 className="spotify-icon button"
                                                                                                 src="Spotify_Icon_RGB_White.png"
                                                                         />
@@ -430,7 +435,7 @@ ShallowWrapper {
                                                                         to="/artists"
                                                 >
                                                                         <img
-                                                                                                alt="rediret-to-artist-index"
+                                                                                                alt="back"
                                                                                                 className="back-button button"
                                                                                                 src="back.svg"
                                                                         />
@@ -475,9 +480,10 @@ ShallowWrapper {
 >
                             <a
                                                         href=""
+                                                        target="_blank"
                             >
                                                         <img
-                                                                                    alt="rediret-to-artist-spotify"
+                                                                                    alt="spotify"
                                                                                     className="spotify-icon button"
                                                                                     src="Spotify_Icon_RGB_White.png"
                                                         />
@@ -487,7 +493,7 @@ ShallowWrapper {
                                                         to="/artists"
                             >
                                                         <img
-                                                                                    alt="rediret-to-artist-index"
+                                                                                    alt="back"
                                                                                     className="back-button button"
                                                                                     src="back.svg"
                                                         />
@@ -518,9 +524,10 @@ ShallowWrapper {
                             "children": Array [
                               <a
                                 href=""
+                                target="_blank"
 >
                                 <img
-                                                                alt="rediret-to-artist-spotify"
+                                                                alt="spotify"
                                                                 className="spotify-icon button"
                                                                 src="Spotify_Icon_RGB_White.png"
                                 />
@@ -530,7 +537,7 @@ ShallowWrapper {
                                 to="/artists"
 >
                                 <img
-                                                                alt="rediret-to-artist-index"
+                                                                alt="back"
                                                                 className="back-button button"
                                                                 src="back.svg"
                                 />
@@ -546,11 +553,12 @@ ShallowWrapper {
                               "nodeType": "host",
                               "props": Object {
                                 "children": <img
-                                  alt="rediret-to-artist-spotify"
+                                  alt="spotify"
                                   className="spotify-icon button"
                                   src="Spotify_Icon_RGB_White.png"
 />,
                                 "href": "",
+                                "target": "_blank",
                               },
                               "ref": null,
                               "rendered": Object {
@@ -558,7 +566,7 @@ ShallowWrapper {
                                 "key": undefined,
                                 "nodeType": "host",
                                 "props": Object {
-                                  "alt": "rediret-to-artist-spotify",
+                                  "alt": "spotify",
                                   "className": "spotify-icon button",
                                   "src": "Spotify_Icon_RGB_White.png",
                                 },
@@ -574,7 +582,7 @@ ShallowWrapper {
                               "nodeType": "class",
                               "props": Object {
                                 "children": <img
-                                  alt="rediret-to-artist-index"
+                                  alt="back"
                                   className="back-button button"
                                   src="back.svg"
 />,
@@ -587,7 +595,7 @@ ShallowWrapper {
                                 "key": undefined,
                                 "nodeType": "host",
                                 "props": Object {
-                                  "alt": "rediret-to-artist-index",
+                                  "alt": "back",
                                   "className": "back-button button",
                                   "src": "back.svg",
                                 },
@@ -776,9 +784,10 @@ ShallowWrapper {
                                                             >
                                                                         <a
                                                                                     href=""
+                                                                                    target="_blank"
                                                                         >
                                                                                     <img
-                                                                                                alt="rediret-to-artist-spotify"
+                                                                                                alt="spotify"
                                                                                                 className="spotify-icon button"
                                                                                                 src="Spotify_Icon_RGB_White.png"
                                                                                     />
@@ -788,7 +797,7 @@ ShallowWrapper {
                                                                                     to="/artists"
                                                                         >
                                                                                     <img
-                                                                                                alt="rediret-to-artist-index"
+                                                                                                alt="back"
                                                                                                 className="back-button button"
                                                                                                 src="back.svg"
                                                                                     />
@@ -878,9 +887,10 @@ ShallowWrapper {
                                                         >
                                                                       <a
                                                                                     href=""
+                                                                                    target="_blank"
                                                                       >
                                                                                     <img
-                                                                                                  alt="rediret-to-artist-spotify"
+                                                                                                  alt="spotify"
                                                                                                   className="spotify-icon button"
                                                                                                   src="Spotify_Icon_RGB_White.png"
                                                                                     />
@@ -890,7 +900,7 @@ ShallowWrapper {
                                                                                     to="/artists"
                                                                       >
                                                                                     <img
-                                                                                                  alt="rediret-to-artist-index"
+                                                                                                  alt="back"
                                                                                                   className="back-button button"
                                                                                                   src="back.svg"
                                                                                     />
@@ -966,9 +976,10 @@ ShallowWrapper {
                                                       >
                                                                         <a
                                                                                           href=""
+                                                                                          target="_blank"
                                                                         >
                                                                                           <img
-                                                                                                            alt="rediret-to-artist-spotify"
+                                                                                                            alt="spotify"
                                                                                                             className="spotify-icon button"
                                                                                                             src="Spotify_Icon_RGB_White.png"
                                                                                           />
@@ -978,7 +989,7 @@ ShallowWrapper {
                                                                                           to="/artists"
                                                                         >
                                                                                           <img
-                                                                                                            alt="rediret-to-artist-index"
+                                                                                                            alt="back"
                                                                                                             className="back-button button"
                                                                                                             src="back.svg"
                                                                                           />
@@ -1052,9 +1063,10 @@ ShallowWrapper {
                                             >
                                                                   <a
                                                                                         href=""
+                                                                                        target="_blank"
                                                                   >
                                                                                         <img
-                                                                                                              alt="rediret-to-artist-spotify"
+                                                                                                              alt="spotify"
                                                                                                               className="spotify-icon button"
                                                                                                               src="Spotify_Icon_RGB_White.png"
                                                                                         />
@@ -1064,7 +1076,7 @@ ShallowWrapper {
                                                                                         to="/artists"
                                                                   >
                                                                                         <img
-                                                                                                              alt="rediret-to-artist-index"
+                                                                                                              alt="back"
                                                                                                               className="back-button button"
                                                                                                               src="back.svg"
                                                                                         />
@@ -1141,9 +1153,10 @@ ShallowWrapper {
                           >
                                                     <a
                                                                               href=""
+                                                                              target="_blank"
                                                     >
                                                                               <img
-                                                                                                        alt="rediret-to-artist-spotify"
+                                                                                                        alt="spotify"
                                                                                                         className="spotify-icon button"
                                                                                                         src="Spotify_Icon_RGB_White.png"
                                                                               />
@@ -1153,7 +1166,7 @@ ShallowWrapper {
                                                                               to="/artists"
                                                     >
                                                                               <img
-                                                                                                        alt="rediret-to-artist-index"
+                                                                                                        alt="back"
                                                                                                         className="back-button button"
                                                                                                         src="back.svg"
                                                                               />
@@ -1198,9 +1211,10 @@ ShallowWrapper {
 >
                               <a
                                                             href=""
+                                                            target="_blank"
                               >
                                                             <img
-                                                                                          alt="rediret-to-artist-spotify"
+                                                                                          alt="spotify"
                                                                                           className="spotify-icon button"
                                                                                           src="Spotify_Icon_RGB_White.png"
                                                             />
@@ -1210,7 +1224,7 @@ ShallowWrapper {
                                                             to="/artists"
                               >
                                                             <img
-                                                                                          alt="rediret-to-artist-index"
+                                                                                          alt="back"
                                                                                           className="back-button button"
                                                                                           src="back.svg"
                                                             />
@@ -1241,9 +1255,10 @@ ShallowWrapper {
                               "children": Array [
                                 <a
                                   href=""
+                                  target="_blank"
 >
                                   <img
-                                                                    alt="rediret-to-artist-spotify"
+                                                                    alt="spotify"
                                                                     className="spotify-icon button"
                                                                     src="Spotify_Icon_RGB_White.png"
                                   />
@@ -1253,7 +1268,7 @@ ShallowWrapper {
                                   to="/artists"
 >
                                   <img
-                                                                    alt="rediret-to-artist-index"
+                                                                    alt="back"
                                                                     className="back-button button"
                                                                     src="back.svg"
                                   />
@@ -1269,11 +1284,12 @@ ShallowWrapper {
                                 "nodeType": "host",
                                 "props": Object {
                                   "children": <img
-                                    alt="rediret-to-artist-spotify"
+                                    alt="spotify"
                                     className="spotify-icon button"
                                     src="Spotify_Icon_RGB_White.png"
 />,
                                   "href": "",
+                                  "target": "_blank",
                                 },
                                 "ref": null,
                                 "rendered": Object {
@@ -1281,7 +1297,7 @@ ShallowWrapper {
                                   "key": undefined,
                                   "nodeType": "host",
                                   "props": Object {
-                                    "alt": "rediret-to-artist-spotify",
+                                    "alt": "spotify",
                                     "className": "spotify-icon button",
                                     "src": "Spotify_Icon_RGB_White.png",
                                   },
@@ -1297,7 +1313,7 @@ ShallowWrapper {
                                 "nodeType": "class",
                                 "props": Object {
                                   "children": <img
-                                    alt="rediret-to-artist-index"
+                                    alt="back"
                                     className="back-button button"
                                     src="back.svg"
 />,
@@ -1310,7 +1326,7 @@ ShallowWrapper {
                                   "key": undefined,
                                   "nodeType": "host",
                                   "props": Object {
-                                    "alt": "rediret-to-artist-index",
+                                    "alt": "back",
                                     "className": "back-button button",
                                     "src": "back.svg",
                                   },
