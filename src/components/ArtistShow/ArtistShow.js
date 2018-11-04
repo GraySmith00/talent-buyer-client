@@ -98,12 +98,14 @@ class ArtistShow extends Component {
                       <img
                         className="spotify-icon button"
                         src={require('./Spotify_Icon_RGB_White.png')}
+                        alt="spotify"
                       />
                     </a>
                     <Link to={`/artists`}>
                       <img
                         className="back-button button"
                         src={require('./back.svg')}
+                        alt="back"
                       />
                     </Link>
                   </span>
