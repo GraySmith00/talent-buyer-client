@@ -11,8 +11,16 @@
     text-decoration-color: $pink-four;
   }
 
+  .back-button {
+    width: 3em;
+  }
+
   .bio {
     font-size: 1.45em;
+  }
+
+  .button {
+    padding-left: 1em;
   }
 
   .genre {
@@ -24,7 +32,7 @@
     align-items: center;
     display: flex;
     font-size: 1.2em;
-    justify-content: center;
+    width: 100%;
   }
 
   .followers {
@@ -62,8 +70,16 @@
     width: 60.1em;
   }
 
+  .name-wrap {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+  }
+
   .portrait-wrap {
     display: flex;
+    width: 100%;
   }
 
   .profile-image {
@@ -92,9 +108,14 @@
     font-size: 1.2em;
   }
 
+  .spotify-icon {
+    width: 3em;
+  }
+
   .stat-wrap {
     display: flex;
     flex-direction: column;
     margin-left: 1em;
+    width: 100%;
   }
 }

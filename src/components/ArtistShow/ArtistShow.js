@@ -3,6 +3,7 @@ import Nav from '../Nav/Nav';
 import './ArtistShow.css';
 import { getArtist } from '../../Utils/backendApiCalls';
 import { getArtistDetails } from '../../Utils/songKickApiCalls';
+import { Link } from 'react-router-dom';
 
 class ArtistShow extends Component {
   state = {
@@ -10,7 +11,8 @@ class ArtistShow extends Component {
     image_url: '',
     bio: '',
     genres: [],
-    similarArtists: []
+    similarArtists: [],
+    spotify_url: ''
   };
 
   async componentDidMount() {
@@ -24,7 +26,8 @@ class ArtistShow extends Component {
       bio: cleanArtist.bio,
       spotify_followers: artist.spotify_followers,
       genres: cleanArtist.genres,
-      similarArtists: cleanArtist.similarArtists
+      similarArtists: cleanArtist.similarArtists,
+      spotify_url: artist.spotify_url
     });
   }
 
@@ -58,7 +61,8 @@ class ArtistShow extends Component {
       bio,
       spotify_followers,
       genres,
-      similarArtists
+      similarArtists,
+      spotify_url
     } = this.state;
 
     const displayGenres = genres.map((genre, index) => (
@@ -87,7 +91,23 @@ class ArtistShow extends Component {
                 />
               </div>
               <div className="stat-wrap">
-                <h1 className="artist-name">{name}</h1>
+                <span className="name-wrap">
+                  <h1 className="artist-name">{name}</h1>
+                  <span className="button-wrap">
+                    <a href={spotify_url}>
+                      <img
+                        className="spotify-icon button"
+                        src={require('./Spotify_Icon_RGB_White.png')}
+                      />
+                    </a>
+                    <Link to={`/artists`}>
+                      <img
+                        className="back-button button"
+                        src={require('./back.svg')}
+                      />
+                    </Link>
+                  </span>
+                </span>
                 <span className="followers-wrap">
                   <h3>Spotify Followers:</h3>
                   <p className="followers">{spotify_followers}</p>

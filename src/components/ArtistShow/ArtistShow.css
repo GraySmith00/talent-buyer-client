@@ -6,8 +6,12 @@
   .artist-show .artist-name {
     text-decoration: underline;
     text-decoration-color: #C73B96; }
+  .artist-show .back-button {
+    width: 3em; }
   .artist-show .bio {
     font-size: 1.45em; }
+  .artist-show .button {
+    padding-left: 1em; }
   .artist-show .genre {
     color: #D52F7F;
     padding-left: 1em; }
@@ -15,7 +19,7 @@
     align-items: center;
     display: flex;
     font-size: 1.2em;
-    justify-content: center; }
+    width: 100%; }
   .artist-show .followers {
     color: #D52F7F;
     padding-left: 1em;
@@ -43,8 +47,14 @@
     height: 40.1em;
     margin: auto;
     width: 60.1em; }
+  .artist-show .name-wrap {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 96%; }
   .artist-show .portrait-wrap {
-    display: flex; }
+    display: flex;
+    width: 100%; }
   .artist-show .profile-image {
     border-radius: 50%;
     width: 15em; }
@@ -63,7 +73,10 @@
     align-items: center;
     display: flex;
     font-size: 1.2em; }
+  .artist-show .spotify-icon {
+    width: 3em; }
   .artist-show .stat-wrap {
     display: flex;
     flex-direction: column;
-    margin-left: 1em; }
+    margin-left: 1em;
+    width: 100%; }

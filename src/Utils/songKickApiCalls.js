@@ -66,7 +66,7 @@ export const getSpotifyInfo = async artistName => {
   }
 };
 
-//retreive artist details from lastfm
+//retrieve artist details from lastfm
 export const getArtistDetails = async artistName => {
   const name = await formatName(artistName);
   const url = `http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=${name}&api_key=${
