@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import ArtistShow from './ArtistShow';
+import { ArtistShow } from './ArtistShow';
 
 jest.mock('../../Utils/backendApiCalls');
 

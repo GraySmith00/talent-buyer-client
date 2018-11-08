@@ -30,12 +30,13 @@ export const getArtistInfo = async (artistName, agency) => {
   const data = await response.json();
 
   const spotifyInfo = await getSpotifyInfo(artistName);
+  const songkick_id = data.resultsPage.results.artist[0].id;
 
   if (spotifyInfo) {
     return {
       name: artistName,
       agency: agency,
-      songkick_id: data.resultsPage.results.artist[0].id,
+      songkick_id,
       ...spotifyInfo
     };
   }
@@ -84,4 +85,47 @@ export const formatName = name => {
     return character.replace(' ', '+');
   });
   return newName.join('');
+};
+
+//fetch concerts at current venue by artist
+export const getEventHistory = async (artistId, venue, name) => {
+  const url = `https://api.songkick.com/api/3.0/artists/${artistId}/gigography.json?apikey=${
+    process.env.REACT_APP_SONGKICK_KEY
+  }&order=desc`;
+  const response = await fetch(url);
+  const eventData = await response.json();
+  const eventMatches = await cleanEvents(eventData, venue, name);
+  return eventMatches;
+};
+
+//clean events
+export const cleanEvents = async (events, venue, name) => {
+  const venueCity = venue.city;
+  const allArchivedEvents = events.resultsPage.results.event;
+  const matches = allArchivedEvents.filter(
+    event => event.location.city.split(',')[0] === venueCity
+  );
+  const formattedEvents = await formatEvents(matches, name);
+  const matchObject = { venueCity, events: formattedEvents };
+  return matchObject;
+};
+
+//format event array
+export const formatEvents = (events, name) => {
+  const formattedEvents = events.reduce((formattedEvents, event) => {
+    const billMatch = event.performance.find(
+      event => event.displayName === name
+    );
+
+    const newEvent = {
+      eventName: event.displayName,
+      venue: event.venue,
+      billing: billMatch.billing,
+      date: event.start.date
+    };
+
+    formattedEvents.push(newEvent);
+    return formattedEvents;
+  }, []);
+  return formattedEvents;
 };

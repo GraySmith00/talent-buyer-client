@@ -1,18 +1,24 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 import Nav from '../Nav/Nav';
 import './ArtistShow.css';
 import { getArtist } from '../../Utils/backendApiCalls';
-import { getArtistDetails } from '../../Utils/songKickApiCalls';
+import {
+  getArtistDetails,
+  getEventHistory
+} from '../../Utils/songKickApiCalls';
 import { Link } from 'react-router-dom';
 
-class ArtistShow extends Component {
+export class ArtistShow extends Component {
   state = {
     name: '',
     image_url: '',
     bio: '',
     genres: [],
     similarArtists: [],
-    spotify_url: ''
+    spotify_url: '',
+    localEventHistory: {}
   };
 
   async componentDidMount() {
@@ -20,14 +26,21 @@ class ArtistShow extends Component {
     const artist = await getArtist(id);
     const artistDetails = await getArtistDetails(artist.name);
     const cleanArtist = await this.formatArtist(artistDetails);
-    this.setState({
+    const localEventHistory = await getEventHistory(
+      artist.songkick_id,
+      this.props.currentVenue,
+      artist.name
+    );
+
+    await this.setState({
       name: artist.name,
       image_url: cleanArtist.image,
       bio: cleanArtist.bio,
       spotify_followers: artist.spotify_followers,
       genres: cleanArtist.genres,
       similarArtists: cleanArtist.similarArtists,
-      spotify_url: artist.spotify_url
+      spotify_url: artist.spotify_url,
+      localEventHistory
     });
   }
 
@@ -62,7 +75,8 @@ class ArtistShow extends Component {
       spotify_followers,
       genres,
       similarArtists,
-      spotify_url
+      spotify_url,
+      localEventHistory
     } = this.state;
 
     const displayGenres = genres.map((genre, index) => (
@@ -76,6 +90,20 @@ class ArtistShow extends Component {
         {artist.name}
       </p>
     ));
+
+    let displayHistory;
+
+    if (localEventHistory.events) {
+      if (localEventHistory.events.length) {
+        displayHistory = localEventHistory.events.map(event => (
+          <div className="table-row" key={event.id}>
+            <h4 className="event-details">{event.date}</h4>
+            <h4 className="event-details"> {event.venue.displayName}</h4>
+            <h4 className="event-details"> {event.billing}</h4>
+          </div>
+        ));
+      }
+    }
 
     return (
       <div className="artist-show">
@@ -125,6 +153,22 @@ class ArtistShow extends Component {
               <h3 className="similar-artists">Similar Artists:</h3>
               {similarArtistDisplay}
             </span>
+            <div className="past-events">
+              <div className="watchlist">
+                <h3>
+                  Latest Appearances In
+                  <span className="city-header">
+                    {localEventHistory.venueCity}
+                  </span>
+                </h3>
+                <div className="recent-table-headings">
+                  <h4 className="event-header">Date</h4>
+                  <h4 className="event-header">Venue</h4>
+                  <h4 className="event-header">Billing</h4>
+                </div>
+                <div className="event-container">{displayHistory}</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -132,4 +176,12 @@ class ArtistShow extends Component {
   }
 }
 
-export default ArtistShow;
+ArtistShow.propTypes = {
+  currentVenue: PropTypes.object
+};
+
+export const mapStateToProps = state => ({
+  currentVenue: state.currentVenue
+});
+
+export default connect(mapStateToProps)(ArtistShow);
