@@ -82,7 +82,7 @@ export class EditOfferModal extends Component {
     const { status } = this.state;
 
     return (
-      <div className="offer-modal">
+      <div className="edit-offer-modal">
         <div className="inner-modal">
           <form className="offer-form" onSubmit={this.handleSubmit}>
             <div className="input-column-1">
