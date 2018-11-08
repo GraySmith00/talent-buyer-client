@@ -1,4 +1,6 @@
-.edit-offer-modal {
+@import '../../styles/variables.scss';
+
+.view-offer-modal {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,7 +22,28 @@
 
     height: 40rem;
     width: 60rem;
+    padding: 1rem;
     background-color: #21222b;
     border-radius: 10px;
+  }
+
+  .offer-info {
+    width: 80%;
+  }
+
+  .field {
+    font-weight: 700;
+    color: $pink-three;
+  }
+
+  .view-offer-top,
+  .view-offer-bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+
+  h3 {
+    font-size: 1.3rem;
   }
 }
