@@ -23,6 +23,8 @@
     display: flex;
     font-size: 1.2em;
     width: 100%; }
+  .artist-show .event-details {
+    font-size: 1.5em; }
   .artist-show .followers {
     color: #D52F7F;
     padding-left: 1em;

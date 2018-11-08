@@ -106,6 +106,42 @@ ShallowWrapper {
                                         Similar Artists:
                               </h3>
                     </span>
+                    <div
+                              className="past-events"
+                    >
+                              <div
+                                        className="watchlist"
+                              >
+                                        <h3>
+                                                  Latest Appearances In
+                                                  <span
+                                                            className="city-header"
+                                                  />
+                                        </h3>
+                                        <div
+                                                  className="recent-table-headings"
+                                        >
+                                                  <h4
+                                                            className="event-header"
+                                                  >
+                                                            Date
+                                                  </h4>
+                                                  <h4
+                                                            className="event-header"
+                                                  >
+                                                            Venue
+                                                  </h4>
+                                                  <h4
+                                                            className="event-header"
+                                                  >
+                                                            Billing
+                                                  </h4>
+                                        </div>
+                                        <div
+                                                  className="event-container"
+                                        />
+                              </div>
+                    </div>
           </div>
 </div>,
       ],
@@ -209,6 +245,42 @@ ShallowWrapper {
                                     Similar Artists:
                         </h3>
             </span>
+            <div
+                        className="past-events"
+            >
+                        <div
+                                    className="watchlist"
+                        >
+                                    <h3>
+                                                Latest Appearances In
+                                                <span
+                                                            className="city-header"
+                                                />
+                                    </h3>
+                                    <div
+                                                className="recent-table-headings"
+                                    >
+                                                <h4
+                                                            className="event-header"
+                                                >
+                                                            Date
+                                                </h4>
+                                                <h4
+                                                            className="event-header"
+                                                >
+                                                            Venue
+                                                </h4>
+                                                <h4
+                                                            className="event-header"
+                                                >
+                                                            Billing
+                                                </h4>
+                                    </div>
+                                    <div
+                                                className="event-container"
+                                    />
+                        </div>
+            </div>
 </div>,
           "className": "main-content-frame",
         },
@@ -298,6 +370,42 @@ ShallowWrapper {
                                 Similar Artists:
                 </h3>
 </span>,
+              <div
+                className="past-events"
+>
+                <div
+                                className="watchlist"
+                >
+                                <h3>
+                                                Latest Appearances In
+                                                <span
+                                                                className="city-header"
+                                                />
+                                </h3>
+                                <div
+                                                className="recent-table-headings"
+                                >
+                                                <h4
+                                                                className="event-header"
+                                                >
+                                                                Date
+                                                </h4>
+                                                <h4
+                                                                className="event-header"
+                                                >
+                                                                Venue
+                                                </h4>
+                                                <h4
+                                                                className="event-header"
+                                                >
+                                                                Billing
+                                                </h4>
+                                </div>
+                                <div
+                                                className="event-container"
+                                />
+                </div>
+</div>,
             ],
             "className": "main-content",
           },
@@ -736,6 +844,197 @@ ShallowWrapper {
               ],
               "type": "span",
             },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="watchlist"
+>
+                  <h3>
+                                    Latest Appearances In
+                                    <span
+                                                      className="city-header"
+                                    />
+                  </h3>
+                  <div
+                                    className="recent-table-headings"
+                  >
+                                    <h4
+                                                      className="event-header"
+                                    >
+                                                      Date
+                                    </h4>
+                                    <h4
+                                                      className="event-header"
+                                    >
+                                                      Venue
+                                    </h4>
+                                    <h4
+                                                      className="event-header"
+                                    >
+                                                      Billing
+                                    </h4>
+                  </div>
+                  <div
+                                    className="event-container"
+                  />
+</div>,
+                "className": "past-events",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h3>
+                      Latest Appearances In
+                      <span
+                                            className="city-header"
+                      />
+</h3>,
+                    <div
+                      className="recent-table-headings"
+>
+                      <h4
+                                            className="event-header"
+                      >
+                                            Date
+                      </h4>
+                      <h4
+                                            className="event-header"
+                      >
+                                            Venue
+                      </h4>
+                      <h4
+                                            className="event-header"
+                      >
+                                            Billing
+                      </h4>
+</div>,
+                    <div
+                      className="event-container"
+/>,
+                  ],
+                  "className": "watchlist",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Latest Appearances In",
+                        <span
+                          className="city-header"
+/>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Latest Appearances In",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": undefined,
+                          "className": "city-header",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "span",
+                      },
+                    ],
+                    "type": "h3",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h4
+                          className="event-header"
+>
+                          Date
+</h4>,
+                        <h4
+                          className="event-header"
+>
+                          Venue
+</h4>,
+                        <h4
+                          className="event-header"
+>
+                          Billing
+</h4>,
+                      ],
+                      "className": "recent-table-headings",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Date",
+                          "className": "event-header",
+                        },
+                        "ref": null,
+                        "rendered": "Date",
+                        "type": "h4",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Venue",
+                          "className": "event-header",
+                        },
+                        "ref": null,
+                        "rendered": "Venue",
+                        "type": "h4",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Billing",
+                          "className": "event-header",
+                        },
+                        "ref": null,
+                        "rendered": "Billing",
+                        "type": "h4",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": undefined,
+                      "className": "event-container",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "div",
+            },
           ],
           "type": "div",
         },
@@ -837,6 +1136,42 @@ ShallowWrapper {
                                                 Similar Artists:
                                     </h3>
                         </span>
+                        <div
+                                    className="past-events"
+                        >
+                                    <div
+                                                className="watchlist"
+                                    >
+                                                <h3>
+                                                            Latest Appearances In
+                                                            <span
+                                                                        className="city-header"
+                                                            />
+                                                </h3>
+                                                <div
+                                                            className="recent-table-headings"
+                                                >
+                                                            <h4
+                                                                        className="event-header"
+                                                            >
+                                                                        Date
+                                                            </h4>
+                                                            <h4
+                                                                        className="event-header"
+                                                            >
+                                                                        Venue
+                                                            </h4>
+                                                            <h4
+                                                                        className="event-header"
+                                                            >
+                                                                        Billing
+                                                            </h4>
+                                                </div>
+                                                <div
+                                                            className="event-container"
+                                                />
+                                    </div>
+                        </div>
             </div>
 </div>,
         ],
@@ -940,6 +1275,42 @@ ShallowWrapper {
                                           Similar Artists:
                             </h3>
               </span>
+              <div
+                            className="past-events"
+              >
+                            <div
+                                          className="watchlist"
+                            >
+                                          <h3>
+                                                        Latest Appearances In
+                                                        <span
+                                                                      className="city-header"
+                                                        />
+                                          </h3>
+                                          <div
+                                                        className="recent-table-headings"
+                                          >
+                                                        <h4
+                                                                      className="event-header"
+                                                        >
+                                                                      Date
+                                                        </h4>
+                                                        <h4
+                                                                      className="event-header"
+                                                        >
+                                                                      Venue
+                                                        </h4>
+                                                        <h4
+                                                                      className="event-header"
+                                                        >
+                                                                      Billing
+                                                        </h4>
+                                          </div>
+                                          <div
+                                                        className="event-container"
+                                          />
+                            </div>
+              </div>
 </div>,
             "className": "main-content-frame",
           },
@@ -1029,6 +1400,42 @@ ShallowWrapper {
                                     Similar Artists:
                   </h3>
 </span>,
+                <div
+                  className="past-events"
+>
+                  <div
+                                    className="watchlist"
+                  >
+                                    <h3>
+                                                      Latest Appearances In
+                                                      <span
+                                                                        className="city-header"
+                                                      />
+                                    </h3>
+                                    <div
+                                                      className="recent-table-headings"
+                                    >
+                                                      <h4
+                                                                        className="event-header"
+                                                      >
+                                                                        Date
+                                                      </h4>
+                                                      <h4
+                                                                        className="event-header"
+                                                      >
+                                                                        Venue
+                                                      </h4>
+                                                      <h4
+                                                                        className="event-header"
+                                                      >
+                                                                        Billing
+                                                      </h4>
+                                    </div>
+                                    <div
+                                                      className="event-container"
+                                    />
+                  </div>
+</div>,
               ],
               "className": "main-content",
             },
@@ -1466,6 +1873,197 @@ ShallowWrapper {
                   },
                 ],
                 "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="watchlist"
+>
+                    <h3>
+                                        Latest Appearances In
+                                        <span
+                                                            className="city-header"
+                                        />
+                    </h3>
+                    <div
+                                        className="recent-table-headings"
+                    >
+                                        <h4
+                                                            className="event-header"
+                                        >
+                                                            Date
+                                        </h4>
+                                        <h4
+                                                            className="event-header"
+                                        >
+                                                            Venue
+                                        </h4>
+                                        <h4
+                                                            className="event-header"
+                                        >
+                                                            Billing
+                                        </h4>
+                    </div>
+                    <div
+                                        className="event-container"
+                    />
+</div>,
+                  "className": "past-events",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h3>
+                        Latest Appearances In
+                        <span
+                                                className="city-header"
+                        />
+</h3>,
+                      <div
+                        className="recent-table-headings"
+>
+                        <h4
+                                                className="event-header"
+                        >
+                                                Date
+                        </h4>
+                        <h4
+                                                className="event-header"
+                        >
+                                                Venue
+                        </h4>
+                        <h4
+                                                className="event-header"
+                        >
+                                                Billing
+                        </h4>
+</div>,
+                      <div
+                        className="event-container"
+/>,
+                    ],
+                    "className": "watchlist",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Latest Appearances In",
+                          <span
+                            className="city-header"
+/>,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Latest Appearances In",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": undefined,
+                            "className": "city-header",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "span",
+                        },
+                      ],
+                      "type": "h3",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <h4
+                            className="event-header"
+>
+                            Date
+</h4>,
+                          <h4
+                            className="event-header"
+>
+                            Venue
+</h4>,
+                          <h4
+                            className="event-header"
+>
+                            Billing
+</h4>,
+                        ],
+                        "className": "recent-table-headings",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Date",
+                            "className": "event-header",
+                          },
+                          "ref": null,
+                          "rendered": "Date",
+                          "type": "h4",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Venue",
+                            "className": "event-header",
+                          },
+                          "ref": null,
+                          "rendered": "Venue",
+                          "type": "h4",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Billing",
+                            "className": "event-header",
+                          },
+                          "ref": null,
+                          "rendered": "Billing",
+                          "type": "h4",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": undefined,
+                        "className": "event-container",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": "div",
               },
             ],
             "type": "div",

@@ -10,7 +10,7 @@ import {
 } from '../../Utils/songKickApiCalls';
 import { Link } from 'react-router-dom';
 
-class ArtistShow extends Component {
+export class ArtistShow extends Component {
   state = {
     name: '',
     image_url: '',
@@ -97,9 +97,9 @@ class ArtistShow extends Component {
       if (localEventHistory.events.length) {
         displayHistory = localEventHistory.events.map(event => (
           <div className="table-row" key={event.id}>
-            <h4>{event.date}</h4>
-            <h4> {event.venue.displayName}</h4>
-            <h4> {event.billing}</h4>
+            <h4 className="event-details">{event.date}</h4>
+            <h4 className="event-details"> {event.venue.displayName}</h4>
+            <h4 className="event-details"> {event.billing}</h4>
           </div>
         ));
       }
@@ -177,7 +177,7 @@ class ArtistShow extends Component {
 }
 
 ArtistShow.propTypes = {
-  currentVenue: PropTypes.object.isRequired
+  currentVenue: PropTypes.object
 };
 
 export const mapStateToProps = state => ({
