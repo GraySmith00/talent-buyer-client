@@ -1,9 +1,9 @@
 @import '../../styles/variables.scss';
 
 .artist-show {
-  display: flex;
   background-color: #21222b;
   color: #fff;
+  display: flex;
   overflow: scroll;
 
   .artist-name {
@@ -16,11 +16,16 @@
   }
 
   .bio {
-    font-size: 1.45em;
+    font-size: 1em;
   }
 
   .button {
     padding-left: 1em;
+  }
+
+  .city-header {
+    color: $pink-four;
+    padding-left: 0.4em;
   }
 
   .genre {
@@ -52,11 +57,11 @@
     border-radius: 1.5rem;
     display: flex;
     flex-direction: column;
-    height: 40em;
-    justify-content: space-evenly;
+    justify-content: center;
+    height: 47em;
     margin: auto;
-    padding: 1em;
-    width: 60em;
+    padding: 1.5em;
+    width: 72em;
   }
 
   .main-content-frame {
@@ -65,9 +70,9 @@
     border-radius: 1.5rem;
     display: flex;
     justify-content: center;
-    height: 40.1em;
+    height: 47.3em;
     margin: auto;
-    width: 60.1em;
+    width: 72.3em;
   }
 
   .name-wrap {
@@ -75,6 +80,12 @@
     display: flex;
     justify-content: space-between;
     width: 96%;
+  }
+
+  .event-container {
+    height: 140px;
+    overflow: scroll;
+    background-color: #32333e;
   }
 
   .portrait-wrap {
@@ -117,5 +128,27 @@
     flex-direction: column;
     margin-left: 1em;
     width: 100%;
+  }
+
+  .recent-table-headings {
+    display: grid;
+    grid-template-columns: repeat(3, 10fr);
+    border-bottom: 1px solid #fff;
+    align-items: center;
+    padding-left: 2rem;
+    margin: 0;
+    h3 {
+      margin-bottom: 5px;
+    }
+  }
+
+  .table-row {
+    display: grid;
+    grid-template-columns: repeat(3, 10fr);
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    font-weight: 300;
+    font-size: 0.7rem;
   }
 }

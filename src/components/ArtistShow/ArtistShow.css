@@ -1,7 +1,7 @@
 .artist-show {
-  display: flex;
   background-color: #21222b;
   color: #fff;
+  display: flex;
   overflow: scroll; }
   .artist-show .artist-name {
     text-decoration: underline;
@@ -9,9 +9,12 @@
   .artist-show .back-button {
     width: 3em; }
   .artist-show .bio {
-    font-size: 1.45em; }
+    font-size: 1em; }
   .artist-show .button {
     padding-left: 1em; }
+  .artist-show .city-header {
+    color: #C73B96;
+    padding-left: 0.4em; }
   .artist-show .genre {
     color: #D52F7F;
     padding-left: 1em; }
@@ -33,25 +36,29 @@
     border-radius: 1.5rem;
     display: flex;
     flex-direction: column;
-    height: 40em;
-    justify-content: space-evenly;
+    justify-content: center;
+    height: 47em;
     margin: auto;
-    padding: 1em;
-    width: 60em; }
+    padding: 1.5em;
+    width: 72em; }
   .artist-show .main-content-frame {
     align-items: center;
     background-color: #C73B96;
     border-radius: 1.5rem;
     display: flex;
     justify-content: center;
-    height: 40.1em;
+    height: 47.3em;
     margin: auto;
-    width: 60.1em; }
+    width: 72.3em; }
   .artist-show .name-wrap {
     align-items: center;
     display: flex;
     justify-content: space-between;
     width: 96%; }
+  .artist-show .event-container {
+    height: 140px;
+    overflow: scroll;
+    background-color: #32333e; }
   .artist-show .portrait-wrap {
     display: flex;
     width: 100%; }
@@ -80,3 +87,20 @@
     flex-direction: column;
     margin-left: 1em;
     width: 100%; }
+  .artist-show .recent-table-headings {
+    display: grid;
+    grid-template-columns: repeat(3, 10fr);
+    border-bottom: 1px solid #fff;
+    align-items: center;
+    padding-left: 2rem;
+    margin: 0; }
+    .artist-show .recent-table-headings h3 {
+      margin-bottom: 5px; }
+  .artist-show .table-row {
+    display: grid;
+    grid-template-columns: repeat(3, 10fr);
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    font-weight: 300;
+    font-size: 0.7rem; }
