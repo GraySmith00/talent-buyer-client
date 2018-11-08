@@ -80,13 +80,13 @@ export class ArtistShow extends Component {
     } = this.state;
 
     const displayGenres = genres.map((genre, index) => (
-      <p className="genre" key={'genre' + name + index}>
+      <p className="genre" key={genre + index}>
         {genre.name}
       </p>
     ));
 
     const similarArtistDisplay = similarArtists.map((artist, index) => (
-      <p className="similar" key={'simiar' + name + index}>
+      <p className="similar" key={`${artist.name}-${index}`}>
         {artist.name}
       </p>
     ));
@@ -95,8 +95,8 @@ export class ArtistShow extends Component {
 
     if (localEventHistory.events) {
       if (localEventHistory.events.length) {
-        displayHistory = localEventHistory.events.map(event => (
-          <div className="table-row" key={event.id}>
+        displayHistory = localEventHistory.events.map((event, i) => (
+          <div className="table-row" key={`${event.id}-${i}`}>
             <h4 className="event-details">{event.date}</h4>
             <h4 className="event-details"> {event.venue.displayName}</h4>
             <h4 className="event-details"> {event.billing}</h4>
