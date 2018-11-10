@@ -6,6 +6,7 @@ import ModalButton from '../styledComponents/ModalButton';
 
 class Landing extends Component {
   state = {
+    landingModalOpen: true,
     signUpModalOpen: false,
     logInModalOpen: false
   };
@@ -27,12 +28,23 @@ class Landing extends Component {
   };
 
   render() {
-    const { signUpModalOpen, logInModalOpen } = this.state;
+    const { signUpModalOpen, logInModalOpen, landingModalOpen } = this.state;
 
     return (
       <div className="landing">
-        {signUpModalOpen && <SignUp closeSignUpModal={this.closeSignUpModal} />}
-        {logInModalOpen && <LogIn closeLogInModal={this.closeLogInModal} />}
+        {signUpModalOpen && (
+          <SignUp
+            closeSignUpModal={this.closeSignUpModal}
+            openLogInModal={this.openLogInModal}
+          />
+        )}
+        {logInModalOpen && (
+          <LogIn
+            closeLogInModal={this.closeLogInModal}
+            openSignUpModal={this.openSignUpModal}
+          />
+        )}
+
         <div className="hero" />
         <div className="button-container">
           <p>
@@ -44,8 +56,12 @@ class Landing extends Component {
             Cornhole tote bag twee, bespoke ramps roof party
           </p>
 
-          <ModalButton className="half-button" onClick={this.openSignUpModal}>Sign Up</ModalButton>
-          <ModalButton className="half-button" onClick={this.openLogInModal}>Log In</ModalButton>
+          <ModalButton className="half-button" onClick={this.openSignUpModal}>
+            Sign Up
+          </ModalButton>
+          <ModalButton className="half-button" onClick={this.openLogInModal}>
+            Log In
+          </ModalButton>
         </div>
       </div>
     );

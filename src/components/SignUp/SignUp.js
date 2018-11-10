@@ -27,6 +27,11 @@ export class SignUp extends Component {
     this.setState({ [name]: value });
   };
 
+  handleClick = () => {
+    this.props.closeSignUpModal();
+    this.props.openLogInModal();
+  };
+
   handleSubmit = async e => {
     e.preventDefault();
     const savedUser = await this.saveUser();
@@ -65,7 +70,6 @@ export class SignUp extends Component {
   };
 
   render() {
-    const { closeSignUpModal } = this.props;
     return (
       <div className="sign-up">
         <InnerModal>
@@ -119,9 +123,11 @@ export class SignUp extends Component {
               onChange={this.handleChange}
             />
             <ModalButton>Sign Up</ModalButton>
-            <p onClick={closeSignUpModal} className="close-text">
-              x Cancel
-            </p>
+            <div className="close-wrap">
+              <p onClick={this.handleClick} className="close-text">
+                Already Have an account?
+              </p>
+            </div>
           </ModalForm>
         </InnerModal>
       </div>
@@ -131,6 +137,7 @@ export class SignUp extends Component {
 
 SignUp.propTypes = {
   closeSignUpModal: PropTypes.func.isRequired,
+  openLogInModal: PropTypes.func.isRequired,
   history: PropTypes.object.isRequired,
   'history.push': PropTypes.func,
   registerUser: PropTypes.func.isRequired
