@@ -1,0 +1,33 @@
+.view-offer-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.5); }
+  .view-offer-modal .inner-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40rem;
+    width: 60rem;
+    padding: 1rem;
+    background-color: #21222b;
+    border-radius: 10px; }
+  .view-offer-modal .offer-info {
+    width: 80%; }
+  .view-offer-modal .field {
+    font-weight: 700;
+    color: #CE2E7E; }
+  .view-offer-modal .view-offer-top,
+  .view-offer-modal .view-offer-bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%; }
+  .view-offer-modal h3 {
+    font-size: 1.3rem; }

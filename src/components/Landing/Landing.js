@@ -33,19 +33,24 @@ class Landing extends Component {
       <div className="landing">
         {signUpModalOpen && <SignUp closeSignUpModal={this.closeSignUpModal} />}
         {logInModalOpen && <LogIn closeLogInModal={this.closeLogInModal} />}
-        <div className="hero" />
+        <div className="hero">
+          <h1>Talent Buyer</h1>
+        </div>
         <div className="button-container">
           <p>
-            Marfa tousled freegan, health goth everyday carry prism four dollar
-            toast raclette blog. Pitchfork waistcoat +1 mlkshk roof party
-            aesthetic humblebrag ramps, yr selvage. Trust fund echo park
-            sartorial put a bird on it. Twee ennui bushwick celiac try-hard
-            pinterest. Bushwick microdosing edison bulb banh mi poutine DIY.
-            Cornhole tote bag twee, bespoke ramps roof party
+            Talent Buyer is the fastest and easist way for music talent buyers
+            to browse artists and filter by agency, popularity, and genre.
+            Artists can be saved to a watchlist for quick reference later.
+            Buyers can easily build, edit, and download offers and keep track of
+            the calendar for their venues.
           </p>
 
-          <ModalButton className="half-button" onClick={this.openSignUpModal}>Sign Up</ModalButton>
-          <ModalButton className="half-button" onClick={this.openLogInModal}>Log In</ModalButton>
+          <ModalButton className="half-button" onClick={this.openSignUpModal}>
+            Sign Up
+          </ModalButton>
+          <ModalButton className="half-button" onClick={this.openLogInModal}>
+            Log In
+          </ModalButton>
         </div>
       </div>
     );

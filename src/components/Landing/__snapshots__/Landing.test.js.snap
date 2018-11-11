@@ -22,12 +22,16 @@ ShallowWrapper {
         false,
         <div
           className="hero"
-/>,
+>
+          <h1>
+                    Talent Buyer
+          </h1>
+</div>,
         <div
           className="button-container"
 >
           <p>
-                    Marfa tousled freegan, health goth everyday carry prism four dollar toast raclette blog. Pitchfork waistcoat +1 mlkshk roof party aesthetic humblebrag ramps, yr selvage. Trust fund echo park sartorial put a bird on it. Twee ennui bushwick celiac try-hard pinterest. Bushwick microdosing edison bulb banh mi poutine DIY. Cornhole tote bag twee, bespoke ramps roof party
+                    Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.
           </p>
           <Unknown
                     className="half-button"
@@ -54,10 +58,23 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
+          "children": <h1>
+            Talent Buyer
+</h1>,
           "className": "hero",
         },
         "ref": null,
-        "rendered": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Talent Buyer",
+          },
+          "ref": null,
+          "rendered": "Talent Buyer",
+          "type": "h1",
+        },
         "type": "div",
       },
       Object {
@@ -67,7 +84,7 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <p>
-              Marfa tousled freegan, health goth everyday carry prism four dollar toast raclette blog. Pitchfork waistcoat +1 mlkshk roof party aesthetic humblebrag ramps, yr selvage. Trust fund echo park sartorial put a bird on it. Twee ennui bushwick celiac try-hard pinterest. Bushwick microdosing edison bulb banh mi poutine DIY. Cornhole tote bag twee, bespoke ramps roof party
+              Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.
 </p>,
             <Unknown
               className="half-button"
@@ -91,10 +108,10 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Marfa tousled freegan, health goth everyday carry prism four dollar toast raclette blog. Pitchfork waistcoat +1 mlkshk roof party aesthetic humblebrag ramps, yr selvage. Trust fund echo park sartorial put a bird on it. Twee ennui bushwick celiac try-hard pinterest. Bushwick microdosing edison bulb banh mi poutine DIY. Cornhole tote bag twee, bespoke ramps roof party",
+              "children": "Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.",
             },
             "ref": null,
-            "rendered": "Marfa tousled freegan, health goth everyday carry prism four dollar toast raclette blog. Pitchfork waistcoat +1 mlkshk roof party aesthetic humblebrag ramps, yr selvage. Trust fund echo park sartorial put a bird on it. Twee ennui bushwick celiac try-hard pinterest. Bushwick microdosing edison bulb banh mi poutine DIY. Cornhole tote bag twee, bespoke ramps roof party",
+            "rendered": "Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.",
             "type": "p",
           },
           Object {
@@ -194,12 +211,16 @@ ShallowWrapper {
           false,
           <div
             className="hero"
-/>,
+>
+            <h1>
+                        Talent Buyer
+            </h1>
+</div>,
           <div
             className="button-container"
 >
             <p>
-                        Marfa tousled freegan, health goth everyday carry prism four dollar toast raclette blog. Pitchfork waistcoat +1 mlkshk roof party aesthetic humblebrag ramps, yr selvage. Trust fund echo park sartorial put a bird on it. Twee ennui bushwick celiac try-hard pinterest. Bushwick microdosing edison bulb banh mi poutine DIY. Cornhole tote bag twee, bespoke ramps roof party
+                        Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.
             </p>
             <Unknown
                         className="half-button"
@@ -226,10 +247,23 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "children": <h1>
+              Talent Buyer
+</h1>,
             "className": "hero",
           },
           "ref": null,
-          "rendered": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Talent Buyer",
+            },
+            "ref": null,
+            "rendered": "Talent Buyer",
+            "type": "h1",
+          },
           "type": "div",
         },
         Object {
@@ -239,7 +273,7 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <p>
-                Marfa tousled freegan, health goth everyday carry prism four dollar toast raclette blog. Pitchfork waistcoat +1 mlkshk roof party aesthetic humblebrag ramps, yr selvage. Trust fund echo park sartorial put a bird on it. Twee ennui bushwick celiac try-hard pinterest. Bushwick microdosing edison bulb banh mi poutine DIY. Cornhole tote bag twee, bespoke ramps roof party
+                Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.
 </p>,
               <Unknown
                 className="half-button"
@@ -263,10 +297,10 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Marfa tousled freegan, health goth everyday carry prism four dollar toast raclette blog. Pitchfork waistcoat +1 mlkshk roof party aesthetic humblebrag ramps, yr selvage. Trust fund echo park sartorial put a bird on it. Twee ennui bushwick celiac try-hard pinterest. Bushwick microdosing edison bulb banh mi poutine DIY. Cornhole tote bag twee, bespoke ramps roof party",
+                "children": "Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.",
               },
               "ref": null,
-              "rendered": "Marfa tousled freegan, health goth everyday carry prism four dollar toast raclette blog. Pitchfork waistcoat +1 mlkshk roof party aesthetic humblebrag ramps, yr selvage. Trust fund echo park sartorial put a bird on it. Twee ennui bushwick celiac try-hard pinterest. Bushwick microdosing edison bulb banh mi poutine DIY. Cornhole tote bag twee, bespoke ramps roof party",
+              "rendered": "Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.",
               "type": "p",
             },
             Object {
