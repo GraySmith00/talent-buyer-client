@@ -69,7 +69,7 @@ export class ViewOfferModal extends Component {
             <section className="terms">
               <h3>Terms</h3>
               <p>
-                <span className="field">Bonuses:</span> ${offer.bonuses}
+                <span className="field">Bonuses:</span> {offer.bonuses}
               </p>
               <p>
                 <span className="field">Radius Clause:</span>
