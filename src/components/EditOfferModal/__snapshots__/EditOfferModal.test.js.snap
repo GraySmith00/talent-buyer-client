@@ -493,7 +493,7 @@ ShallowWrapper {
                 x Cancel
         </p>
 </div>,
-      "className": "offer-modal",
+      "className": "edit-offer-modal",
     },
     "ref": null,
     "rendered": Object {
@@ -1788,7 +1788,7 @@ ShallowWrapper {
                     x Cancel
           </p>
 </div>,
-        "className": "offer-modal",
+        "className": "edit-offer-modal",
       },
       "ref": null,
       "rendered": Object {
