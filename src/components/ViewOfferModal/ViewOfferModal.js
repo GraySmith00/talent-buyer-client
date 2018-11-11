@@ -120,7 +120,9 @@ export class ViewOfferModal extends Component {
 ViewOfferModal.propTypes = {
   closeViewOfferModal: PropTypes.func.isRequired,
   offerId: PropTypes.number.isRequired,
-  offers: PropTypes.array.isRequired
+  offers: PropTypes.array.isRequired,
+  currentVenue: PropTypes.object.isRequired,
+  currentUser: PropTypes.object.isRequired
 };
 
 export const mapStateToProps = state => ({
