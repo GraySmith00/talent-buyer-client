@@ -13,25 +13,19 @@
   .log-in .close-text {
     color: #de0048;
     cursor: pointer; }
-  .log-in .inner-modal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 40rem;
-    width: 50%;
-    background-color: rgba(250, 250, 250, 0.8);
-    border-radius: 10px; }
   .log-in .input-wrapper {
     display: flex;
     justify-content: space-between;
     padding: 1em;
     width: 100%; }
   .log-in .log-in-form {
-    margin-top: 5rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%; }
+  .log-in .login-modal {
+    height: 30em; }
   .log-in .top-inner {
     width: 80%;
     color: #fff;

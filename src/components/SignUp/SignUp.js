@@ -8,7 +8,6 @@ import './SignUp.css';
 import InputField from '../styledComponents/InputField';
 import ModalButton from '../styledComponents/ModalButton';
 import ModalForm from '../styledComponents/ModalForm';
-import InnerModal from '../styledComponents/InnerModal';
 
 export class SignUp extends Component {
   state = {
@@ -68,7 +67,7 @@ export class SignUp extends Component {
     const { closeSignUpModal } = this.props;
     return (
       <div className="sign-up">
-        <InnerModal>
+        <div className="inner-modal">
           <div className="top-container">
             <div className="top-inner">
               <h3 className="header-text">Welcome to Talent Buyer!</h3>
@@ -123,7 +122,7 @@ export class SignUp extends Component {
               x Cancel
             </p>
           </ModalForm>
-        </InnerModal>
+        </div>
       </div>
     );
   }

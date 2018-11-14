@@ -16,17 +16,6 @@
     cursor: pointer;
   }
 
-  .inner-modal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    height: 40rem;
-    width: 50%;
-    background-color: rgba(250, 250, 250, 0.8);
-    border-radius: 10px;
-  }
-
   .input-wrapper {
     display: flex;
     justify-content: space-between;
@@ -35,11 +24,15 @@
   }
 
   .log-in-form {
-    margin-top: 5rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+  }
+
+  .login-modal {
+    height: 30em;
   }
 
   .top-inner {
@@ -66,7 +59,7 @@
     height: 30%;
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('./background.jpeg');
+      url('./background.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;

@@ -19,12 +19,10 @@
     font-family: $primary-font;
   }
 
-
   .inner-modal {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     height: 40rem;
     width: 30rem;
     background-color: #21222b;
@@ -75,7 +73,7 @@
     align-items: center;
     width: 100%;
   }
-  
+
   .close-text {
     color: #de0048;
     cursor: pointer;

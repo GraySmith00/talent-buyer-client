@@ -48,7 +48,7 @@ export class LogIn extends Component {
     const { closeLogInModal } = this.props;
     return (
       <div className="log-in">
-        <InnerModal>
+        <InnerModal className="login-modal">
           <div className="top-container">
             <div className="top-inner">
               <h3 className="header-text">Welcome to Talent Buyer!</h3>
