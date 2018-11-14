@@ -25,6 +25,11 @@ export class LogIn extends Component {
     this.setState({ [name]: value });
   };
 
+  toggleModal = () => {
+    this.props.closeLogInModal();
+    this.props.openSignUpModal();
+  };
+
   handleSubmit = async e => {
     const { email, password } = this.state;
     e.preventDefault();
@@ -45,7 +50,6 @@ export class LogIn extends Component {
   };
 
   render() {
-    const { closeLogInModal } = this.props;
     return (
       <div className="log-in">
         <InnerModal className="login-modal">
@@ -71,8 +75,8 @@ export class LogIn extends Component {
               onChange={this.handleChange}
             />
             <ModalButton>Submit</ModalButton>
-            <p onClick={closeLogInModal} className="close-text">
-              x Cancel
+            <p onClick={this.toggleModal} className="close-text">
+              Need to Sign Up?
             </p>
           </ModalForm>
         </InnerModal>
@@ -83,6 +87,7 @@ export class LogIn extends Component {
 
 LogIn.propTypes = {
   closeLogInModal: PropTypes.func.isRequired,
+  openSignUpModal: PropTypes.func.isRequired,
   logInUser: PropTypes.func.isRequired,
   setUserVenue: PropTypes.func.isRequired,
   history: PropTypes.object.isRequired,

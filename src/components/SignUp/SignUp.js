@@ -35,6 +35,11 @@ export class SignUp extends Component {
     }
   };
 
+  toggleModal = () => {
+    this.props.closeSignUpModal();
+    this.props.openLogInModal();
+  };
+
   saveVenue = async () => {
     try {
       const { venueName, venueCity } = this.state;
@@ -64,7 +69,6 @@ export class SignUp extends Component {
   };
 
   render() {
-    const { closeSignUpModal } = this.props;
     return (
       <div className="sign-up">
         <div className="inner-modal">
@@ -118,8 +122,8 @@ export class SignUp extends Component {
               onChange={this.handleChange}
             />
             <ModalButton>Sign Up</ModalButton>
-            <p onClick={closeSignUpModal} className="close-text">
-              x Cancel
+            <p onClick={this.toggleModal} className="close-text">
+              Already Have an Account?
             </p>
           </ModalForm>
         </div>
@@ -129,6 +133,7 @@ export class SignUp extends Component {
 }
 
 SignUp.propTypes = {
+  openLogInModal: PropTypes.func.isRequired,
   closeSignUpModal: PropTypes.func.isRequired,
   history: PropTypes.object.isRequired,
   'history.push': PropTypes.func,

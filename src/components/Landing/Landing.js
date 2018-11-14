@@ -7,11 +7,12 @@ import ModalButton from '../styledComponents/ModalButton';
 class Landing extends Component {
   state = {
     signUpModalOpen: false,
-    logInModalOpen: false
+    logInModalOpen: false,
+    landingModalOpen: true
   };
 
   openSignUpModal = () => {
-    this.setState({ signUpModalOpen: true });
+    this.setState({ signUpModalOpen: true, landingModalOpen: false });
   };
 
   closeSignUpModal = () => {
@@ -19,7 +20,7 @@ class Landing extends Component {
   };
 
   openLogInModal = () => {
-    this.setState({ logInModalOpen: true });
+    this.setState({ logInModalOpen: true, landingModalOpen: false });
   };
 
   closeLogInModal = () => {
@@ -27,7 +28,7 @@ class Landing extends Component {
   };
 
   render() {
-    const { signUpModalOpen, logInModalOpen } = this.state;
+    const { signUpModalOpen, logInModalOpen, landingModalOpen } = this.state;
 
     return (
       <div className="landing">
