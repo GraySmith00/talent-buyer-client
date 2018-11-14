@@ -32,7 +32,9 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <Unknown>
+      "children": <div
+        className="inner-modal"
+>
         <div
                 className="top-container"
         >
@@ -102,17 +104,17 @@ ShallowWrapper {
                         className="close-text"
                         onClick={[Function]}
                 >
-                        x Cancel
+                        Already Have an Account?
                 </p>
         </Unknown>
-</Unknown>,
+</div>,
       "className": "sign-up",
     },
     "ref": null,
     "rendered": Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "function",
+      "nodeType": "host",
       "props": Object {
         "children": Array [
           <div
@@ -184,10 +186,11 @@ ShallowWrapper {
                         className="close-text"
                         onClick={[Function]}
             >
-                        x Cancel
+                        Already Have an Account?
             </p>
 </Unknown>,
         ],
+        "className": "inner-modal",
       },
       "ref": null,
       "rendered": Array [
@@ -303,7 +306,7 @@ ShallowWrapper {
                 className="close-text"
                 onClick={[Function]}
 >
-                x Cancel
+                Already Have an Account?
 </p>,
             ],
             "className": "sign-up-form",
@@ -606,12 +609,12 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "x Cancel",
+                "children": "Already Have an Account?",
                 "className": "close-text",
                 "onClick": [Function],
               },
               "ref": null,
-              "rendered": "x Cancel",
+              "rendered": "Already Have an Account?",
               "type": "p",
             },
           ],
@@ -640,32 +643,7 @@ ShallowWrapper {
           },
         },
       ],
-      "type": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": undefined,
-        "componentStyle": ComponentStyle {
-          "componentId": "sc-bxivhb",
-          "isStatic": true,
-          "rules": Array [
-            "
-display: flex;
-flex-direction: column;
-align-items: center;
-height: 40rem;
-width: 30rem;
-background-color: #21222b;
-border-radius: 10px;
-",
-          ],
-        },
-        "displayName": "styled.div",
-        "render": [Function],
-        "styledComponentId": "sc-bxivhb",
-        "target": "div",
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      },
+      "type": "div",
     },
     "type": "div",
   },
@@ -675,7 +653,9 @@ border-radius: 10px;
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <Unknown>
+        "children": <div
+          className="inner-modal"
+>
           <div
                     className="top-container"
           >
@@ -745,17 +725,17 @@ border-radius: 10px;
                               className="close-text"
                               onClick={[Function]}
                     >
-                              x Cancel
+                              Already Have an Account?
                     </p>
           </Unknown>
-</Unknown>,
+</div>,
         "className": "sign-up",
       },
       "ref": null,
       "rendered": Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "function",
+        "nodeType": "host",
         "props": Object {
           "children": Array [
             <div
@@ -827,10 +807,11 @@ border-radius: 10px;
                             className="close-text"
                             onClick={[Function]}
               >
-                            x Cancel
+                            Already Have an Account?
               </p>
 </Unknown>,
           ],
+          "className": "inner-modal",
         },
         "ref": null,
         "rendered": Array [
@@ -946,7 +927,7 @@ border-radius: 10px;
                   className="close-text"
                   onClick={[Function]}
 >
-                  x Cancel
+                  Already Have an Account?
 </p>,
               ],
               "className": "sign-up-form",
@@ -1249,12 +1230,12 @@ border-radius: 10px;
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "x Cancel",
+                  "children": "Already Have an Account?",
                   "className": "close-text",
                   "onClick": [Function],
                 },
                 "ref": null,
-                "rendered": "x Cancel",
+                "rendered": "Already Have an Account?",
                 "type": "p",
               },
             ],
@@ -1283,32 +1264,7 @@ border-radius: 10px;
             },
           },
         ],
-        "type": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": undefined,
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bxivhb",
-            "isStatic": true,
-            "rules": Array [
-              "
-display: flex;
-flex-direction: column;
-align-items: center;
-height: 40rem;
-width: 30rem;
-background-color: #21222b;
-border-radius: 10px;
-",
-            ],
-          },
-          "displayName": "styled.div",
-          "render": [Function],
-          "styledComponentId": "sc-bxivhb",
-          "target": "div",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        },
+        "type": "div",
       },
       "type": "div",
     },

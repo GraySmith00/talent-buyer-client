@@ -18,8 +18,6 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        false,
-        false,
         <div
           className="hero"
 >
@@ -27,32 +25,17 @@ ShallowWrapper {
                     Talent Buyer
           </h1>
 </div>,
-        <div
-          className="button-container"
->
-          <p>
-                    Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.
-          </p>
-          <Unknown
-                    className="half-button"
-                    onClick={[Function]}
-          >
-                    Sign Up
-          </Unknown>
-          <Unknown
-                    className="half-button"
-                    onClick={[Function]}
-          >
-                    Log In
-          </Unknown>
-</div>,
+        false,
+        false,
+        <withRouter(Splash)
+          openLogInModal={[Function]}
+          openSignUpModal={[Function]}
+/>,
       ],
       "className": "landing",
     },
     "ref": null,
     "rendered": Array [
-      false,
-      false,
       Object {
         "instance": null,
         "key": undefined,
@@ -77,125 +60,19 @@ ShallowWrapper {
         },
         "type": "div",
       },
+      false,
+      false,
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "function",
         "props": Object {
-          "children": Array [
-            <p>
-              Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.
-</p>,
-            <Unknown
-              className="half-button"
-              onClick={[Function]}
->
-              Sign Up
-</Unknown>,
-            <Unknown
-              className="half-button"
-              onClick={[Function]}
->
-              Log In
-</Unknown>,
-          ],
-          "className": "button-container",
+          "openLogInModal": [Function],
+          "openSignUpModal": [Function],
         },
         "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.",
-            },
-            "ref": null,
-            "rendered": "Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.",
-            "type": "p",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": "Sign Up",
-              "className": "half-button",
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": "Sign Up",
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": undefined,
-              "componentStyle": ComponentStyle {
-                "componentId": "sc-bwzfXH",
-                "isStatic": true,
-                "rules": Array [
-                  "
-  margin-top: 15px;
-  width: 80%;
-  padding: 15px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.2rem;
-  background-color: #D52F7F;
-  color: #fff;
-  cursor: pointer;
-",
-                ],
-              },
-              "displayName": "styled.button",
-              "render": [Function],
-              "styledComponentId": "sc-bwzfXH",
-              "target": "button",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            },
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": "Log In",
-              "className": "half-button",
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": "Log In",
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": undefined,
-              "componentStyle": ComponentStyle {
-                "componentId": "sc-bwzfXH",
-                "isStatic": true,
-                "rules": Array [
-                  "
-  margin-top: 15px;
-  width: 80%;
-  padding: 15px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.2rem;
-  background-color: #D52F7F;
-  color: #fff;
-  cursor: pointer;
-",
-                ],
-              },
-              "displayName": "styled.button",
-              "render": [Function],
-              "styledComponentId": "sc-bwzfXH",
-              "target": "button",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            },
-          },
-        ],
-        "type": "div",
+        "rendered": null,
+        "type": [Function],
       },
     ],
     "type": "div",
@@ -207,8 +84,6 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          false,
-          false,
           <div
             className="hero"
 >
@@ -216,32 +91,17 @@ ShallowWrapper {
                         Talent Buyer
             </h1>
 </div>,
-          <div
-            className="button-container"
->
-            <p>
-                        Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.
-            </p>
-            <Unknown
-                        className="half-button"
-                        onClick={[Function]}
-            >
-                        Sign Up
-            </Unknown>
-            <Unknown
-                        className="half-button"
-                        onClick={[Function]}
-            >
-                        Log In
-            </Unknown>
-</div>,
+          false,
+          false,
+          <withRouter(Splash)
+            openLogInModal={[Function]}
+            openSignUpModal={[Function]}
+/>,
         ],
         "className": "landing",
       },
       "ref": null,
       "rendered": Array [
-        false,
-        false,
         Object {
           "instance": null,
           "key": undefined,
@@ -266,125 +126,19 @@ ShallowWrapper {
           },
           "type": "div",
         },
+        false,
+        false,
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "function",
           "props": Object {
-            "children": Array [
-              <p>
-                Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.
-</p>,
-              <Unknown
-                className="half-button"
-                onClick={[Function]}
->
-                Sign Up
-</Unknown>,
-              <Unknown
-                className="half-button"
-                onClick={[Function]}
->
-                Log In
-</Unknown>,
-            ],
-            "className": "button-container",
+            "openLogInModal": [Function],
+            "openSignUpModal": [Function],
           },
           "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.",
-              },
-              "ref": null,
-              "rendered": "Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.",
-              "type": "p",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "children": "Sign Up",
-                "className": "half-button",
-                "onClick": [Function],
-              },
-              "ref": null,
-              "rendered": "Sign Up",
-              "type": Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "attrs": undefined,
-                "componentStyle": ComponentStyle {
-                  "componentId": "sc-bwzfXH",
-                  "isStatic": true,
-                  "rules": Array [
-                    "
-  margin-top: 15px;
-  width: 80%;
-  padding: 15px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.2rem;
-  background-color: #D52F7F;
-  color: #fff;
-  cursor: pointer;
-",
-                  ],
-                },
-                "displayName": "styled.button",
-                "render": [Function],
-                "styledComponentId": "sc-bwzfXH",
-                "target": "button",
-                "toString": [Function],
-                "warnTooManyClasses": [Function],
-                "withComponent": [Function],
-              },
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "children": "Log In",
-                "className": "half-button",
-                "onClick": [Function],
-              },
-              "ref": null,
-              "rendered": "Log In",
-              "type": Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "attrs": undefined,
-                "componentStyle": ComponentStyle {
-                  "componentId": "sc-bwzfXH",
-                  "isStatic": true,
-                  "rules": Array [
-                    "
-  margin-top: 15px;
-  width: 80%;
-  padding: 15px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.2rem;
-  background-color: #D52F7F;
-  color: #fff;
-  cursor: pointer;
-",
-                  ],
-                },
-                "displayName": "styled.button",
-                "render": [Function],
-                "styledComponentId": "sc-bwzfXH",
-                "target": "button",
-                "toString": [Function],
-                "warnTooManyClasses": [Function],
-                "withComponent": [Function],
-              },
-            },
-          ],
-          "type": "div",
+          "rendered": null,
+          "type": [Function],
         },
       ],
       "type": "div",

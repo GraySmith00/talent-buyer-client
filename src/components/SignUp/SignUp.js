@@ -133,7 +133,7 @@ export class SignUp extends Component {
 }
 
 SignUp.propTypes = {
-  openLogInModal: PropTypes.func.isRequired,
+  openLogInModal: PropTypes.func,
   closeSignUpModal: PropTypes.func.isRequired,
   history: PropTypes.object.isRequired,
   'history.push': PropTypes.func,

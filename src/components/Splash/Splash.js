@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import ModalButton from '../styledComponents/ModalButton';
 import PropTypes from 'prop-types';
+import { withRouter } from 'react-router-dom';
+
 import './Splash.css';
 
-export default class Splash extends Component {
+export class Splash extends Component {
   render() {
     return (
       <div className="splash">
@@ -38,3 +40,5 @@ Splash.propTypes = {
   openSignUpModal: PropTypes.func.isRequired,
   openLogInModal: PropTypes.func.isRequired
 };
+
+export default withRouter(Splash);

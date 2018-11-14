@@ -35,7 +35,9 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <Unknown>
+      "children": <Unknown
+        className="login-modal"
+>
         <div
                 className="top-container"
         >
@@ -77,7 +79,7 @@ ShallowWrapper {
                         className="close-text"
                         onClick={[Function]}
                 >
-                        x Cancel
+                        Need to Sign Up?
                 </p>
         </Unknown>
 </Unknown>,
@@ -131,10 +133,11 @@ ShallowWrapper {
                         className="close-text"
                         onClick={[Function]}
             >
-                        x Cancel
+                        Need to Sign Up?
             </p>
 </Unknown>,
         ],
+        "className": "login-modal",
       },
       "ref": null,
       "rendered": Array [
@@ -214,7 +217,7 @@ ShallowWrapper {
                 className="close-text"
                 onClick={[Function]}
 >
-                x Cancel
+                Need to Sign Up?
 </p>,
             ],
             "className": "log-in-form",
@@ -360,12 +363,12 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "x Cancel",
+                "children": "Need to Sign Up?",
                 "className": "close-text",
                 "onClick": [Function],
               },
               "ref": null,
-              "rendered": "x Cancel",
+              "rendered": "Need to Sign Up?",
               "type": "p",
             },
           ],
@@ -429,7 +432,9 @@ border-radius: 10px;
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <Unknown>
+        "children": <Unknown
+          className="login-modal"
+>
           <div
                     className="top-container"
           >
@@ -471,7 +476,7 @@ border-radius: 10px;
                               className="close-text"
                               onClick={[Function]}
                     >
-                              x Cancel
+                              Need to Sign Up?
                     </p>
           </Unknown>
 </Unknown>,
@@ -525,10 +530,11 @@ border-radius: 10px;
                             className="close-text"
                             onClick={[Function]}
               >
-                            x Cancel
+                            Need to Sign Up?
               </p>
 </Unknown>,
           ],
+          "className": "login-modal",
         },
         "ref": null,
         "rendered": Array [
@@ -608,7 +614,7 @@ border-radius: 10px;
                   className="close-text"
                   onClick={[Function]}
 >
-                  x Cancel
+                  Need to Sign Up?
 </p>,
               ],
               "className": "log-in-form",
@@ -754,12 +760,12 @@ border-radius: 10px;
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "x Cancel",
+                  "children": "Need to Sign Up?",
                   "className": "close-text",
                   "onClick": [Function],
                 },
                 "ref": null,
-                "rendered": "x Cancel",
+                "rendered": "Need to Sign Up?",
                 "type": "p",
               },
             ],

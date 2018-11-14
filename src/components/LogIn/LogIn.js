@@ -87,7 +87,7 @@ export class LogIn extends Component {
 
 LogIn.propTypes = {
   closeLogInModal: PropTypes.func.isRequired,
-  openSignUpModal: PropTypes.func.isRequired,
+  openSignUpModal: PropTypes.func,
   logInUser: PropTypes.func.isRequired,
   setUserVenue: PropTypes.func.isRequired,
   history: PropTypes.object.isRequired,
