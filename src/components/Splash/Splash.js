@@ -9,12 +9,11 @@ export default class Splash extends Component {
       <div className="splash">
         <div className="button-container">
           <p>
-            Marfa tousled freegan, health goth everyday carry prism four dollar
-            toast raclette blog. Pitchfork waistcoat +1 mlkshk roof party
-            aesthetic humblebrag ramps, yr selvage. Trust fund echo park
-            sartorial put a bird on it. Twee ennui bushwick celiac try-hard
-            pinterest. Bushwick microdosing edison bulb banh mi poutine DIY.
-            Cornhole tote bag twee, bespoke ramps roof party
+            Talent Buyer is the fastest and easist way for music talent buyers
+            to browse artists and filter by agency, popularity, and genre.
+            Artists can be saved to a watchlist for quick reference later.
+            Buyers can easily build, edit, and download offers and keep track of
+            the calendar for their venues.
           </p>
 
           <ModalButton

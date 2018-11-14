@@ -32,7 +32,9 @@ class Landing extends Component {
 
     return (
       <div className="landing">
-        <div className="hero" />
+        <div className="hero">
+          <h1>Talent Buyer</h1>
+        </div>
 
         {signUpModalOpen && (
           <SignUp
