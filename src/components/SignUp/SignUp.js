@@ -69,9 +69,11 @@ export class SignUp extends Component {
   };
 
   render() {
+    const { closeSignUpModal } = this.props;
     return (
       <div className="sign-up">
         <div className="inner-modal">
+          <i className="fas fa-times-circle" onClick={closeSignUpModal} />
           <div className="top-container">
             <div className="top-inner">
               <h3 className="header-text">Welcome to Talent Buyer!</h3>
@@ -123,7 +125,7 @@ export class SignUp extends Component {
             />
             <ModalButton>Sign Up</ModalButton>
             <p onClick={this.toggleModal} className="close-text">
-              Already Have an Account?
+              Already a member? Sign in
             </p>
           </ModalForm>
         </div>
