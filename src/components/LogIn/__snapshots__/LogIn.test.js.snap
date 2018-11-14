@@ -38,6 +38,10 @@ ShallowWrapper {
       "children": <Unknown
         className="login-modal"
 >
+        <i
+                className="fas fa-times-circle"
+                onClick={[Function]}
+        />
         <div
                 className="top-container"
         >
@@ -51,37 +55,43 @@ ShallowWrapper {
                         </h3>
                 </div>
         </div>
-        <Unknown
-                className="log-in-form"
-                onSubmit={[Function]}
+        <div
+                className="bottom"
         >
-                <p>
+                <p
+                        className="login-copy"
+                >
                         Log In With Email
                 </p>
                 <Unknown
-                        name="email"
-                        onChange={[Function]}
-                        placeholder="email"
-                        type="email"
-                        value=""
-                />
-                <Unknown
-                        name="password"
-                        onChange={[Function]}
-                        placeholder="password"
-                        type="password"
-                        value=""
-                />
-                <Unknown>
-                        Submit
+                        className="login-form"
+                        onSubmit={[Function]}
+                >
+                        <Unknown
+                                name="email"
+                                onChange={[Function]}
+                                placeholder="email"
+                                type="email"
+                                value=""
+                        />
+                        <Unknown
+                                name="password"
+                                onChange={[Function]}
+                                placeholder="password"
+                                type="password"
+                                value=""
+                        />
+                        <Unknown>
+                                Submit
+                        </Unknown>
                 </Unknown>
                 <p
                         className="close-text"
                         onClick={[Function]}
                 >
-                        Need to Sign Up?
+                        Not a member? Sign up now
                 </p>
-        </Unknown>
+        </div>
 </Unknown>,
       "className": "log-in",
     },
@@ -92,6 +102,10 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "children": Array [
+          <i
+            className="fas fa-times-circle"
+            onClick={[Function]}
+/>,
           <div
             className="top-container"
 >
@@ -105,42 +119,60 @@ ShallowWrapper {
                         </h3>
             </div>
 </div>,
-          <Unknown
-            className="log-in-form"
-            onSubmit={[Function]}
+          <div
+            className="bottom"
 >
-            <p>
+            <p
+                        className="login-copy"
+            >
                         Log In With Email
             </p>
             <Unknown
-                        name="email"
-                        onChange={[Function]}
-                        placeholder="email"
-                        type="email"
-                        value=""
-            />
-            <Unknown
-                        name="password"
-                        onChange={[Function]}
-                        placeholder="password"
-                        type="password"
-                        value=""
-            />
-            <Unknown>
-                        Submit
+                        className="login-form"
+                        onSubmit={[Function]}
+            >
+                        <Unknown
+                                    name="email"
+                                    onChange={[Function]}
+                                    placeholder="email"
+                                    type="email"
+                                    value=""
+                        />
+                        <Unknown
+                                    name="password"
+                                    onChange={[Function]}
+                                    placeholder="password"
+                                    type="password"
+                                    value=""
+                        />
+                        <Unknown>
+                                    Submit
+                        </Unknown>
             </Unknown>
             <p
                         className="close-text"
                         onClick={[Function]}
             >
-                        Need to Sign Up?
+                        Not a member? Sign up now
             </p>
-</Unknown>,
+</div>,
         ],
         "className": "login-modal",
       },
       "ref": null,
       "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "fas fa-times-circle",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "i",
+        },
         Object {
           "instance": null,
           "key": undefined,
@@ -190,38 +222,44 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "host",
           "props": Object {
             "children": Array [
-              <p>
+              <p
+                className="login-copy"
+>
                 Log In With Email
 </p>,
               <Unknown
-                name="email"
-                onChange={[Function]}
-                placeholder="email"
-                type="email"
-                value=""
-/>,
-              <Unknown
-                name="password"
-                onChange={[Function]}
-                placeholder="password"
-                type="password"
-                value=""
-/>,
-              <Unknown>
-                Submit
+                className="login-form"
+                onSubmit={[Function]}
+>
+                <Unknown
+                                name="email"
+                                onChange={[Function]}
+                                placeholder="email"
+                                type="email"
+                                value=""
+                />
+                <Unknown
+                                name="password"
+                                onChange={[Function]}
+                                placeholder="password"
+                                type="password"
+                                value=""
+                />
+                <Unknown>
+                                Submit
+                </Unknown>
 </Unknown>,
               <p
                 className="close-text"
                 onClick={[Function]}
 >
-                Need to Sign Up?
+                Not a member? Sign up now
 </p>,
             ],
-            "className": "log-in-form",
-            "onSubmit": [Function],
+            "className": "bottom",
           },
           "ref": null,
           "rendered": Array [
@@ -231,6 +269,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "Log In With Email",
+                "className": "login-copy",
               },
               "ref": null,
               "rendered": "Log In With Email",
@@ -241,22 +280,51 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "name": "email",
-                "onChange": [Function],
-                "placeholder": "email",
-                "type": "email",
-                "value": "",
+                "children": Array [
+                  <Unknown
+                    name="email"
+                    onChange={[Function]}
+                    placeholder="email"
+                    type="email"
+                    value=""
+/>,
+                  <Unknown
+                    name="password"
+                    onChange={[Function]}
+                    placeholder="password"
+                    type="password"
+                    value=""
+/>,
+                  <Unknown>
+                    Submit
+</Unknown>,
+                ],
+                "className": "login-form",
+                "onSubmit": [Function],
               },
               "ref": null,
-              "rendered": null,
-              "type": Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "attrs": undefined,
-                "componentStyle": ComponentStyle {
-                  "componentId": "sc-bwzfXH",
-                  "isStatic": true,
-                  "rules": Array [
-                    "
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "name": "email",
+                    "onChange": [Function],
+                    "placeholder": "email",
+                    "type": "email",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": undefined,
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bwzfXH",
+                      "isStatic": true,
+                      "rules": Array [
+                        "
   width: 80%;
   outline: none;
   border: none;
@@ -267,38 +335,38 @@ ShallowWrapper {
   color: #fff;
   border-radius: 5px;
 ",
-                  ],
+                      ],
+                    },
+                    "displayName": "styled.input",
+                    "render": [Function],
+                    "styledComponentId": "sc-bwzfXH",
+                    "target": "input",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  },
                 },
-                "displayName": "styled.input",
-                "render": [Function],
-                "styledComponentId": "sc-bwzfXH",
-                "target": "input",
-                "toString": [Function],
-                "warnTooManyClasses": [Function],
-                "withComponent": [Function],
-              },
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "name": "password",
-                "onChange": [Function],
-                "placeholder": "password",
-                "type": "password",
-                "value": "",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "attrs": undefined,
-                "componentStyle": ComponentStyle {
-                  "componentId": "sc-bwzfXH",
-                  "isStatic": true,
-                  "rules": Array [
-                    "
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "name": "password",
+                    "onChange": [Function],
+                    "placeholder": "password",
+                    "type": "password",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": undefined,
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bwzfXH",
+                      "isStatic": true,
+                      "rules": Array [
+                        "
   width: 80%;
   outline: none;
   border: none;
@@ -309,34 +377,34 @@ ShallowWrapper {
   color: #fff;
   border-radius: 5px;
 ",
-                  ],
+                      ],
+                    },
+                    "displayName": "styled.input",
+                    "render": [Function],
+                    "styledComponentId": "sc-bwzfXH",
+                    "target": "input",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  },
                 },
-                "displayName": "styled.input",
-                "render": [Function],
-                "styledComponentId": "sc-bwzfXH",
-                "target": "input",
-                "toString": [Function],
-                "warnTooManyClasses": [Function],
-                "withComponent": [Function],
-              },
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "children": "Submit",
-              },
-              "ref": null,
-              "rendered": "Submit",
-              "type": Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "attrs": undefined,
-                "componentStyle": ComponentStyle {
-                  "componentId": "sc-bdVaJa",
-                  "isStatic": true,
-                  "rules": Array [
-                    "
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": "Submit",
+                  },
+                  "ref": null,
+                  "rendered": "Submit",
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": undefined,
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bdVaJa",
+                      "isStatic": true,
+                      "rules": Array [
+                        "
   margin-top: 15px;
   width: 80%;
   padding: 15px;
@@ -347,12 +415,37 @@ ShallowWrapper {
   color: #fff;
   cursor: pointer;
 ",
+                      ],
+                    },
+                    "displayName": "styled.button",
+                    "render": [Function],
+                    "styledComponentId": "sc-bdVaJa",
+                    "target": "button",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": undefined,
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-htpNat",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 100%;
+",
                   ],
                 },
-                "displayName": "styled.button",
+                "displayName": "styled.form",
                 "render": [Function],
-                "styledComponentId": "sc-bdVaJa",
-                "target": "button",
+                "styledComponentId": "sc-htpNat",
+                "target": "form",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
                 "withComponent": [Function],
@@ -363,38 +456,16 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Need to Sign Up?",
+                "children": "Not a member? Sign up now",
                 "className": "close-text",
                 "onClick": [Function],
               },
               "ref": null,
-              "rendered": "Need to Sign Up?",
+              "rendered": "Not a member? Sign up now",
               "type": "p",
             },
           ],
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": undefined,
-            "componentStyle": ComponentStyle {
-              "componentId": "sc-htpNat",
-              "isStatic": true,
-              "rules": Array [
-                "
- display: flex;
- flex-direction: column;
- align-items: center;
- width: 100%;
-",
-              ],
-            },
-            "displayName": "styled.form",
-            "render": [Function],
-            "styledComponentId": "sc-htpNat",
-            "target": "form",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
+          "type": "div",
         },
       ],
       "type": Object {
@@ -405,13 +476,14 @@ ShallowWrapper {
           "isStatic": true,
           "rules": Array [
             "
-display: flex;
-flex-direction: column;
-align-items: center;
-height: 40rem;
-width: 30rem;
-background-color: #21222b;
-border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 30rem;
+  width: 30rem;
+  background-color: #21222b;
+  border-radius: 10px;
 ",
           ],
         },
@@ -435,6 +507,10 @@ border-radius: 10px;
         "children": <Unknown
           className="login-modal"
 >
+          <i
+                    className="fas fa-times-circle"
+                    onClick={[Function]}
+          />
           <div
                     className="top-container"
           >
@@ -448,37 +524,43 @@ border-radius: 10px;
                               </h3>
                     </div>
           </div>
-          <Unknown
-                    className="log-in-form"
-                    onSubmit={[Function]}
+          <div
+                    className="bottom"
           >
-                    <p>
+                    <p
+                              className="login-copy"
+                    >
                               Log In With Email
                     </p>
                     <Unknown
-                              name="email"
-                              onChange={[Function]}
-                              placeholder="email"
-                              type="email"
-                              value=""
-                    />
-                    <Unknown
-                              name="password"
-                              onChange={[Function]}
-                              placeholder="password"
-                              type="password"
-                              value=""
-                    />
-                    <Unknown>
-                              Submit
+                              className="login-form"
+                              onSubmit={[Function]}
+                    >
+                              <Unknown
+                                        name="email"
+                                        onChange={[Function]}
+                                        placeholder="email"
+                                        type="email"
+                                        value=""
+                              />
+                              <Unknown
+                                        name="password"
+                                        onChange={[Function]}
+                                        placeholder="password"
+                                        type="password"
+                                        value=""
+                              />
+                              <Unknown>
+                                        Submit
+                              </Unknown>
                     </Unknown>
                     <p
                               className="close-text"
                               onClick={[Function]}
                     >
-                              Need to Sign Up?
+                              Not a member? Sign up now
                     </p>
-          </Unknown>
+          </div>
 </Unknown>,
         "className": "log-in",
       },
@@ -489,6 +571,10 @@ border-radius: 10px;
         "nodeType": "function",
         "props": Object {
           "children": Array [
+            <i
+              className="fas fa-times-circle"
+              onClick={[Function]}
+/>,
             <div
               className="top-container"
 >
@@ -502,42 +588,60 @@ border-radius: 10px;
                             </h3>
               </div>
 </div>,
-            <Unknown
-              className="log-in-form"
-              onSubmit={[Function]}
+            <div
+              className="bottom"
 >
-              <p>
+              <p
+                            className="login-copy"
+              >
                             Log In With Email
               </p>
               <Unknown
-                            name="email"
-                            onChange={[Function]}
-                            placeholder="email"
-                            type="email"
-                            value=""
-              />
-              <Unknown
-                            name="password"
-                            onChange={[Function]}
-                            placeholder="password"
-                            type="password"
-                            value=""
-              />
-              <Unknown>
-                            Submit
+                            className="login-form"
+                            onSubmit={[Function]}
+              >
+                            <Unknown
+                                          name="email"
+                                          onChange={[Function]}
+                                          placeholder="email"
+                                          type="email"
+                                          value=""
+                            />
+                            <Unknown
+                                          name="password"
+                                          onChange={[Function]}
+                                          placeholder="password"
+                                          type="password"
+                                          value=""
+                            />
+                            <Unknown>
+                                          Submit
+                            </Unknown>
               </Unknown>
               <p
                             className="close-text"
                             onClick={[Function]}
               >
-                            Need to Sign Up?
+                            Not a member? Sign up now
               </p>
-</Unknown>,
+</div>,
           ],
           "className": "login-modal",
         },
         "ref": null,
         "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "fas fa-times-circle",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "i",
+          },
           Object {
             "instance": null,
             "key": undefined,
@@ -587,38 +691,44 @@ border-radius: 10px;
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "host",
             "props": Object {
               "children": Array [
-                <p>
+                <p
+                  className="login-copy"
+>
                   Log In With Email
 </p>,
                 <Unknown
-                  name="email"
-                  onChange={[Function]}
-                  placeholder="email"
-                  type="email"
-                  value=""
-/>,
-                <Unknown
-                  name="password"
-                  onChange={[Function]}
-                  placeholder="password"
-                  type="password"
-                  value=""
-/>,
-                <Unknown>
-                  Submit
+                  className="login-form"
+                  onSubmit={[Function]}
+>
+                  <Unknown
+                                    name="email"
+                                    onChange={[Function]}
+                                    placeholder="email"
+                                    type="email"
+                                    value=""
+                  />
+                  <Unknown
+                                    name="password"
+                                    onChange={[Function]}
+                                    placeholder="password"
+                                    type="password"
+                                    value=""
+                  />
+                  <Unknown>
+                                    Submit
+                  </Unknown>
 </Unknown>,
                 <p
                   className="close-text"
                   onClick={[Function]}
 >
-                  Need to Sign Up?
+                  Not a member? Sign up now
 </p>,
               ],
-              "className": "log-in-form",
-              "onSubmit": [Function],
+              "className": "bottom",
             },
             "ref": null,
             "rendered": Array [
@@ -628,6 +738,7 @@ border-radius: 10px;
                 "nodeType": "host",
                 "props": Object {
                   "children": "Log In With Email",
+                  "className": "login-copy",
                 },
                 "ref": null,
                 "rendered": "Log In With Email",
@@ -638,22 +749,51 @@ border-radius: 10px;
                 "key": undefined,
                 "nodeType": "function",
                 "props": Object {
-                  "name": "email",
-                  "onChange": [Function],
-                  "placeholder": "email",
-                  "type": "email",
-                  "value": "",
+                  "children": Array [
+                    <Unknown
+                      name="email"
+                      onChange={[Function]}
+                      placeholder="email"
+                      type="email"
+                      value=""
+/>,
+                    <Unknown
+                      name="password"
+                      onChange={[Function]}
+                      placeholder="password"
+                      type="password"
+                      value=""
+/>,
+                    <Unknown>
+                      Submit
+</Unknown>,
+                  ],
+                  "className": "login-form",
+                  "onSubmit": [Function],
                 },
                 "ref": null,
-                "rendered": null,
-                "type": Object {
-                  "$$typeof": Symbol(react.forward_ref),
-                  "attrs": undefined,
-                  "componentStyle": ComponentStyle {
-                    "componentId": "sc-bwzfXH",
-                    "isStatic": true,
-                    "rules": Array [
-                      "
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "name": "email",
+                      "onChange": [Function],
+                      "placeholder": "email",
+                      "type": "email",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": undefined,
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bwzfXH",
+                        "isStatic": true,
+                        "rules": Array [
+                          "
   width: 80%;
   outline: none;
   border: none;
@@ -664,38 +804,38 @@ border-radius: 10px;
   color: #fff;
   border-radius: 5px;
 ",
-                    ],
+                        ],
+                      },
+                      "displayName": "styled.input",
+                      "render": [Function],
+                      "styledComponentId": "sc-bwzfXH",
+                      "target": "input",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    },
                   },
-                  "displayName": "styled.input",
-                  "render": [Function],
-                  "styledComponentId": "sc-bwzfXH",
-                  "target": "input",
-                  "toString": [Function],
-                  "warnTooManyClasses": [Function],
-                  "withComponent": [Function],
-                },
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "name": "password",
-                  "onChange": [Function],
-                  "placeholder": "password",
-                  "type": "password",
-                  "value": "",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": Object {
-                  "$$typeof": Symbol(react.forward_ref),
-                  "attrs": undefined,
-                  "componentStyle": ComponentStyle {
-                    "componentId": "sc-bwzfXH",
-                    "isStatic": true,
-                    "rules": Array [
-                      "
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "name": "password",
+                      "onChange": [Function],
+                      "placeholder": "password",
+                      "type": "password",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": undefined,
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bwzfXH",
+                        "isStatic": true,
+                        "rules": Array [
+                          "
   width: 80%;
   outline: none;
   border: none;
@@ -706,34 +846,34 @@ border-radius: 10px;
   color: #fff;
   border-radius: 5px;
 ",
-                    ],
+                        ],
+                      },
+                      "displayName": "styled.input",
+                      "render": [Function],
+                      "styledComponentId": "sc-bwzfXH",
+                      "target": "input",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    },
                   },
-                  "displayName": "styled.input",
-                  "render": [Function],
-                  "styledComponentId": "sc-bwzfXH",
-                  "target": "input",
-                  "toString": [Function],
-                  "warnTooManyClasses": [Function],
-                  "withComponent": [Function],
-                },
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "children": "Submit",
-                },
-                "ref": null,
-                "rendered": "Submit",
-                "type": Object {
-                  "$$typeof": Symbol(react.forward_ref),
-                  "attrs": undefined,
-                  "componentStyle": ComponentStyle {
-                    "componentId": "sc-bdVaJa",
-                    "isStatic": true,
-                    "rules": Array [
-                      "
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "Submit",
+                    },
+                    "ref": null,
+                    "rendered": "Submit",
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": undefined,
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bdVaJa",
+                        "isStatic": true,
+                        "rules": Array [
+                          "
   margin-top: 15px;
   width: 80%;
   padding: 15px;
@@ -744,12 +884,37 @@ border-radius: 10px;
   color: #fff;
   cursor: pointer;
 ",
+                        ],
+                      },
+                      "displayName": "styled.button",
+                      "render": [Function],
+                      "styledComponentId": "sc-bdVaJa",
+                      "target": "button",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                ],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": undefined,
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-htpNat",
+                    "isStatic": true,
+                    "rules": Array [
+                      "
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 100%;
+",
                     ],
                   },
-                  "displayName": "styled.button",
+                  "displayName": "styled.form",
                   "render": [Function],
-                  "styledComponentId": "sc-bdVaJa",
-                  "target": "button",
+                  "styledComponentId": "sc-htpNat",
+                  "target": "form",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
                   "withComponent": [Function],
@@ -760,38 +925,16 @@ border-radius: 10px;
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Need to Sign Up?",
+                  "children": "Not a member? Sign up now",
                   "className": "close-text",
                   "onClick": [Function],
                 },
                 "ref": null,
-                "rendered": "Need to Sign Up?",
+                "rendered": "Not a member? Sign up now",
                 "type": "p",
               },
             ],
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": undefined,
-              "componentStyle": ComponentStyle {
-                "componentId": "sc-htpNat",
-                "isStatic": true,
-                "rules": Array [
-                  "
- display: flex;
- flex-direction: column;
- align-items: center;
- width: 100%;
-",
-                ],
-              },
-              "displayName": "styled.form",
-              "render": [Function],
-              "styledComponentId": "sc-htpNat",
-              "target": "form",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            },
+            "type": "div",
           },
         ],
         "type": Object {
@@ -802,13 +945,14 @@ border-radius: 10px;
             "isStatic": true,
             "rules": Array [
               "
-display: flex;
-flex-direction: column;
-align-items: center;
-height: 40rem;
-width: 30rem;
-background-color: #21222b;
-border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 30rem;
+  width: 30rem;
+  background-color: #21222b;
+  border-radius: 10px;
 ",
             ],
           },

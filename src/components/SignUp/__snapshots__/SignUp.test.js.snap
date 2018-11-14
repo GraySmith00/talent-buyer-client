@@ -35,6 +35,10 @@ ShallowWrapper {
       "children": <div
         className="inner-modal"
 >
+        <i
+                className="fas fa-times-circle"
+                onClick={[Function]}
+        />
         <div
                 className="top-container"
         >
@@ -104,7 +108,7 @@ ShallowWrapper {
                         className="close-text"
                         onClick={[Function]}
                 >
-                        Already Have an Account?
+                        Already a member? Sign in
                 </p>
         </Unknown>
 </div>,
@@ -117,6 +121,10 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
+          <i
+            className="fas fa-times-circle"
+            onClick={[Function]}
+/>,
           <div
             className="top-container"
 >
@@ -186,7 +194,7 @@ ShallowWrapper {
                         className="close-text"
                         onClick={[Function]}
             >
-                        Already Have an Account?
+                        Already a member? Sign in
             </p>
 </Unknown>,
         ],
@@ -194,6 +202,18 @@ ShallowWrapper {
       },
       "ref": null,
       "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "fas fa-times-circle",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "i",
+        },
         Object {
           "instance": null,
           "key": undefined,
@@ -306,7 +326,7 @@ ShallowWrapper {
                 className="close-text"
                 onClick={[Function]}
 >
-                Already Have an Account?
+                Already a member? Sign in
 </p>,
             ],
             "className": "sign-up-form",
@@ -609,12 +629,12 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Already Have an Account?",
+                "children": "Already a member? Sign in",
                 "className": "close-text",
                 "onClick": [Function],
               },
               "ref": null,
-              "rendered": "Already Have an Account?",
+              "rendered": "Already a member? Sign in",
               "type": "p",
             },
           ],
@@ -656,6 +676,10 @@ ShallowWrapper {
         "children": <div
           className="inner-modal"
 >
+          <i
+                    className="fas fa-times-circle"
+                    onClick={[Function]}
+          />
           <div
                     className="top-container"
           >
@@ -725,7 +749,7 @@ ShallowWrapper {
                               className="close-text"
                               onClick={[Function]}
                     >
-                              Already Have an Account?
+                              Already a member? Sign in
                     </p>
           </Unknown>
 </div>,
@@ -738,6 +762,10 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
+            <i
+              className="fas fa-times-circle"
+              onClick={[Function]}
+/>,
             <div
               className="top-container"
 >
@@ -807,7 +835,7 @@ ShallowWrapper {
                             className="close-text"
                             onClick={[Function]}
               >
-                            Already Have an Account?
+                            Already a member? Sign in
               </p>
 </Unknown>,
           ],
@@ -815,6 +843,18 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "fas fa-times-circle",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "i",
+          },
           Object {
             "instance": null,
             "key": undefined,
@@ -927,7 +967,7 @@ ShallowWrapper {
                   className="close-text"
                   onClick={[Function]}
 >
-                  Already Have an Account?
+                  Already a member? Sign in
 </p>,
               ],
               "className": "sign-up-form",
@@ -1230,12 +1270,12 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Already Have an Account?",
+                  "children": "Already a member? Sign in",
                   "className": "close-text",
                   "onClick": [Function],
                 },
                 "ref": null,
-                "rendered": "Already Have an Account?",
+                "rendered": "Already a member? Sign in",
                 "type": "p",
               },
             ],

@@ -28,7 +28,7 @@ class Landing extends Component {
   };
 
   render() {
-    const { signUpModalOpen, logInModalOpen, landingModalOpen } = this.state;
+    const { signUpModalOpen, logInModalOpen } = this.state;
 
     return (
       <div className="landing">
@@ -48,12 +48,11 @@ class Landing extends Component {
             openSignUpModal={this.openSignUpModal}
           />
         )}
-        {landingModalOpen && (
-          <Splash
-            openLogInModal={this.openLogInModal}
-            openSignUpModal={this.openSignUpModal}
-          />
-        )}
+
+        <Splash
+          openLogInModal={this.openLogInModal}
+          openSignUpModal={this.openSignUpModal}
+        />
       </div>
     );
   }
