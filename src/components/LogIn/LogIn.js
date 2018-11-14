@@ -50,35 +50,39 @@ export class LogIn extends Component {
   };
 
   render() {
+    const { closeLogInModal } = this.props;
     return (
       <div className="log-in">
         <InnerModal className="login-modal">
+          <i className="fas fa-times-circle" onClick={closeLogInModal} />
           <div className="top-container">
             <div className="top-inner">
               <h3 className="header-text">Welcome to Talent Buyer!</h3>
             </div>
           </div>
-          <ModalForm className="log-in-form" onSubmit={this.handleSubmit}>
-            <p>Log In With Email</p>
-            <InputField
-              type="email"
-              name="email"
-              value={this.state.email}
-              placeholder="email"
-              onChange={this.handleChange}
-            />
-            <InputField
-              type="password"
-              name="password"
-              value={this.state.password}
-              placeholder="password"
-              onChange={this.handleChange}
-            />
-            <ModalButton>Submit</ModalButton>
+          <div className="bottom">
+            <p className="login-copy">Log In With Email</p>
+            <ModalForm className="login-form" onSubmit={this.handleSubmit}>
+              <InputField
+                type="email"
+                name="email"
+                value={this.state.email}
+                placeholder="email"
+                onChange={this.handleChange}
+              />
+              <InputField
+                type="password"
+                name="password"
+                value={this.state.password}
+                placeholder="password"
+                onChange={this.handleChange}
+              />
+              <ModalButton>Submit</ModalButton>
+            </ModalForm>
             <p onClick={this.toggleModal} className="close-text">
-              Need to Sign Up?
+              Not a member? Sign up now
             </p>
-          </ModalForm>
+          </div>
         </InnerModal>
       </div>
     );

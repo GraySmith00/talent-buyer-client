@@ -10,31 +10,13 @@
   left: 0;
   z-index: 99;
   background-color: rgba(0, 0, 0, 0.5); }
-  .log-in .close-text {
-    color: #de0048;
-    cursor: pointer; }
-  .log-in .input-wrapper {
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
-    width: 100%; }
-  .log-in .log-in-form {
-    margin-top: 3rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%; }
-  .log-in .login-modal {
-    height: 30em; }
-  .log-in .top-inner {
-    width: 80%;
+  .log-in .fa-times-circle {
+    position: absolute;
+    font-size: 1.5rem;
+    cursor: pointer;
     color: #fff;
-    font-size: 2.5rem; }
-  .log-in .top-inner h3 {
-    margin: 0; }
-  .log-in p {
-    margin: 0.8rem 0 0 0;
-    color: #fff; }
+    top: -10px;
+    right: -10px; }
   .log-in .top-container {
     display: flex;
     flex-direction: column;
@@ -51,3 +33,20 @@
     -webkit-box-shadow: 0px 10px 67px -10px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 10px 67px -10px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 10px 67px -10px rgba(0, 0, 0, 0.75); }
+  .log-in .top-inner {
+    width: 80%;
+    color: #fff;
+    font-size: 2.5rem; }
+  .log-in .top-inner h3 {
+    margin: 0; }
+  .log-in .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: #fff; }
+  .log-in p {
+    margin-top: 1.5rem; }
+  .log-in .close-text {
+    color: #868994;
+    cursor: pointer; }
