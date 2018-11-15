@@ -11,35 +11,34 @@
   z-index: 99;
   background-color: rgba(0, 0, 0, 0.5);
 
-  .close-text {
-    color: #de0048;
+  .fa-times-circle {
+    position: absolute;
+    font-size: 1.5rem;
     cursor: pointer;
+    color: #fff;
+    top: -10px;
+    right: -10px;
   }
 
-  .inner-modal {
+  .top-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
-    height: 40rem;
-    width: 50%;
-    background-color: rgba(250, 250, 250, 0.8);
-    border-radius: 10px;
-  }
-
-  .input-wrapper {
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
+    height: 30%;
     width: 100%;
-  }
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('./background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 
-  .log-in-form {
-    margin-top: 5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    -webkit-box-shadow: 0px 10px 67px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 67px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 67px -10px rgba(0, 0, 0, 0.75);
   }
 
   .top-inner {
@@ -52,29 +51,20 @@
     margin: 0;
   }
 
-  p {
-    margin: 0.8rem 0 0 0;
-    color: #fff;
-  }
-
-  .top-container {
+  .bottom {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-
-    height: 30%;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('./background.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    color: #fff;
+  }
 
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    -webkit-box-shadow: 0px 10px 67px -10px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 10px 67px -10px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 10px 67px -10px rgba(0, 0, 0, 0.75);
+  p {
+    margin-top: 1.5rem;
+  }
+
+  .close-text {
+    color: #868994;
+    cursor: pointer;
   }
 }

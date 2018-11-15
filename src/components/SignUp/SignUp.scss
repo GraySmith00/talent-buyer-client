@@ -19,16 +19,24 @@
     font-family: $primary-font;
   }
 
-
   .inner-modal {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    position: relative;
     height: 40rem;
     width: 30rem;
     background-color: #21222b;
     border-radius: 10px;
+  }
+
+  .fa-times-circle {
+    position: absolute;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #fff;
+    top: -10px;
+    right: -10px;
   }
 
   .top-container {
@@ -75,9 +83,10 @@
     align-items: center;
     width: 100%;
   }
-  
+
   .close-text {
-    color: #de0048;
+    margin-top: 1rem;
+    color: #868994;
     cursor: pointer;
   }
 }

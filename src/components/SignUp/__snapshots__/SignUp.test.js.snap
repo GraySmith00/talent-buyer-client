@@ -32,7 +32,13 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <Unknown>
+      "children": <div
+        className="inner-modal"
+>
+        <i
+                className="fas fa-times-circle"
+                onClick={[Function]}
+        />
         <div
                 className="top-container"
         >
@@ -102,19 +108,23 @@ ShallowWrapper {
                         className="close-text"
                         onClick={[Function]}
                 >
-                        x Cancel
+                        Already a member? Sign in
                 </p>
         </Unknown>
-</Unknown>,
+</div>,
       "className": "sign-up",
     },
     "ref": null,
     "rendered": Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "function",
+      "nodeType": "host",
       "props": Object {
         "children": Array [
+          <i
+            className="fas fa-times-circle"
+            onClick={[Function]}
+/>,
           <div
             className="top-container"
 >
@@ -184,13 +194,26 @@ ShallowWrapper {
                         className="close-text"
                         onClick={[Function]}
             >
-                        x Cancel
+                        Already a member? Sign in
             </p>
 </Unknown>,
         ],
+        "className": "inner-modal",
       },
       "ref": null,
       "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "fas fa-times-circle",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "i",
+        },
         Object {
           "instance": null,
           "key": undefined,
@@ -303,7 +326,7 @@ ShallowWrapper {
                 className="close-text"
                 onClick={[Function]}
 >
-                x Cancel
+                Already a member? Sign in
 </p>,
             ],
             "className": "sign-up-form",
@@ -606,12 +629,12 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "x Cancel",
+                "children": "Already a member? Sign in",
                 "className": "close-text",
                 "onClick": [Function],
               },
               "ref": null,
-              "rendered": "x Cancel",
+              "rendered": "Already a member? Sign in",
               "type": "p",
             },
           ],
@@ -640,32 +663,7 @@ ShallowWrapper {
           },
         },
       ],
-      "type": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": undefined,
-        "componentStyle": ComponentStyle {
-          "componentId": "sc-bxivhb",
-          "isStatic": true,
-          "rules": Array [
-            "
-display: flex;
-flex-direction: column;
-align-items: center;
-height: 40rem;
-width: 30rem;
-background-color: #21222b;
-border-radius: 10px;
-",
-          ],
-        },
-        "displayName": "styled.div",
-        "render": [Function],
-        "styledComponentId": "sc-bxivhb",
-        "target": "div",
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      },
+      "type": "div",
     },
     "type": "div",
   },
@@ -675,7 +673,13 @@ border-radius: 10px;
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <Unknown>
+        "children": <div
+          className="inner-modal"
+>
+          <i
+                    className="fas fa-times-circle"
+                    onClick={[Function]}
+          />
           <div
                     className="top-container"
           >
@@ -745,19 +749,23 @@ border-radius: 10px;
                               className="close-text"
                               onClick={[Function]}
                     >
-                              x Cancel
+                              Already a member? Sign in
                     </p>
           </Unknown>
-</Unknown>,
+</div>,
         "className": "sign-up",
       },
       "ref": null,
       "rendered": Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "function",
+        "nodeType": "host",
         "props": Object {
           "children": Array [
+            <i
+              className="fas fa-times-circle"
+              onClick={[Function]}
+/>,
             <div
               className="top-container"
 >
@@ -827,13 +835,26 @@ border-radius: 10px;
                             className="close-text"
                             onClick={[Function]}
               >
-                            x Cancel
+                            Already a member? Sign in
               </p>
 </Unknown>,
           ],
+          "className": "inner-modal",
         },
         "ref": null,
         "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "fas fa-times-circle",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "i",
+          },
           Object {
             "instance": null,
             "key": undefined,
@@ -946,7 +967,7 @@ border-radius: 10px;
                   className="close-text"
                   onClick={[Function]}
 >
-                  x Cancel
+                  Already a member? Sign in
 </p>,
               ],
               "className": "sign-up-form",
@@ -1249,12 +1270,12 @@ border-radius: 10px;
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "x Cancel",
+                  "children": "Already a member? Sign in",
                   "className": "close-text",
                   "onClick": [Function],
                 },
                 "ref": null,
-                "rendered": "x Cancel",
+                "rendered": "Already a member? Sign in",
                 "type": "p",
               },
             ],
@@ -1283,32 +1304,7 @@ border-radius: 10px;
             },
           },
         ],
-        "type": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": undefined,
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bxivhb",
-            "isStatic": true,
-            "rules": Array [
-              "
-display: flex;
-flex-direction: column;
-align-items: center;
-height: 40rem;
-width: 30rem;
-background-color: #21222b;
-border-radius: 10px;
-",
-            ],
-          },
-          "displayName": "styled.div",
-          "render": [Function],
-          "styledComponentId": "sc-bxivhb",
-          "target": "div",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        },
+        "type": "div",
       },
       "type": "div",
     },
