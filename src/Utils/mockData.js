@@ -774,3 +774,18 @@ export const mockLoginResponse = {
   status: 200,
   statusText: 'OK'
 };
+
+export const mockWatchlistPostResponse = {
+  data: {
+    message: 'Added Bag Raiders to favorites',
+    data: { id: 24, artist_id: 10, buyer_id: 3 }
+  },
+  status: 201,
+  statusText: 'Created'
+};
+
+export const mockWatchlistDeleteResponse = {
+  data: { message: 'Adam Beyer removed from favorites' },
+  status: 200,
+  statusText: 'OK'
+};
