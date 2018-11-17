@@ -757,3 +757,20 @@ export const mockSignUpState = {
 export const mockDate = new Date(2019, 11, 10);
 export const mockVenueName = 'Ogden';
 export const mockVenueCity = 'Denver';
+
+export const mockUserCreds = {
+  buyer: { email: 'bob@example.com', password: 'asdfasdf' }
+};
+
+export const mockLoginResponse = {
+  data: {
+    id: 3,
+    first_name: 'bob',
+    last_name: 'example',
+    email: 'bob@example.com',
+    created_at: '2018-11-01T04:14:33.862Z',
+    updated_at: '2018-11-01T04:14:33.862Z'
+  },
+  status: 200,
+  statusText: 'OK'
+};
