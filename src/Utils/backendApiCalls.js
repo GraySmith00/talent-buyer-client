@@ -32,13 +32,7 @@ export const getAllUserVenues = async userId => {
 
 export const artistPostRequest = async artist => {
   const url = `${process.env.REACT_APP_API}/api/v1/artists`;
-  await fetch(url, {
-    method: 'POST',
-    body: JSON.stringify(artist),
-    headers: {
-      'Content-Type': 'application/json'
-    }
-  });
+  await axios.post(url, artist);
 };
 
 export const addWmeArtistsToBackend = () => {

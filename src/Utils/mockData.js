@@ -757,3 +757,35 @@ export const mockSignUpState = {
 export const mockDate = new Date(2019, 11, 10);
 export const mockVenueName = 'Ogden';
 export const mockVenueCity = 'Denver';
+
+export const mockUserCreds = {
+  buyer: { email: 'bob@example.com', password: 'asdfasdf' }
+};
+
+export const mockLoginResponse = {
+  data: {
+    id: 3,
+    first_name: 'bob',
+    last_name: 'example',
+    email: 'bob@example.com',
+    created_at: '2018-11-01T04:14:33.862Z',
+    updated_at: '2018-11-01T04:14:33.862Z'
+  },
+  status: 200,
+  statusText: 'OK'
+};
+
+export const mockWatchlistPostResponse = {
+  data: {
+    message: 'Added Bag Raiders to favorites',
+    data: { id: 24, artist_id: 10, buyer_id: 3 }
+  },
+  status: 201,
+  statusText: 'Created'
+};
+
+export const mockWatchlistDeleteResponse = {
+  data: { message: 'Adam Beyer removed from favorites' },
+  status: 200,
+  statusText: 'OK'
+};
