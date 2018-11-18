@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import Nav from '../Nav/Nav';
@@ -9,6 +9,7 @@ import {
   getEventHistory
 } from '../../Utils/songKickApiCalls';
 import { Link } from 'react-router-dom';
+import LoadingSpinner from '../LoadingSpinner/LoadingSpinner';
 
 export class ArtistShow extends Component {
   state = {
@@ -105,71 +106,81 @@ export class ArtistShow extends Component {
       }
     }
 
+    let displayArtist;
+
+    if (!localEventHistory.events || !similarArtists.length || !genres.length) {
+      displayArtist = <LoadingSpinner />;
+    } else {
+      displayArtist = (
+        <Fragment>
+          <div className="portrait-wrap">
+            <div className="profile-frame">
+              <img
+                className="profile-image"
+                src={image_url}
+                alt="artist-profile"
+              />
+            </div>
+            <div className="stat-wrap">
+              <span className="name-wrap">
+                <h1 className="artist-name">{name}</h1>
+                <span className="button-wrap">
+                  <a href={spotify_url} target="_blank">
+                    <img
+                      className="spotify-icon button"
+                      src={require('./Spotify_Icon_RGB_White.png')}
+                      alt="spotify"
+                    />
+                  </a>
+                  <Link to={`/artists`}>
+                    <img
+                      className="back-button button"
+                      src={require('./back.svg')}
+                      alt="back"
+                    />
+                  </Link>
+                </span>
+              </span>
+              <span className="followers-wrap">
+                <h3>Spotify Followers:</h3>
+                <p className="followers">{spotify_followers}</p>
+              </span>
+              <span className="genre-wrap">
+                <h3 className="genres">Genres:</h3>
+                {displayGenres}
+              </span>
+            </div>
+          </div>
+          <p className="bio">{bio}</p>
+          <span className="similar-wrap">
+            <h3 className="similar-artists">Similar Artists:</h3>
+            {similarArtistDisplay}
+          </span>
+          <div className="past-events">
+            <div className="watchlist">
+              <h3>
+                Latest Appearances In
+                <span className="city-header">
+                  {localEventHistory.venueCity}
+                </span>
+              </h3>
+              <div className="recent-table-headings">
+                <h4 className="event-header">Date</h4>
+                <h4 className="event-header">Venue</h4>
+                <h4 className="event-header">Billing</h4>
+              </div>
+              <div className="event-container">{displayHistory}</div>
+            </div>
+          </div>
+        </Fragment>
+      );
+    }
+
     return (
       <div className="artist-show">
         <Nav />
         <div className="main-content-frame">
-          <div className="main-content">
-            <div className="portrait-wrap">
-              <div className="profile-frame">
-                <img
-                  className="profile-image"
-                  src={image_url}
-                  alt="artist-profile"
-                />
-              </div>
-              <div className="stat-wrap">
-                <span className="name-wrap">
-                  <h1 className="artist-name">{name}</h1>
-                  <span className="button-wrap">
-                    <a href={spotify_url} target="_blank">
-                      <img
-                        className="spotify-icon button"
-                        src={require('./Spotify_Icon_RGB_White.png')}
-                        alt="spotify"
-                      />
-                    </a>
-                    <Link to={`/artists`}>
-                      <img
-                        className="back-button button"
-                        src={require('./back.svg')}
-                        alt="back"
-                      />
-                    </Link>
-                  </span>
-                </span>
-                <span className="followers-wrap">
-                  <h3>Spotify Followers:</h3>
-                  <p className="followers">{spotify_followers}</p>
-                </span>
-                <span className="genre-wrap">
-                  <h3 className="genres">Genres:</h3>
-                  {displayGenres}
-                </span>
-              </div>
-            </div>
-            <p className="bio">{bio}</p>
-            <span className="similar-wrap">
-              <h3 className="similar-artists">Similar Artists:</h3>
-              {similarArtistDisplay}
-            </span>
-            <div className="past-events">
-              <div className="watchlist">
-                <h3>
-                  Latest Appearances In
-                  <span className="city-header">
-                    {localEventHistory.venueCity}
-                  </span>
-                </h3>
-                <div className="recent-table-headings">
-                  <h4 className="event-header">Date</h4>
-                  <h4 className="event-header">Venue</h4>
-                  <h4 className="event-header">Billing</h4>
-                </div>
-                <div className="event-container">{displayHistory}</div>
-              </div>
-            </div>
-          </div>
+          <div className="main-content">{displayArtist}</div>
         </div>
       </div>
     );
