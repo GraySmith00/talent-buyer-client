@@ -1,27 +1,30 @@
 import axios from 'axios';
 
 export const getMatchingVenue = async (venueName, city) => {
-  const url = `https://api.songkick.com/api/3.0/search/venues.json?apikey=${
-    process.env.REACT_APP_SONGKICK_KEY
-  }&query=${venueName}%20${city}`;
+  try {
+    const url = `https://api.songkick.com/api/3.0/search/venues.json?apikey=${
+      process.env.REACT_APP_SONGKICK_KEY
+    }&query=${venueName}%20${city}`;
 
-  const response = await axios.get(url);
-  const { data } = response;
+    const response = await axios.get(url);
+    const { data } = response;
 
-  if (!data.resultsPage.results.venue) {
-    return `Sorry no venue was found with the name ${venueName} in ${city}`;
+    const result = data.resultsPage.results.venue[0];
+    const venue = {
+      street_address: result.street,
+      city: result.city.displayName,
+      state: result.city.state.displayName,
+      name: result.displayName,
+      zip: parseInt(result.zip, 10),
+      capacity: result.capacity,
+      venue_songkick_id: result.id
+    };
+    return venue;
+  } catch (error) {
+    throw new Error(
+      `Sorry no venue was found with the name ${venueName} in ${city}`
+    );
   }
-  const result = data.resultsPage.results.venue[0];
-  const venue = {
-    street_address: result.street,
-    city: result.city.displayName,
-    state: result.city.state.displayName,
-    name: result.displayName,
-    zip: parseInt(result.zip, 10),
-    capacity: result.capacity,
-    venue_songkick_id: result.id
-  };
-  return venue;
 };
 
 export const getArtistInfo = async (artistName, agency) => {
