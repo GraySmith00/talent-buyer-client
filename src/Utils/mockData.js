@@ -721,6 +721,82 @@ export const mockUser = {
   isAuthenticated: true
 };
 
+export const mockMatchingVenueResponse = {
+  data: {
+    resultsPage: {
+      status: 'ok',
+      results: {
+        venue: [
+          {
+            metroArea: {
+              uri:
+                'http://www.songkick.com/metro_areas/6853-us-st-louis?utm_source=49792&utm_medium=partner',
+              id: 6853,
+              state: { displayName: 'MO' },
+              country: { displayName: 'US' },
+              displayName: 'St Louis'
+            },
+            website: 'http://oldrockhouse.com/',
+            city: {
+              uri:
+                'http://www.songkick.com/metro_areas/6853-us-st-louis?utm_source=49792&utm_medium=partner',
+              id: 6853,
+              state: { displayName: 'MO' },
+              country: { displayName: 'US' },
+              displayName: 'St Louis'
+            },
+            phone: '(314) 588-0505',
+            zip: '63104',
+            description: '',
+            lat: 38.615345,
+            capacity: 400,
+            lng: -90.196469,
+            uri:
+              'http://www.songkick.com/venues/18380-old-rock-house?utm_source=49792&utm_medium=partner',
+            id: 18380,
+            street: '1200 S. 7th Street',
+            displayName: 'Old Rock House'
+          },
+          {
+            displayName: '2720 Cherokee & Old Rock House',
+            zip: '63118',
+            description: '',
+            city: {
+              displayName: 'St Louis',
+              uri:
+                'http://www.songkick.com/metro_areas/6853-us-st-louis?utm_source=49792&utm_medium=partner',
+              id: 6853,
+              state: { displayName: 'MO' },
+              country: { displayName: 'US' }
+            },
+            metroArea: {
+              displayName: 'St Louis',
+              uri:
+                'http://www.songkick.com/metro_areas/6853-us-st-louis?utm_source=49792&utm_medium=partner',
+              id: 6853,
+              state: { displayName: 'MO' },
+              country: { displayName: 'US' }
+            },
+            website: null,
+            street: '',
+            lat: 38.5950619,
+            phone: null,
+            capacity: null,
+            uri:
+              'http://www.songkick.com/venues/2781088-2720-cherokee-and-old-rock-house?utm_source=49792&utm_medium=partner',
+            lng: -90.2291565,
+            id: 2781088
+          }
+        ]
+      },
+      perPage: 50,
+      page: 1,
+      totalEntries: 2
+    }
+  },
+  status: 200
+};
+
 export const mockVenue = {
   id: 1,
   name: 'Ogden Theatre',
