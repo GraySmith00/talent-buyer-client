@@ -70,26 +70,6 @@ export const getSpotifyInfo = async artistName => {
   }
 };
 
-//retrieve artist details from lastfm
-export const getArtistDetails = async artistName => {
-  const name = await formatName(artistName);
-  const url = `http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=${name}&api_key=${
-    process.env.REACT_APP_LASTFM_API
-  }&format=json`;
-  const response = await fetch(url);
-  const data = await response.json();
-  return data;
-};
-
-//format name to account for spaces
-export const formatName = name => {
-  const split = name.split('');
-  const newName = split.map(character => {
-    return character.replace(' ', '+');
-  });
-  return newName.join('');
-};
-
 //fetch concerts at current venue by artist
 export const getEventHistory = async (artistId, venue, name) => {
   const url = `https://api.songkick.com/api/3.0/artists/${artistId}/gigography.json?apikey=${
