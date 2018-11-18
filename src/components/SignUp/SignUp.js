@@ -17,8 +17,11 @@ export class SignUp extends Component {
     password: '',
     venueName: '',
     venueCity: '',
-    venueError: '',
-    userError: ''
+    venueError: null,
+    userErrors: {
+      email: null,
+      password: null
+    }
   };
 
   handleChange = e => {
@@ -64,12 +67,18 @@ export class SignUp extends Component {
       };
       return await registerUser(user);
     } catch (error) {
-      this.setState({ userError: error.message });
+      this.setState({
+        userErrors: {
+          ...this.state.userErrors,
+          ...error.response.data.errors[0].detail
+        }
+      });
     }
   };
 
   render() {
     const { closeSignUpModal } = this.props;
+    const { userErrors, venueError } = this.state;
     return (
       <div className="sign-up">
         <div className="inner-modal">
@@ -102,6 +111,11 @@ export class SignUp extends Component {
               placeholder="email"
               onChange={this.handleChange}
             />
+            {userErrors.email && (
+              <p style={{ fontSize: '0.8rem', color: 'crimson', width: '80%' }}>
+                Email {userErrors.email[0]}
+              </p>
+            )}
             <InputField
               type="password"
               name="password"
@@ -109,6 +123,11 @@ export class SignUp extends Component {
               placeholder="password"
               onChange={this.handleChange}
             />
+            {userErrors.password && (
+              <p style={{ fontSize: '0.8rem', color: 'crimson', width: '80%' }}>
+                Password {userErrors.password[0]}
+              </p>
+            )}
             <InputField
               type="text"
               name="venueName"
@@ -123,6 +142,11 @@ export class SignUp extends Component {
               placeholder="Venue City"
               onChange={this.handleChange}
             />
+            {venueError && (
+              <p style={{ fontSize: '0.8rem', color: 'crimson', width: '80%' }}>
+                {venueError}
+              </p>
+            )}
             <ModalButton>Sign Up</ModalButton>
             <p onClick={this.toggleModal} className="close-text">
               Already a member? Sign in

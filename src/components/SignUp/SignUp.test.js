@@ -9,7 +9,6 @@ import { SignUp } from './SignUp';
 jest.mock('../../actions/venueActions');
 jest.mock('../../actions/userActions');
 
-
 describe('SignUp component', () => {
   let wrapper;
   let mockCloseSignUpModal;
@@ -40,8 +39,11 @@ describe('SignUp component', () => {
       password: '',
       venueName: '',
       venueCity: '',
-      venueError: '',
-      userError: ''
+      venueError: null,
+      userErrors: {
+        email: null,
+        password: null
+      }
     };
 
     expect(wrapper.state()).toEqual(expected);
