@@ -13,8 +13,8 @@ export class RecentOffers extends Component {
       displayOffers = <p>Loading...</p>;
     } else {
       displayOffers = [...offers]
-        .slice(0, 5)
         .reverse()
+        .slice(0, 5)
         .map(offer => (
           <div className="table-row" key={offer.id}>
             <h3>{offer.date}</h3>
@@ -24,7 +24,7 @@ export class RecentOffers extends Component {
               className="view-offer-button"
               onClick={() => openEditOfferModal(offer.id)}
             >
-              View Offer
+              Edit Offer
             </button>
           </div>
         ));
