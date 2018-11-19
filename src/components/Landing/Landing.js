@@ -71,7 +71,7 @@ class Landing extends Component {
           <img src={dashImage} alt="dashboard" style={{ height: '250px' }} />
         </section>
         <section className="market-browse">
-          <img src={dashImage} alt="dashboard" style={{ height: '250px' }} />
+          <img src={dashImage} alt="dashboard" style={{ height: '320px' }} />
           <div className="market-dash-text">
             <h2 className="section-title">
               Organize all your shows in the dashboard.

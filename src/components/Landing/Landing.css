@@ -50,3 +50,14 @@
     -webkit-box-shadow: 8px 10px 76px -14px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 8px 10px 76px -14px rgba(0, 0, 0, 0.75);
     box-shadow: 8px 10px 76px -14px rgba(0, 0, 0, 0.75); }
+  .landing .market-browse {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    grid-gap: 3rem;
+    padding: 7rem;
+    color: #000;
+    background-color: #ced1dc; }
+    .landing .market-browse img {
+      -webkit-box-shadow: 8px 10px 76px -14px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 8px 10px 76px -14px rgba(0, 0, 0, 0.75);
+      box-shadow: 8px 10px 76px -14px rgba(0, 0, 0, 0.75); }
