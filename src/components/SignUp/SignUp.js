@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { registerUser } from '../../actions/userActions';
-import { setNewVenue } from '../../actions/venueActions';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
+
 import './SignUp.css';
+
+import { registerUser } from '../../actions/userActions';
+import { setNewVenue } from '../../actions/venueActions';
 import InputField from '../styledComponents/InputField';
 import ModalButton from '../styledComponents/ModalButton';
-import ModalForm from '../styledComponents/ModalForm';
+import InnerModal from '../styledComponents/InnerModal';
+import SoftText from '../styledComponents/SoftText';
 
 export class SignUp extends Component {
   state = {
@@ -81,7 +84,7 @@ export class SignUp extends Component {
     const { userErrors, venueError } = this.state;
     return (
       <div className="sign-up">
-        <div className="inner-modal">
+        <InnerModal>
           <i className="fas fa-times-circle" onClick={closeSignUpModal} />
           <div className="top-container">
             <div className="top-inner">
@@ -89,7 +92,7 @@ export class SignUp extends Component {
             </div>
           </div>
           <p>Sign Up With Email</p>
-          <ModalForm className="sign-up-form" onSubmit={this.handleSubmit}>
+          <form className="sign-up-form" onSubmit={this.handleSubmit}>
             <InputField
               type="text"
               name="firstName"
@@ -148,11 +151,11 @@ export class SignUp extends Component {
               </p>
             )}
             <ModalButton>Sign Up</ModalButton>
-            <p onClick={this.toggleModal} className="close-text">
-              Already a member? Sign in
-            </p>
-          </ModalForm>
-        </div>
+          </form>
+          <SoftText onClick={this.toggleModal}>
+            Already a member? Sign in
+          </SoftText>
+        </InnerModal>
       </div>
     );
   }

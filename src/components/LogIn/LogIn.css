@@ -1,7 +1,6 @@
 .log-in {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   height: 100%;
   width: 100%;
@@ -9,7 +8,8 @@
   top: 0;
   left: 0;
   z-index: 99;
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff; }
   .log-in .fa-times-circle {
     position: absolute;
     font-size: 1.5rem;
@@ -33,13 +33,18 @@
     -webkit-box-shadow: 0px 10px 67px -10px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 10px 67px -10px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 10px 67px -10px rgba(0, 0, 0, 0.75); }
+  .log-in .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; }
   .log-in .top-inner {
     width: 80%;
     color: #fff;
     font-size: 2.5rem; }
   .log-in .top-inner h3 {
     margin: 0; }
-  .log-in .bottom {
+  .log-in .login-form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,6 +52,3 @@
     color: #fff; }
   .log-in p {
     margin-top: 1.5rem; }
-  .log-in .close-text {
-    color: #868994;
-    cursor: pointer; }

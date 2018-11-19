@@ -32,10 +32,6 @@ class Landing extends Component {
 
     return (
       <div className="landing">
-        <div className="hero">
-          <h1>Talent Buyer</h1>
-        </div>
-
         {signUpModalOpen && (
           <SignUp
             closeSignUpModal={this.closeSignUpModal}
@@ -48,11 +44,19 @@ class Landing extends Component {
             openSignUpModal={this.openSignUpModal}
           />
         )}
-
-        <Splash
-          openLogInModal={this.openLogInModal}
-          openSignUpModal={this.openSignUpModal}
-        />
+        <section className="hero">
+          <h1>Talent Buyer</h1>
+          <Splash
+            openLogInModal={this.openLogInModal}
+            openSignUpModal={this.openSignUpModal}
+          />
+          <section className="divider">
+            <div className="divider-line" />
+            <i className="fas fa-angle-down" />
+            <div className="divider-line" />
+          </section>
+        </section>
+        <section className="market-dashboard" />
       </div>
     );
   }

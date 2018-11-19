@@ -1,20 +1,16 @@
 .landing {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  height: 100%;
   width: 100%;
   position: relative;
-
   background-color: #131621;
 
   .hero {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 
-    height: 60%;
     width: 100%;
+
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url('./savoy_ogden_optimized.jpg');
     background-size: cover;
@@ -28,5 +24,28 @@
     margin-top: 7rem;
     color: #fff;
     font-family: 'Courgette', cursive;
+  }
+
+  .divider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 1rem;
+
+    width: 90%;
+    font-size: 1.7rem;
+    color: #fff;
+  }
+
+  .divider-line {
+    height: 2px;
+    background-color: #fff;
+    width: 45%;
+  }
+
+  .market-dashboard {
+    height: 800px;
+    background-color: #131620;
   }
 }

@@ -9,28 +9,19 @@ export class Splash extends Component {
   render() {
     return (
       <div className="splash">
-        <div className="button-container">
-          <p>
-            Talent Buyer is the fastest and easist way for music talent buyers
-            to browse artists and filter by agency, popularity, and genre.
-            Artists can be saved to a watchlist for quick reference later.
-            Buyers can easily build, edit, and download offers and keep track of
-            the calendar for their venues.
-          </p>
-
-          <ModalButton
-            className="half-button"
-            onClick={this.props.openSignUpModal}
-          >
+        <p>
+          Talent Buyer is the fastest and easist way for music talent buyers to
+          browse artists and filter by agency, popularity, and genre. Artists
+          can be saved to a watchlist for quick reference later. Buyers can
+          easily build, edit, and download offers and keep track of the calendar
+          for their venues.
+        </p>
+        <section className="buttons">
+          <ModalButton onClick={this.props.openSignUpModal}>
             Sign Up
           </ModalButton>
-          <ModalButton
-            className="half-button"
-            onClick={this.props.openLogInModal}
-          >
-            Log In
-          </ModalButton>
-        </div>
+          <ModalButton onClick={this.props.openLogInModal}>Log In</ModalButton>
+        </section>
       </div>
     );
   }

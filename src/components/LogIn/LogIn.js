@@ -10,9 +10,9 @@ import { populateUserWatchlist } from '../../actions/watchlistActions';
 
 import ModalButton from '../styledComponents/ModalButton';
 import InputField from '../styledComponents/InputField';
-import ModalForm from '../styledComponents/ModalForm';
 import InnerModal from '../styledComponents/InnerModal';
 import './LogIn.css';
+import SoftText from '../styledComponents/SoftText';
 
 export class LogIn extends Component {
   state = {
@@ -53,36 +53,36 @@ export class LogIn extends Component {
     const { closeLogInModal } = this.props;
     return (
       <div className="log-in">
-        <InnerModal className="login-modal">
+        <InnerModal>
           <i className="fas fa-times-circle" onClick={closeLogInModal} />
           <div className="top-container">
             <div className="top-inner">
               <h3 className="header-text">Welcome to Talent Buyer!</h3>
             </div>
           </div>
-          <div className="bottom">
-            <p className="login-copy">Log In With Email</p>
-            <ModalForm className="login-form" onSubmit={this.handleSubmit}>
-              <InputField
-                type="email"
-                name="email"
-                value={this.state.email}
-                placeholder="email"
-                onChange={this.handleChange}
-              />
-              <InputField
-                type="password"
-                name="password"
-                value={this.state.password}
-                placeholder="password"
-                onChange={this.handleChange}
-              />
-              <ModalButton>Submit</ModalButton>
-            </ModalForm>
-            <p onClick={this.toggleModal} className="close-text">
-              Not a member? Sign up now
-            </p>
-          </div>
+
+          <p>Log In With Email</p>
+          <form className="login-form" onSubmit={this.handleSubmit}>
+            <InputField
+              type="email"
+              name="email"
+              value={this.state.email}
+              placeholder="email"
+              onChange={this.handleChange}
+            />
+            <InputField
+              type="password"
+              name="password"
+              value={this.state.password}
+              placeholder="password"
+              onChange={this.handleChange}
+            />
+            <ModalButton>Submit</ModalButton>
+          </form>
+
+          <SoftText onClick={this.toggleModal}>
+            Not a member? Sign up now
+          </SoftText>
         </InnerModal>
       </div>
     );
