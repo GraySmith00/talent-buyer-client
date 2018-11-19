@@ -4,21 +4,21 @@ exports[`SignUp component should match the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <SignUp
-    closeSignUpModal={[Function]}
+    closeSignUpModal={[MockFunction]}
     history={
-        Object {
-            "action": "PUSH",
-            "length": 50,
-            "location": Object {
-              "hash": "",
-              "key": "hvocjm",
-              "pathname": "/home",
-              "search": "",
-            },
-          }
+      Object {
+        "action": "PUSH",
+        "length": 50,
+        "location": Object {
+          "hash": "",
+          "key": "hvocjm",
+          "pathname": "/home",
+          "search": "",
+        },
+      }
     }
-    registerUser={[Function]}
-/>,
+    registerUser={[MockFunction]}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -32,83 +32,83 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <Unknown>
+      "children": <ForwardRef>
         <i
-                className="fas fa-times-circle"
-                onClick={[Function]}
+          className="fas fa-times-circle"
+          onClick={[MockFunction]}
         />
         <div
-                className="top-container"
+          className="top-container"
         >
-                <div
-                        className="top-inner"
-                >
-                        <h3
-                                className="header-text"
-                        >
-                                Welcome to Talent Buyer!
-                        </h3>
-                </div>
+          <div
+            className="top-inner"
+          >
+            <h3
+              className="header-text"
+            >
+              Welcome to Talent Buyer!
+            </h3>
+          </div>
         </div>
         <p>
-                Sign Up With Email
+          Sign Up With Email
         </p>
         <form
-                className="sign-up-form"
-                onSubmit={[Function]}
+          className="sign-up-form"
+          onSubmit={[Function]}
         >
-                <Unknown
-                        name="firstName"
-                        onChange={[Function]}
-                        placeholder="first name"
-                        type="text"
-                        value=""
-                />
-                <Unknown
-                        name="lastName"
-                        onChange={[Function]}
-                        placeholder="last name"
-                        type="text"
-                        value=""
-                />
-                <Unknown
-                        name="email"
-                        onChange={[Function]}
-                        placeholder="email"
-                        type="email"
-                        value=""
-                />
-                <Unknown
-                        name="password"
-                        onChange={[Function]}
-                        placeholder="password"
-                        type="password"
-                        value=""
-                />
-                <Unknown
-                        name="venueName"
-                        onChange={[Function]}
-                        placeholder="Venue Name"
-                        type="text"
-                        value=""
-                />
-                <Unknown
-                        name="venueCity"
-                        onChange={[Function]}
-                        placeholder="Venue City"
-                        type="text"
-                        value=""
-                />
-                <Unknown>
-                        Sign Up
-                </Unknown>
+          <ForwardRef
+            name="firstName"
+            onChange={[Function]}
+            placeholder="first name"
+            type="text"
+            value=""
+          />
+          <ForwardRef
+            name="lastName"
+            onChange={[Function]}
+            placeholder="last name"
+            type="text"
+            value=""
+          />
+          <ForwardRef
+            name="email"
+            onChange={[Function]}
+            placeholder="email"
+            type="email"
+            value=""
+          />
+          <ForwardRef
+            name="password"
+            onChange={[Function]}
+            placeholder="password"
+            type="password"
+            value=""
+          />
+          <ForwardRef
+            name="venueName"
+            onChange={[Function]}
+            placeholder="Venue Name"
+            type="text"
+            value=""
+          />
+          <ForwardRef
+            name="venueCity"
+            onChange={[Function]}
+            placeholder="Venue City"
+            type="text"
+            value=""
+          />
+          <ForwardRef>
+            Sign Up
+          </ForwardRef>
         </form>
-        <Unknown
-                onClick={[Function]}
+        <ForwardRef
+          onClick={[Function]}
         >
-                Already a member? Sign in
-        </Unknown>
-</Unknown>,
+          Already a member? Sign in
+        </ForwardRef>
+      </ForwardRef>,
       "className": "sign-up",
     },
     "ref": null,
@@ -120,79 +120,79 @@ ShallowWrapper {
         "children": Array [
           <i
             className="fas fa-times-circle"
-            onClick={[Function]}
-/>,
+            onClick={[MockFunction]}
+          />,
           <div
             className="top-container"
->
+          >
             <div
-                        className="top-inner"
+              className="top-inner"
             >
-                        <h3
-                                    className="header-text"
-                        >
-                                    Welcome to Talent Buyer!
-                        </h3>
+              <h3
+                className="header-text"
+              >
+                Welcome to Talent Buyer!
+              </h3>
             </div>
-</div>,
+          </div>,
           <p>
             Sign Up With Email
-</p>,
+          </p>,
           <form
             className="sign-up-form"
             onSubmit={[Function]}
->
-            <Unknown
-                        name="firstName"
-                        onChange={[Function]}
-                        placeholder="first name"
-                        type="text"
-                        value=""
+          >
+            <ForwardRef
+              name="firstName"
+              onChange={[Function]}
+              placeholder="first name"
+              type="text"
+              value=""
             />
-            <Unknown
-                        name="lastName"
-                        onChange={[Function]}
-                        placeholder="last name"
-                        type="text"
-                        value=""
+            <ForwardRef
+              name="lastName"
+              onChange={[Function]}
+              placeholder="last name"
+              type="text"
+              value=""
             />
-            <Unknown
-                        name="email"
-                        onChange={[Function]}
-                        placeholder="email"
-                        type="email"
-                        value=""
+            <ForwardRef
+              name="email"
+              onChange={[Function]}
+              placeholder="email"
+              type="email"
+              value=""
             />
-            <Unknown
-                        name="password"
-                        onChange={[Function]}
-                        placeholder="password"
-                        type="password"
-                        value=""
+            <ForwardRef
+              name="password"
+              onChange={[Function]}
+              placeholder="password"
+              type="password"
+              value=""
             />
-            <Unknown
-                        name="venueName"
-                        onChange={[Function]}
-                        placeholder="Venue Name"
-                        type="text"
-                        value=""
+            <ForwardRef
+              name="venueName"
+              onChange={[Function]}
+              placeholder="Venue Name"
+              type="text"
+              value=""
             />
-            <Unknown
-                        name="venueCity"
-                        onChange={[Function]}
-                        placeholder="Venue City"
-                        type="text"
-                        value=""
+            <ForwardRef
+              name="venueCity"
+              onChange={[Function]}
+              placeholder="Venue City"
+              type="text"
+              value=""
             />
-            <Unknown>
-                        Sign Up
-            </Unknown>
-</form>,
-          <Unknown
+            <ForwardRef>
+              Sign Up
+            </ForwardRef>
+          </form>,
+          <ForwardRef
             onClick={[Function]}
->
+          >
             Already a member? Sign in
-</Unknown>,
+          </ForwardRef>,
         ],
       },
       "ref": null,
@@ -203,7 +203,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "className": "fas fa-times-circle",
-            "onClick": [Function],
+            "onClick": [MockFunction],
           },
           "ref": null,
           "rendered": null,
@@ -216,13 +216,13 @@ ShallowWrapper {
           "props": Object {
             "children": <div
               className="top-inner"
->
+            >
               <h3
-                            className="header-text"
+                className="header-text"
               >
-                            Welcome to Talent Buyer!
+                Welcome to Talent Buyer!
               </h3>
-</div>,
+            </div>,
             "className": "top-container",
           },
           "ref": null,
@@ -233,9 +233,9 @@ ShallowWrapper {
             "props": Object {
               "children": <h3
                 className="header-text"
->
+              >
                 Welcome to Talent Buyer!
-</h3>,
+              </h3>,
               "className": "top-inner",
             },
             "ref": null,
@@ -272,54 +272,54 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <Unknown
+              <ForwardRef
                 name="firstName"
                 onChange={[Function]}
                 placeholder="first name"
                 type="text"
                 value=""
-/>,
-              <Unknown
+              />,
+              <ForwardRef
                 name="lastName"
                 onChange={[Function]}
                 placeholder="last name"
                 type="text"
                 value=""
-/>,
-              <Unknown
+              />,
+              <ForwardRef
                 name="email"
                 onChange={[Function]}
                 placeholder="email"
                 type="email"
                 value=""
-/>,
+              />,
               null,
-              <Unknown
+              <ForwardRef
                 name="password"
                 onChange={[Function]}
                 placeholder="password"
                 type="password"
                 value=""
-/>,
+              />,
               null,
-              <Unknown
+              <ForwardRef
                 name="venueName"
                 onChange={[Function]}
                 placeholder="Venue Name"
                 type="text"
                 value=""
-/>,
-              <Unknown
+              />,
+              <ForwardRef
                 name="venueCity"
                 onChange={[Function]}
                 placeholder="Venue City"
                 type="text"
                 value=""
-/>,
+              />,
               null,
-              <Unknown>
+              <ForwardRef>
                 Sign Up
-</Unknown>,
+              </ForwardRef>,
             ],
             "className": "sign-up-form",
             "onSubmit": [Function],
@@ -695,83 +695,83 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <Unknown>
+        "children": <ForwardRef>
           <i
-                    className="fas fa-times-circle"
-                    onClick={[Function]}
+            className="fas fa-times-circle"
+            onClick={[MockFunction]}
           />
           <div
-                    className="top-container"
+            className="top-container"
           >
-                    <div
-                              className="top-inner"
-                    >
-                              <h3
-                                        className="header-text"
-                              >
-                                        Welcome to Talent Buyer!
-                              </h3>
-                    </div>
+            <div
+              className="top-inner"
+            >
+              <h3
+                className="header-text"
+              >
+                Welcome to Talent Buyer!
+              </h3>
+            </div>
           </div>
           <p>
-                    Sign Up With Email
+            Sign Up With Email
           </p>
           <form
-                    className="sign-up-form"
-                    onSubmit={[Function]}
+            className="sign-up-form"
+            onSubmit={[Function]}
           >
-                    <Unknown
-                              name="firstName"
-                              onChange={[Function]}
-                              placeholder="first name"
-                              type="text"
-                              value=""
-                    />
-                    <Unknown
-                              name="lastName"
-                              onChange={[Function]}
-                              placeholder="last name"
-                              type="text"
-                              value=""
-                    />
-                    <Unknown
-                              name="email"
-                              onChange={[Function]}
-                              placeholder="email"
-                              type="email"
-                              value=""
-                    />
-                    <Unknown
-                              name="password"
-                              onChange={[Function]}
-                              placeholder="password"
-                              type="password"
-                              value=""
-                    />
-                    <Unknown
-                              name="venueName"
-                              onChange={[Function]}
-                              placeholder="Venue Name"
-                              type="text"
-                              value=""
-                    />
-                    <Unknown
-                              name="venueCity"
-                              onChange={[Function]}
-                              placeholder="Venue City"
-                              type="text"
-                              value=""
-                    />
-                    <Unknown>
-                              Sign Up
-                    </Unknown>
+            <ForwardRef
+              name="firstName"
+              onChange={[Function]}
+              placeholder="first name"
+              type="text"
+              value=""
+            />
+            <ForwardRef
+              name="lastName"
+              onChange={[Function]}
+              placeholder="last name"
+              type="text"
+              value=""
+            />
+            <ForwardRef
+              name="email"
+              onChange={[Function]}
+              placeholder="email"
+              type="email"
+              value=""
+            />
+            <ForwardRef
+              name="password"
+              onChange={[Function]}
+              placeholder="password"
+              type="password"
+              value=""
+            />
+            <ForwardRef
+              name="venueName"
+              onChange={[Function]}
+              placeholder="Venue Name"
+              type="text"
+              value=""
+            />
+            <ForwardRef
+              name="venueCity"
+              onChange={[Function]}
+              placeholder="Venue City"
+              type="text"
+              value=""
+            />
+            <ForwardRef>
+              Sign Up
+            </ForwardRef>
           </form>
-          <Unknown
-                    onClick={[Function]}
+          <ForwardRef
+            onClick={[Function]}
           >
-                    Already a member? Sign in
-          </Unknown>
-</Unknown>,
+            Already a member? Sign in
+          </ForwardRef>
+        </ForwardRef>,
         "className": "sign-up",
       },
       "ref": null,
@@ -783,79 +783,79 @@ ShallowWrapper {
           "children": Array [
             <i
               className="fas fa-times-circle"
-              onClick={[Function]}
-/>,
+              onClick={[MockFunction]}
+            />,
             <div
               className="top-container"
->
+            >
               <div
-                            className="top-inner"
+                className="top-inner"
               >
-                            <h3
-                                          className="header-text"
-                            >
-                                          Welcome to Talent Buyer!
-                            </h3>
+                <h3
+                  className="header-text"
+                >
+                  Welcome to Talent Buyer!
+                </h3>
               </div>
-</div>,
+            </div>,
             <p>
               Sign Up With Email
-</p>,
+            </p>,
             <form
               className="sign-up-form"
               onSubmit={[Function]}
->
-              <Unknown
-                            name="firstName"
-                            onChange={[Function]}
-                            placeholder="first name"
-                            type="text"
-                            value=""
+            >
+              <ForwardRef
+                name="firstName"
+                onChange={[Function]}
+                placeholder="first name"
+                type="text"
+                value=""
               />
-              <Unknown
-                            name="lastName"
-                            onChange={[Function]}
-                            placeholder="last name"
-                            type="text"
-                            value=""
+              <ForwardRef
+                name="lastName"
+                onChange={[Function]}
+                placeholder="last name"
+                type="text"
+                value=""
               />
-              <Unknown
-                            name="email"
-                            onChange={[Function]}
-                            placeholder="email"
-                            type="email"
-                            value=""
+              <ForwardRef
+                name="email"
+                onChange={[Function]}
+                placeholder="email"
+                type="email"
+                value=""
               />
-              <Unknown
-                            name="password"
-                            onChange={[Function]}
-                            placeholder="password"
-                            type="password"
-                            value=""
+              <ForwardRef
+                name="password"
+                onChange={[Function]}
+                placeholder="password"
+                type="password"
+                value=""
               />
-              <Unknown
-                            name="venueName"
-                            onChange={[Function]}
-                            placeholder="Venue Name"
-                            type="text"
-                            value=""
+              <ForwardRef
+                name="venueName"
+                onChange={[Function]}
+                placeholder="Venue Name"
+                type="text"
+                value=""
               />
-              <Unknown
-                            name="venueCity"
-                            onChange={[Function]}
-                            placeholder="Venue City"
-                            type="text"
-                            value=""
+              <ForwardRef
+                name="venueCity"
+                onChange={[Function]}
+                placeholder="Venue City"
+                type="text"
+                value=""
               />
-              <Unknown>
-                            Sign Up
-              </Unknown>
-</form>,
-            <Unknown
+              <ForwardRef>
+                Sign Up
+              </ForwardRef>
+            </form>,
+            <ForwardRef
               onClick={[Function]}
->
+            >
               Already a member? Sign in
-</Unknown>,
+            </ForwardRef>,
           ],
         },
         "ref": null,
@@ -866,7 +866,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "className": "fas fa-times-circle",
-              "onClick": [Function],
+              "onClick": [MockFunction],
             },
             "ref": null,
             "rendered": null,
@@ -879,13 +879,13 @@ ShallowWrapper {
             "props": Object {
               "children": <div
                 className="top-inner"
->
+              >
                 <h3
-                                className="header-text"
+                  className="header-text"
                 >
-                                Welcome to Talent Buyer!
+                  Welcome to Talent Buyer!
                 </h3>
-</div>,
+              </div>,
               "className": "top-container",
             },
             "ref": null,
@@ -896,9 +896,9 @@ ShallowWrapper {
               "props": Object {
                 "children": <h3
                   className="header-text"
->
+                >
                   Welcome to Talent Buyer!
-</h3>,
+                </h3>,
                 "className": "top-inner",
               },
               "ref": null,
@@ -935,54 +935,54 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <Unknown
+                <ForwardRef
                   name="firstName"
                   onChange={[Function]}
                   placeholder="first name"
                   type="text"
                   value=""
-/>,
-                <Unknown
+                />,
+                <ForwardRef
                   name="lastName"
                   onChange={[Function]}
                   placeholder="last name"
                   type="text"
                   value=""
-/>,
-                <Unknown
+                />,
+                <ForwardRef
                   name="email"
                   onChange={[Function]}
                   placeholder="email"
                   type="email"
                   value=""
-/>,
+                />,
                 null,
-                <Unknown
+                <ForwardRef
                   name="password"
                   onChange={[Function]}
                   placeholder="password"
                   type="password"
                   value=""
-/>,
+                />,
                 null,
-                <Unknown
+                <ForwardRef
                   name="venueName"
                   onChange={[Function]}
                   placeholder="Venue Name"
                   type="text"
                   value=""
-/>,
-                <Unknown
+                />,
+                <ForwardRef
                   name="venueCity"
                   onChange={[Function]}
                   placeholder="Venue City"
                   type="text"
                   value=""
-/>,
+                />,
                 null,
-                <Unknown>
+                <ForwardRef>
                   Sign Up
-</Unknown>,
+                </ForwardRef>,
               ],
               "className": "sign-up-form",
               "onSubmit": [Function],

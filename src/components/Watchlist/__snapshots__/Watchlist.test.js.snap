@@ -5,43 +5,43 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Watchlist
     watchlist={
-        Array [
-            Object {
-              "agency": "WME",
-              "id": 4,
-              "image_url": "https://i.scdn.co/image/021f014a6809e5b7f1ef1c18bf247fd9ccacb193",
-              "name": "Alesso",
-              "popularity": 81,
-              "songkick_id": 4329851,
-              "spotify_followers": 2296228,
-              "spotify_id": "4AVFqumd2ogHFlRbKIjp1t",
-              "spotify_url": "https://open.spotify.com/artist/4AVFqumd2ogHFlRbKIjp1t",
-            },
-            Object {
-              "agency": "WME",
-              "id": 18,
-              "image_url": "https://i.scdn.co/image/8c0fbe0fb1c86825adeb18bf0a019a22827c4422",
-              "name": "Booka Shade",
-              "popularity": 51,
-              "songkick_id": 295932,
-              "spotify_followers": 113010,
-              "spotify_id": "2CKaDZ1Yo8YnWega9IeUzB",
-              "spotify_url": "https://open.spotify.com/artist/2CKaDZ1Yo8YnWega9IeUzB",
-            },
-            Object {
-              "agency": "WME",
-              "id": 23,
-              "image_url": "https://i.scdn.co/image/1cbc13e4131461d8631d527c955ba83dddde099d",
-              "name": "Chuckie",
-              "popularity": 51,
-              "songkick_id": 937055,
-              "spotify_followers": 100998,
-              "spotify_id": "4x7gxsrTH3gThvSKZPPwaQ",
-              "spotify_url": "https://open.spotify.com/artist/4x7gxsrTH3gThvSKZPPwaQ",
-            },
-          ]
+      Array [
+        Object {
+          "agency": "WME",
+          "id": 4,
+          "image_url": "https://i.scdn.co/image/021f014a6809e5b7f1ef1c18bf247fd9ccacb193",
+          "name": "Alesso",
+          "popularity": 81,
+          "songkick_id": 4329851,
+          "spotify_followers": 2296228,
+          "spotify_id": "4AVFqumd2ogHFlRbKIjp1t",
+          "spotify_url": "https://open.spotify.com/artist/4AVFqumd2ogHFlRbKIjp1t",
+        },
+        Object {
+          "agency": "WME",
+          "id": 18,
+          "image_url": "https://i.scdn.co/image/8c0fbe0fb1c86825adeb18bf0a019a22827c4422",
+          "name": "Booka Shade",
+          "popularity": 51,
+          "songkick_id": 295932,
+          "spotify_followers": 113010,
+          "spotify_id": "2CKaDZ1Yo8YnWega9IeUzB",
+          "spotify_url": "https://open.spotify.com/artist/2CKaDZ1Yo8YnWega9IeUzB",
+        },
+        Object {
+          "agency": "WME",
+          "id": 23,
+          "image_url": "https://i.scdn.co/image/1cbc13e4131461d8631d527c955ba83dddde099d",
+          "name": "Chuckie",
+          "popularity": 51,
+          "songkick_id": 937055,
+          "spotify_followers": 100998,
+          "spotify_id": "4x7gxsrTH3gThvSKZPPwaQ",
+          "spotify_url": "https://open.spotify.com/artist/4x7gxsrTH3gThvSKZPPwaQ",
+        },
+      ]
     }
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -58,81 +58,81 @@ ShallowWrapper {
       "children": Array [
         <h2>
           Watchlist
-</h2>,
+        </h2>,
         <div
           className="recent-table-headings"
->
+        >
           <h3>
-                    Image
+            Image
           </h3>
           <h3>
-                    Artist
+            Artist
           </h3>
           <h3>
-                    Agency
+            Agency
           </h3>
           <h3>
-                    Popularity
+            Popularity
           </h3>
-</div>,
+        </div>,
         <div
           className="offers-container"
->
+        >
           <div
-                    className="table-row"
+            className="table-row"
           >
-                    <img
-                              alt="artist"
-                              className="artist-image"
-                              src="https://i.scdn.co/image/021f014a6809e5b7f1ef1c18bf247fd9ccacb193"
-                    />
-                    <h3>
-                              Alesso
-                    </h3>
-                    <h3>
-                              WME
-                    </h3>
-                    <h3>
-                              81
-                    </h3>
+            <img
+              alt="artist"
+              className="artist-image"
+              src="https://i.scdn.co/image/021f014a6809e5b7f1ef1c18bf247fd9ccacb193"
+            />
+            <h3>
+              Alesso
+            </h3>
+            <h3>
+              WME
+            </h3>
+            <h3>
+              81
+            </h3>
           </div>
           <div
-                    className="table-row"
+            className="table-row"
           >
-                    <img
-                              alt="artist"
-                              className="artist-image"
-                              src="https://i.scdn.co/image/8c0fbe0fb1c86825adeb18bf0a019a22827c4422"
-                    />
-                    <h3>
-                              Booka Shade
-                    </h3>
-                    <h3>
-                              WME
-                    </h3>
-                    <h3>
-                              51
-                    </h3>
+            <img
+              alt="artist"
+              className="artist-image"
+              src="https://i.scdn.co/image/8c0fbe0fb1c86825adeb18bf0a019a22827c4422"
+            />
+            <h3>
+              Booka Shade
+            </h3>
+            <h3>
+              WME
+            </h3>
+            <h3>
+              51
+            </h3>
           </div>
           <div
-                    className="table-row"
+            className="table-row"
           >
-                    <img
-                              alt="artist"
-                              className="artist-image"
-                              src="https://i.scdn.co/image/1cbc13e4131461d8631d527c955ba83dddde099d"
-                    />
-                    <h3>
-                              Chuckie
-                    </h3>
-                    <h3>
-                              WME
-                    </h3>
-                    <h3>
-                              51
-                    </h3>
+            <img
+              alt="artist"
+              className="artist-image"
+              src="https://i.scdn.co/image/1cbc13e4131461d8631d527c955ba83dddde099d"
+            />
+            <h3>
+              Chuckie
+            </h3>
+            <h3>
+              WME
+            </h3>
+            <h3>
+              51
+            </h3>
           </div>
-</div>,
+        </div>,
       ],
       "className": "watchlist",
     },
@@ -157,16 +157,16 @@ ShallowWrapper {
           "children": Array [
             <h3>
               Image
-</h3>,
+            </h3>,
             <h3>
               Artist
-</h3>,
+            </h3>,
             <h3>
               Agency
-</h3>,
+            </h3>,
             <h3>
               Popularity
-</h3>,
+            </h3>,
           ],
           "className": "recent-table-headings",
         },
@@ -227,58 +227,58 @@ ShallowWrapper {
           "children": Array [
             <div
               className="table-row"
->
+            >
               <img
-                            alt="artist"
-                            className="artist-image"
-                            src="https://i.scdn.co/image/021f014a6809e5b7f1ef1c18bf247fd9ccacb193"
+                alt="artist"
+                className="artist-image"
+                src="https://i.scdn.co/image/021f014a6809e5b7f1ef1c18bf247fd9ccacb193"
               />
               <h3>
-                            Alesso
+                Alesso
               </h3>
               <h3>
-                            WME
+                WME
               </h3>
               <h3>
-                            81
+                81
               </h3>
-</div>,
+            </div>,
             <div
               className="table-row"
->
+            >
               <img
-                            alt="artist"
-                            className="artist-image"
-                            src="https://i.scdn.co/image/8c0fbe0fb1c86825adeb18bf0a019a22827c4422"
+                alt="artist"
+                className="artist-image"
+                src="https://i.scdn.co/image/8c0fbe0fb1c86825adeb18bf0a019a22827c4422"
               />
               <h3>
-                            Booka Shade
+                Booka Shade
               </h3>
               <h3>
-                            WME
+                WME
               </h3>
               <h3>
-                            51
+                51
               </h3>
-</div>,
+            </div>,
             <div
               className="table-row"
->
+            >
               <img
-                            alt="artist"
-                            className="artist-image"
-                            src="https://i.scdn.co/image/1cbc13e4131461d8631d527c955ba83dddde099d"
+                alt="artist"
+                className="artist-image"
+                src="https://i.scdn.co/image/1cbc13e4131461d8631d527c955ba83dddde099d"
               />
               <h3>
-                            Chuckie
+                Chuckie
               </h3>
               <h3>
-                            WME
+                WME
               </h3>
               <h3>
-                            51
+                51
               </h3>
-</div>,
+            </div>,
           ],
           "className": "offers-container",
         },
@@ -294,16 +294,16 @@ ShallowWrapper {
                   alt="artist"
                   className="artist-image"
                   src="https://i.scdn.co/image/021f014a6809e5b7f1ef1c18bf247fd9ccacb193"
-/>,
+                />,
                 <h3>
                   Alesso
-</h3>,
+                </h3>,
                 <h3>
                   WME
-</h3>,
+                </h3>,
                 <h3>
                   81
-</h3>,
+                </h3>,
               ],
               "className": "table-row",
             },
@@ -368,16 +368,16 @@ ShallowWrapper {
                   alt="artist"
                   className="artist-image"
                   src="https://i.scdn.co/image/8c0fbe0fb1c86825adeb18bf0a019a22827c4422"
-/>,
+                />,
                 <h3>
                   Booka Shade
-</h3>,
+                </h3>,
                 <h3>
                   WME
-</h3>,
+                </h3>,
                 <h3>
                   51
-</h3>,
+                </h3>,
               ],
               "className": "table-row",
             },
@@ -442,16 +442,16 @@ ShallowWrapper {
                   alt="artist"
                   className="artist-image"
                   src="https://i.scdn.co/image/1cbc13e4131461d8631d527c955ba83dddde099d"
-/>,
+                />,
                 <h3>
                   Chuckie
-</h3>,
+                </h3>,
                 <h3>
                   WME
-</h3>,
+                </h3>,
                 <h3>
                   51
-</h3>,
+                </h3>,
               ],
               "className": "table-row",
             },
@@ -521,81 +521,81 @@ ShallowWrapper {
         "children": Array [
           <h2>
             Watchlist
-</h2>,
+          </h2>,
           <div
             className="recent-table-headings"
->
+          >
             <h3>
-                        Image
+              Image
             </h3>
             <h3>
-                        Artist
+              Artist
             </h3>
             <h3>
-                        Agency
+              Agency
             </h3>
             <h3>
-                        Popularity
+              Popularity
             </h3>
-</div>,
+          </div>,
           <div
             className="offers-container"
->
+          >
             <div
-                        className="table-row"
+              className="table-row"
             >
-                        <img
-                                    alt="artist"
-                                    className="artist-image"
-                                    src="https://i.scdn.co/image/021f014a6809e5b7f1ef1c18bf247fd9ccacb193"
-                        />
-                        <h3>
-                                    Alesso
-                        </h3>
-                        <h3>
-                                    WME
-                        </h3>
-                        <h3>
-                                    81
-                        </h3>
+              <img
+                alt="artist"
+                className="artist-image"
+                src="https://i.scdn.co/image/021f014a6809e5b7f1ef1c18bf247fd9ccacb193"
+              />
+              <h3>
+                Alesso
+              </h3>
+              <h3>
+                WME
+              </h3>
+              <h3>
+                81
+              </h3>
             </div>
             <div
-                        className="table-row"
+              className="table-row"
             >
-                        <img
-                                    alt="artist"
-                                    className="artist-image"
-                                    src="https://i.scdn.co/image/8c0fbe0fb1c86825adeb18bf0a019a22827c4422"
-                        />
-                        <h3>
-                                    Booka Shade
-                        </h3>
-                        <h3>
-                                    WME
-                        </h3>
-                        <h3>
-                                    51
-                        </h3>
+              <img
+                alt="artist"
+                className="artist-image"
+                src="https://i.scdn.co/image/8c0fbe0fb1c86825adeb18bf0a019a22827c4422"
+              />
+              <h3>
+                Booka Shade
+              </h3>
+              <h3>
+                WME
+              </h3>
+              <h3>
+                51
+              </h3>
             </div>
             <div
-                        className="table-row"
+              className="table-row"
             >
-                        <img
-                                    alt="artist"
-                                    className="artist-image"
-                                    src="https://i.scdn.co/image/1cbc13e4131461d8631d527c955ba83dddde099d"
-                        />
-                        <h3>
-                                    Chuckie
-                        </h3>
-                        <h3>
-                                    WME
-                        </h3>
-                        <h3>
-                                    51
-                        </h3>
+              <img
+                alt="artist"
+                className="artist-image"
+                src="https://i.scdn.co/image/1cbc13e4131461d8631d527c955ba83dddde099d"
+              />
+              <h3>
+                Chuckie
+              </h3>
+              <h3>
+                WME
+              </h3>
+              <h3>
+                51
+              </h3>
             </div>
-</div>,
+          </div>,
         ],
         "className": "watchlist",
       },
@@ -620,16 +620,16 @@ ShallowWrapper {
             "children": Array [
               <h3>
                 Image
-</h3>,
+              </h3>,
               <h3>
                 Artist
-</h3>,
+              </h3>,
               <h3>
                 Agency
-</h3>,
+              </h3>,
               <h3>
                 Popularity
-</h3>,
+              </h3>,
             ],
             "className": "recent-table-headings",
           },
@@ -690,58 +690,58 @@ ShallowWrapper {
             "children": Array [
               <div
                 className="table-row"
->
+              >
                 <img
-                                alt="artist"
-                                className="artist-image"
-                                src="https://i.scdn.co/image/021f014a6809e5b7f1ef1c18bf247fd9ccacb193"
+                  alt="artist"
+                  className="artist-image"
+                  src="https://i.scdn.co/image/021f014a6809e5b7f1ef1c18bf247fd9ccacb193"
                 />
                 <h3>
-                                Alesso
+                  Alesso
                 </h3>
                 <h3>
-                                WME
+                  WME
                 </h3>
                 <h3>
-                                81
+                  81
                 </h3>
-</div>,
+              </div>,
               <div
                 className="table-row"
->
+              >
                 <img
-                                alt="artist"
-                                className="artist-image"
-                                src="https://i.scdn.co/image/8c0fbe0fb1c86825adeb18bf0a019a22827c4422"
+                  alt="artist"
+                  className="artist-image"
+                  src="https://i.scdn.co/image/8c0fbe0fb1c86825adeb18bf0a019a22827c4422"
                 />
                 <h3>
-                                Booka Shade
+                  Booka Shade
                 </h3>
                 <h3>
-                                WME
+                  WME
                 </h3>
                 <h3>
-                                51
+                  51
                 </h3>
-</div>,
+              </div>,
               <div
                 className="table-row"
->
+              >
                 <img
-                                alt="artist"
-                                className="artist-image"
-                                src="https://i.scdn.co/image/1cbc13e4131461d8631d527c955ba83dddde099d"
+                  alt="artist"
+                  className="artist-image"
+                  src="https://i.scdn.co/image/1cbc13e4131461d8631d527c955ba83dddde099d"
                 />
                 <h3>
-                                Chuckie
+                  Chuckie
                 </h3>
                 <h3>
-                                WME
+                  WME
                 </h3>
                 <h3>
-                                51
+                  51
                 </h3>
-</div>,
+              </div>,
             ],
             "className": "offers-container",
           },
@@ -757,16 +757,16 @@ ShallowWrapper {
                     alt="artist"
                     className="artist-image"
                     src="https://i.scdn.co/image/021f014a6809e5b7f1ef1c18bf247fd9ccacb193"
-/>,
+                  />,
                   <h3>
                     Alesso
-</h3>,
+                  </h3>,
                   <h3>
                     WME
-</h3>,
+                  </h3>,
                   <h3>
                     81
-</h3>,
+                  </h3>,
                 ],
                 "className": "table-row",
               },
@@ -831,16 +831,16 @@ ShallowWrapper {
                     alt="artist"
                     className="artist-image"
                     src="https://i.scdn.co/image/8c0fbe0fb1c86825adeb18bf0a019a22827c4422"
-/>,
+                  />,
                   <h3>
                     Booka Shade
-</h3>,
+                  </h3>,
                   <h3>
                     WME
-</h3>,
+                  </h3>,
                   <h3>
                     51
-</h3>,
+                  </h3>,
                 ],
                 "className": "table-row",
               },
@@ -905,16 +905,16 @@ ShallowWrapper {
                     alt="artist"
                     className="artist-image"
                     src="https://i.scdn.co/image/1cbc13e4131461d8631d527c955ba83dddde099d"
-/>,
+                  />,
                   <h3>
                     Chuckie
-</h3>,
+                  </h3>,
                   <h3>
                     WME
-</h3>,
+                  </h3>,
                   <h3>
                     51
-</h3>,
+                  </h3>,
                 ],
                 "className": "table-row",
               },

@@ -5,317 +5,317 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <RecentOffers
     offers={
-        Array [
-            Object {
-              "age_range": "16+",
-              "artist_id": 19,
-              "artist_name": "Calvin Harris",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-10-29",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 5,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 19,
-              "artist_name": "Calvin Harris",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-10-29",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 6,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 19,
-              "artist_name": "Calvin Harris",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-10-29",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 7,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 4,
-              "artist_name": "Alesso",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-10-29",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 100032,
-              "id": 8,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 7,
-              "artist_name": "Afrojack",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-10-29",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 9,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 7,
-              "artist_name": "Afrojack",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-10-29",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 10,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 99,
-              "artist_name": "Savoy",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-10-29",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 11,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 4,
-              "artist_name": "Alesso",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-10-29",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 12,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 22,
-              "artist_name": "Chris Lake",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-10-29",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 13,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 19,
-              "artist_name": "Calvin Harris",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-10-30",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 14,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 7,
-              "artist_name": "Afrojack",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-10-29",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 15,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 4,
-              "artist_name": "Alesso",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-11-24",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 16,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 16,
-              "artist_name": "Borgore",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-10-29",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 17,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 4,
-              "artist_name": "Alesso",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-11-16",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 18,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 16,
-              "artist_name": "Borgore",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-11-01",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 19,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 4,
-              "artist_name": "Alesso",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-11-01",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 20,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 7,
-              "artist_name": "Afrojack",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-11-08",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 21,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 18,
-              "artist_name": "Booka Shade",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-11-02",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 22,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-          ]
+      Array [
+        Object {
+          "age_range": "16+",
+          "artist_id": 19,
+          "artist_name": "Calvin Harris",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-10-29",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 5,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 19,
+          "artist_name": "Calvin Harris",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-10-29",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 6,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 19,
+          "artist_name": "Calvin Harris",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-10-29",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 7,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 4,
+          "artist_name": "Alesso",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-10-29",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 100032,
+          "id": 8,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 7,
+          "artist_name": "Afrojack",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-10-29",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 9,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 7,
+          "artist_name": "Afrojack",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-10-29",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 10,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 99,
+          "artist_name": "Savoy",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-10-29",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 11,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 4,
+          "artist_name": "Alesso",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-10-29",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 12,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 22,
+          "artist_name": "Chris Lake",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-10-29",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 13,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 19,
+          "artist_name": "Calvin Harris",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-10-30",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 14,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 7,
+          "artist_name": "Afrojack",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-10-29",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 15,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 4,
+          "artist_name": "Alesso",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-11-24",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 16,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 16,
+          "artist_name": "Borgore",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-10-29",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 17,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 4,
+          "artist_name": "Alesso",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-11-16",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 18,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 16,
+          "artist_name": "Borgore",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-11-01",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 19,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 4,
+          "artist_name": "Alesso",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-11-01",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 20,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 7,
+          "artist_name": "Afrojack",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-11-08",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 21,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 18,
+          "artist_name": "Booka Shade",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-11-02",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 22,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+      ]
     }
-    openEditOfferModal={[Function]}
-/>,
+    openEditOfferModal={[MockFunction]}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -332,122 +332,122 @@ ShallowWrapper {
       "children": Array [
         <h2>
           Recent Offers
-</h2>,
+        </h2>,
         <div
           className="recent-table-headings"
->
+        >
           <h3>
-                    Date
+            Date
           </h3>
           <h3>
-                    Artist
+            Artist
           </h3>
           <h3>
-                    Status
+            Status
           </h3>
           <h3>
-                    Offer
+            Offer
           </h3>
-</div>,
+        </div>,
         <div
           className="offers-container"
->
+        >
           <div
-                    className="table-row"
+            className="table-row"
           >
-                    <h3>
-                              2018-11-02
-                    </h3>
-                    <h3>
-                              Booka Shade
-                    </h3>
-                    <h3>
-                              Pending
-                    </h3>
-                    <button
-                              className="view-offer-button"
-                              onClick={[Function]}
-                    >
-                              Edit Offer
-                    </button>
+            <h3>
+              2018-11-02
+            </h3>
+            <h3>
+              Booka Shade
+            </h3>
+            <h3>
+              Pending
+            </h3>
+            <button
+              className="view-offer-button"
+              onClick={[Function]}
+            >
+              Edit Offer
+            </button>
           </div>
           <div
-                    className="table-row"
+            className="table-row"
           >
-                    <h3>
-                              2018-11-08
-                    </h3>
-                    <h3>
-                              Afrojack
-                    </h3>
-                    <h3>
-                              Pending
-                    </h3>
-                    <button
-                              className="view-offer-button"
-                              onClick={[Function]}
-                    >
-                              Edit Offer
-                    </button>
+            <h3>
+              2018-11-08
+            </h3>
+            <h3>
+              Afrojack
+            </h3>
+            <h3>
+              Pending
+            </h3>
+            <button
+              className="view-offer-button"
+              onClick={[Function]}
+            >
+              Edit Offer
+            </button>
           </div>
           <div
-                    className="table-row"
+            className="table-row"
           >
-                    <h3>
-                              2018-11-01
-                    </h3>
-                    <h3>
-                              Alesso
-                    </h3>
-                    <h3>
-                              Pending
-                    </h3>
-                    <button
-                              className="view-offer-button"
-                              onClick={[Function]}
-                    >
-                              Edit Offer
-                    </button>
+            <h3>
+              2018-11-01
+            </h3>
+            <h3>
+              Alesso
+            </h3>
+            <h3>
+              Pending
+            </h3>
+            <button
+              className="view-offer-button"
+              onClick={[Function]}
+            >
+              Edit Offer
+            </button>
           </div>
           <div
-                    className="table-row"
+            className="table-row"
           >
-                    <h3>
-                              2018-11-01
-                    </h3>
-                    <h3>
-                              Borgore
-                    </h3>
-                    <h3>
-                              Pending
-                    </h3>
-                    <button
-                              className="view-offer-button"
-                              onClick={[Function]}
-                    >
-                              Edit Offer
-                    </button>
+            <h3>
+              2018-11-01
+            </h3>
+            <h3>
+              Borgore
+            </h3>
+            <h3>
+              Pending
+            </h3>
+            <button
+              className="view-offer-button"
+              onClick={[Function]}
+            >
+              Edit Offer
+            </button>
           </div>
           <div
-                    className="table-row"
+            className="table-row"
           >
-                    <h3>
-                              2018-11-16
-                    </h3>
-                    <h3>
-                              Alesso
-                    </h3>
-                    <h3>
-                              Pending
-                    </h3>
-                    <button
-                              className="view-offer-button"
-                              onClick={[Function]}
-                    >
-                              Edit Offer
-                    </button>
+            <h3>
+              2018-11-16
+            </h3>
+            <h3>
+              Alesso
+            </h3>
+            <h3>
+              Pending
+            </h3>
+            <button
+              className="view-offer-button"
+              onClick={[Function]}
+            >
+              Edit Offer
+            </button>
           </div>
-</div>,
+        </div>,
       ],
       "className": "recent-offers",
     },
@@ -472,16 +472,16 @@ ShallowWrapper {
           "children": Array [
             <h3>
               Date
-</h3>,
+            </h3>,
             <h3>
               Artist
-</h3>,
+            </h3>,
             <h3>
               Status
-</h3>,
+            </h3>,
             <h3>
               Offer
-</h3>,
+            </h3>,
           ],
           "className": "recent-table-headings",
         },
@@ -542,99 +542,99 @@ ShallowWrapper {
           "children": Array [
             <div
               className="table-row"
->
+            >
               <h3>
-                            2018-11-02
+                2018-11-02
               </h3>
               <h3>
-                            Booka Shade
+                Booka Shade
               </h3>
               <h3>
-                            Pending
+                Pending
               </h3>
               <button
-                            className="view-offer-button"
-                            onClick={[Function]}
+                className="view-offer-button"
+                onClick={[Function]}
               >
-                            Edit Offer
+                Edit Offer
               </button>
-</div>,
+            </div>,
             <div
               className="table-row"
->
+            >
               <h3>
-                            2018-11-08
+                2018-11-08
               </h3>
               <h3>
-                            Afrojack
+                Afrojack
               </h3>
               <h3>
-                            Pending
+                Pending
               </h3>
               <button
-                            className="view-offer-button"
-                            onClick={[Function]}
+                className="view-offer-button"
+                onClick={[Function]}
               >
-                            Edit Offer
+                Edit Offer
               </button>
-</div>,
+            </div>,
             <div
               className="table-row"
->
+            >
               <h3>
-                            2018-11-01
+                2018-11-01
               </h3>
               <h3>
-                            Alesso
+                Alesso
               </h3>
               <h3>
-                            Pending
+                Pending
               </h3>
               <button
-                            className="view-offer-button"
-                            onClick={[Function]}
+                className="view-offer-button"
+                onClick={[Function]}
               >
-                            Edit Offer
+                Edit Offer
               </button>
-</div>,
+            </div>,
             <div
               className="table-row"
->
+            >
               <h3>
-                            2018-11-01
+                2018-11-01
               </h3>
               <h3>
-                            Borgore
+                Borgore
               </h3>
               <h3>
-                            Pending
+                Pending
               </h3>
               <button
-                            className="view-offer-button"
-                            onClick={[Function]}
+                className="view-offer-button"
+                onClick={[Function]}
               >
-                            Edit Offer
+                Edit Offer
               </button>
-</div>,
+            </div>,
             <div
               className="table-row"
->
+            >
               <h3>
-                            2018-11-16
+                2018-11-16
               </h3>
               <h3>
-                            Alesso
+                Alesso
               </h3>
               <h3>
-                            Pending
+                Pending
               </h3>
               <button
-                            className="view-offer-button"
-                            onClick={[Function]}
+                className="view-offer-button"
+                onClick={[Function]}
               >
-                            Edit Offer
+                Edit Offer
               </button>
-</div>,
+            </div>,
           ],
           "className": "offers-container",
         },
@@ -648,19 +648,19 @@ ShallowWrapper {
               "children": Array [
                 <h3>
                   2018-11-02
-</h3>,
+                </h3>,
                 <h3>
                   Booka Shade
-</h3>,
+                </h3>,
                 <h3>
                   Pending
-</h3>,
+                </h3>,
                 <button
                   className="view-offer-button"
                   onClick={[Function]}
->
+                >
                   Edit Offer
-</button>,
+                </button>,
               ],
               "className": "table-row",
             },
@@ -723,19 +723,19 @@ ShallowWrapper {
               "children": Array [
                 <h3>
                   2018-11-08
-</h3>,
+                </h3>,
                 <h3>
                   Afrojack
-</h3>,
+                </h3>,
                 <h3>
                   Pending
-</h3>,
+                </h3>,
                 <button
                   className="view-offer-button"
                   onClick={[Function]}
->
+                >
                   Edit Offer
-</button>,
+                </button>,
               ],
               "className": "table-row",
             },
@@ -798,19 +798,19 @@ ShallowWrapper {
               "children": Array [
                 <h3>
                   2018-11-01
-</h3>,
+                </h3>,
                 <h3>
                   Alesso
-</h3>,
+                </h3>,
                 <h3>
                   Pending
-</h3>,
+                </h3>,
                 <button
                   className="view-offer-button"
                   onClick={[Function]}
->
+                >
                   Edit Offer
-</button>,
+                </button>,
               ],
               "className": "table-row",
             },
@@ -873,19 +873,19 @@ ShallowWrapper {
               "children": Array [
                 <h3>
                   2018-11-01
-</h3>,
+                </h3>,
                 <h3>
                   Borgore
-</h3>,
+                </h3>,
                 <h3>
                   Pending
-</h3>,
+                </h3>,
                 <button
                   className="view-offer-button"
                   onClick={[Function]}
->
+                >
                   Edit Offer
-</button>,
+                </button>,
               ],
               "className": "table-row",
             },
@@ -948,19 +948,19 @@ ShallowWrapper {
               "children": Array [
                 <h3>
                   2018-11-16
-</h3>,
+                </h3>,
                 <h3>
                   Alesso
-</h3>,
+                </h3>,
                 <h3>
                   Pending
-</h3>,
+                </h3>,
                 <button
                   className="view-offer-button"
                   onClick={[Function]}
->
+                >
                   Edit Offer
-</button>,
+                </button>,
               ],
               "className": "table-row",
             },
@@ -1030,122 +1030,122 @@ ShallowWrapper {
         "children": Array [
           <h2>
             Recent Offers
-</h2>,
+          </h2>,
           <div
             className="recent-table-headings"
->
+          >
             <h3>
-                        Date
+              Date
             </h3>
             <h3>
-                        Artist
+              Artist
             </h3>
             <h3>
-                        Status
+              Status
             </h3>
             <h3>
-                        Offer
+              Offer
             </h3>
-</div>,
+          </div>,
           <div
             className="offers-container"
->
+          >
             <div
-                        className="table-row"
+              className="table-row"
             >
-                        <h3>
-                                    2018-11-02
-                        </h3>
-                        <h3>
-                                    Booka Shade
-                        </h3>
-                        <h3>
-                                    Pending
-                        </h3>
-                        <button
-                                    className="view-offer-button"
-                                    onClick={[Function]}
-                        >
-                                    Edit Offer
-                        </button>
+              <h3>
+                2018-11-02
+              </h3>
+              <h3>
+                Booka Shade
+              </h3>
+              <h3>
+                Pending
+              </h3>
+              <button
+                className="view-offer-button"
+                onClick={[Function]}
+              >
+                Edit Offer
+              </button>
             </div>
             <div
-                        className="table-row"
+              className="table-row"
             >
-                        <h3>
-                                    2018-11-08
-                        </h3>
-                        <h3>
-                                    Afrojack
-                        </h3>
-                        <h3>
-                                    Pending
-                        </h3>
-                        <button
-                                    className="view-offer-button"
-                                    onClick={[Function]}
-                        >
-                                    Edit Offer
-                        </button>
+              <h3>
+                2018-11-08
+              </h3>
+              <h3>
+                Afrojack
+              </h3>
+              <h3>
+                Pending
+              </h3>
+              <button
+                className="view-offer-button"
+                onClick={[Function]}
+              >
+                Edit Offer
+              </button>
             </div>
             <div
-                        className="table-row"
+              className="table-row"
             >
-                        <h3>
-                                    2018-11-01
-                        </h3>
-                        <h3>
-                                    Alesso
-                        </h3>
-                        <h3>
-                                    Pending
-                        </h3>
-                        <button
-                                    className="view-offer-button"
-                                    onClick={[Function]}
-                        >
-                                    Edit Offer
-                        </button>
+              <h3>
+                2018-11-01
+              </h3>
+              <h3>
+                Alesso
+              </h3>
+              <h3>
+                Pending
+              </h3>
+              <button
+                className="view-offer-button"
+                onClick={[Function]}
+              >
+                Edit Offer
+              </button>
             </div>
             <div
-                        className="table-row"
+              className="table-row"
             >
-                        <h3>
-                                    2018-11-01
-                        </h3>
-                        <h3>
-                                    Borgore
-                        </h3>
-                        <h3>
-                                    Pending
-                        </h3>
-                        <button
-                                    className="view-offer-button"
-                                    onClick={[Function]}
-                        >
-                                    Edit Offer
-                        </button>
+              <h3>
+                2018-11-01
+              </h3>
+              <h3>
+                Borgore
+              </h3>
+              <h3>
+                Pending
+              </h3>
+              <button
+                className="view-offer-button"
+                onClick={[Function]}
+              >
+                Edit Offer
+              </button>
             </div>
             <div
-                        className="table-row"
+              className="table-row"
             >
-                        <h3>
-                                    2018-11-16
-                        </h3>
-                        <h3>
-                                    Alesso
-                        </h3>
-                        <h3>
-                                    Pending
-                        </h3>
-                        <button
-                                    className="view-offer-button"
-                                    onClick={[Function]}
-                        >
-                                    Edit Offer
-                        </button>
+              <h3>
+                2018-11-16
+              </h3>
+              <h3>
+                Alesso
+              </h3>
+              <h3>
+                Pending
+              </h3>
+              <button
+                className="view-offer-button"
+                onClick={[Function]}
+              >
+                Edit Offer
+              </button>
             </div>
-</div>,
+          </div>,
         ],
         "className": "recent-offers",
       },
@@ -1170,16 +1170,16 @@ ShallowWrapper {
             "children": Array [
               <h3>
                 Date
-</h3>,
+              </h3>,
               <h3>
                 Artist
-</h3>,
+              </h3>,
               <h3>
                 Status
-</h3>,
+              </h3>,
               <h3>
                 Offer
-</h3>,
+              </h3>,
             ],
             "className": "recent-table-headings",
           },
@@ -1240,99 +1240,99 @@ ShallowWrapper {
             "children": Array [
               <div
                 className="table-row"
->
+              >
                 <h3>
-                                2018-11-02
+                  2018-11-02
                 </h3>
                 <h3>
-                                Booka Shade
+                  Booka Shade
                 </h3>
                 <h3>
-                                Pending
+                  Pending
                 </h3>
                 <button
-                                className="view-offer-button"
-                                onClick={[Function]}
+                  className="view-offer-button"
+                  onClick={[Function]}
                 >
-                                Edit Offer
+                  Edit Offer
                 </button>
-</div>,
+              </div>,
               <div
                 className="table-row"
->
+              >
                 <h3>
-                                2018-11-08
+                  2018-11-08
                 </h3>
                 <h3>
-                                Afrojack
+                  Afrojack
                 </h3>
                 <h3>
-                                Pending
+                  Pending
                 </h3>
                 <button
-                                className="view-offer-button"
-                                onClick={[Function]}
+                  className="view-offer-button"
+                  onClick={[Function]}
                 >
-                                Edit Offer
+                  Edit Offer
                 </button>
-</div>,
+              </div>,
               <div
                 className="table-row"
->
+              >
                 <h3>
-                                2018-11-01
+                  2018-11-01
                 </h3>
                 <h3>
-                                Alesso
+                  Alesso
                 </h3>
                 <h3>
-                                Pending
+                  Pending
                 </h3>
                 <button
-                                className="view-offer-button"
-                                onClick={[Function]}
+                  className="view-offer-button"
+                  onClick={[Function]}
                 >
-                                Edit Offer
+                  Edit Offer
                 </button>
-</div>,
+              </div>,
               <div
                 className="table-row"
->
+              >
                 <h3>
-                                2018-11-01
+                  2018-11-01
                 </h3>
                 <h3>
-                                Borgore
+                  Borgore
                 </h3>
                 <h3>
-                                Pending
+                  Pending
                 </h3>
                 <button
-                                className="view-offer-button"
-                                onClick={[Function]}
+                  className="view-offer-button"
+                  onClick={[Function]}
                 >
-                                Edit Offer
+                  Edit Offer
                 </button>
-</div>,
+              </div>,
               <div
                 className="table-row"
->
+              >
                 <h3>
-                                2018-11-16
+                  2018-11-16
                 </h3>
                 <h3>
-                                Alesso
+                  Alesso
                 </h3>
                 <h3>
-                                Pending
+                  Pending
                 </h3>
                 <button
-                                className="view-offer-button"
-                                onClick={[Function]}
+                  className="view-offer-button"
+                  onClick={[Function]}
                 >
-                                Edit Offer
+                  Edit Offer
                 </button>
-</div>,
+              </div>,
             ],
             "className": "offers-container",
           },
@@ -1346,19 +1346,19 @@ ShallowWrapper {
                 "children": Array [
                   <h3>
                     2018-11-02
-</h3>,
+                  </h3>,
                   <h3>
                     Booka Shade
-</h3>,
+                  </h3>,
                   <h3>
                     Pending
-</h3>,
+                  </h3>,
                   <button
                     className="view-offer-button"
                     onClick={[Function]}
->
+                  >
                     Edit Offer
-</button>,
+                  </button>,
                 ],
                 "className": "table-row",
               },
@@ -1421,19 +1421,19 @@ ShallowWrapper {
                 "children": Array [
                   <h3>
                     2018-11-08
-</h3>,
+                  </h3>,
                   <h3>
                     Afrojack
-</h3>,
+                  </h3>,
                   <h3>
                     Pending
-</h3>,
+                  </h3>,
                   <button
                     className="view-offer-button"
                     onClick={[Function]}
->
+                  >
                     Edit Offer
-</button>,
+                  </button>,
                 ],
                 "className": "table-row",
               },
@@ -1496,19 +1496,19 @@ ShallowWrapper {
                 "children": Array [
                   <h3>
                     2018-11-01
-</h3>,
+                  </h3>,
                   <h3>
                     Alesso
-</h3>,
+                  </h3>,
                   <h3>
                     Pending
-</h3>,
+                  </h3>,
                   <button
                     className="view-offer-button"
                     onClick={[Function]}
->
+                  >
                     Edit Offer
-</button>,
+                  </button>,
                 ],
                 "className": "table-row",
               },
@@ -1571,19 +1571,19 @@ ShallowWrapper {
                 "children": Array [
                   <h3>
                     2018-11-01
-</h3>,
+                  </h3>,
                   <h3>
                     Borgore
-</h3>,
+                  </h3>,
                   <h3>
                     Pending
-</h3>,
+                  </h3>,
                   <button
                     className="view-offer-button"
                     onClick={[Function]}
->
+                  >
                     Edit Offer
-</button>,
+                  </button>,
                 ],
                 "className": "table-row",
               },
@@ -1646,19 +1646,19 @@ ShallowWrapper {
                 "children": Array [
                   <h3>
                     2018-11-16
-</h3>,
+                  </h3>,
                   <h3>
                     Alesso
-</h3>,
+                  </h3>,
                   <h3>
                     Pending
-</h3>,
+                  </h3>,
                   <button
                     className="view-offer-button"
                     onClick={[Function]}
->
+                  >
                     Edit Offer
-</button>,
+                  </button>,
                 ],
                 "className": "table-row",
               },

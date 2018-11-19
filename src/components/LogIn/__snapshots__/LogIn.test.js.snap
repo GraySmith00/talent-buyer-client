@@ -4,24 +4,24 @@ exports[`LogIn component should match the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <LogIn
-    closeLogInModal={[Function]}
+    closeLogInModal={[MockFunction]}
     history={
-        Object {
-            "action": "PUSH",
-            "length": 50,
-            "location": Object {
-              "hash": "",
-              "key": "hvocjm",
-              "pathname": "/home",
-              "search": "",
-            },
-          }
+      Object {
+        "action": "PUSH",
+        "length": 50,
+        "location": Object {
+          "hash": "",
+          "key": "hvocjm",
+          "pathname": "/home",
+          "search": "",
+        },
+      }
     }
-    logInUser={[Function]}
-    populateUserOffers={[Function]}
-    populateUserWatchlist={[Function]}
-    setUserVenue={[Function]}
-/>,
+    logInUser={[MockFunction]}
+    populateUserOffers={[MockFunction]}
+    populateUserWatchlist={[MockFunction]}
+    setUserVenue={[MockFunction]}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -35,55 +35,55 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <Unknown>
+      "children": <ForwardRef>
         <i
-                className="fas fa-times-circle"
-                onClick={[Function]}
+          className="fas fa-times-circle"
+          onClick={[MockFunction]}
         />
         <div
-                className="top-container"
+          className="top-container"
         >
-                <div
-                        className="top-inner"
-                >
-                        <h3
-                                className="header-text"
-                        >
-                                Welcome to Talent Buyer!
-                        </h3>
-                </div>
+          <div
+            className="top-inner"
+          >
+            <h3
+              className="header-text"
+            >
+              Welcome to Talent Buyer!
+            </h3>
+          </div>
         </div>
         <p>
-                Log In With Email
+          Log In With Email
         </p>
         <form
-                className="login-form"
-                onSubmit={[Function]}
+          className="login-form"
+          onSubmit={[Function]}
         >
-                <Unknown
-                        name="email"
-                        onChange={[Function]}
-                        placeholder="email"
-                        type="email"
-                        value=""
-                />
-                <Unknown
-                        name="password"
-                        onChange={[Function]}
-                        placeholder="password"
-                        type="password"
-                        value=""
-                />
-                <Unknown>
-                        Submit
-                </Unknown>
+          <ForwardRef
+            name="email"
+            onChange={[Function]}
+            placeholder="email"
+            type="email"
+            value=""
+          />
+          <ForwardRef
+            name="password"
+            onChange={[Function]}
+            placeholder="password"
+            type="password"
+            value=""
+          />
+          <ForwardRef>
+            Submit
+          </ForwardRef>
         </form>
-        <Unknown
-                onClick={[Function]}
+        <ForwardRef
+          onClick={[Function]}
         >
-                Not a member? Sign up now
-        </Unknown>
-</Unknown>,
+          Not a member? Sign up now
+        </ForwardRef>
+      </ForwardRef>,
       "className": "log-in",
     },
     "ref": null,
@@ -95,51 +95,51 @@ ShallowWrapper {
         "children": Array [
           <i
             className="fas fa-times-circle"
-            onClick={[Function]}
-/>,
+            onClick={[MockFunction]}
+          />,
           <div
             className="top-container"
->
+          >
             <div
-                        className="top-inner"
+              className="top-inner"
             >
-                        <h3
-                                    className="header-text"
-                        >
-                                    Welcome to Talent Buyer!
-                        </h3>
+              <h3
+                className="header-text"
+              >
+                Welcome to Talent Buyer!
+              </h3>
             </div>
-</div>,
+          </div>,
           <p>
             Log In With Email
-</p>,
+          </p>,
           <form
             className="login-form"
             onSubmit={[Function]}
->
-            <Unknown
-                        name="email"
-                        onChange={[Function]}
-                        placeholder="email"
-                        type="email"
-                        value=""
+          >
+            <ForwardRef
+              name="email"
+              onChange={[Function]}
+              placeholder="email"
+              type="email"
+              value=""
             />
-            <Unknown
-                        name="password"
-                        onChange={[Function]}
-                        placeholder="password"
-                        type="password"
-                        value=""
+            <ForwardRef
+              name="password"
+              onChange={[Function]}
+              placeholder="password"
+              type="password"
+              value=""
             />
-            <Unknown>
-                        Submit
-            </Unknown>
-</form>,
-          <Unknown
+            <ForwardRef>
+              Submit
+            </ForwardRef>
+          </form>,
+          <ForwardRef
             onClick={[Function]}
->
+          >
             Not a member? Sign up now
-</Unknown>,
+          </ForwardRef>,
         ],
       },
       "ref": null,
@@ -150,7 +150,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "className": "fas fa-times-circle",
-            "onClick": [Function],
+            "onClick": [MockFunction],
           },
           "ref": null,
           "rendered": null,
@@ -163,13 +163,13 @@ ShallowWrapper {
           "props": Object {
             "children": <div
               className="top-inner"
->
+            >
               <h3
-                            className="header-text"
+                className="header-text"
               >
-                            Welcome to Talent Buyer!
+                Welcome to Talent Buyer!
               </h3>
-</div>,
+            </div>,
             "className": "top-container",
           },
           "ref": null,
@@ -180,9 +180,9 @@ ShallowWrapper {
             "props": Object {
               "children": <h3
                 className="header-text"
->
+              >
                 Welcome to Talent Buyer!
-</h3>,
+              </h3>,
               "className": "top-inner",
             },
             "ref": null,
@@ -219,23 +219,23 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <Unknown
+              <ForwardRef
                 name="email"
                 onChange={[Function]}
                 placeholder="email"
                 type="email"
                 value=""
-/>,
-              <Unknown
+              />,
+              <ForwardRef
                 name="password"
                 onChange={[Function]}
                 placeholder="password"
                 type="password"
                 value=""
-/>,
-              <Unknown>
+              />,
+              <ForwardRef>
                 Submit
-</Unknown>,
+              </ForwardRef>,
             ],
             "className": "login-form",
             "onSubmit": [Function],
@@ -440,55 +440,55 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <Unknown>
+        "children": <ForwardRef>
           <i
-                    className="fas fa-times-circle"
-                    onClick={[Function]}
+            className="fas fa-times-circle"
+            onClick={[MockFunction]}
           />
           <div
-                    className="top-container"
+            className="top-container"
           >
-                    <div
-                              className="top-inner"
-                    >
-                              <h3
-                                        className="header-text"
-                              >
-                                        Welcome to Talent Buyer!
-                              </h3>
-                    </div>
+            <div
+              className="top-inner"
+            >
+              <h3
+                className="header-text"
+              >
+                Welcome to Talent Buyer!
+              </h3>
+            </div>
           </div>
           <p>
-                    Log In With Email
+            Log In With Email
           </p>
           <form
-                    className="login-form"
-                    onSubmit={[Function]}
+            className="login-form"
+            onSubmit={[Function]}
           >
-                    <Unknown
-                              name="email"
-                              onChange={[Function]}
-                              placeholder="email"
-                              type="email"
-                              value=""
-                    />
-                    <Unknown
-                              name="password"
-                              onChange={[Function]}
-                              placeholder="password"
-                              type="password"
-                              value=""
-                    />
-                    <Unknown>
-                              Submit
-                    </Unknown>
+            <ForwardRef
+              name="email"
+              onChange={[Function]}
+              placeholder="email"
+              type="email"
+              value=""
+            />
+            <ForwardRef
+              name="password"
+              onChange={[Function]}
+              placeholder="password"
+              type="password"
+              value=""
+            />
+            <ForwardRef>
+              Submit
+            </ForwardRef>
           </form>
-          <Unknown
-                    onClick={[Function]}
+          <ForwardRef
+            onClick={[Function]}
           >
-                    Not a member? Sign up now
-          </Unknown>
-</Unknown>,
+            Not a member? Sign up now
+          </ForwardRef>
+        </ForwardRef>,
         "className": "log-in",
       },
       "ref": null,
@@ -500,51 +500,51 @@ ShallowWrapper {
           "children": Array [
             <i
               className="fas fa-times-circle"
-              onClick={[Function]}
-/>,
+              onClick={[MockFunction]}
+            />,
             <div
               className="top-container"
->
+            >
               <div
-                            className="top-inner"
+                className="top-inner"
               >
-                            <h3
-                                          className="header-text"
-                            >
-                                          Welcome to Talent Buyer!
-                            </h3>
+                <h3
+                  className="header-text"
+                >
+                  Welcome to Talent Buyer!
+                </h3>
               </div>
-</div>,
+            </div>,
             <p>
               Log In With Email
-</p>,
+            </p>,
             <form
               className="login-form"
               onSubmit={[Function]}
->
-              <Unknown
-                            name="email"
-                            onChange={[Function]}
-                            placeholder="email"
-                            type="email"
-                            value=""
+            >
+              <ForwardRef
+                name="email"
+                onChange={[Function]}
+                placeholder="email"
+                type="email"
+                value=""
               />
-              <Unknown
-                            name="password"
-                            onChange={[Function]}
-                            placeholder="password"
-                            type="password"
-                            value=""
+              <ForwardRef
+                name="password"
+                onChange={[Function]}
+                placeholder="password"
+                type="password"
+                value=""
               />
-              <Unknown>
-                            Submit
-              </Unknown>
-</form>,
-            <Unknown
+              <ForwardRef>
+                Submit
+              </ForwardRef>
+            </form>,
+            <ForwardRef
               onClick={[Function]}
->
+            >
               Not a member? Sign up now
-</Unknown>,
+            </ForwardRef>,
           ],
         },
         "ref": null,
@@ -555,7 +555,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "className": "fas fa-times-circle",
-              "onClick": [Function],
+              "onClick": [MockFunction],
             },
             "ref": null,
             "rendered": null,
@@ -568,13 +568,13 @@ ShallowWrapper {
             "props": Object {
               "children": <div
                 className="top-inner"
->
+              >
                 <h3
-                                className="header-text"
+                  className="header-text"
                 >
-                                Welcome to Talent Buyer!
+                  Welcome to Talent Buyer!
                 </h3>
-</div>,
+              </div>,
               "className": "top-container",
             },
             "ref": null,
@@ -585,9 +585,9 @@ ShallowWrapper {
               "props": Object {
                 "children": <h3
                   className="header-text"
->
+                >
                   Welcome to Talent Buyer!
-</h3>,
+                </h3>,
                 "className": "top-inner",
               },
               "ref": null,
@@ -624,23 +624,23 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <Unknown
+                <ForwardRef
                   name="email"
                   onChange={[Function]}
                   placeholder="email"
                   type="email"
                   value=""
-/>,
-                <Unknown
+                />,
+                <ForwardRef
                   name="password"
                   onChange={[Function]}
                   placeholder="password"
                   type="password"
                   value=""
-/>,
-                <Unknown>
+                />,
+                <ForwardRef>
                   Submit
-</Unknown>,
+                </ForwardRef>,
               ],
               "className": "login-form",
               "onSubmit": [Function],

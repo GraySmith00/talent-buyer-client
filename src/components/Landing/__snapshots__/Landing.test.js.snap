@@ -22,78 +22,78 @@ ShallowWrapper {
         false,
         <section
           className="hero"
->
+        >
           <h1>
-                    Talent Buyer
+            Talent Buyer
           </h1>
           <withRouter(Splash)
-                    openLogInModal={[Function]}
-                    openSignUpModal={[Function]}
+            openLogInModal={[Function]}
+            openSignUpModal={[Function]}
           />
           <section
-                    className="divider"
+            className="divider"
           >
-                    <div
-                              className="divider-line"
-                    />
-                    <i
-                              className="fas fa-angle-down"
-                    />
-                    <div
-                              className="divider-line"
-                    />
+            <div
+              className="divider-line"
+            />
+            <i
+              className="fas fa-angle-down"
+            />
+            <div
+              className="divider-line"
+            />
           </section>
-</section>,
+        </section>,
         <section
           className="market-dash"
->
+        >
           <div
-                    className="market-dash-text"
+            className="market-dash-text"
           >
-                    <h2
-                              className="section-title"
-                    >
-                              Organize all your shows in the dashboard.
-                    </h2>
-                    <p>
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
-                    </p>
+            <h2
+              className="section-title"
+            >
+              Organize all your shows in the dashboard.
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
+            </p>
           </div>
           <img
-                    alt="dashboard"
-                    src="dashImage.jpg"
-                    style={
-                              Object {
-                                        "height": "250px",
-                                      }
-                    }
+            alt="dashboard"
+            src="dashImage.jpg"
+            style={
+              Object {
+                "height": "250px",
+              }
+            }
           />
-</section>,
+        </section>,
         <section
           className="market-browse"
->
+        >
           <img
-                    alt="dashboard"
-                    src="dashImage.jpg"
-                    style={
-                              Object {
-                                        "height": "320px",
-                                      }
-                    }
+            alt="dashboard"
+            src="dashImage.jpg"
+            style={
+              Object {
+                "height": "320px",
+              }
+            }
           />
           <div
-                    className="market-dash-text"
+            className="market-dash-text"
           >
-                    <h2
-                              className="section-title"
-                    >
-                              Organize all your shows in the dashboard.
-                    </h2>
-                    <p>
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
-                    </p>
+            <h2
+              className="section-title"
+            >
+              Organize all your shows in the dashboard.
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
+            </p>
           </div>
-</section>,
+        </section>,
       ],
       "className": "landing",
     },
@@ -109,24 +109,24 @@ ShallowWrapper {
           "children": Array [
             <h1>
               Talent Buyer
-</h1>,
+            </h1>,
             <withRouter(Splash)
               openLogInModal={[Function]}
               openSignUpModal={[Function]}
-/>,
+            />,
             <section
               className="divider"
->
+            >
               <div
-                            className="divider-line"
+                className="divider-line"
               />
               <i
-                            className="fas fa-angle-down"
+                className="fas fa-angle-down"
               />
               <div
-                            className="divider-line"
+                className="divider-line"
               />
-</section>,
+            </section>,
           ],
           "className": "hero",
         },
@@ -163,13 +163,13 @@ ShallowWrapper {
               "children": Array [
                 <div
                   className="divider-line"
-/>,
+                />,
                 <i
                   className="fas fa-angle-down"
-/>,
+                />,
                 <div
                   className="divider-line"
-/>,
+                />,
               ],
               "className": "divider",
             },
@@ -222,25 +222,25 @@ ShallowWrapper {
           "children": Array [
             <div
               className="market-dash-text"
->
+            >
               <h2
-                            className="section-title"
+                className="section-title"
               >
-                            Organize all your shows in the dashboard.
+                Organize all your shows in the dashboard.
               </h2>
               <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
               </p>
-</div>,
+            </div>,
             <img
               alt="dashboard"
               src="dashImage.jpg"
               style={
-                            Object {
-                                          "height": "250px",
-                                        }
+                Object {
+                  "height": "250px",
+                }
               }
-/>,
+            />,
           ],
           "className": "market-dash",
         },
@@ -254,12 +254,12 @@ ShallowWrapper {
               "children": Array [
                 <h2
                   className="section-title"
->
+                >
                   Organize all your shows in the dashboard.
-</h2>,
+                </h2>,
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
-</p>,
+                </p>,
               ],
               "className": "market-dash-text",
             },
@@ -319,23 +319,23 @@ ShallowWrapper {
               alt="dashboard"
               src="dashImage.jpg"
               style={
-                            Object {
-                                          "height": "320px",
-                                        }
+                Object {
+                  "height": "320px",
+                }
               }
-/>,
+            />,
             <div
               className="market-dash-text"
->
+            >
               <h2
-                            className="section-title"
+                className="section-title"
               >
-                            Organize all your shows in the dashboard.
+                Organize all your shows in the dashboard.
               </h2>
               <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
               </p>
-</div>,
+            </div>,
           ],
           "className": "market-browse",
         },
@@ -364,12 +364,12 @@ ShallowWrapper {
               "children": Array [
                 <h2
                   className="section-title"
->
+                >
                   Organize all your shows in the dashboard.
-</h2>,
+                </h2>,
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
-</p>,
+                </p>,
               ],
               "className": "market-dash-text",
             },
@@ -418,78 +418,78 @@ ShallowWrapper {
           false,
           <section
             className="hero"
->
+          >
             <h1>
-                        Talent Buyer
+              Talent Buyer
             </h1>
             <withRouter(Splash)
-                        openLogInModal={[Function]}
-                        openSignUpModal={[Function]}
+              openLogInModal={[Function]}
+              openSignUpModal={[Function]}
             />
             <section
-                        className="divider"
+              className="divider"
             >
-                        <div
-                                    className="divider-line"
-                        />
-                        <i
-                                    className="fas fa-angle-down"
-                        />
-                        <div
-                                    className="divider-line"
-                        />
+              <div
+                className="divider-line"
+              />
+              <i
+                className="fas fa-angle-down"
+              />
+              <div
+                className="divider-line"
+              />
             </section>
-</section>,
+          </section>,
           <section
             className="market-dash"
->
+          >
             <div
-                        className="market-dash-text"
+              className="market-dash-text"
             >
-                        <h2
-                                    className="section-title"
-                        >
-                                    Organize all your shows in the dashboard.
-                        </h2>
-                        <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
-                        </p>
+              <h2
+                className="section-title"
+              >
+                Organize all your shows in the dashboard.
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
+              </p>
             </div>
             <img
-                        alt="dashboard"
-                        src="dashImage.jpg"
-                        style={
-                                    Object {
-                                                "height": "250px",
-                                              }
-                        }
+              alt="dashboard"
+              src="dashImage.jpg"
+              style={
+                Object {
+                  "height": "250px",
+                }
+              }
             />
-</section>,
+          </section>,
           <section
             className="market-browse"
->
+          >
             <img
-                        alt="dashboard"
-                        src="dashImage.jpg"
-                        style={
-                                    Object {
-                                                "height": "320px",
-                                              }
-                        }
+              alt="dashboard"
+              src="dashImage.jpg"
+              style={
+                Object {
+                  "height": "320px",
+                }
+              }
             />
             <div
-                        className="market-dash-text"
+              className="market-dash-text"
             >
-                        <h2
-                                    className="section-title"
-                        >
-                                    Organize all your shows in the dashboard.
-                        </h2>
-                        <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
-                        </p>
+              <h2
+                className="section-title"
+              >
+                Organize all your shows in the dashboard.
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
+              </p>
             </div>
-</section>,
+          </section>,
         ],
         "className": "landing",
       },
@@ -505,24 +505,24 @@ ShallowWrapper {
             "children": Array [
               <h1>
                 Talent Buyer
-</h1>,
+              </h1>,
               <withRouter(Splash)
                 openLogInModal={[Function]}
                 openSignUpModal={[Function]}
-/>,
+              />,
               <section
                 className="divider"
->
+              >
                 <div
-                                className="divider-line"
+                  className="divider-line"
                 />
                 <i
-                                className="fas fa-angle-down"
+                  className="fas fa-angle-down"
                 />
                 <div
-                                className="divider-line"
+                  className="divider-line"
                 />
-</section>,
+              </section>,
             ],
             "className": "hero",
           },
@@ -559,13 +559,13 @@ ShallowWrapper {
                 "children": Array [
                   <div
                     className="divider-line"
-/>,
+                  />,
                   <i
                     className="fas fa-angle-down"
-/>,
+                  />,
                   <div
                     className="divider-line"
-/>,
+                  />,
                 ],
                 "className": "divider",
               },
@@ -618,25 +618,25 @@ ShallowWrapper {
             "children": Array [
               <div
                 className="market-dash-text"
->
+              >
                 <h2
-                                className="section-title"
+                  className="section-title"
                 >
-                                Organize all your shows in the dashboard.
+                  Organize all your shows in the dashboard.
                 </h2>
                 <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
                 </p>
-</div>,
+              </div>,
               <img
                 alt="dashboard"
                 src="dashImage.jpg"
                 style={
-                                Object {
-                                                "height": "250px",
-                                              }
+                  Object {
+                    "height": "250px",
+                  }
                 }
-/>,
+              />,
             ],
             "className": "market-dash",
           },
@@ -650,12 +650,12 @@ ShallowWrapper {
                 "children": Array [
                   <h2
                     className="section-title"
->
+                  >
                     Organize all your shows in the dashboard.
-</h2>,
+                  </h2>,
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
-</p>,
+                  </p>,
                 ],
                 "className": "market-dash-text",
               },
@@ -715,23 +715,23 @@ ShallowWrapper {
                 alt="dashboard"
                 src="dashImage.jpg"
                 style={
-                                Object {
-                                                "height": "320px",
-                                              }
+                  Object {
+                    "height": "320px",
+                  }
                 }
-/>,
+              />,
               <div
                 className="market-dash-text"
->
+              >
                 <h2
-                                className="section-title"
+                  className="section-title"
                 >
-                                Organize all your shows in the dashboard.
+                  Organize all your shows in the dashboard.
                 </h2>
                 <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
                 </p>
-</div>,
+              </div>,
             ],
             "className": "market-browse",
           },
@@ -760,12 +760,12 @@ ShallowWrapper {
                 "children": Array [
                   <h2
                     className="section-title"
->
+                  >
                     Organize all your shows in the dashboard.
-</h2>,
+                  </h2>,
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
-</p>,
+                  </p>,
                 ],
                 "className": "market-dash-text",
               },

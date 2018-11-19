@@ -4,341 +4,341 @@ exports[`ViewOfferModal component should match the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ViewOfferModal
-    closeViewOfferModal={[Function]}
+    closeViewOfferModal={[MockFunction]}
     currentUser={
-        Object {
-            "created_at": "2018-10-27T22:15:12.939Z",
-            "email": "michael@example.com",
-            "first_name": "Michael",
-            "id": 7,
-            "isAuthenticated": true,
-            "last_name": "Jackson",
-            "updated_at": "2018-10-27T22:15:12.939Z",
-          }
+      Object {
+        "created_at": "2018-10-27T22:15:12.939Z",
+        "email": "michael@example.com",
+        "first_name": "Michael",
+        "id": 7,
+        "isAuthenticated": true,
+        "last_name": "Jackson",
+        "updated_at": "2018-10-27T22:15:12.939Z",
+      }
     }
     currentVenue={
-        Object {
-            "capacity": 1600,
-            "city": "Denver",
-            "id": 1,
-            "name": "Ogden Theatre",
-            "state": "CO",
-            "street_address": "935 East Colfax Avenue",
-            "zip": 80218,
-          }
+      Object {
+        "capacity": 1600,
+        "city": "Denver",
+        "id": 1,
+        "name": "Ogden Theatre",
+        "state": "CO",
+        "street_address": "935 East Colfax Avenue",
+        "zip": 80218,
+      }
     }
     offerId={5}
     offers={
-        Array [
-            Object {
-              "age_range": "16+",
-              "artist_id": 19,
-              "artist_name": "Calvin Harris",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-10-29",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 5,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 19,
-              "artist_name": "Calvin Harris",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-10-29",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 6,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 19,
-              "artist_name": "Calvin Harris",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-10-29",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 7,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 4,
-              "artist_name": "Alesso",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-10-29",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 100032,
-              "id": 8,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 7,
-              "artist_name": "Afrojack",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-10-29",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 9,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 7,
-              "artist_name": "Afrojack",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-10-29",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 10,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 99,
-              "artist_name": "Savoy",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-10-29",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 11,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 4,
-              "artist_name": "Alesso",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-10-29",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 12,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 22,
-              "artist_name": "Chris Lake",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-10-29",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 13,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 19,
-              "artist_name": "Calvin Harris",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-10-30",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 14,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 7,
-              "artist_name": "Afrojack",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-10-29",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 15,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 4,
-              "artist_name": "Alesso",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-11-24",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 16,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 16,
-              "artist_name": "Borgore",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-10-29",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 17,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 4,
-              "artist_name": "Alesso",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-11-16",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 18,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 16,
-              "artist_name": "Borgore",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-11-01",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 19,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 4,
-              "artist_name": "Alesso",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-11-01",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 20,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 7,
-              "artist_name": "Afrojack",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-11-08",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 21,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-            Object {
-              "age_range": "16+",
-              "artist_id": 18,
-              "artist_name": "Booka Shade",
-              "bonuses": "+$1k at 600 sold",
-              "buyer_id": 3,
-              "date": "2018-11-02",
-              "door_times": "9pm-12am",
-              "gross_potential": 8500,
-              "guarantee": 5000,
-              "id": 22,
-              "merch_split": "80/20 artist/venue",
-              "radius_clause": "120mi +/- 60days",
-              "status": "pending",
-              "total_expenses": 2000,
-              "venue_id": 3,
-            },
-          ]
+      Array [
+        Object {
+          "age_range": "16+",
+          "artist_id": 19,
+          "artist_name": "Calvin Harris",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-10-29",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 5,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 19,
+          "artist_name": "Calvin Harris",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-10-29",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 6,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 19,
+          "artist_name": "Calvin Harris",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-10-29",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 7,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 4,
+          "artist_name": "Alesso",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-10-29",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 100032,
+          "id": 8,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 7,
+          "artist_name": "Afrojack",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-10-29",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 9,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 7,
+          "artist_name": "Afrojack",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-10-29",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 10,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 99,
+          "artist_name": "Savoy",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-10-29",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 11,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 4,
+          "artist_name": "Alesso",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-10-29",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 12,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 22,
+          "artist_name": "Chris Lake",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-10-29",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 13,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 19,
+          "artist_name": "Calvin Harris",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-10-30",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 14,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 7,
+          "artist_name": "Afrojack",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-10-29",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 15,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 4,
+          "artist_name": "Alesso",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-11-24",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 16,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 16,
+          "artist_name": "Borgore",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-10-29",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 17,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 4,
+          "artist_name": "Alesso",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-11-16",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 18,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 16,
+          "artist_name": "Borgore",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-11-01",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 19,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 4,
+          "artist_name": "Alesso",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-11-01",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 20,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 7,
+          "artist_name": "Afrojack",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-11-08",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 21,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+        Object {
+          "age_range": "16+",
+          "artist_id": 18,
+          "artist_name": "Booka Shade",
+          "bonuses": "+$1k at 600 sold",
+          "buyer_id": 3,
+          "date": "2018-11-02",
+          "door_times": "9pm-12am",
+          "gross_potential": 8500,
+          "guarantee": 5000,
+          "id": 22,
+          "merch_split": "80/20 artist/venue",
+          "radius_clause": "120mi +/- 60days",
+          "status": "pending",
+          "total_expenses": 2000,
+          "venue_id": 3,
+        },
+      ]
     }
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -354,209 +354,209 @@ ShallowWrapper {
     "props": Object {
       "children": <div
         className="inner-modal"
->
+      >
         <h1>
-                Ogden Theatre
+          Ogden Theatre
         </h1>
         <div
-                className="offer-info"
+          className="offer-info"
         >
-                <div
-                        className="view-offer-top"
+          <div
+            className="view-offer-top"
+          >
+            <section
+              className="basic-details"
+            >
+              <h3>
+                Offer
+              </h3>
+              <p>
+                <span
+                  className="field"
                 >
-                        <section
-                                className="basic-details"
-                        >
-                                <h3>
-                                        Offer
-                                </h3>
-                                <p>
-                                        <span
-                                                className="field"
-                                        >
-                                                Date:
-                                        </span>
-                                         
-                                        2018-10-29
-                                </p>
-                                <p>
-                                        <span
-                                                className="field"
-                                        >
-                                                spanArtist:
-                                        </span>
-                                         
-                                        Calvin Harris
-                                </p>
-                                <p>
-                                        <span
-                                                className="field"
-                                        >
-                                                Buyer:
-                                        </span>
-                                         
-                                        Michael
-                                         
-                                        Jackson
-                                </p>
-                                <p>
-                                        <span
-                                                className="field"
-                                        >
-                                                Buyer Email:
-                                        </span>
-                                         
-                                        michael@example.com
-                                </p>
-                        </section>
-                        <section
-                                className="view-venue-info"
-                        >
-                                <h3>
-                                        Venue Info
-                                </h3>
-                                <p>
-                                        <span
-                                                className="field"
-                                        >
-                                                Venue:
-                                        </span>
-                                         
-                                        Ogden Theatre
-                                </p>
-                                <p>
-                                        <span
-                                                className="field"
-                                        >
-                                                Address:
-                                        </span>
-                                         
-                                        935 East Colfax Avenue
-                                </p>
-                                <p>
-                                        <span
-                                                className="field"
-                                        >
-                                                City:
-                                        </span>
-                                         
-                                        Denver
-                                        ,
-                                         
-                                        CO
-                                </p>
-                                <p>
-                                        <span
-                                                className="field"
-                                        >
-                                                Capacity:
-                                        </span>
-                                         
-                                        1600
-                                </p>
-                        </section>
-                </div>
-                <div
-                        className="view-offer-bottom"
+                  Date:
+                </span>
+                 
+                2018-10-29
+              </p>
+              <p>
+                <span
+                  className="field"
                 >
-                        <section
-                                className="terms"
-                        >
-                                <h3>
-                                        Terms
-                                </h3>
-                                <p>
-                                        <span
-                                                className="field"
-                                        >
-                                                Bonuses:
-                                        </span>
-                                         
-                                        +$1k at 600 sold
-                                </p>
-                                <p>
-                                        <span
-                                                className="field"
-                                        >
-                                                Radius Clause:
-                                        </span>
-                                        120mi +/- 60days
-                                </p>
-                                <p>
-                                        <span
-                                                className="field"
-                                        >
-                                                Door Times:
-                                        </span>
-                                         
-                                        9pm-12am
-                                </p>
-                                <p>
-                                        <span
-                                                className="field"
-                                        >
-                                                Ages:
-                                        </span>
-                                         
-                                        16+
-                                </p>
-                                <p>
-                                        <span
-                                                className="field"
-                                        >
-                                                Merch Split:
-                                        </span>
-                                         
-                                        80/20 artist/venue
-                                </p>
-                        </section>
-                        <div
-                                className="financials"
-                        >
-                                <h3>
-                                        Financials
-                                </h3>
-                                <p>
-                                        <span
-                                                className="field"
-                                        >
-                                                Guarentee:
-                                        </span>
-                                         $
-                                        5000
-                                </p>
-                                <p>
-                                        <span
-                                                className="field"
-                                        >
-                                                Total Expenses:
-                                        </span>
-                                         $
-                                        2000
-                                </p>
-                                <p>
-                                        <span
-                                                className="field"
-                                        >
-                                                Gross Potential:
-                                        </span>
-                                         $
-                                        8500
-                                </p>
-                        </div>
-                </div>
-                <p
-                        onClick={[Function]}
+                  spanArtist:
+                </span>
+                 
+                Calvin Harris
+              </p>
+              <p>
+                <span
+                  className="field"
                 >
-                        x Close
-                </p>
+                  Buyer:
+                </span>
+                 
+                Michael
+                 
+                Jackson
+              </p>
+              <p>
+                <span
+                  className="field"
+                >
+                  Buyer Email:
+                </span>
+                 
+                michael@example.com
+              </p>
+            </section>
+            <section
+              className="view-venue-info"
+            >
+              <h3>
+                Venue Info
+              </h3>
+              <p>
+                <span
+                  className="field"
+                >
+                  Venue:
+                </span>
+                 
+                Ogden Theatre
+              </p>
+              <p>
+                <span
+                  className="field"
+                >
+                  Address:
+                </span>
+                 
+                935 East Colfax Avenue
+              </p>
+              <p>
+                <span
+                  className="field"
+                >
+                  City:
+                </span>
+                 
+                Denver
+                ,
+                 
+                CO
+              </p>
+              <p>
+                <span
+                  className="field"
+                >
+                  Capacity:
+                </span>
+                 
+                1600
+              </p>
+            </section>
+          </div>
+          <div
+            className="view-offer-bottom"
+          >
+            <section
+              className="terms"
+            >
+              <h3>
+                Terms
+              </h3>
+              <p>
+                <span
+                  className="field"
+                >
+                  Bonuses:
+                </span>
+                 
+                +$1k at 600 sold
+              </p>
+              <p>
+                <span
+                  className="field"
+                >
+                  Radius Clause:
+                </span>
+                120mi +/- 60days
+              </p>
+              <p>
+                <span
+                  className="field"
+                >
+                  Door Times:
+                </span>
+                 
+                9pm-12am
+              </p>
+              <p>
+                <span
+                  className="field"
+                >
+                  Ages:
+                </span>
+                 
+                16+
+              </p>
+              <p>
+                <span
+                  className="field"
+                >
+                  Merch Split:
+                </span>
+                 
+                80/20 artist/venue
+              </p>
+            </section>
+            <div
+              className="financials"
+            >
+              <h3>
+                Financials
+              </h3>
+              <p>
+                <span
+                  className="field"
+                >
+                  Guarentee:
+                </span>
+                 $
+                5000
+              </p>
+              <p>
+                <span
+                  className="field"
+                >
+                  Total Expenses:
+                </span>
+                 $
+                2000
+              </p>
+              <p>
+                <span
+                  className="field"
+                >
+                  Gross Potential:
+                </span>
+                 $
+                8500
+              </p>
+            </div>
+          </div>
+          <p
+            onClick={[MockFunction]}
+          >
+            x Close
+          </p>
         </div>
         <p
-                onClick={[Function]}
+          onClick={[MockFunction]}
         >
-                x Cancel
+          x Cancel
         </p>
-</div>,
+      </div>,
       "className": "view-offer-modal",
     },
     "ref": null,
@@ -568,205 +568,205 @@ ShallowWrapper {
         "children": Array [
           <h1>
             Ogden Theatre
-</h1>,
+          </h1>,
           <div
             className="offer-info"
->
+          >
             <div
-                        className="view-offer-top"
+              className="view-offer-top"
             >
-                        <section
-                                    className="basic-details"
-                        >
-                                    <h3>
-                                                Offer
-                                    </h3>
-                                    <p>
-                                                <span
-                                                            className="field"
-                                                >
-                                                            Date:
-                                                </span>
-                                                 
-                                                2018-10-29
-                                    </p>
-                                    <p>
-                                                <span
-                                                            className="field"
-                                                >
-                                                            spanArtist:
-                                                </span>
-                                                 
-                                                Calvin Harris
-                                    </p>
-                                    <p>
-                                                <span
-                                                            className="field"
-                                                >
-                                                            Buyer:
-                                                </span>
-                                                 
-                                                Michael
-                                                 
-                                                Jackson
-                                    </p>
-                                    <p>
-                                                <span
-                                                            className="field"
-                                                >
-                                                            Buyer Email:
-                                                </span>
-                                                 
-                                                michael@example.com
-                                    </p>
-                        </section>
-                        <section
-                                    className="view-venue-info"
-                        >
-                                    <h3>
-                                                Venue Info
-                                    </h3>
-                                    <p>
-                                                <span
-                                                            className="field"
-                                                >
-                                                            Venue:
-                                                </span>
-                                                 
-                                                Ogden Theatre
-                                    </p>
-                                    <p>
-                                                <span
-                                                            className="field"
-                                                >
-                                                            Address:
-                                                </span>
-                                                 
-                                                935 East Colfax Avenue
-                                    </p>
-                                    <p>
-                                                <span
-                                                            className="field"
-                                                >
-                                                            City:
-                                                </span>
-                                                 
-                                                Denver
-                                                ,
-                                                 
-                                                CO
-                                    </p>
-                                    <p>
-                                                <span
-                                                            className="field"
-                                                >
-                                                            Capacity:
-                                                </span>
-                                                 
-                                                1600
-                                    </p>
-                        </section>
+              <section
+                className="basic-details"
+              >
+                <h3>
+                  Offer
+                </h3>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Date:
+                  </span>
+                   
+                  2018-10-29
+                </p>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    spanArtist:
+                  </span>
+                   
+                  Calvin Harris
+                </p>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Buyer:
+                  </span>
+                   
+                  Michael
+                   
+                  Jackson
+                </p>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Buyer Email:
+                  </span>
+                   
+                  michael@example.com
+                </p>
+              </section>
+              <section
+                className="view-venue-info"
+              >
+                <h3>
+                  Venue Info
+                </h3>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Venue:
+                  </span>
+                   
+                  Ogden Theatre
+                </p>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Address:
+                  </span>
+                   
+                  935 East Colfax Avenue
+                </p>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    City:
+                  </span>
+                   
+                  Denver
+                  ,
+                   
+                  CO
+                </p>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Capacity:
+                  </span>
+                   
+                  1600
+                </p>
+              </section>
             </div>
             <div
-                        className="view-offer-bottom"
+              className="view-offer-bottom"
             >
-                        <section
-                                    className="terms"
-                        >
-                                    <h3>
-                                                Terms
-                                    </h3>
-                                    <p>
-                                                <span
-                                                            className="field"
-                                                >
-                                                            Bonuses:
-                                                </span>
-                                                 
-                                                +$1k at 600 sold
-                                    </p>
-                                    <p>
-                                                <span
-                                                            className="field"
-                                                >
-                                                            Radius Clause:
-                                                </span>
-                                                120mi +/- 60days
-                                    </p>
-                                    <p>
-                                                <span
-                                                            className="field"
-                                                >
-                                                            Door Times:
-                                                </span>
-                                                 
-                                                9pm-12am
-                                    </p>
-                                    <p>
-                                                <span
-                                                            className="field"
-                                                >
-                                                            Ages:
-                                                </span>
-                                                 
-                                                16+
-                                    </p>
-                                    <p>
-                                                <span
-                                                            className="field"
-                                                >
-                                                            Merch Split:
-                                                </span>
-                                                 
-                                                80/20 artist/venue
-                                    </p>
-                        </section>
-                        <div
-                                    className="financials"
-                        >
-                                    <h3>
-                                                Financials
-                                    </h3>
-                                    <p>
-                                                <span
-                                                            className="field"
-                                                >
-                                                            Guarentee:
-                                                </span>
-                                                 $
-                                                5000
-                                    </p>
-                                    <p>
-                                                <span
-                                                            className="field"
-                                                >
-                                                            Total Expenses:
-                                                </span>
-                                                 $
-                                                2000
-                                    </p>
-                                    <p>
-                                                <span
-                                                            className="field"
-                                                >
-                                                            Gross Potential:
-                                                </span>
-                                                 $
-                                                8500
-                                    </p>
-                        </div>
+              <section
+                className="terms"
+              >
+                <h3>
+                  Terms
+                </h3>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Bonuses:
+                  </span>
+                   
+                  +$1k at 600 sold
+                </p>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Radius Clause:
+                  </span>
+                  120mi +/- 60days
+                </p>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Door Times:
+                  </span>
+                   
+                  9pm-12am
+                </p>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Ages:
+                  </span>
+                   
+                  16+
+                </p>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Merch Split:
+                  </span>
+                   
+                  80/20 artist/venue
+                </p>
+              </section>
+              <div
+                className="financials"
+              >
+                <h3>
+                  Financials
+                </h3>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Guarentee:
+                  </span>
+                   $
+                  5000
+                </p>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Total Expenses:
+                  </span>
+                   $
+                  2000
+                </p>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Gross Potential:
+                  </span>
+                   $
+                  8500
+                </p>
+              </div>
             </div>
             <p
-                        onClick={[Function]}
+              onClick={[MockFunction]}
             >
-                        x Close
+              x Close
             </p>
-</div>,
+          </div>,
           <p
-            onClick={[Function]}
->
+            onClick={[MockFunction]}
+          >
             x Cancel
-</p>,
+          </p>,
         ],
         "className": "inner-modal",
       },
@@ -791,193 +791,193 @@ ShallowWrapper {
             "children": Array [
               <div
                 className="view-offer-top"
->
+              >
                 <section
-                                className="basic-details"
+                  className="basic-details"
                 >
-                                <h3>
-                                                Offer
-                                </h3>
-                                <p>
-                                                <span
-                                                                className="field"
-                                                >
-                                                                Date:
-                                                </span>
-                                                 
-                                                2018-10-29
-                                </p>
-                                <p>
-                                                <span
-                                                                className="field"
-                                                >
-                                                                spanArtist:
-                                                </span>
-                                                 
-                                                Calvin Harris
-                                </p>
-                                <p>
-                                                <span
-                                                                className="field"
-                                                >
-                                                                Buyer:
-                                                </span>
-                                                 
-                                                Michael
-                                                 
-                                                Jackson
-                                </p>
-                                <p>
-                                                <span
-                                                                className="field"
-                                                >
-                                                                Buyer Email:
-                                                </span>
-                                                 
-                                                michael@example.com
-                                </p>
+                  <h3>
+                    Offer
+                  </h3>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Date:
+                    </span>
+                     
+                    2018-10-29
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      spanArtist:
+                    </span>
+                     
+                    Calvin Harris
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Buyer:
+                    </span>
+                     
+                    Michael
+                     
+                    Jackson
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Buyer Email:
+                    </span>
+                     
+                    michael@example.com
+                  </p>
                 </section>
                 <section
-                                className="view-venue-info"
+                  className="view-venue-info"
                 >
-                                <h3>
-                                                Venue Info
-                                </h3>
-                                <p>
-                                                <span
-                                                                className="field"
-                                                >
-                                                                Venue:
-                                                </span>
-                                                 
-                                                Ogden Theatre
-                                </p>
-                                <p>
-                                                <span
-                                                                className="field"
-                                                >
-                                                                Address:
-                                                </span>
-                                                 
-                                                935 East Colfax Avenue
-                                </p>
-                                <p>
-                                                <span
-                                                                className="field"
-                                                >
-                                                                City:
-                                                </span>
-                                                 
-                                                Denver
-                                                ,
-                                                 
-                                                CO
-                                </p>
-                                <p>
-                                                <span
-                                                                className="field"
-                                                >
-                                                                Capacity:
-                                                </span>
-                                                 
-                                                1600
-                                </p>
+                  <h3>
+                    Venue Info
+                  </h3>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Venue:
+                    </span>
+                     
+                    Ogden Theatre
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Address:
+                    </span>
+                     
+                    935 East Colfax Avenue
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      City:
+                    </span>
+                     
+                    Denver
+                    ,
+                     
+                    CO
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Capacity:
+                    </span>
+                     
+                    1600
+                  </p>
                 </section>
-</div>,
+              </div>,
               <div
                 className="view-offer-bottom"
->
+              >
                 <section
-                                className="terms"
+                  className="terms"
                 >
-                                <h3>
-                                                Terms
-                                </h3>
-                                <p>
-                                                <span
-                                                                className="field"
-                                                >
-                                                                Bonuses:
-                                                </span>
-                                                 
-                                                +$1k at 600 sold
-                                </p>
-                                <p>
-                                                <span
-                                                                className="field"
-                                                >
-                                                                Radius Clause:
-                                                </span>
-                                                120mi +/- 60days
-                                </p>
-                                <p>
-                                                <span
-                                                                className="field"
-                                                >
-                                                                Door Times:
-                                                </span>
-                                                 
-                                                9pm-12am
-                                </p>
-                                <p>
-                                                <span
-                                                                className="field"
-                                                >
-                                                                Ages:
-                                                </span>
-                                                 
-                                                16+
-                                </p>
-                                <p>
-                                                <span
-                                                                className="field"
-                                                >
-                                                                Merch Split:
-                                                </span>
-                                                 
-                                                80/20 artist/venue
-                                </p>
+                  <h3>
+                    Terms
+                  </h3>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Bonuses:
+                    </span>
+                     
+                    +$1k at 600 sold
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Radius Clause:
+                    </span>
+                    120mi +/- 60days
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Door Times:
+                    </span>
+                     
+                    9pm-12am
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Ages:
+                    </span>
+                     
+                    16+
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Merch Split:
+                    </span>
+                     
+                    80/20 artist/venue
+                  </p>
                 </section>
                 <div
-                                className="financials"
+                  className="financials"
                 >
-                                <h3>
-                                                Financials
-                                </h3>
-                                <p>
-                                                <span
-                                                                className="field"
-                                                >
-                                                                Guarentee:
-                                                </span>
-                                                 $
-                                                5000
-                                </p>
-                                <p>
-                                                <span
-                                                                className="field"
-                                                >
-                                                                Total Expenses:
-                                                </span>
-                                                 $
-                                                2000
-                                </p>
-                                <p>
-                                                <span
-                                                                className="field"
-                                                >
-                                                                Gross Potential:
-                                                </span>
-                                                 $
-                                                8500
-                                </p>
+                  <h3>
+                    Financials
+                  </h3>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Guarentee:
+                    </span>
+                     $
+                    5000
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Total Expenses:
+                    </span>
+                     $
+                    2000
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Gross Potential:
+                    </span>
+                     $
+                    8500
+                  </p>
                 </div>
-</div>,
+              </div>,
               <p
-                onClick={[Function]}
->
+                onClick={[MockFunction]}
+              >
                 x Close
-</p>,
+              </p>,
             ],
             "className": "offer-info",
           },
@@ -991,95 +991,95 @@ ShallowWrapper {
                 "children": Array [
                   <section
                     className="basic-details"
->
+                  >
                     <h3>
-                                        Offer
+                      Offer
                     </h3>
                     <p>
-                                        <span
-                                                            className="field"
-                                        >
-                                                            Date:
-                                        </span>
-                                         
-                                        2018-10-29
+                      <span
+                        className="field"
+                      >
+                        Date:
+                      </span>
+                       
+                      2018-10-29
                     </p>
                     <p>
-                                        <span
-                                                            className="field"
-                                        >
-                                                            spanArtist:
-                                        </span>
-                                         
-                                        Calvin Harris
+                      <span
+                        className="field"
+                      >
+                        spanArtist:
+                      </span>
+                       
+                      Calvin Harris
                     </p>
                     <p>
-                                        <span
-                                                            className="field"
-                                        >
-                                                            Buyer:
-                                        </span>
-                                         
-                                        Michael
-                                         
-                                        Jackson
+                      <span
+                        className="field"
+                      >
+                        Buyer:
+                      </span>
+                       
+                      Michael
+                       
+                      Jackson
                     </p>
                     <p>
-                                        <span
-                                                            className="field"
-                                        >
-                                                            Buyer Email:
-                                        </span>
-                                         
-                                        michael@example.com
+                      <span
+                        className="field"
+                      >
+                        Buyer Email:
+                      </span>
+                       
+                      michael@example.com
                     </p>
-</section>,
+                  </section>,
                   <section
                     className="view-venue-info"
->
+                  >
                     <h3>
-                                        Venue Info
+                      Venue Info
                     </h3>
                     <p>
-                                        <span
-                                                            className="field"
-                                        >
-                                                            Venue:
-                                        </span>
-                                         
-                                        Ogden Theatre
+                      <span
+                        className="field"
+                      >
+                        Venue:
+                      </span>
+                       
+                      Ogden Theatre
                     </p>
                     <p>
-                                        <span
-                                                            className="field"
-                                        >
-                                                            Address:
-                                        </span>
-                                         
-                                        935 East Colfax Avenue
+                      <span
+                        className="field"
+                      >
+                        Address:
+                      </span>
+                       
+                      935 East Colfax Avenue
                     </p>
                     <p>
-                                        <span
-                                                            className="field"
-                                        >
-                                                            City:
-                                        </span>
-                                         
-                                        Denver
-                                        ,
-                                         
-                                        CO
+                      <span
+                        className="field"
+                      >
+                        City:
+                      </span>
+                       
+                      Denver
+                      ,
+                       
+                      CO
                     </p>
                     <p>
-                                        <span
-                                                            className="field"
-                                        >
-                                                            Capacity:
-                                        </span>
-                                         
-                                        1600
+                      <span
+                        className="field"
+                      >
+                        Capacity:
+                      </span>
+                       
+                      1600
                     </p>
-</section>,
+                  </section>,
                 ],
                 "className": "view-offer-top",
               },
@@ -1093,45 +1093,45 @@ ShallowWrapper {
                     "children": Array [
                       <h3>
                         Offer
-</h3>,
+                      </h3>,
                       <p>
                         <span
-                                                className="field"
+                          className="field"
                         >
-                                                Date:
+                          Date:
                         </span>
                          
                         2018-10-29
-</p>,
+                      </p>,
                       <p>
                         <span
-                                                className="field"
+                          className="field"
                         >
-                                                spanArtist:
+                          spanArtist:
                         </span>
                          
                         Calvin Harris
-</p>,
+                      </p>,
                       <p>
                         <span
-                                                className="field"
+                          className="field"
                         >
-                                                Buyer:
+                          Buyer:
                         </span>
                          
                         Michael
                          
                         Jackson
-</p>,
+                      </p>,
                       <p>
                         <span
-                                                className="field"
+                          className="field"
                         >
-                                                Buyer Email:
+                          Buyer Email:
                         </span>
                          
                         michael@example.com
-</p>,
+                      </p>,
                     ],
                     "className": "basic-details",
                   },
@@ -1156,9 +1156,9 @@ ShallowWrapper {
                         "children": Array [
                           <span
                             className="field"
->
+                          >
                             Date:
-</span>,
+                          </span>,
                           " ",
                           "2018-10-29",
                         ],
@@ -1190,9 +1190,9 @@ ShallowWrapper {
                         "children": Array [
                           <span
                             className="field"
->
+                          >
                             spanArtist:
-</span>,
+                          </span>,
                           " ",
                           "Calvin Harris",
                         ],
@@ -1224,9 +1224,9 @@ ShallowWrapper {
                         "children": Array [
                           <span
                             className="field"
->
+                          >
                             Buyer:
-</span>,
+                          </span>,
                           " ",
                           "Michael",
                           " ",
@@ -1262,9 +1262,9 @@ ShallowWrapper {
                         "children": Array [
                           <span
                             className="field"
->
+                          >
                             Buyer Email:
-</span>,
+                          </span>,
                           " ",
                           "michael@example.com",
                         ],
@@ -1299,46 +1299,46 @@ ShallowWrapper {
                     "children": Array [
                       <h3>
                         Venue Info
-</h3>,
+                      </h3>,
                       <p>
                         <span
-                                                className="field"
+                          className="field"
                         >
-                                                Venue:
+                          Venue:
                         </span>
                          
                         Ogden Theatre
-</p>,
+                      </p>,
                       <p>
                         <span
-                                                className="field"
+                          className="field"
                         >
-                                                Address:
+                          Address:
                         </span>
                          
                         935 East Colfax Avenue
-</p>,
+                      </p>,
                       <p>
                         <span
-                                                className="field"
+                          className="field"
                         >
-                                                City:
+                          City:
                         </span>
                          
                         Denver
                         ,
                          
                         CO
-</p>,
+                      </p>,
                       <p>
                         <span
-                                                className="field"
+                          className="field"
                         >
-                                                Capacity:
+                          Capacity:
                         </span>
                          
                         1600
-</p>,
+                      </p>,
                     ],
                     "className": "view-venue-info",
                   },
@@ -1363,9 +1363,9 @@ ShallowWrapper {
                         "children": Array [
                           <span
                             className="field"
->
+                          >
                             Venue:
-</span>,
+                          </span>,
                           " ",
                           "Ogden Theatre",
                         ],
@@ -1397,9 +1397,9 @@ ShallowWrapper {
                         "children": Array [
                           <span
                             className="field"
->
+                          >
                             Address:
-</span>,
+                          </span>,
                           " ",
                           "935 East Colfax Avenue",
                         ],
@@ -1431,9 +1431,9 @@ ShallowWrapper {
                         "children": Array [
                           <span
                             className="field"
->
+                          >
                             City:
-</span>,
+                          </span>,
                           " ",
                           "Denver",
                           ",",
@@ -1471,9 +1471,9 @@ ShallowWrapper {
                         "children": Array [
                           <span
                             className="field"
->
+                          >
                             Capacity:
-</span>,
+                          </span>,
                           " ",
                           1600,
                         ],
@@ -1511,89 +1511,89 @@ ShallowWrapper {
                 "children": Array [
                   <section
                     className="terms"
->
+                  >
                     <h3>
-                                        Terms
+                      Terms
                     </h3>
                     <p>
-                                        <span
-                                                            className="field"
-                                        >
-                                                            Bonuses:
-                                        </span>
-                                         
-                                        +$1k at 600 sold
+                      <span
+                        className="field"
+                      >
+                        Bonuses:
+                      </span>
+                       
+                      +$1k at 600 sold
                     </p>
                     <p>
-                                        <span
-                                                            className="field"
-                                        >
-                                                            Radius Clause:
-                                        </span>
-                                        120mi +/- 60days
+                      <span
+                        className="field"
+                      >
+                        Radius Clause:
+                      </span>
+                      120mi +/- 60days
                     </p>
                     <p>
-                                        <span
-                                                            className="field"
-                                        >
-                                                            Door Times:
-                                        </span>
-                                         
-                                        9pm-12am
+                      <span
+                        className="field"
+                      >
+                        Door Times:
+                      </span>
+                       
+                      9pm-12am
                     </p>
                     <p>
-                                        <span
-                                                            className="field"
-                                        >
-                                                            Ages:
-                                        </span>
-                                         
-                                        16+
+                      <span
+                        className="field"
+                      >
+                        Ages:
+                      </span>
+                       
+                      16+
                     </p>
                     <p>
-                                        <span
-                                                            className="field"
-                                        >
-                                                            Merch Split:
-                                        </span>
-                                         
-                                        80/20 artist/venue
+                      <span
+                        className="field"
+                      >
+                        Merch Split:
+                      </span>
+                       
+                      80/20 artist/venue
                     </p>
-</section>,
+                  </section>,
                   <div
                     className="financials"
->
+                  >
                     <h3>
-                                        Financials
+                      Financials
                     </h3>
                     <p>
-                                        <span
-                                                            className="field"
-                                        >
-                                                            Guarentee:
-                                        </span>
-                                         $
-                                        5000
+                      <span
+                        className="field"
+                      >
+                        Guarentee:
+                      </span>
+                       $
+                      5000
                     </p>
                     <p>
-                                        <span
-                                                            className="field"
-                                        >
-                                                            Total Expenses:
-                                        </span>
-                                         $
-                                        2000
+                      <span
+                        className="field"
+                      >
+                        Total Expenses:
+                      </span>
+                       $
+                      2000
                     </p>
                     <p>
-                                        <span
-                                                            className="field"
-                                        >
-                                                            Gross Potential:
-                                        </span>
-                                         $
-                                        8500
+                      <span
+                        className="field"
+                      >
+                        Gross Potential:
+                      </span>
+                       $
+                      8500
                     </p>
-</div>,
+                  </div>,
                 ],
                 "className": "view-offer-bottom",
               },
@@ -1607,51 +1607,51 @@ ShallowWrapper {
                     "children": Array [
                       <h3>
                         Terms
-</h3>,
+                      </h3>,
                       <p>
                         <span
-                                                className="field"
+                          className="field"
                         >
-                                                Bonuses:
+                          Bonuses:
                         </span>
                          
                         +$1k at 600 sold
-</p>,
+                      </p>,
                       <p>
                         <span
-                                                className="field"
+                          className="field"
                         >
-                                                Radius Clause:
+                          Radius Clause:
                         </span>
                         120mi +/- 60days
-</p>,
+                      </p>,
                       <p>
                         <span
-                                                className="field"
+                          className="field"
                         >
-                                                Door Times:
+                          Door Times:
                         </span>
                          
                         9pm-12am
-</p>,
+                      </p>,
                       <p>
                         <span
-                                                className="field"
+                          className="field"
                         >
-                                                Ages:
+                          Ages:
                         </span>
                          
                         16+
-</p>,
+                      </p>,
                       <p>
                         <span
-                                                className="field"
+                          className="field"
                         >
-                                                Merch Split:
+                          Merch Split:
                         </span>
                          
                         80/20 artist/venue
-</p>,
+                      </p>,
                     ],
                     "className": "terms",
                   },
@@ -1676,9 +1676,9 @@ ShallowWrapper {
                         "children": Array [
                           <span
                             className="field"
->
+                          >
                             Bonuses:
-</span>,
+                          </span>,
                           " ",
                           "+$1k at 600 sold",
                         ],
@@ -1710,9 +1710,9 @@ ShallowWrapper {
                         "children": Array [
                           <span
                             className="field"
->
+                          >
                             Radius Clause:
-</span>,
+                          </span>,
                           "120mi +/- 60days",
                         ],
                       },
@@ -1742,9 +1742,9 @@ ShallowWrapper {
                         "children": Array [
                           <span
                             className="field"
->
+                          >
                             Door Times:
-</span>,
+                          </span>,
                           " ",
                           "9pm-12am",
                         ],
@@ -1776,9 +1776,9 @@ ShallowWrapper {
                         "children": Array [
                           <span
                             className="field"
->
+                          >
                             Ages:
-</span>,
+                          </span>,
                           " ",
                           "16+",
                         ],
@@ -1810,9 +1810,9 @@ ShallowWrapper {
                         "children": Array [
                           <span
                             className="field"
->
+                          >
                             Merch Split:
-</span>,
+                          </span>,
                           " ",
                           "80/20 artist/venue",
                         ],
@@ -1847,34 +1847,34 @@ ShallowWrapper {
                     "children": Array [
                       <h3>
                         Financials
-</h3>,
+                      </h3>,
                       <p>
                         <span
-                                                className="field"
+                          className="field"
                         >
-                                                Guarentee:
+                          Guarentee:
                         </span>
                          $
                         5000
-</p>,
+                      </p>,
                       <p>
                         <span
-                                                className="field"
+                          className="field"
                         >
-                                                Total Expenses:
+                          Total Expenses:
                         </span>
                          $
                         2000
-</p>,
+                      </p>,
                       <p>
                         <span
-                                                className="field"
+                          className="field"
                         >
-                                                Gross Potential:
+                          Gross Potential:
                         </span>
                          $
                         8500
-</p>,
+                      </p>,
                     ],
                     "className": "financials",
                   },
@@ -1899,9 +1899,9 @@ ShallowWrapper {
                         "children": Array [
                           <span
                             className="field"
->
+                          >
                             Guarentee:
-</span>,
+                          </span>,
                           " $",
                           5000,
                         ],
@@ -1933,9 +1933,9 @@ ShallowWrapper {
                         "children": Array [
                           <span
                             className="field"
->
+                          >
                             Total Expenses:
-</span>,
+                          </span>,
                           " $",
                           2000,
                         ],
@@ -1967,9 +1967,9 @@ ShallowWrapper {
                         "children": Array [
                           <span
                             className="field"
->
+                          >
                             Gross Potential:
-</span>,
+                          </span>,
                           " $",
                           8500,
                         ],
@@ -2005,7 +2005,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "x Close",
-                "onClick": [Function],
+                "onClick": [MockFunction],
               },
               "ref": null,
               "rendered": "x Close",
@@ -2020,7 +2020,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "x Cancel",
-            "onClick": [Function],
+            "onClick": [MockFunction],
           },
           "ref": null,
           "rendered": "x Cancel",
@@ -2039,209 +2039,209 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="inner-modal"
->
+        >
           <h1>
-                    Ogden Theatre
+            Ogden Theatre
           </h1>
           <div
-                    className="offer-info"
+            className="offer-info"
           >
-                    <div
-                              className="view-offer-top"
-                    >
-                              <section
-                                        className="basic-details"
-                              >
-                                        <h3>
-                                                  Offer
-                                        </h3>
-                                        <p>
-                                                  <span
-                                                            className="field"
-                                                  >
-                                                            Date:
-                                                  </span>
-                                                   
-                                                  2018-10-29
-                                        </p>
-                                        <p>
-                                                  <span
-                                                            className="field"
-                                                  >
-                                                            spanArtist:
-                                                  </span>
-                                                   
-                                                  Calvin Harris
-                                        </p>
-                                        <p>
-                                                  <span
-                                                            className="field"
-                                                  >
-                                                            Buyer:
-                                                  </span>
-                                                   
-                                                  Michael
-                                                   
-                                                  Jackson
-                                        </p>
-                                        <p>
-                                                  <span
-                                                            className="field"
-                                                  >
-                                                            Buyer Email:
-                                                  </span>
-                                                   
-                                                  michael@example.com
-                                        </p>
-                              </section>
-                              <section
-                                        className="view-venue-info"
-                              >
-                                        <h3>
-                                                  Venue Info
-                                        </h3>
-                                        <p>
-                                                  <span
-                                                            className="field"
-                                                  >
-                                                            Venue:
-                                                  </span>
-                                                   
-                                                  Ogden Theatre
-                                        </p>
-                                        <p>
-                                                  <span
-                                                            className="field"
-                                                  >
-                                                            Address:
-                                                  </span>
-                                                   
-                                                  935 East Colfax Avenue
-                                        </p>
-                                        <p>
-                                                  <span
-                                                            className="field"
-                                                  >
-                                                            City:
-                                                  </span>
-                                                   
-                                                  Denver
-                                                  ,
-                                                   
-                                                  CO
-                                        </p>
-                                        <p>
-                                                  <span
-                                                            className="field"
-                                                  >
-                                                            Capacity:
-                                                  </span>
-                                                   
-                                                  1600
-                                        </p>
-                              </section>
-                    </div>
-                    <div
-                              className="view-offer-bottom"
-                    >
-                              <section
-                                        className="terms"
-                              >
-                                        <h3>
-                                                  Terms
-                                        </h3>
-                                        <p>
-                                                  <span
-                                                            className="field"
-                                                  >
-                                                            Bonuses:
-                                                  </span>
-                                                   
-                                                  +$1k at 600 sold
-                                        </p>
-                                        <p>
-                                                  <span
-                                                            className="field"
-                                                  >
-                                                            Radius Clause:
-                                                  </span>
-                                                  120mi +/- 60days
-                                        </p>
-                                        <p>
-                                                  <span
-                                                            className="field"
-                                                  >
-                                                            Door Times:
-                                                  </span>
-                                                   
-                                                  9pm-12am
-                                        </p>
-                                        <p>
-                                                  <span
-                                                            className="field"
-                                                  >
-                                                            Ages:
-                                                  </span>
-                                                   
-                                                  16+
-                                        </p>
-                                        <p>
-                                                  <span
-                                                            className="field"
-                                                  >
-                                                            Merch Split:
-                                                  </span>
-                                                   
-                                                  80/20 artist/venue
-                                        </p>
-                              </section>
-                              <div
-                                        className="financials"
-                              >
-                                        <h3>
-                                                  Financials
-                                        </h3>
-                                        <p>
-                                                  <span
-                                                            className="field"
-                                                  >
-                                                            Guarentee:
-                                                  </span>
-                                                   $
-                                                  5000
-                                        </p>
-                                        <p>
-                                                  <span
-                                                            className="field"
-                                                  >
-                                                            Total Expenses:
-                                                  </span>
-                                                   $
-                                                  2000
-                                        </p>
-                                        <p>
-                                                  <span
-                                                            className="field"
-                                                  >
-                                                            Gross Potential:
-                                                  </span>
-                                                   $
-                                                  8500
-                                        </p>
-                              </div>
-                    </div>
-                    <p
-                              onClick={[Function]}
-                    >
-                              x Close
-                    </p>
+            <div
+              className="view-offer-top"
+            >
+              <section
+                className="basic-details"
+              >
+                <h3>
+                  Offer
+                </h3>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Date:
+                  </span>
+                   
+                  2018-10-29
+                </p>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    spanArtist:
+                  </span>
+                   
+                  Calvin Harris
+                </p>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Buyer:
+                  </span>
+                   
+                  Michael
+                   
+                  Jackson
+                </p>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Buyer Email:
+                  </span>
+                   
+                  michael@example.com
+                </p>
+              </section>
+              <section
+                className="view-venue-info"
+              >
+                <h3>
+                  Venue Info
+                </h3>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Venue:
+                  </span>
+                   
+                  Ogden Theatre
+                </p>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Address:
+                  </span>
+                   
+                  935 East Colfax Avenue
+                </p>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    City:
+                  </span>
+                   
+                  Denver
+                  ,
+                   
+                  CO
+                </p>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Capacity:
+                  </span>
+                   
+                  1600
+                </p>
+              </section>
+            </div>
+            <div
+              className="view-offer-bottom"
+            >
+              <section
+                className="terms"
+              >
+                <h3>
+                  Terms
+                </h3>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Bonuses:
+                  </span>
+                   
+                  +$1k at 600 sold
+                </p>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Radius Clause:
+                  </span>
+                  120mi +/- 60days
+                </p>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Door Times:
+                  </span>
+                   
+                  9pm-12am
+                </p>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Ages:
+                  </span>
+                   
+                  16+
+                </p>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Merch Split:
+                  </span>
+                   
+                  80/20 artist/venue
+                </p>
+              </section>
+              <div
+                className="financials"
+              >
+                <h3>
+                  Financials
+                </h3>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Guarentee:
+                  </span>
+                   $
+                  5000
+                </p>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Total Expenses:
+                  </span>
+                   $
+                  2000
+                </p>
+                <p>
+                  <span
+                    className="field"
+                  >
+                    Gross Potential:
+                  </span>
+                   $
+                  8500
+                </p>
+              </div>
+            </div>
+            <p
+              onClick={[MockFunction]}
+            >
+              x Close
+            </p>
           </div>
           <p
-                    onClick={[Function]}
+            onClick={[MockFunction]}
           >
-                    x Cancel
+            x Cancel
           </p>
-</div>,
+        </div>,
         "className": "view-offer-modal",
       },
       "ref": null,
@@ -2253,205 +2253,205 @@ ShallowWrapper {
           "children": Array [
             <h1>
               Ogden Theatre
-</h1>,
+            </h1>,
             <div
               className="offer-info"
->
+            >
               <div
-                            className="view-offer-top"
+                className="view-offer-top"
               >
-                            <section
-                                          className="basic-details"
-                            >
-                                          <h3>
-                                                        Offer
-                                          </h3>
-                                          <p>
-                                                        <span
-                                                                      className="field"
-                                                        >
-                                                                      Date:
-                                                        </span>
-                                                         
-                                                        2018-10-29
-                                          </p>
-                                          <p>
-                                                        <span
-                                                                      className="field"
-                                                        >
-                                                                      spanArtist:
-                                                        </span>
-                                                         
-                                                        Calvin Harris
-                                          </p>
-                                          <p>
-                                                        <span
-                                                                      className="field"
-                                                        >
-                                                                      Buyer:
-                                                        </span>
-                                                         
-                                                        Michael
-                                                         
-                                                        Jackson
-                                          </p>
-                                          <p>
-                                                        <span
-                                                                      className="field"
-                                                        >
-                                                                      Buyer Email:
-                                                        </span>
-                                                         
-                                                        michael@example.com
-                                          </p>
-                            </section>
-                            <section
-                                          className="view-venue-info"
-                            >
-                                          <h3>
-                                                        Venue Info
-                                          </h3>
-                                          <p>
-                                                        <span
-                                                                      className="field"
-                                                        >
-                                                                      Venue:
-                                                        </span>
-                                                         
-                                                        Ogden Theatre
-                                          </p>
-                                          <p>
-                                                        <span
-                                                                      className="field"
-                                                        >
-                                                                      Address:
-                                                        </span>
-                                                         
-                                                        935 East Colfax Avenue
-                                          </p>
-                                          <p>
-                                                        <span
-                                                                      className="field"
-                                                        >
-                                                                      City:
-                                                        </span>
-                                                         
-                                                        Denver
-                                                        ,
-                                                         
-                                                        CO
-                                          </p>
-                                          <p>
-                                                        <span
-                                                                      className="field"
-                                                        >
-                                                                      Capacity:
-                                                        </span>
-                                                         
-                                                        1600
-                                          </p>
-                            </section>
+                <section
+                  className="basic-details"
+                >
+                  <h3>
+                    Offer
+                  </h3>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Date:
+                    </span>
+                     
+                    2018-10-29
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      spanArtist:
+                    </span>
+                     
+                    Calvin Harris
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Buyer:
+                    </span>
+                     
+                    Michael
+                     
+                    Jackson
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Buyer Email:
+                    </span>
+                     
+                    michael@example.com
+                  </p>
+                </section>
+                <section
+                  className="view-venue-info"
+                >
+                  <h3>
+                    Venue Info
+                  </h3>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Venue:
+                    </span>
+                     
+                    Ogden Theatre
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Address:
+                    </span>
+                     
+                    935 East Colfax Avenue
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      City:
+                    </span>
+                     
+                    Denver
+                    ,
+                     
+                    CO
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Capacity:
+                    </span>
+                     
+                    1600
+                  </p>
+                </section>
               </div>
               <div
-                            className="view-offer-bottom"
+                className="view-offer-bottom"
               >
-                            <section
-                                          className="terms"
-                            >
-                                          <h3>
-                                                        Terms
-                                          </h3>
-                                          <p>
-                                                        <span
-                                                                      className="field"
-                                                        >
-                                                                      Bonuses:
-                                                        </span>
-                                                         
-                                                        +$1k at 600 sold
-                                          </p>
-                                          <p>
-                                                        <span
-                                                                      className="field"
-                                                        >
-                                                                      Radius Clause:
-                                                        </span>
-                                                        120mi +/- 60days
-                                          </p>
-                                          <p>
-                                                        <span
-                                                                      className="field"
-                                                        >
-                                                                      Door Times:
-                                                        </span>
-                                                         
-                                                        9pm-12am
-                                          </p>
-                                          <p>
-                                                        <span
-                                                                      className="field"
-                                                        >
-                                                                      Ages:
-                                                        </span>
-                                                         
-                                                        16+
-                                          </p>
-                                          <p>
-                                                        <span
-                                                                      className="field"
-                                                        >
-                                                                      Merch Split:
-                                                        </span>
-                                                         
-                                                        80/20 artist/venue
-                                          </p>
-                            </section>
-                            <div
-                                          className="financials"
-                            >
-                                          <h3>
-                                                        Financials
-                                          </h3>
-                                          <p>
-                                                        <span
-                                                                      className="field"
-                                                        >
-                                                                      Guarentee:
-                                                        </span>
-                                                         $
-                                                        5000
-                                          </p>
-                                          <p>
-                                                        <span
-                                                                      className="field"
-                                                        >
-                                                                      Total Expenses:
-                                                        </span>
-                                                         $
-                                                        2000
-                                          </p>
-                                          <p>
-                                                        <span
-                                                                      className="field"
-                                                        >
-                                                                      Gross Potential:
-                                                        </span>
-                                                         $
-                                                        8500
-                                          </p>
-                            </div>
+                <section
+                  className="terms"
+                >
+                  <h3>
+                    Terms
+                  </h3>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Bonuses:
+                    </span>
+                     
+                    +$1k at 600 sold
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Radius Clause:
+                    </span>
+                    120mi +/- 60days
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Door Times:
+                    </span>
+                     
+                    9pm-12am
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Ages:
+                    </span>
+                     
+                    16+
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Merch Split:
+                    </span>
+                     
+                    80/20 artist/venue
+                  </p>
+                </section>
+                <div
+                  className="financials"
+                >
+                  <h3>
+                    Financials
+                  </h3>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Guarentee:
+                    </span>
+                     $
+                    5000
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Total Expenses:
+                    </span>
+                     $
+                    2000
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Gross Potential:
+                    </span>
+                     $
+                    8500
+                  </p>
+                </div>
               </div>
               <p
-                            onClick={[Function]}
+                onClick={[MockFunction]}
               >
-                            x Close
+                x Close
               </p>
-</div>,
+            </div>,
             <p
-              onClick={[Function]}
->
+              onClick={[MockFunction]}
+            >
               x Cancel
-</p>,
+            </p>,
           ],
           "className": "inner-modal",
         },
@@ -2476,193 +2476,193 @@ ShallowWrapper {
               "children": Array [
                 <div
                   className="view-offer-top"
->
+                >
                   <section
-                                    className="basic-details"
+                    className="basic-details"
                   >
-                                    <h3>
-                                                      Offer
-                                    </h3>
-                                    <p>
-                                                      <span
-                                                                        className="field"
-                                                      >
-                                                                        Date:
-                                                      </span>
-                                                       
-                                                      2018-10-29
-                                    </p>
-                                    <p>
-                                                      <span
-                                                                        className="field"
-                                                      >
-                                                                        spanArtist:
-                                                      </span>
-                                                       
-                                                      Calvin Harris
-                                    </p>
-                                    <p>
-                                                      <span
-                                                                        className="field"
-                                                      >
-                                                                        Buyer:
-                                                      </span>
-                                                       
-                                                      Michael
-                                                       
-                                                      Jackson
-                                    </p>
-                                    <p>
-                                                      <span
-                                                                        className="field"
-                                                      >
-                                                                        Buyer Email:
-                                                      </span>
-                                                       
-                                                      michael@example.com
-                                    </p>
+                    <h3>
+                      Offer
+                    </h3>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Date:
+                      </span>
+                       
+                      2018-10-29
+                    </p>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        spanArtist:
+                      </span>
+                       
+                      Calvin Harris
+                    </p>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Buyer:
+                      </span>
+                       
+                      Michael
+                       
+                      Jackson
+                    </p>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Buyer Email:
+                      </span>
+                       
+                      michael@example.com
+                    </p>
                   </section>
                   <section
-                                    className="view-venue-info"
+                    className="view-venue-info"
                   >
-                                    <h3>
-                                                      Venue Info
-                                    </h3>
-                                    <p>
-                                                      <span
-                                                                        className="field"
-                                                      >
-                                                                        Venue:
-                                                      </span>
-                                                       
-                                                      Ogden Theatre
-                                    </p>
-                                    <p>
-                                                      <span
-                                                                        className="field"
-                                                      >
-                                                                        Address:
-                                                      </span>
-                                                       
-                                                      935 East Colfax Avenue
-                                    </p>
-                                    <p>
-                                                      <span
-                                                                        className="field"
-                                                      >
-                                                                        City:
-                                                      </span>
-                                                       
-                                                      Denver
-                                                      ,
-                                                       
-                                                      CO
-                                    </p>
-                                    <p>
-                                                      <span
-                                                                        className="field"
-                                                      >
-                                                                        Capacity:
-                                                      </span>
-                                                       
-                                                      1600
-                                    </p>
+                    <h3>
+                      Venue Info
+                    </h3>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Venue:
+                      </span>
+                       
+                      Ogden Theatre
+                    </p>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Address:
+                      </span>
+                       
+                      935 East Colfax Avenue
+                    </p>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        City:
+                      </span>
+                       
+                      Denver
+                      ,
+                       
+                      CO
+                    </p>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Capacity:
+                      </span>
+                       
+                      1600
+                    </p>
                   </section>
-</div>,
+                </div>,
                 <div
                   className="view-offer-bottom"
->
+                >
                   <section
-                                    className="terms"
+                    className="terms"
                   >
-                                    <h3>
-                                                      Terms
-                                    </h3>
-                                    <p>
-                                                      <span
-                                                                        className="field"
-                                                      >
-                                                                        Bonuses:
-                                                      </span>
-                                                       
-                                                      +$1k at 600 sold
-                                    </p>
-                                    <p>
-                                                      <span
-                                                                        className="field"
-                                                      >
-                                                                        Radius Clause:
-                                                      </span>
-                                                      120mi +/- 60days
-                                    </p>
-                                    <p>
-                                                      <span
-                                                                        className="field"
-                                                      >
-                                                                        Door Times:
-                                                      </span>
-                                                       
-                                                      9pm-12am
-                                    </p>
-                                    <p>
-                                                      <span
-                                                                        className="field"
-                                                      >
-                                                                        Ages:
-                                                      </span>
-                                                       
-                                                      16+
-                                    </p>
-                                    <p>
-                                                      <span
-                                                                        className="field"
-                                                      >
-                                                                        Merch Split:
-                                                      </span>
-                                                       
-                                                      80/20 artist/venue
-                                    </p>
+                    <h3>
+                      Terms
+                    </h3>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Bonuses:
+                      </span>
+                       
+                      +$1k at 600 sold
+                    </p>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Radius Clause:
+                      </span>
+                      120mi +/- 60days
+                    </p>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Door Times:
+                      </span>
+                       
+                      9pm-12am
+                    </p>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Ages:
+                      </span>
+                       
+                      16+
+                    </p>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Merch Split:
+                      </span>
+                       
+                      80/20 artist/venue
+                    </p>
                   </section>
                   <div
-                                    className="financials"
+                    className="financials"
                   >
-                                    <h3>
-                                                      Financials
-                                    </h3>
-                                    <p>
-                                                      <span
-                                                                        className="field"
-                                                      >
-                                                                        Guarentee:
-                                                      </span>
-                                                       $
-                                                      5000
-                                    </p>
-                                    <p>
-                                                      <span
-                                                                        className="field"
-                                                      >
-                                                                        Total Expenses:
-                                                      </span>
-                                                       $
-                                                      2000
-                                    </p>
-                                    <p>
-                                                      <span
-                                                                        className="field"
-                                                      >
-                                                                        Gross Potential:
-                                                      </span>
-                                                       $
-                                                      8500
-                                    </p>
+                    <h3>
+                      Financials
+                    </h3>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Guarentee:
+                      </span>
+                       $
+                      5000
+                    </p>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Total Expenses:
+                      </span>
+                       $
+                      2000
+                    </p>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Gross Potential:
+                      </span>
+                       $
+                      8500
+                    </p>
                   </div>
-</div>,
+                </div>,
                 <p
-                  onClick={[Function]}
->
+                  onClick={[MockFunction]}
+                >
                   x Close
-</p>,
+                </p>,
               ],
               "className": "offer-info",
             },
@@ -2676,95 +2676,95 @@ ShallowWrapper {
                   "children": Array [
                     <section
                       className="basic-details"
->
+                    >
                       <h3>
-                                            Offer
+                        Offer
                       </h3>
                       <p>
-                                            <span
-                                                                  className="field"
-                                            >
-                                                                  Date:
-                                            </span>
-                                             
-                                            2018-10-29
+                        <span
+                          className="field"
+                        >
+                          Date:
+                        </span>
+                         
+                        2018-10-29
                       </p>
                       <p>
-                                            <span
-                                                                  className="field"
-                                            >
-                                                                  spanArtist:
-                                            </span>
-                                             
-                                            Calvin Harris
+                        <span
+                          className="field"
+                        >
+                          spanArtist:
+                        </span>
+                         
+                        Calvin Harris
                       </p>
                       <p>
-                                            <span
-                                                                  className="field"
-                                            >
-                                                                  Buyer:
-                                            </span>
-                                             
-                                            Michael
-                                             
-                                            Jackson
+                        <span
+                          className="field"
+                        >
+                          Buyer:
+                        </span>
+                         
+                        Michael
+                         
+                        Jackson
                       </p>
                       <p>
-                                            <span
-                                                                  className="field"
-                                            >
-                                                                  Buyer Email:
-                                            </span>
-                                             
-                                            michael@example.com
+                        <span
+                          className="field"
+                        >
+                          Buyer Email:
+                        </span>
+                         
+                        michael@example.com
                       </p>
-</section>,
+                    </section>,
                     <section
                       className="view-venue-info"
->
+                    >
                       <h3>
-                                            Venue Info
+                        Venue Info
                       </h3>
                       <p>
-                                            <span
-                                                                  className="field"
-                                            >
-                                                                  Venue:
-                                            </span>
-                                             
-                                            Ogden Theatre
+                        <span
+                          className="field"
+                        >
+                          Venue:
+                        </span>
+                         
+                        Ogden Theatre
                       </p>
                       <p>
-                                            <span
-                                                                  className="field"
-                                            >
-                                                                  Address:
-                                            </span>
-                                             
-                                            935 East Colfax Avenue
+                        <span
+                          className="field"
+                        >
+                          Address:
+                        </span>
+                         
+                        935 East Colfax Avenue
                       </p>
                       <p>
-                                            <span
-                                                                  className="field"
-                                            >
-                                                                  City:
-                                            </span>
-                                             
-                                            Denver
-                                            ,
-                                             
-                                            CO
+                        <span
+                          className="field"
+                        >
+                          City:
+                        </span>
+                         
+                        Denver
+                        ,
+                         
+                        CO
                       </p>
                       <p>
-                                            <span
-                                                                  className="field"
-                                            >
-                                                                  Capacity:
-                                            </span>
-                                             
-                                            1600
+                        <span
+                          className="field"
+                        >
+                          Capacity:
+                        </span>
+                         
+                        1600
                       </p>
-</section>,
+                    </section>,
                   ],
                   "className": "view-offer-top",
                 },
@@ -2778,45 +2778,45 @@ ShallowWrapper {
                       "children": Array [
                         <h3>
                           Offer
-</h3>,
+                        </h3>,
                         <p>
                           <span
-                                                    className="field"
+                            className="field"
                           >
-                                                    Date:
+                            Date:
                           </span>
                            
                           2018-10-29
-</p>,
+                        </p>,
                         <p>
                           <span
-                                                    className="field"
+                            className="field"
                           >
-                                                    spanArtist:
+                            spanArtist:
                           </span>
                            
                           Calvin Harris
-</p>,
+                        </p>,
                         <p>
                           <span
-                                                    className="field"
+                            className="field"
                           >
-                                                    Buyer:
+                            Buyer:
                           </span>
                            
                           Michael
                            
                           Jackson
-</p>,
+                        </p>,
                         <p>
                           <span
-                                                    className="field"
+                            className="field"
                           >
-                                                    Buyer Email:
+                            Buyer Email:
                           </span>
                            
                           michael@example.com
-</p>,
+                        </p>,
                       ],
                       "className": "basic-details",
                     },
@@ -2841,9 +2841,9 @@ ShallowWrapper {
                           "children": Array [
                             <span
                               className="field"
->
+                            >
                               Date:
-</span>,
+                            </span>,
                             " ",
                             "2018-10-29",
                           ],
@@ -2875,9 +2875,9 @@ ShallowWrapper {
                           "children": Array [
                             <span
                               className="field"
->
+                            >
                               spanArtist:
-</span>,
+                            </span>,
                             " ",
                             "Calvin Harris",
                           ],
@@ -2909,9 +2909,9 @@ ShallowWrapper {
                           "children": Array [
                             <span
                               className="field"
->
+                            >
                               Buyer:
-</span>,
+                            </span>,
                             " ",
                             "Michael",
                             " ",
@@ -2947,9 +2947,9 @@ ShallowWrapper {
                           "children": Array [
                             <span
                               className="field"
->
+                            >
                               Buyer Email:
-</span>,
+                            </span>,
                             " ",
                             "michael@example.com",
                           ],
@@ -2984,46 +2984,46 @@ ShallowWrapper {
                       "children": Array [
                         <h3>
                           Venue Info
-</h3>,
+                        </h3>,
                         <p>
                           <span
-                                                    className="field"
+                            className="field"
                           >
-                                                    Venue:
+                            Venue:
                           </span>
                            
                           Ogden Theatre
-</p>,
+                        </p>,
                         <p>
                           <span
-                                                    className="field"
+                            className="field"
                           >
-                                                    Address:
+                            Address:
                           </span>
                            
                           935 East Colfax Avenue
-</p>,
+                        </p>,
                         <p>
                           <span
-                                                    className="field"
+                            className="field"
                           >
-                                                    City:
+                            City:
                           </span>
                            
                           Denver
                           ,
                            
                           CO
-</p>,
+                        </p>,
                         <p>
                           <span
-                                                    className="field"
+                            className="field"
                           >
-                                                    Capacity:
+                            Capacity:
                           </span>
                            
                           1600
-</p>,
+                        </p>,
                       ],
                       "className": "view-venue-info",
                     },
@@ -3048,9 +3048,9 @@ ShallowWrapper {
                           "children": Array [
                             <span
                               className="field"
->
+                            >
                               Venue:
-</span>,
+                            </span>,
                             " ",
                             "Ogden Theatre",
                           ],
@@ -3082,9 +3082,9 @@ ShallowWrapper {
                           "children": Array [
                             <span
                               className="field"
->
+                            >
                               Address:
-</span>,
+                            </span>,
                             " ",
                             "935 East Colfax Avenue",
                           ],
@@ -3116,9 +3116,9 @@ ShallowWrapper {
                           "children": Array [
                             <span
                               className="field"
->
+                            >
                               City:
-</span>,
+                            </span>,
                             " ",
                             "Denver",
                             ",",
@@ -3156,9 +3156,9 @@ ShallowWrapper {
                           "children": Array [
                             <span
                               className="field"
->
+                            >
                               Capacity:
-</span>,
+                            </span>,
                             " ",
                             1600,
                           ],
@@ -3196,89 +3196,89 @@ ShallowWrapper {
                   "children": Array [
                     <section
                       className="terms"
->
+                    >
                       <h3>
-                                            Terms
+                        Terms
                       </h3>
                       <p>
-                                            <span
-                                                                  className="field"
-                                            >
-                                                                  Bonuses:
-                                            </span>
-                                             
-                                            +$1k at 600 sold
+                        <span
+                          className="field"
+                        >
+                          Bonuses:
+                        </span>
+                         
+                        +$1k at 600 sold
                       </p>
                       <p>
-                                            <span
-                                                                  className="field"
-                                            >
-                                                                  Radius Clause:
-                                            </span>
-                                            120mi +/- 60days
+                        <span
+                          className="field"
+                        >
+                          Radius Clause:
+                        </span>
+                        120mi +/- 60days
                       </p>
                       <p>
-                                            <span
-                                                                  className="field"
-                                            >
-                                                                  Door Times:
-                                            </span>
-                                             
-                                            9pm-12am
+                        <span
+                          className="field"
+                        >
+                          Door Times:
+                        </span>
+                         
+                        9pm-12am
                       </p>
                       <p>
-                                            <span
-                                                                  className="field"
-                                            >
-                                                                  Ages:
-                                            </span>
-                                             
-                                            16+
+                        <span
+                          className="field"
+                        >
+                          Ages:
+                        </span>
+                         
+                        16+
                       </p>
                       <p>
-                                            <span
-                                                                  className="field"
-                                            >
-                                                                  Merch Split:
-                                            </span>
-                                             
-                                            80/20 artist/venue
+                        <span
+                          className="field"
+                        >
+                          Merch Split:
+                        </span>
+                         
+                        80/20 artist/venue
                       </p>
-</section>,
+                    </section>,
                     <div
                       className="financials"
->
+                    >
                       <h3>
-                                            Financials
+                        Financials
                       </h3>
                       <p>
-                                            <span
-                                                                  className="field"
-                                            >
-                                                                  Guarentee:
-                                            </span>
-                                             $
-                                            5000
+                        <span
+                          className="field"
+                        >
+                          Guarentee:
+                        </span>
+                         $
+                        5000
                       </p>
                       <p>
-                                            <span
-                                                                  className="field"
-                                            >
-                                                                  Total Expenses:
-                                            </span>
-                                             $
-                                            2000
+                        <span
+                          className="field"
+                        >
+                          Total Expenses:
+                        </span>
+                         $
+                        2000
                       </p>
                       <p>
-                                            <span
-                                                                  className="field"
-                                            >
-                                                                  Gross Potential:
-                                            </span>
-                                             $
-                                            8500
+                        <span
+                          className="field"
+                        >
+                          Gross Potential:
+                        </span>
+                         $
+                        8500
                       </p>
-</div>,
+                    </div>,
                   ],
                   "className": "view-offer-bottom",
                 },
@@ -3292,51 +3292,51 @@ ShallowWrapper {
                       "children": Array [
                         <h3>
                           Terms
-</h3>,
+                        </h3>,
                         <p>
                           <span
-                                                    className="field"
+                            className="field"
                           >
-                                                    Bonuses:
+                            Bonuses:
                           </span>
                            
                           +$1k at 600 sold
-</p>,
+                        </p>,
                         <p>
                           <span
-                                                    className="field"
+                            className="field"
                           >
-                                                    Radius Clause:
+                            Radius Clause:
                           </span>
                           120mi +/- 60days
-</p>,
+                        </p>,
                         <p>
                           <span
-                                                    className="field"
+                            className="field"
                           >
-                                                    Door Times:
+                            Door Times:
                           </span>
                            
                           9pm-12am
-</p>,
+                        </p>,
                         <p>
                           <span
-                                                    className="field"
+                            className="field"
                           >
-                                                    Ages:
+                            Ages:
                           </span>
                            
                           16+
-</p>,
+                        </p>,
                         <p>
                           <span
-                                                    className="field"
+                            className="field"
                           >
-                                                    Merch Split:
+                            Merch Split:
                           </span>
                            
                           80/20 artist/venue
-</p>,
+                        </p>,
                       ],
                       "className": "terms",
                     },
@@ -3361,9 +3361,9 @@ ShallowWrapper {
                           "children": Array [
                             <span
                               className="field"
->
+                            >
                               Bonuses:
-</span>,
+                            </span>,
                             " ",
                             "+$1k at 600 sold",
                           ],
@@ -3395,9 +3395,9 @@ ShallowWrapper {
                           "children": Array [
                             <span
                               className="field"
->
+                            >
                               Radius Clause:
-</span>,
+                            </span>,
                             "120mi +/- 60days",
                           ],
                         },
@@ -3427,9 +3427,9 @@ ShallowWrapper {
                           "children": Array [
                             <span
                               className="field"
->
+                            >
                               Door Times:
-</span>,
+                            </span>,
                             " ",
                             "9pm-12am",
                           ],
@@ -3461,9 +3461,9 @@ ShallowWrapper {
                           "children": Array [
                             <span
                               className="field"
->
+                            >
                               Ages:
-</span>,
+                            </span>,
                             " ",
                             "16+",
                           ],
@@ -3495,9 +3495,9 @@ ShallowWrapper {
                           "children": Array [
                             <span
                               className="field"
->
+                            >
                               Merch Split:
-</span>,
+                            </span>,
                             " ",
                             "80/20 artist/venue",
                           ],
@@ -3532,34 +3532,34 @@ ShallowWrapper {
                       "children": Array [
                         <h3>
                           Financials
-</h3>,
+                        </h3>,
                         <p>
                           <span
-                                                    className="field"
+                            className="field"
                           >
-                                                    Guarentee:
+                            Guarentee:
                           </span>
                            $
                           5000
-</p>,
+                        </p>,
                         <p>
                           <span
-                                                    className="field"
+                            className="field"
                           >
-                                                    Total Expenses:
+                            Total Expenses:
                           </span>
                            $
                           2000
-</p>,
+                        </p>,
                         <p>
                           <span
-                                                    className="field"
+                            className="field"
                           >
-                                                    Gross Potential:
+                            Gross Potential:
                           </span>
                            $
                           8500
-</p>,
+                        </p>,
                       ],
                       "className": "financials",
                     },
@@ -3584,9 +3584,9 @@ ShallowWrapper {
                           "children": Array [
                             <span
                               className="field"
->
+                            >
                               Guarentee:
-</span>,
+                            </span>,
                             " $",
                             5000,
                           ],
@@ -3618,9 +3618,9 @@ ShallowWrapper {
                           "children": Array [
                             <span
                               className="field"
->
+                            >
                               Total Expenses:
-</span>,
+                            </span>,
                             " $",
                             2000,
                           ],
@@ -3652,9 +3652,9 @@ ShallowWrapper {
                           "children": Array [
                             <span
                               className="field"
->
+                            >
                               Gross Potential:
-</span>,
+                            </span>,
                             " $",
                             8500,
                           ],
@@ -3690,7 +3690,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "x Close",
-                  "onClick": [Function],
+                  "onClick": [MockFunction],
                 },
                 "ref": null,
                 "rendered": "x Close",
@@ -3705,7 +3705,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "x Cancel",
-              "onClick": [Function],
+              "onClick": [MockFunction],
             },
             "ref": null,
             "rendered": "x Cancel",
