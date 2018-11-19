@@ -1,7 +1,7 @@
 .landing {
   width: 100%;
   position: relative;
-  background-color: #131621; }
+  background-color: #4d5261; }
   .landing .hero {
     display: flex;
     flex-direction: column;
@@ -11,7 +11,10 @@
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./savoy_ogden_optimized.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center; }
+    background-position: center center;
+    -webkit-box-shadow: 0px 10px 103px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 103px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 103px -2px rgba(0, 0, 0, 0.75); }
   .landing h1 {
     margin: 0 auto;
     font-size: 6rem;
@@ -31,6 +34,19 @@
     height: 2px;
     background-color: #fff;
     width: 45%; }
-  .landing .market-dashboard {
-    height: 800px;
-    background-color: #131620; }
+  .landing .market-dash {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    padding: 7rem;
+    color: #fff;
+    background-color: #353945; }
+  .landing .section-title {
+    margin-top: 0;
+    font-size: 2rem; }
+  .landing .market-dash p {
+    color: #b6b9c6; }
+  .landing .market-dash img {
+    -webkit-box-shadow: 8px 10px 76px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 8px 10px 76px -14px rgba(0, 0, 0, 0.75);
+    box-shadow: 8px 10px 76px -14px rgba(0, 0, 0, 0.75); }
