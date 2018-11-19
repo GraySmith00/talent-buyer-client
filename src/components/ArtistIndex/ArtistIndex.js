@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import classNames from 'classnames';
 import { getAllArtists } from '../../Utils/backendApiCalls';
 import { toggleArtistThunk } from '../../actions/watchlistActions';
 import { connect } from 'react-redux';
@@ -100,12 +101,16 @@ export class ArtistIndex extends Component {
             <p>{artist.agency}</p>
             <p>{artist.popularity}</p>
             <p>{artist.spotify_followers}</p>
-            <input
-              type="checkbox"
-              checked={onList}
-              className="checkbox-input"
-              onChange={e => this.toggleWatchlist(e, artist)}
-              onClick={event => event.stopPropagation()}
+            <i
+              className={classNames({
+                'far fa-square': !onList,
+                'fas fa-check-square': onList
+              })}
+              style={{ color: '#fff', fontSize: '2rem' }}
+              onClick={e => {
+                e.preventDefault();
+                this.toggleWatchlist(e, artist);
+              }}
             />
           </Link>
         );
