@@ -3,6 +3,7 @@ import styled from 'styled-components';
 const ModalButton = styled.button`
   width: 40%;
   padding: 10px 20px;
+  margin-top: 2rem;
   border: none;
   border-radius: 5px;
   font-size: 1.2rem;

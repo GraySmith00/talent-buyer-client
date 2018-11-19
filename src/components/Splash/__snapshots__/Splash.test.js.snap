@@ -20,222 +20,67 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <div
-        className="button-container"
->
+      "children": Array [
         <p>
-                Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.
-        </p>
-        <Unknown
-                className="half-button"
-                onClick={[Function]}
-        >
-                Sign Up
-        </Unknown>
-        <Unknown
-                className="half-button"
-                onClick={[Function]}
-        >
-                Log In
-        </Unknown>
-</div>,
-      "className": "splash",
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <p>
-            Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.
+          Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.
 </p>,
-          <Unknown
-            className="half-button"
-            onClick={[Function]}
+        <section
+          className="buttons"
 >
-            Sign Up
-</Unknown>,
           <Unknown
-            className="half-button"
-            onClick={[Function]}
->
-            Log In
-</Unknown>,
-        ],
-        "className": "button-container",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.",
-          },
-          "ref": null,
-          "rendered": "Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.",
-          "type": "p",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": "Sign Up",
-            "className": "half-button",
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": "Sign Up",
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": undefined,
-            "componentStyle": ComponentStyle {
-              "componentId": "sc-bdVaJa",
-              "isStatic": true,
-              "rules": Array [
-                "
-  margin-top: 15px;
-  width: 80%;
-  padding: 15px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.2rem;
-  background-color: #D52F7F;
-  color: #fff;
-  cursor: pointer;
-",
-              ],
-            },
-            "displayName": "styled.button",
-            "render": [Function],
-            "styledComponentId": "sc-bdVaJa",
-            "target": "button",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": "Log In",
-            "className": "half-button",
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": "Log In",
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": undefined,
-            "componentStyle": ComponentStyle {
-              "componentId": "sc-bdVaJa",
-              "isStatic": true,
-              "rules": Array [
-                "
-  margin-top: 15px;
-  width: 80%;
-  padding: 15px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.2rem;
-  background-color: #D52F7F;
-  color: #fff;
-  cursor: pointer;
-",
-              ],
-            },
-            "displayName": "styled.button",
-            "render": [Function],
-            "styledComponentId": "sc-bdVaJa",
-            "target": "button",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
-        },
-      ],
-      "type": "div",
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <div
-          className="button-container"
->
-          <p>
-                    Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.
-          </p>
-          <Unknown
-                    className="half-button"
                     onClick={[Function]}
           >
                     Sign Up
           </Unknown>
           <Unknown
-                    className="half-button"
                     onClick={[Function]}
           >
                     Log In
           </Unknown>
-</div>,
-        "className": "splash",
+</section>,
+      ],
+      "className": "splash",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.",
+        },
+        "ref": null,
+        "rendered": "Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.",
+        "type": "p",
       },
-      "ref": null,
-      "rendered": Object {
+      Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <p>
-              Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.
-</p>,
             <Unknown
-              className="half-button"
               onClick={[Function]}
 >
               Sign Up
 </Unknown>,
             <Unknown
-              className="half-button"
               onClick={[Function]}
 >
               Log In
 </Unknown>,
           ],
-          "className": "button-container",
+          "className": "buttons",
         },
         "ref": null,
         "rendered": Array [
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.",
-            },
-            "ref": null,
-            "rendered": "Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.",
-            "type": "p",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
             "nodeType": "function",
             "props": Object {
               "children": "Sign Up",
-              "className": "half-button",
               "onClick": [Function],
             },
             "ref": null,
@@ -248,15 +93,18 @@ ShallowWrapper {
                 "isStatic": true,
                 "rules": Array [
                   "
-  margin-top: 15px;
-  width: 80%;
-  padding: 15px;
+  width: 40%;
+  padding: 10px 20px;
+  margin-top: 2rem;
   border: none;
   border-radius: 5px;
   font-size: 1.2rem;
-  background-color: #D52F7F;
+  background-color: #d52f7f;
   color: #fff;
   cursor: pointer;
+  -webkit-box-shadow: 10px 10px 57px -16px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 57px -16px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 57px -16px rgba(0, 0, 0, 0.75);
 ",
                 ],
               },
@@ -275,7 +123,6 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "children": "Log In",
-              "className": "half-button",
               "onClick": [Function],
             },
             "ref": null,
@@ -288,15 +135,18 @@ ShallowWrapper {
                 "isStatic": true,
                 "rules": Array [
                   "
-  margin-top: 15px;
-  width: 80%;
-  padding: 15px;
+  width: 40%;
+  padding: 10px 20px;
+  margin-top: 2rem;
   border: none;
   border-radius: 5px;
   font-size: 1.2rem;
-  background-color: #D52F7F;
+  background-color: #d52f7f;
   color: #fff;
   cursor: pointer;
+  -webkit-box-shadow: 10px 10px 57px -16px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 57px -16px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 57px -16px rgba(0, 0, 0, 0.75);
 ",
                 ],
               },
@@ -310,8 +160,160 @@ ShallowWrapper {
             },
           },
         ],
-        "type": "div",
+        "type": "section",
       },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p>
+            Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.
+</p>,
+          <section
+            className="buttons"
+>
+            <Unknown
+                        onClick={[Function]}
+            >
+                        Sign Up
+            </Unknown>
+            <Unknown
+                        onClick={[Function]}
+            >
+                        Log In
+            </Unknown>
+</section>,
+        ],
+        "className": "splash",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.",
+          },
+          "ref": null,
+          "rendered": "Talent Buyer is the fastest and easist way for music talent buyers to browse artists and filter by agency, popularity, and genre. Artists can be saved to a watchlist for quick reference later. Buyers can easily build, edit, and download offers and keep track of the calendar for their venues.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Unknown
+                onClick={[Function]}
+>
+                Sign Up
+</Unknown>,
+              <Unknown
+                onClick={[Function]}
+>
+                Log In
+</Unknown>,
+            ],
+            "className": "buttons",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Sign Up",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Sign Up",
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": undefined,
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bdVaJa",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+  width: 40%;
+  padding: 10px 20px;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  background-color: #d52f7f;
+  color: #fff;
+  cursor: pointer;
+  -webkit-box-shadow: 10px 10px 57px -16px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 57px -16px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 57px -16px rgba(0, 0, 0, 0.75);
+",
+                  ],
+                },
+                "displayName": "styled.button",
+                "render": [Function],
+                "styledComponentId": "sc-bdVaJa",
+                "target": "button",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Log In",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Log In",
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": undefined,
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bdVaJa",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+  width: 40%;
+  padding: 10px 20px;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  background-color: #d52f7f;
+  color: #fff;
+  cursor: pointer;
+  -webkit-box-shadow: 10px 10px 57px -16px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 57px -16px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 57px -16px rgba(0, 0, 0, 0.75);
+",
+                  ],
+                },
+                "displayName": "styled.button",
+                "render": [Function],
+                "styledComponentId": "sc-bdVaJa",
+                "target": "button",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": "section",
+        },
+      ],
       "type": "div",
     },
   ],

@@ -14,6 +14,5 @@
   .splash .buttons {
     display: flex;
     justify-content: space-around;
-    margin-top: 2rem;
     grid-gap: 20px;
     width: 100%; }

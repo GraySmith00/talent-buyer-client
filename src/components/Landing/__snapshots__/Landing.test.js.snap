@@ -18,61 +18,165 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <div
+        false,
+        false,
+        <section
           className="hero"
 >
           <h1>
                     Talent Buyer
           </h1>
-</div>,
-        false,
-        false,
-        <withRouter(Splash)
-          openLogInModal={[Function]}
-          openSignUpModal={[Function]}
+          <withRouter(Splash)
+                    openLogInModal={[Function]}
+                    openSignUpModal={[Function]}
+          />
+          <section
+                    className="divider"
+          >
+                    <div
+                              className="divider-line"
+                    />
+                    <i
+                              className="fas fa-angle-down"
+                    />
+                    <div
+                              className="divider-line"
+                    />
+          </section>
+</section>,
+        <section
+          className="market-dashboard"
 />,
       ],
       "className": "landing",
     },
     "ref": null,
     "rendered": Array [
+      false,
+      false,
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <h1>
-            Talent Buyer
+          "children": Array [
+            <h1>
+              Talent Buyer
 </h1>,
+            <withRouter(Splash)
+              openLogInModal={[Function]}
+              openSignUpModal={[Function]}
+/>,
+            <section
+              className="divider"
+>
+              <div
+                            className="divider-line"
+              />
+              <i
+                            className="fas fa-angle-down"
+              />
+              <div
+                            className="divider-line"
+              />
+</section>,
+          ],
           "className": "hero",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Talent Buyer",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Talent Buyer",
+            },
+            "ref": null,
+            "rendered": "Talent Buyer",
+            "type": "h1",
           },
-          "ref": null,
-          "rendered": "Talent Buyer",
-          "type": "h1",
-        },
-        "type": "div",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "openLogInModal": [Function],
+              "openSignUpModal": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="divider-line"
+/>,
+                <i
+                  className="fas fa-angle-down"
+/>,
+                <div
+                  className="divider-line"
+/>,
+              ],
+              "className": "divider",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "divider-line",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fas fa-angle-down",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "divider-line",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+            ],
+            "type": "section",
+          },
+        ],
+        "type": "section",
       },
-      false,
-      false,
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "function",
+        "nodeType": "host",
         "props": Object {
-          "openLogInModal": [Function],
-          "openSignUpModal": [Function],
+          "className": "market-dashboard",
         },
         "ref": null,
         "rendered": null,
-        "type": [Function],
+        "type": "section",
       },
     ],
     "type": "div",
@@ -84,61 +188,165 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <div
+          false,
+          false,
+          <section
             className="hero"
 >
             <h1>
                         Talent Buyer
             </h1>
-</div>,
-          false,
-          false,
-          <withRouter(Splash)
-            openLogInModal={[Function]}
-            openSignUpModal={[Function]}
+            <withRouter(Splash)
+                        openLogInModal={[Function]}
+                        openSignUpModal={[Function]}
+            />
+            <section
+                        className="divider"
+            >
+                        <div
+                                    className="divider-line"
+                        />
+                        <i
+                                    className="fas fa-angle-down"
+                        />
+                        <div
+                                    className="divider-line"
+                        />
+            </section>
+</section>,
+          <section
+            className="market-dashboard"
 />,
         ],
         "className": "landing",
       },
       "ref": null,
       "rendered": Array [
+        false,
+        false,
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <h1>
-              Talent Buyer
+            "children": Array [
+              <h1>
+                Talent Buyer
 </h1>,
+              <withRouter(Splash)
+                openLogInModal={[Function]}
+                openSignUpModal={[Function]}
+/>,
+              <section
+                className="divider"
+>
+                <div
+                                className="divider-line"
+                />
+                <i
+                                className="fas fa-angle-down"
+                />
+                <div
+                                className="divider-line"
+                />
+</section>,
+            ],
             "className": "hero",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Talent Buyer",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Talent Buyer",
+              },
+              "ref": null,
+              "rendered": "Talent Buyer",
+              "type": "h1",
             },
-            "ref": null,
-            "rendered": "Talent Buyer",
-            "type": "h1",
-          },
-          "type": "div",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "openLogInModal": [Function],
+                "openSignUpModal": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="divider-line"
+/>,
+                  <i
+                    className="fas fa-angle-down"
+/>,
+                  <div
+                    className="divider-line"
+/>,
+                ],
+                "className": "divider",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "divider-line",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fas fa-angle-down",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "divider-line",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+              ],
+              "type": "section",
+            },
+          ],
+          "type": "section",
         },
-        false,
-        false,
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "host",
           "props": Object {
-            "openLogInModal": [Function],
-            "openSignUpModal": [Function],
+            "className": "market-dashboard",
           },
           "ref": null,
           "rendered": null,
-          "type": [Function],
+          "type": "section",
         },
       ],
       "type": "div",
