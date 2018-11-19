@@ -45,8 +45,55 @@ ShallowWrapper {
           </section>
 </section>,
         <section
-          className="market-dashboard"
-/>,
+          className="market-dash"
+>
+          <div
+                    className="market-dash-text"
+          >
+                    <h2
+                              className="section-title"
+                    >
+                              Organize all your shows in the dashboard.
+                    </h2>
+                    <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
+                    </p>
+          </div>
+          <img
+                    alt="dashboard"
+                    src="dashImage.jpg"
+                    style={
+                              Object {
+                                        "height": "250px",
+                                      }
+                    }
+          />
+</section>,
+        <section
+          className="market-browse"
+>
+          <img
+                    alt="dashboard"
+                    src="dashImage.jpg"
+                    style={
+                              Object {
+                                        "height": "320px",
+                                      }
+                    }
+          />
+          <div
+                    className="market-dash-text"
+          >
+                    <h2
+                              className="section-title"
+                    >
+                              Organize all your shows in the dashboard.
+                    </h2>
+                    <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
+                    </p>
+          </div>
+</section>,
       ],
       "className": "landing",
     },
@@ -172,10 +219,189 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "className": "market-dashboard",
+          "children": Array [
+            <div
+              className="market-dash-text"
+>
+              <h2
+                            className="section-title"
+              >
+                            Organize all your shows in the dashboard.
+              </h2>
+              <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
+              </p>
+</div>,
+            <img
+              alt="dashboard"
+              src="dashImage.jpg"
+              style={
+                            Object {
+                                          "height": "250px",
+                                        }
+              }
+/>,
+          ],
+          "className": "market-dash",
         },
         "ref": null,
-        "rendered": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2
+                  className="section-title"
+>
+                  Organize all your shows in the dashboard.
+</h2>,
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
+</p>,
+              ],
+              "className": "market-dash-text",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Organize all your shows in the dashboard.",
+                  "className": "section-title",
+                },
+                "ref": null,
+                "rendered": "Organize all your shows in the dashboard.",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!",
+                },
+                "ref": null,
+                "rendered": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "dashboard",
+              "src": "dashImage.jpg",
+              "style": Object {
+                "height": "250px",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+        ],
+        "type": "section",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt="dashboard"
+              src="dashImage.jpg"
+              style={
+                            Object {
+                                          "height": "320px",
+                                        }
+              }
+/>,
+            <div
+              className="market-dash-text"
+>
+              <h2
+                            className="section-title"
+              >
+                            Organize all your shows in the dashboard.
+              </h2>
+              <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
+              </p>
+</div>,
+          ],
+          "className": "market-browse",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "dashboard",
+              "src": "dashImage.jpg",
+              "style": Object {
+                "height": "320px",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2
+                  className="section-title"
+>
+                  Organize all your shows in the dashboard.
+</h2>,
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
+</p>,
+              ],
+              "className": "market-dash-text",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Organize all your shows in the dashboard.",
+                  "className": "section-title",
+                },
+                "ref": null,
+                "rendered": "Organize all your shows in the dashboard.",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!",
+                },
+                "ref": null,
+                "rendered": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+        ],
         "type": "section",
       },
     ],
@@ -215,8 +441,55 @@ ShallowWrapper {
             </section>
 </section>,
           <section
-            className="market-dashboard"
-/>,
+            className="market-dash"
+>
+            <div
+                        className="market-dash-text"
+            >
+                        <h2
+                                    className="section-title"
+                        >
+                                    Organize all your shows in the dashboard.
+                        </h2>
+                        <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
+                        </p>
+            </div>
+            <img
+                        alt="dashboard"
+                        src="dashImage.jpg"
+                        style={
+                                    Object {
+                                                "height": "250px",
+                                              }
+                        }
+            />
+</section>,
+          <section
+            className="market-browse"
+>
+            <img
+                        alt="dashboard"
+                        src="dashImage.jpg"
+                        style={
+                                    Object {
+                                                "height": "320px",
+                                              }
+                        }
+            />
+            <div
+                        className="market-dash-text"
+            >
+                        <h2
+                                    className="section-title"
+                        >
+                                    Organize all your shows in the dashboard.
+                        </h2>
+                        <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
+                        </p>
+            </div>
+</section>,
         ],
         "className": "landing",
       },
@@ -342,10 +615,189 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "className": "market-dashboard",
+            "children": Array [
+              <div
+                className="market-dash-text"
+>
+                <h2
+                                className="section-title"
+                >
+                                Organize all your shows in the dashboard.
+                </h2>
+                <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
+                </p>
+</div>,
+              <img
+                alt="dashboard"
+                src="dashImage.jpg"
+                style={
+                                Object {
+                                                "height": "250px",
+                                              }
+                }
+/>,
+            ],
+            "className": "market-dash",
           },
           "ref": null,
-          "rendered": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h2
+                    className="section-title"
+>
+                    Organize all your shows in the dashboard.
+</h2>,
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
+</p>,
+                ],
+                "className": "market-dash-text",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Organize all your shows in the dashboard.",
+                    "className": "section-title",
+                  },
+                  "ref": null,
+                  "rendered": "Organize all your shows in the dashboard.",
+                  "type": "h2",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!",
+                  },
+                  "ref": null,
+                  "rendered": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!",
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "dashboard",
+                "src": "dashImage.jpg",
+                "style": Object {
+                  "height": "250px",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+          ],
+          "type": "section",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt="dashboard"
+                src="dashImage.jpg"
+                style={
+                                Object {
+                                                "height": "320px",
+                                              }
+                }
+/>,
+              <div
+                className="market-dash-text"
+>
+                <h2
+                                className="section-title"
+                >
+                                Organize all your shows in the dashboard.
+                </h2>
+                <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
+                </p>
+</div>,
+            ],
+            "className": "market-browse",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "dashboard",
+                "src": "dashImage.jpg",
+                "style": Object {
+                  "height": "320px",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h2
+                    className="section-title"
+>
+                    Organize all your shows in the dashboard.
+</h2>,
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
+</p>,
+                ],
+                "className": "market-dash-text",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Organize all your shows in the dashboard.",
+                    "className": "section-title",
+                  },
+                  "ref": null,
+                  "rendered": "Organize all your shows in the dashboard.",
+                  "type": "h2",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!",
+                  },
+                  "ref": null,
+                  "rendered": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!",
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+          ],
           "type": "section",
         },
       ],

@@ -37,10 +37,17 @@
     display: flex; }
   .artist-index .agency-form select {
     margin-left: 1rem; }
+  .artist-index .select {
+    width: 300px;
+    color: #000;
+    margin-left: 1rem;
+    outline: none;
+    border: none; }
   .artist-index .genre-form {
     margin-left: 2rem; }
-    .artist-index .genre-form select {
-      margin-left: 1rem; }
+    .artist-index .genre-form label {
+      display: flex;
+      align-items: center; }
   .artist-index label {
     display: flex;
     align-items: center; }

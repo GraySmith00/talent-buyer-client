@@ -87,7 +87,7 @@ ShallowWrapper {
             "rendered": "Sign Up",
             "type": Object {
               "$$typeof": Symbol(react.forward_ref),
-              "attrs": undefined,
+              "attrs": Array [],
               "componentStyle": ComponentStyle {
                 "componentId": "sc-bdVaJa",
                 "isStatic": true,
@@ -129,7 +129,7 @@ ShallowWrapper {
             "rendered": "Log In",
             "type": Object {
               "$$typeof": Symbol(react.forward_ref),
-              "attrs": undefined,
+              "attrs": Array [],
               "componentStyle": ComponentStyle {
                 "componentId": "sc-bdVaJa",
                 "isStatic": true,
@@ -238,7 +238,7 @@ ShallowWrapper {
               "rendered": "Sign Up",
               "type": Object {
                 "$$typeof": Symbol(react.forward_ref),
-                "attrs": undefined,
+                "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bdVaJa",
                   "isStatic": true,
@@ -280,7 +280,7 @@ ShallowWrapper {
               "rendered": "Log In",
               "type": Object {
                 "$$typeof": Symbol(react.forward_ref),
-                "attrs": undefined,
+                "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bdVaJa",
                   "isStatic": true,
