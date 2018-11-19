@@ -1,16 +1,30 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
-import { getAllArtists } from '../../Utils/backendApiCalls';
-import { toggleArtistThunk } from '../../actions/watchlistActions';
 import { connect } from 'react-redux';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
+import classNames from 'classnames';
+import Select from 'react-select';
+
+import { getAllArtists } from '../../Utils/backendApiCalls';
+import { toggleArtistThunk } from '../../actions/watchlistActions';
 import { allGenres } from '../../Utils/allGenres';
 import { capitalize } from '../../Utils/capitalize';
 import { ArtistTableHeader } from '../ArtistTableHeader/ArtistTableHeader';
 import './ArtistIndex.css';
 
 import Nav from '../Nav/Nav';
+
+const agencyOptions = [
+  { value: 'All Agencies', label: 'All Agencies' },
+  { value: 'wme', label: 'WME' },
+  { value: 'caa', label: 'CAA' }
+];
+
+const genreOptions = allGenres.map(genre => ({
+  value: genre,
+  label: capitalize(genre)
+}));
 
 export class ArtistIndex extends Component {
   state = {
@@ -38,9 +52,9 @@ export class ArtistIndex extends Component {
     await toggleArtistThunk({ artist, watchlist });
   };
 
-  setAgency = async e => {
-    let agency = e.target.value;
-    if (e.target.value === 'All Agencies') {
+  setAgency = async selectedOption => {
+    let agency = selectedOption.value;
+    if (selectedOption === 'All Agencies') {
       agency = null;
     }
     const { genre, sort } = this.state;
@@ -52,9 +66,9 @@ export class ArtistIndex extends Component {
     this.setState({ artists, agency });
   };
 
-  setGenre = async e => {
-    let genre = e.target.value;
-    if (e.target.value === 'All Genres') {
+  setGenre = async selectedOption => {
+    let genre = selectedOption.value;
+    if (selectedOption.value === 'All Genres') {
       genre = null;
     }
     const { agency, sort } = this.state;
@@ -78,7 +92,7 @@ export class ArtistIndex extends Component {
   };
 
   render() {
-    const { artists, activeSort } = this.state;
+    const { artists, activeSort, agency, genre } = this.state;
     const { watchlist } = this.props;
     let displayArtists;
 
@@ -100,23 +114,21 @@ export class ArtistIndex extends Component {
             <p>{artist.agency}</p>
             <p>{artist.popularity}</p>
             <p>{artist.spotify_followers}</p>
-            <input
-              type="checkbox"
-              checked={onList}
-              className="checkbox-input"
-              onChange={e => this.toggleWatchlist(e, artist)}
-              onClick={event => event.stopPropagation()}
+            <i
+              className={classNames({
+                'far fa-square': !onList,
+                'fas fa-check-square': onList
+              })}
+              style={{ color: '#fff', fontSize: '2rem' }}
+              onClick={e => {
+                e.preventDefault();
+                this.toggleWatchlist(e, artist);
+              }}
             />
           </Link>
         );
       });
     }
-
-    let displayGenres = allGenres.map(genre => (
-      <option key={genre} value={genre}>
-        {capitalize(genre)}
-      </option>
-    ));
 
     return (
       <div className="artist-index">
@@ -125,21 +137,24 @@ export class ArtistIndex extends Component {
           <section className="filters">
             <form className="agency-form">
               <label>
-                <h3>Agency</h3>
-                <select onChange={this.setAgency}>
-                  <option value="All Agencies">All Agencies</option>
-                  <option value="caa">CAA</option>
-                  <option value="wme">WME</option>
-                </select>
+                <h3 style={{ fontSize: '1.3rem' }}>Agency</h3>
+                <Select
+                  options={agencyOptions}
+                  value={agency}
+                  onChange={this.setAgency}
+                  className="select"
+                />
               </label>
             </form>
             <form className="genre-form">
               <label>
-                <h3>Genre</h3>
-                <select className="genre-selector" onChange={this.setGenre}>
-                  <option value={null}>All Genres</option>
-                  {displayGenres}
-                </select>
+                <h3 style={{ fontSize: '1.3rem' }}>Genre</h3>
+                <Select
+                  options={genreOptions}
+                  value={genre}
+                  onChange={this.setGenre}
+                  className="select"
+                />
               </label>
             </form>
           </section>

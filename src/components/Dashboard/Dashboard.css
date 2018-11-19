@@ -14,6 +14,7 @@
   .dashboard .offers {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     margin-left: 3rem;
     width: 100%; }
   .dashboard h2 {

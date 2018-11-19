@@ -81,6 +81,7 @@ class Dashboard extends Component {
               <h2>{dateString}</h2>
               <ModalButton
                 className="create-offer-button"
+                style={{ marginTop: '0' }}
                 onClick={this.openOfferModal}
               >
                 <i className="fas fa-plus" />

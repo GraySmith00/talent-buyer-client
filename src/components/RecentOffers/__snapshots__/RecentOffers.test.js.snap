@@ -356,7 +356,26 @@ ShallowWrapper {
                     className="table-row"
           >
                     <h3>
-                              2018-10-29
+                              2018-11-02
+                    </h3>
+                    <h3>
+                              Booka Shade
+                    </h3>
+                    <h3>
+                              Pending
+                    </h3>
+                    <button
+                              className="view-offer-button"
+                              onClick={[Function]}
+                    >
+                              Edit Offer
+                    </button>
+          </div>
+          <div
+                    className="table-row"
+          >
+                    <h3>
+                              2018-11-08
                     </h3>
                     <h3>
                               Afrojack
@@ -368,14 +387,14 @@ ShallowWrapper {
                               className="view-offer-button"
                               onClick={[Function]}
                     >
-                              View Offer
+                              Edit Offer
                     </button>
           </div>
           <div
                     className="table-row"
           >
                     <h3>
-                              2018-10-29
+                              2018-11-01
                     </h3>
                     <h3>
                               Alesso
@@ -387,17 +406,17 @@ ShallowWrapper {
                               className="view-offer-button"
                               onClick={[Function]}
                     >
-                              View Offer
+                              Edit Offer
                     </button>
           </div>
           <div
                     className="table-row"
           >
                     <h3>
-                              2018-10-29
+                              2018-11-01
                     </h3>
                     <h3>
-                              Calvin Harris
+                              Borgore
                     </h3>
                     <h3>
                               Pending
@@ -406,17 +425,17 @@ ShallowWrapper {
                               className="view-offer-button"
                               onClick={[Function]}
                     >
-                              View Offer
+                              Edit Offer
                     </button>
           </div>
           <div
                     className="table-row"
           >
                     <h3>
-                              2018-10-29
+                              2018-11-16
                     </h3>
                     <h3>
-                              Calvin Harris
+                              Alesso
                     </h3>
                     <h3>
                               Pending
@@ -425,26 +444,7 @@ ShallowWrapper {
                               className="view-offer-button"
                               onClick={[Function]}
                     >
-                              View Offer
-                    </button>
-          </div>
-          <div
-                    className="table-row"
-          >
-                    <h3>
-                              2018-10-29
-                    </h3>
-                    <h3>
-                              Calvin Harris
-                    </h3>
-                    <h3>
-                              Pending
-                    </h3>
-                    <button
-                              className="view-offer-button"
-                              onClick={[Function]}
-                    >
-                              View Offer
+                              Edit Offer
                     </button>
           </div>
 </div>,
@@ -544,7 +544,26 @@ ShallowWrapper {
               className="table-row"
 >
               <h3>
-                            2018-10-29
+                            2018-11-02
+              </h3>
+              <h3>
+                            Booka Shade
+              </h3>
+              <h3>
+                            Pending
+              </h3>
+              <button
+                            className="view-offer-button"
+                            onClick={[Function]}
+              >
+                            Edit Offer
+              </button>
+</div>,
+            <div
+              className="table-row"
+>
+              <h3>
+                            2018-11-08
               </h3>
               <h3>
                             Afrojack
@@ -556,14 +575,14 @@ ShallowWrapper {
                             className="view-offer-button"
                             onClick={[Function]}
               >
-                            View Offer
+                            Edit Offer
               </button>
 </div>,
             <div
               className="table-row"
 >
               <h3>
-                            2018-10-29
+                            2018-11-01
               </h3>
               <h3>
                             Alesso
@@ -575,17 +594,17 @@ ShallowWrapper {
                             className="view-offer-button"
                             onClick={[Function]}
               >
-                            View Offer
+                            Edit Offer
               </button>
 </div>,
             <div
               className="table-row"
 >
               <h3>
-                            2018-10-29
+                            2018-11-01
               </h3>
               <h3>
-                            Calvin Harris
+                            Borgore
               </h3>
               <h3>
                             Pending
@@ -594,17 +613,17 @@ ShallowWrapper {
                             className="view-offer-button"
                             onClick={[Function]}
               >
-                            View Offer
+                            Edit Offer
               </button>
 </div>,
             <div
               className="table-row"
 >
               <h3>
-                            2018-10-29
+                            2018-11-16
               </h3>
               <h3>
-                            Calvin Harris
+                            Alesso
               </h3>
               <h3>
                             Pending
@@ -613,26 +632,7 @@ ShallowWrapper {
                             className="view-offer-button"
                             onClick={[Function]}
               >
-                            View Offer
-              </button>
-</div>,
-            <div
-              className="table-row"
->
-              <h3>
-                            2018-10-29
-              </h3>
-              <h3>
-                            Calvin Harris
-              </h3>
-              <h3>
-                            Pending
-              </h3>
-              <button
-                            className="view-offer-button"
-                            onClick={[Function]}
-              >
-                            View Offer
+                            Edit Offer
               </button>
 </div>,
           ],
@@ -642,15 +642,15 @@ ShallowWrapper {
         "rendered": Array [
           Object {
             "instance": null,
-            "key": "9",
+            "key": "22",
             "nodeType": "host",
             "props": Object {
               "children": Array [
                 <h3>
-                  2018-10-29
+                  2018-11-02
 </h3>,
                 <h3>
-                  Afrojack
+                  Booka Shade
 </h3>,
                 <h3>
                   Pending
@@ -659,7 +659,7 @@ ShallowWrapper {
                   className="view-offer-button"
                   onClick={[Function]}
 >
-                  View Offer
+                  Edit Offer
 </button>,
               ],
               "className": "table-row",
@@ -671,10 +671,85 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "2018-10-29",
+                  "children": "2018-11-02",
                 },
                 "ref": null,
-                "rendered": "2018-10-29",
+                "rendered": "2018-11-02",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Booka Shade",
+                },
+                "ref": null,
+                "rendered": "Booka Shade",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Pending",
+                },
+                "ref": null,
+                "rendered": "Pending",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Edit Offer",
+                  "className": "view-offer-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Edit Offer",
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "21",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3>
+                  2018-11-08
+</h3>,
+                <h3>
+                  Afrojack
+</h3>,
+                <h3>
+                  Pending
+</h3>,
+                <button
+                  className="view-offer-button"
+                  onClick={[Function]}
+>
+                  Edit Offer
+</button>,
+              ],
+              "className": "table-row",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "2018-11-08",
+                },
+                "ref": null,
+                "rendered": "2018-11-08",
                 "type": "h3",
               },
               Object {
@@ -704,12 +779,12 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "View Offer",
+                  "children": "Edit Offer",
                   "className": "view-offer-button",
                   "onClick": [Function],
                 },
                 "ref": null,
-                "rendered": "View Offer",
+                "rendered": "Edit Offer",
                 "type": "button",
               },
             ],
@@ -717,12 +792,12 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "8",
+            "key": "20",
             "nodeType": "host",
             "props": Object {
               "children": Array [
                 <h3>
-                  2018-10-29
+                  2018-11-01
 </h3>,
                 <h3>
                   Alesso
@@ -734,7 +809,7 @@ ShallowWrapper {
                   className="view-offer-button"
                   onClick={[Function]}
 >
-                  View Offer
+                  Edit Offer
 </button>,
               ],
               "className": "table-row",
@@ -746,10 +821,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "2018-10-29",
+                  "children": "2018-11-01",
                 },
                 "ref": null,
-                "rendered": "2018-10-29",
+                "rendered": "2018-11-01",
                 "type": "h3",
               },
               Object {
@@ -779,12 +854,12 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "View Offer",
+                  "children": "Edit Offer",
                   "className": "view-offer-button",
                   "onClick": [Function],
                 },
                 "ref": null,
-                "rendered": "View Offer",
+                "rendered": "Edit Offer",
                 "type": "button",
               },
             ],
@@ -792,15 +867,15 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "7",
+            "key": "19",
             "nodeType": "host",
             "props": Object {
               "children": Array [
                 <h3>
-                  2018-10-29
+                  2018-11-01
 </h3>,
                 <h3>
-                  Calvin Harris
+                  Borgore
 </h3>,
                 <h3>
                   Pending
@@ -809,7 +884,7 @@ ShallowWrapper {
                   className="view-offer-button"
                   onClick={[Function]}
 >
-                  View Offer
+                  Edit Offer
 </button>,
               ],
               "className": "table-row",
@@ -821,10 +896,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "2018-10-29",
+                  "children": "2018-11-01",
                 },
                 "ref": null,
-                "rendered": "2018-10-29",
+                "rendered": "2018-11-01",
                 "type": "h3",
               },
               Object {
@@ -832,10 +907,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Calvin Harris",
+                  "children": "Borgore",
                 },
                 "ref": null,
-                "rendered": "Calvin Harris",
+                "rendered": "Borgore",
                 "type": "h3",
               },
               Object {
@@ -854,12 +929,12 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "View Offer",
+                  "children": "Edit Offer",
                   "className": "view-offer-button",
                   "onClick": [Function],
                 },
                 "ref": null,
-                "rendered": "View Offer",
+                "rendered": "Edit Offer",
                 "type": "button",
               },
             ],
@@ -867,15 +942,15 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "6",
+            "key": "18",
             "nodeType": "host",
             "props": Object {
               "children": Array [
                 <h3>
-                  2018-10-29
+                  2018-11-16
 </h3>,
                 <h3>
-                  Calvin Harris
+                  Alesso
 </h3>,
                 <h3>
                   Pending
@@ -884,7 +959,7 @@ ShallowWrapper {
                   className="view-offer-button"
                   onClick={[Function]}
 >
-                  View Offer
+                  Edit Offer
 </button>,
               ],
               "className": "table-row",
@@ -896,10 +971,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "2018-10-29",
+                  "children": "2018-11-16",
                 },
                 "ref": null,
-                "rendered": "2018-10-29",
+                "rendered": "2018-11-16",
                 "type": "h3",
               },
               Object {
@@ -907,10 +982,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Calvin Harris",
+                  "children": "Alesso",
                 },
                 "ref": null,
-                "rendered": "Calvin Harris",
+                "rendered": "Alesso",
                 "type": "h3",
               },
               Object {
@@ -929,87 +1004,12 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "View Offer",
+                  "children": "Edit Offer",
                   "className": "view-offer-button",
                   "onClick": [Function],
                 },
                 "ref": null,
-                "rendered": "View Offer",
-                "type": "button",
-              },
-            ],
-            "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": "5",
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                <h3>
-                  2018-10-29
-</h3>,
-                <h3>
-                  Calvin Harris
-</h3>,
-                <h3>
-                  Pending
-</h3>,
-                <button
-                  className="view-offer-button"
-                  onClick={[Function]}
->
-                  View Offer
-</button>,
-              ],
-              "className": "table-row",
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "2018-10-29",
-                },
-                "ref": null,
-                "rendered": "2018-10-29",
-                "type": "h3",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "Calvin Harris",
-                },
-                "ref": null,
-                "rendered": "Calvin Harris",
-                "type": "h3",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "Pending",
-                },
-                "ref": null,
-                "rendered": "Pending",
-                "type": "h3",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "View Offer",
-                  "className": "view-offer-button",
-                  "onClick": [Function],
-                },
-                "ref": null,
-                "rendered": "View Offer",
+                "rendered": "Edit Offer",
                 "type": "button",
               },
             ],
@@ -1054,7 +1054,26 @@ ShallowWrapper {
                         className="table-row"
             >
                         <h3>
-                                    2018-10-29
+                                    2018-11-02
+                        </h3>
+                        <h3>
+                                    Booka Shade
+                        </h3>
+                        <h3>
+                                    Pending
+                        </h3>
+                        <button
+                                    className="view-offer-button"
+                                    onClick={[Function]}
+                        >
+                                    Edit Offer
+                        </button>
+            </div>
+            <div
+                        className="table-row"
+            >
+                        <h3>
+                                    2018-11-08
                         </h3>
                         <h3>
                                     Afrojack
@@ -1066,14 +1085,14 @@ ShallowWrapper {
                                     className="view-offer-button"
                                     onClick={[Function]}
                         >
-                                    View Offer
+                                    Edit Offer
                         </button>
             </div>
             <div
                         className="table-row"
             >
                         <h3>
-                                    2018-10-29
+                                    2018-11-01
                         </h3>
                         <h3>
                                     Alesso
@@ -1085,17 +1104,17 @@ ShallowWrapper {
                                     className="view-offer-button"
                                     onClick={[Function]}
                         >
-                                    View Offer
+                                    Edit Offer
                         </button>
             </div>
             <div
                         className="table-row"
             >
                         <h3>
-                                    2018-10-29
+                                    2018-11-01
                         </h3>
                         <h3>
-                                    Calvin Harris
+                                    Borgore
                         </h3>
                         <h3>
                                     Pending
@@ -1104,17 +1123,17 @@ ShallowWrapper {
                                     className="view-offer-button"
                                     onClick={[Function]}
                         >
-                                    View Offer
+                                    Edit Offer
                         </button>
             </div>
             <div
                         className="table-row"
             >
                         <h3>
-                                    2018-10-29
+                                    2018-11-16
                         </h3>
                         <h3>
-                                    Calvin Harris
+                                    Alesso
                         </h3>
                         <h3>
                                     Pending
@@ -1123,26 +1142,7 @@ ShallowWrapper {
                                     className="view-offer-button"
                                     onClick={[Function]}
                         >
-                                    View Offer
-                        </button>
-            </div>
-            <div
-                        className="table-row"
-            >
-                        <h3>
-                                    2018-10-29
-                        </h3>
-                        <h3>
-                                    Calvin Harris
-                        </h3>
-                        <h3>
-                                    Pending
-                        </h3>
-                        <button
-                                    className="view-offer-button"
-                                    onClick={[Function]}
-                        >
-                                    View Offer
+                                    Edit Offer
                         </button>
             </div>
 </div>,
@@ -1242,7 +1242,26 @@ ShallowWrapper {
                 className="table-row"
 >
                 <h3>
-                                2018-10-29
+                                2018-11-02
+                </h3>
+                <h3>
+                                Booka Shade
+                </h3>
+                <h3>
+                                Pending
+                </h3>
+                <button
+                                className="view-offer-button"
+                                onClick={[Function]}
+                >
+                                Edit Offer
+                </button>
+</div>,
+              <div
+                className="table-row"
+>
+                <h3>
+                                2018-11-08
                 </h3>
                 <h3>
                                 Afrojack
@@ -1254,14 +1273,14 @@ ShallowWrapper {
                                 className="view-offer-button"
                                 onClick={[Function]}
                 >
-                                View Offer
+                                Edit Offer
                 </button>
 </div>,
               <div
                 className="table-row"
 >
                 <h3>
-                                2018-10-29
+                                2018-11-01
                 </h3>
                 <h3>
                                 Alesso
@@ -1273,17 +1292,17 @@ ShallowWrapper {
                                 className="view-offer-button"
                                 onClick={[Function]}
                 >
-                                View Offer
+                                Edit Offer
                 </button>
 </div>,
               <div
                 className="table-row"
 >
                 <h3>
-                                2018-10-29
+                                2018-11-01
                 </h3>
                 <h3>
-                                Calvin Harris
+                                Borgore
                 </h3>
                 <h3>
                                 Pending
@@ -1292,17 +1311,17 @@ ShallowWrapper {
                                 className="view-offer-button"
                                 onClick={[Function]}
                 >
-                                View Offer
+                                Edit Offer
                 </button>
 </div>,
               <div
                 className="table-row"
 >
                 <h3>
-                                2018-10-29
+                                2018-11-16
                 </h3>
                 <h3>
-                                Calvin Harris
+                                Alesso
                 </h3>
                 <h3>
                                 Pending
@@ -1311,26 +1330,7 @@ ShallowWrapper {
                                 className="view-offer-button"
                                 onClick={[Function]}
                 >
-                                View Offer
-                </button>
-</div>,
-              <div
-                className="table-row"
->
-                <h3>
-                                2018-10-29
-                </h3>
-                <h3>
-                                Calvin Harris
-                </h3>
-                <h3>
-                                Pending
-                </h3>
-                <button
-                                className="view-offer-button"
-                                onClick={[Function]}
-                >
-                                View Offer
+                                Edit Offer
                 </button>
 </div>,
             ],
@@ -1340,15 +1340,15 @@ ShallowWrapper {
           "rendered": Array [
             Object {
               "instance": null,
-              "key": "9",
+              "key": "22",
               "nodeType": "host",
               "props": Object {
                 "children": Array [
                   <h3>
-                    2018-10-29
+                    2018-11-02
 </h3>,
                   <h3>
-                    Afrojack
+                    Booka Shade
 </h3>,
                   <h3>
                     Pending
@@ -1357,7 +1357,7 @@ ShallowWrapper {
                     className="view-offer-button"
                     onClick={[Function]}
 >
-                    View Offer
+                    Edit Offer
 </button>,
                 ],
                 "className": "table-row",
@@ -1369,10 +1369,85 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "2018-10-29",
+                    "children": "2018-11-02",
                   },
                   "ref": null,
-                  "rendered": "2018-10-29",
+                  "rendered": "2018-11-02",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Booka Shade",
+                  },
+                  "ref": null,
+                  "rendered": "Booka Shade",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Pending",
+                  },
+                  "ref": null,
+                  "rendered": "Pending",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Edit Offer",
+                    "className": "view-offer-button",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Edit Offer",
+                  "type": "button",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "21",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h3>
+                    2018-11-08
+</h3>,
+                  <h3>
+                    Afrojack
+</h3>,
+                  <h3>
+                    Pending
+</h3>,
+                  <button
+                    className="view-offer-button"
+                    onClick={[Function]}
+>
+                    Edit Offer
+</button>,
+                ],
+                "className": "table-row",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "2018-11-08",
+                  },
+                  "ref": null,
+                  "rendered": "2018-11-08",
                   "type": "h3",
                 },
                 Object {
@@ -1402,12 +1477,12 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "View Offer",
+                    "children": "Edit Offer",
                     "className": "view-offer-button",
                     "onClick": [Function],
                   },
                   "ref": null,
-                  "rendered": "View Offer",
+                  "rendered": "Edit Offer",
                   "type": "button",
                 },
               ],
@@ -1415,12 +1490,12 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": "8",
+              "key": "20",
               "nodeType": "host",
               "props": Object {
                 "children": Array [
                   <h3>
-                    2018-10-29
+                    2018-11-01
 </h3>,
                   <h3>
                     Alesso
@@ -1432,7 +1507,7 @@ ShallowWrapper {
                     className="view-offer-button"
                     onClick={[Function]}
 >
-                    View Offer
+                    Edit Offer
 </button>,
                 ],
                 "className": "table-row",
@@ -1444,10 +1519,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "2018-10-29",
+                    "children": "2018-11-01",
                   },
                   "ref": null,
-                  "rendered": "2018-10-29",
+                  "rendered": "2018-11-01",
                   "type": "h3",
                 },
                 Object {
@@ -1477,12 +1552,12 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "View Offer",
+                    "children": "Edit Offer",
                     "className": "view-offer-button",
                     "onClick": [Function],
                   },
                   "ref": null,
-                  "rendered": "View Offer",
+                  "rendered": "Edit Offer",
                   "type": "button",
                 },
               ],
@@ -1490,15 +1565,15 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": "7",
+              "key": "19",
               "nodeType": "host",
               "props": Object {
                 "children": Array [
                   <h3>
-                    2018-10-29
+                    2018-11-01
 </h3>,
                   <h3>
-                    Calvin Harris
+                    Borgore
 </h3>,
                   <h3>
                     Pending
@@ -1507,7 +1582,7 @@ ShallowWrapper {
                     className="view-offer-button"
                     onClick={[Function]}
 >
-                    View Offer
+                    Edit Offer
 </button>,
                 ],
                 "className": "table-row",
@@ -1519,10 +1594,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "2018-10-29",
+                    "children": "2018-11-01",
                   },
                   "ref": null,
-                  "rendered": "2018-10-29",
+                  "rendered": "2018-11-01",
                   "type": "h3",
                 },
                 Object {
@@ -1530,10 +1605,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Calvin Harris",
+                    "children": "Borgore",
                   },
                   "ref": null,
-                  "rendered": "Calvin Harris",
+                  "rendered": "Borgore",
                   "type": "h3",
                 },
                 Object {
@@ -1552,12 +1627,12 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "View Offer",
+                    "children": "Edit Offer",
                     "className": "view-offer-button",
                     "onClick": [Function],
                   },
                   "ref": null,
-                  "rendered": "View Offer",
+                  "rendered": "Edit Offer",
                   "type": "button",
                 },
               ],
@@ -1565,15 +1640,15 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": "6",
+              "key": "18",
               "nodeType": "host",
               "props": Object {
                 "children": Array [
                   <h3>
-                    2018-10-29
+                    2018-11-16
 </h3>,
                   <h3>
-                    Calvin Harris
+                    Alesso
 </h3>,
                   <h3>
                     Pending
@@ -1582,7 +1657,7 @@ ShallowWrapper {
                     className="view-offer-button"
                     onClick={[Function]}
 >
-                    View Offer
+                    Edit Offer
 </button>,
                 ],
                 "className": "table-row",
@@ -1594,10 +1669,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "2018-10-29",
+                    "children": "2018-11-16",
                   },
                   "ref": null,
-                  "rendered": "2018-10-29",
+                  "rendered": "2018-11-16",
                   "type": "h3",
                 },
                 Object {
@@ -1605,10 +1680,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Calvin Harris",
+                    "children": "Alesso",
                   },
                   "ref": null,
-                  "rendered": "Calvin Harris",
+                  "rendered": "Alesso",
                   "type": "h3",
                 },
                 Object {
@@ -1627,87 +1702,12 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "View Offer",
+                    "children": "Edit Offer",
                     "className": "view-offer-button",
                     "onClick": [Function],
                   },
                   "ref": null,
-                  "rendered": "View Offer",
-                  "type": "button",
-                },
-              ],
-              "type": "div",
-            },
-            Object {
-              "instance": null,
-              "key": "5",
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  <h3>
-                    2018-10-29
-</h3>,
-                  <h3>
-                    Calvin Harris
-</h3>,
-                  <h3>
-                    Pending
-</h3>,
-                  <button
-                    className="view-offer-button"
-                    onClick={[Function]}
->
-                    View Offer
-</button>,
-                ],
-                "className": "table-row",
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "2018-10-29",
-                  },
-                  "ref": null,
-                  "rendered": "2018-10-29",
-                  "type": "h3",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "Calvin Harris",
-                  },
-                  "ref": null,
-                  "rendered": "Calvin Harris",
-                  "type": "h3",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "Pending",
-                  },
-                  "ref": null,
-                  "rendered": "Pending",
-                  "type": "h3",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "View Offer",
-                    "className": "view-offer-button",
-                    "onClick": [Function],
-                  },
-                  "ref": null,
-                  "rendered": "View Offer",
+                  "rendered": "Edit Offer",
                   "type": "button",
                 },
               ],

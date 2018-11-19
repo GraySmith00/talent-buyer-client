@@ -1,23 +1,63 @@
 .landing {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
   width: 100%;
   position: relative;
-  background-color: #131621; }
+  background-color: #4d5261; }
   .landing .hero {
     display: flex;
-    justify-content: center;
-    height: 60%;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./savoy_ogden_optimized.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center; }
+    background-position: center center;
+    -webkit-box-shadow: 0px 10px 103px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 103px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 103px -2px rgba(0, 0, 0, 0.75); }
   .landing h1 {
     margin: 0 auto;
     font-size: 6rem;
     margin-top: 7rem;
     color: #fff;
     font-family: 'Courgette', cursive; }
+  .landing .divider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 1rem;
+    width: 90%;
+    font-size: 1.7rem;
+    color: #fff; }
+  .landing .divider-line {
+    height: 2px;
+    background-color: #fff;
+    width: 45%; }
+  .landing .market-dash {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    padding: 7rem;
+    color: #fff;
+    background-color: #353945; }
+  .landing .section-title {
+    margin-top: 0;
+    font-size: 2rem; }
+  .landing .market-dash p {
+    color: #b6b9c6; }
+  .landing .market-dash img {
+    -webkit-box-shadow: 8px 10px 76px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 8px 10px 76px -14px rgba(0, 0, 0, 0.75);
+    box-shadow: 8px 10px 76px -14px rgba(0, 0, 0, 0.75); }
+  .landing .market-browse {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    grid-gap: 3rem;
+    padding: 7rem;
+    color: #000;
+    background-color: #ced1dc; }
+    .landing .market-browse img {
+      -webkit-box-shadow: 8px 10px 76px -14px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 8px 10px 76px -14px rgba(0, 0, 0, 0.75);
+      box-shadow: 8px 10px 76px -14px rgba(0, 0, 0, 0.75); }

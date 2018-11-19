@@ -62,11 +62,20 @@
     margin-left: 1rem;
   }
 
+  .select {
+    width: 300px;
+    color: #000;
+    margin-left: 1rem;
+    outline: none;
+    border: none;
+  }
+
   .genre-form {
     margin-left: 2rem;
 
-    select {
-      margin-left: 1rem;
+    label {
+      display: flex;
+      align-items: center;
     }
   }
 

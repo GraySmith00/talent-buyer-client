@@ -1,15 +1,18 @@
 import styled from 'styled-components';
 
 const ModalButton = styled.button`
-  margin-top: 15px;
-  width: 80%;
-  padding: 15px;
+  width: 40%;
+  padding: 10px 20px;
+  margin-top: 2rem;
   border: none;
   border-radius: 5px;
   font-size: 1.2rem;
-  background-color: #D52F7F;
+  background-color: #d52f7f;
   color: #fff;
   cursor: pointer;
+  -webkit-box-shadow: 10px 10px 57px -16px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 57px -16px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 57px -16px rgba(0, 0, 0, 0.75);
 `;
 
 export default ModalButton;
