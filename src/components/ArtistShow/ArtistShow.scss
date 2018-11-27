@@ -28,6 +28,12 @@
     padding-left: 0.4em;
   }
 
+  .description-stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
   .genre {
     color: $pink-two;
     padding-left: 1em;
@@ -64,7 +70,9 @@
     justify-content: center;
     height: 47em;
     margin: auto;
+    overflow: hidden visible;
     padding: 1.5em;
+    padding-top: 10em;
     width: 72em;
   }
 
@@ -83,6 +91,7 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
+    height: 10%;
     width: 96%;
   }
 
@@ -94,11 +103,13 @@
 
   .portrait-wrap {
     display: flex;
+    height: 17em;
     width: 100%;
   }
 
   .profile-image {
     border-radius: 50%;
+    margin-top: 2.5em;
     width: 15em;
   }
 

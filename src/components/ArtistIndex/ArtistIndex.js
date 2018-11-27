@@ -113,8 +113,8 @@ export class ArtistIndex extends Component {
 
     if (!autoCompleteResults) {
       this.setState({
-        searchValue: '',
         autoCompleteResults: [],
+        searchValue: e.target.value,
         showDatalist: false
       });
       return;
