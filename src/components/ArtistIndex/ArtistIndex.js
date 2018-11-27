@@ -5,6 +5,7 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 import classNames from 'classnames';
 import Select from 'react-select';
+import { PrefixTrie } from 'complete-me';
 
 import { getAllArtists } from '../../Utils/backendApiCalls';
 import { toggleArtistThunk } from '../../actions/watchlistActions';
@@ -32,7 +33,12 @@ export class ArtistIndex extends Component {
     sort: null,
     genre: null,
     agency: null,
-    activeSort: null
+    activeSort: null,
+    artistTrie: {},
+    autoCompleteResults: [],
+    searchValue: '',
+    searchedArtist: null,
+    showDatalist: false
   };
 
   async componentDidMount() {
@@ -43,7 +49,10 @@ export class ArtistIndex extends Component {
       agency: 'wme',
       sort: this.state.sort
     });
-    this.setState({ artists });
+    const artistTrie = new PrefixTrie();
+    const artistNames = artists.map(a => a.name);
+    artistTrie.populate(artistNames);
+    this.setState({ artists, artistTrie });
   }
 
   toggleWatchlist = async (e, artist) => {
@@ -91,15 +100,49 @@ export class ArtistIndex extends Component {
     this.setState({ artists, sort, activeSort: innerText });
   };
 
-  render() {
-    const { artists, activeSort, agency, genre } = this.state;
+  handleSearchChange = e => {
+    const { artistTrie } = this.state;
+    let autoCompleteResults;
+    if (e.target.value === '') {
+      autoCompleteResults = [];
+    } else {
+      autoCompleteResults = artistTrie.suggest(e.target.value);
+    }
+    const showDatalist = autoCompleteResults.length > 0;
+    this.setState({
+      autoCompleteResults,
+      searchValue: e.target.value,
+      showDatalist
+    });
+  };
+
+  handleSuggestionClick = e => {
+    this.setState({ searchValue: e.target.value, showDatalist: false });
+  };
+
+  handlSearchSubmit = e => {
+    e.preventDefault();
+    const { artists, searchValue } = this.state;
+    const searchedArtist = artists.find(artist => {
+      return artist.name.toLowerCase() === searchValue.toLowerCase();
+    });
+    const autoCompleteResults = [];
+    const showDatalist = false;
+    this.setState({ searchedArtist, autoCompleteResults, showDatalist });
+  };
+
+  displayArtists = () => {
+    const { artists, searchedArtist } = this.state;
     const { watchlist } = this.props;
+    let artistsToDisplay = artists;
     let displayArtists;
 
     if (!artists.length) {
       displayArtists = <p>Loading...</p>;
     } else {
-      displayArtists = artists.map(artist => {
+      if (searchedArtist) artistsToDisplay = [searchedArtist];
+
+      displayArtists = artistsToDisplay.map(artist => {
         let onList = watchlist.find(watched => watched.id === artist.id);
         onList ? (onList = true) : (onList = false);
 
@@ -130,10 +173,60 @@ export class ArtistIndex extends Component {
       });
     }
 
+    return displayArtists;
+  };
+
+  allArtists = () => {
+    this.setState({ searchedArtist: null });
+  };
+
+  render() {
+    const {
+      activeSort,
+      agency,
+      genre,
+      searchValue,
+      autoCompleteResults,
+      showDatalist
+    } = this.state;
+
+    const suggestionOptions = autoCompleteResults.map((suggestion, i) => (
+      <option
+        onClick={this.handleSuggestionClick}
+        key={`${suggestion}-${i}`}
+        value={suggestion}
+        style={{
+          fontSize: '1.2rem',
+          padding: '0.5rem 1rem',
+          borderBottom: '1px solid #32333e'
+        }}
+      >
+        {suggestion}
+      </option>
+    ));
+
+    const displayArtists = this.displayArtists();
+
     return (
       <div className="artist-index">
         <Nav />
         <div className="main-content">
+          <section className="search">
+            <div className="search-input-container">
+              <input
+                type="text"
+                className="search-input"
+                onChange={this.handleSearchChange}
+                value={searchValue}
+                placeholder="Search for an artist..."
+              />
+              {showDatalist && (
+                <datalist id="suggestions">{suggestionOptions}</datalist>
+              )}
+            </div>
+            <button onClick={this.handlSearchSubmit}>Search</button>
+            <button onClick={this.allArtists}>All Artists</button>
+          </section>
           <section className="filters">
             <form className="agency-form">
               <label>

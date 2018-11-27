@@ -17,28 +17,28 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "children": <Unknown>
+      "children": <React.Fragment>
         <Route
-                component={[Function]}
-                exact={true}
-                path="/"
+          component={[Function]}
+          exact={true}
+          path="/"
         />
         <Route
-                component={[Function]}
-                exact={true}
-                path="/home"
+          component={[Function]}
+          exact={true}
+          path="/home"
         />
         <Route
-                component={[Function]}
-                exact={true}
-                path="/artists"
+          component={[Function]}
+          exact={true}
+          path="/artists"
         />
         <Route
-                exact={true}
-                path="/artists/:id"
-                render={[Function]}
+          exact={true}
+          path="/artists/:id"
+          render={[Function]}
         />
-</Unknown>,
+      </React.Fragment>,
     },
     "ref": null,
     "rendered": Object {
@@ -51,22 +51,22 @@ ShallowWrapper {
             component={[Function]}
             exact={true}
             path="/"
-/>,
+          />,
           <Route
             component={[Function]}
             exact={true}
             path="/home"
-/>,
+          />,
           <Route
             component={[Function]}
             exact={true}
             path="/artists"
-/>,
+          />,
           <Route
             exact={true}
             path="/artists/:id"
             render={[Function]}
-/>,
+          />,
         ],
       },
       "ref": null,
@@ -134,28 +134,28 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": <Unknown>
+        "children": <React.Fragment>
           <Route
-                    component={[Function]}
-                    exact={true}
-                    path="/"
+            component={[Function]}
+            exact={true}
+            path="/"
           />
           <Route
-                    component={[Function]}
-                    exact={true}
-                    path="/home"
+            component={[Function]}
+            exact={true}
+            path="/home"
           />
           <Route
-                    component={[Function]}
-                    exact={true}
-                    path="/artists"
+            component={[Function]}
+            exact={true}
+            path="/artists"
           />
           <Route
-                    exact={true}
-                    path="/artists/:id"
-                    render={[Function]}
+            exact={true}
+            path="/artists/:id"
+            render={[Function]}
           />
-</Unknown>,
+        </React.Fragment>,
       },
       "ref": null,
       "rendered": Object {
@@ -168,22 +168,22 @@ ShallowWrapper {
               component={[Function]}
               exact={true}
               path="/"
-/>,
+            />,
             <Route
               component={[Function]}
               exact={true}
               path="/home"
-/>,
+            />,
             <Route
               component={[Function]}
               exact={true}
               path="/artists"
-/>,
+            />,
             <Route
               exact={true}
               path="/artists/:id"
               render={[Function]}
-/>,
+            />,
           ],
         },
         "ref": null,

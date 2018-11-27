@@ -6,12 +6,66 @@
     height: 100vh;
     width: 100%;
     padding: 3rem 3rem; }
+  .artist-index .search {
+    display: flex;
+    width: 100%;
+    position: relative; }
+  .artist-index .search-input {
+    border: none;
+    padding: 0 0 0 1rem;
+    width: 20rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    border-radius: 5px; }
+  .artist-index .search button {
+    border: none;
+    height: 2.5rem;
+    width: 10rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-left: 1.5rem;
+    background-color: #01bbd3;
+    color: #fff;
+    cursor: pointer;
+    -webkit-box-shadow: 10px 10px 33px -13px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 33px -13px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 33px -13px rgba(0, 0, 0, 0.75); }
+  .artist-index #suggestions {
+    position: absolute;
+    display: block;
+    width: 20rem;
+    z-index: 99;
+    height: 200px;
+    overflow: scroll;
+    color: #32333e;
+    background-color: #cdcfda;
+    outline: none;
+    border: none; }
+  .artist-index .filters {
+    display: flex;
+    margin-top: 1rem; }
+  .artist-index .agency-form select {
+    margin-left: 1rem; }
+  .artist-index .select {
+    width: 300px;
+    color: #000;
+    margin-left: 1rem;
+    outline: none;
+    border: none;
+    background-color: #62799d; }
+  .artist-index .genre-form {
+    margin-left: 2rem; }
+    .artist-index .genre-form label {
+      display: flex;
+      align-items: center; }
+  .artist-index label {
+    display: flex;
+    align-items: center; }
   .artist-index .table-headings {
     display: grid;
     grid-template-columns: 8fr repeat(5, 10fr);
     border-bottom: 1px solid #fff;
-    align-items: center;
-    margin-top: 3rem; }
+    align-items: center; }
   .artist-index .artists-container {
     height: 400px;
     overflow: scroll;
@@ -33,21 +87,3 @@
     width: 6rem; }
   .artist-index .genre-selector {
     max-height: 40px; }
-  .artist-index .filters {
-    display: flex; }
-  .artist-index .agency-form select {
-    margin-left: 1rem; }
-  .artist-index .select {
-    width: 300px;
-    color: #000;
-    margin-left: 1rem;
-    outline: none;
-    border: none; }
-  .artist-index .genre-form {
-    margin-left: 2rem; }
-    .artist-index .genre-form label {
-      display: flex;
-      align-items: center; }
-  .artist-index label {
-    display: flex;
-    align-items: center; }

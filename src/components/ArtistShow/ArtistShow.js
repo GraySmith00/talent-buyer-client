@@ -72,7 +72,11 @@ export class ArtistShow extends Component {
               <span className="name-wrap">
                 <h1 className="artist-name">{name}</h1>
                 <span className="button-wrap">
-                  <a href={spotify_url} target="_blank">
+                  <a
+                    href={spotify_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img
                       className="spotify-icon button"
                       src={require('./Spotify_Icon_RGB_White.png')}

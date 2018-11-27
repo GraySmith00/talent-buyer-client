@@ -5,17 +5,17 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Nav
     currentVenue={
-        Object {
-            "capacity": 1600,
-            "city": "Denver",
-            "id": 1,
-            "name": "Ogden Theatre",
-            "state": "CO",
-            "street_address": "935 East Colfax Avenue",
-            "zip": 80218,
-          }
+      Object {
+        "capacity": 1600,
+        "city": "Denver",
+        "id": 1,
+        "name": "Ogden Theatre",
+        "state": "CO",
+        "street_address": "935 East Colfax Avenue",
+        "zip": 80218,
+      }
     }
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -32,64 +32,70 @@ ShallowWrapper {
       "children": Array [
         <div
           className="logo-wrap"
->
+        >
           <img
-                    alt="frequency-logo"
-                    className="frequency"
-                    src="frequency.svg"
+            alt="frequency-logo"
+            className="frequency"
+            src={
+              Object {
+                "ReactComponent": [Function],
+                "__esModule": true,
+                "default": "frequency.svg",
+              }
+            }
           />
           <h1
-                    className="logo"
+            className="logo"
           >
-                    TalentBC
+            TalentBC
           </h1>
-</div>,
+        </div>,
         <section
           className="nav-link-wrapper"
->
+        >
           <NavLink
-                    activeClassName="active"
-                    aria-current="page"
-                    className="nav-link"
-                    to="/home"
+            activeClassName="active"
+            aria-current="page"
+            className="nav-link"
+            to="/home"
           >
-                    Home
+            Home
           </NavLink>
           <NavLink
-                    activeClassName="active"
-                    aria-current="page"
-                    className="nav-link"
-                    to="/artists"
+            activeClassName="active"
+            aria-current="page"
+            className="nav-link"
+            to="/artists"
           >
-                    Artists
+            Artists
           </NavLink>
-</section>,
+        </section>,
         <section
           className="venue-info"
->
+        >
           <header>
-                    Current Venue
+            Current Venue
           </header>
           <div
-                    className="venue-info-main"
+            className="venue-info-main"
           >
-                    <p>
-                              Ogden Theatre
-                    </p>
-                    <p>
-                              935 East Colfax Avenue
-                    </p>
-                    <p>
-                              Denver
-                              , 
-                              CO
-                    </p>
-                    <p>
-                              Capacity: 
-                              1600
-                    </p>
+            <p>
+              Ogden Theatre
+            </p>
+            <p>
+              935 East Colfax Avenue
+            </p>
+            <p>
+              Denver
+              , 
+              CO
+            </p>
+            <p>
+              Capacity: 
+              1600
+            </p>
           </div>
-</section>,
+        </section>,
       ],
       "className": "nav",
     },
@@ -104,13 +110,19 @@ ShallowWrapper {
             <img
               alt="frequency-logo"
               className="frequency"
-              src="frequency.svg"
-/>,
+              src={
+                Object {
+                  "ReactComponent": [Function],
+                  "__esModule": true,
+                  "default": "frequency.svg",
+                }
+              }
+            />,
             <h1
               className="logo"
->
+            >
               TalentBC
-</h1>,
+            </h1>,
           ],
           "className": "logo-wrap",
         },
@@ -123,7 +135,11 @@ ShallowWrapper {
             "props": Object {
               "alt": "frequency-logo",
               "className": "frequency",
-              "src": "frequency.svg",
+              "src": Object {
+                "ReactComponent": [Function],
+                "__esModule": true,
+                "default": "frequency.svg",
+              },
             },
             "ref": null,
             "rendered": null,
@@ -155,17 +171,17 @@ ShallowWrapper {
               aria-current="page"
               className="nav-link"
               to="/home"
->
+            >
               Home
-</NavLink>,
+            </NavLink>,
             <NavLink
               activeClassName="active"
               aria-current="page"
               className="nav-link"
               to="/artists"
->
+            >
               Artists
-</NavLink>,
+            </NavLink>,
           ],
           "className": "nav-link-wrapper",
         },
@@ -212,26 +228,26 @@ ShallowWrapper {
           "children": Array [
             <header>
               Current Venue
-</header>,
+            </header>,
             <div
               className="venue-info-main"
->
+            >
               <p>
-                            Ogden Theatre
+                Ogden Theatre
               </p>
               <p>
-                            935 East Colfax Avenue
+                935 East Colfax Avenue
               </p>
               <p>
-                            Denver
-                            , 
-                            CO
+                Denver
+                , 
+                CO
               </p>
               <p>
-                            Capacity: 
-                            1600
+                Capacity: 
+                1600
               </p>
-</div>,
+            </div>,
           ],
           "className": "venue-info",
         },
@@ -256,19 +272,19 @@ ShallowWrapper {
               "children": Array [
                 <p>
                   Ogden Theatre
-</p>,
+                </p>,
                 <p>
                   935 East Colfax Avenue
-</p>,
+                </p>,
                 <p>
                   Denver
                   , 
                   CO
-</p>,
+                </p>,
                 <p>
                   Capacity: 
                   1600
-</p>,
+                </p>,
               ],
               "className": "venue-info-main",
             },
@@ -350,64 +366,70 @@ ShallowWrapper {
         "children": Array [
           <div
             className="logo-wrap"
->
+          >
             <img
-                        alt="frequency-logo"
-                        className="frequency"
-                        src="frequency.svg"
+              alt="frequency-logo"
+              className="frequency"
+              src={
+                Object {
+                  "ReactComponent": [Function],
+                  "__esModule": true,
+                  "default": "frequency.svg",
+                }
+              }
             />
             <h1
-                        className="logo"
+              className="logo"
             >
-                        TalentBC
+              TalentBC
             </h1>
-</div>,
+          </div>,
           <section
             className="nav-link-wrapper"
->
+          >
             <NavLink
-                        activeClassName="active"
-                        aria-current="page"
-                        className="nav-link"
-                        to="/home"
+              activeClassName="active"
+              aria-current="page"
+              className="nav-link"
+              to="/home"
             >
-                        Home
+              Home
             </NavLink>
             <NavLink
-                        activeClassName="active"
-                        aria-current="page"
-                        className="nav-link"
-                        to="/artists"
+              activeClassName="active"
+              aria-current="page"
+              className="nav-link"
+              to="/artists"
             >
-                        Artists
+              Artists
             </NavLink>
-</section>,
+          </section>,
           <section
             className="venue-info"
->
+          >
             <header>
-                        Current Venue
+              Current Venue
             </header>
             <div
-                        className="venue-info-main"
+              className="venue-info-main"
             >
-                        <p>
-                                    Ogden Theatre
-                        </p>
-                        <p>
-                                    935 East Colfax Avenue
-                        </p>
-                        <p>
-                                    Denver
-                                    , 
-                                    CO
-                        </p>
-                        <p>
-                                    Capacity: 
-                                    1600
-                        </p>
+              <p>
+                Ogden Theatre
+              </p>
+              <p>
+                935 East Colfax Avenue
+              </p>
+              <p>
+                Denver
+                , 
+                CO
+              </p>
+              <p>
+                Capacity: 
+                1600
+              </p>
             </div>
-</section>,
+          </section>,
         ],
         "className": "nav",
       },
@@ -422,13 +444,19 @@ ShallowWrapper {
               <img
                 alt="frequency-logo"
                 className="frequency"
-                src="frequency.svg"
-/>,
+                src={
+                  Object {
+                    "ReactComponent": [Function],
+                    "__esModule": true,
+                    "default": "frequency.svg",
+                  }
+                }
+              />,
               <h1
                 className="logo"
->
+              >
                 TalentBC
-</h1>,
+              </h1>,
             ],
             "className": "logo-wrap",
           },
@@ -441,7 +469,11 @@ ShallowWrapper {
               "props": Object {
                 "alt": "frequency-logo",
                 "className": "frequency",
-                "src": "frequency.svg",
+                "src": Object {
+                  "ReactComponent": [Function],
+                  "__esModule": true,
+                  "default": "frequency.svg",
+                },
               },
               "ref": null,
               "rendered": null,
@@ -473,17 +505,17 @@ ShallowWrapper {
                 aria-current="page"
                 className="nav-link"
                 to="/home"
->
+              >
                 Home
-</NavLink>,
+              </NavLink>,
               <NavLink
                 activeClassName="active"
                 aria-current="page"
                 className="nav-link"
                 to="/artists"
->
+              >
                 Artists
-</NavLink>,
+              </NavLink>,
             ],
             "className": "nav-link-wrapper",
           },
@@ -530,26 +562,26 @@ ShallowWrapper {
             "children": Array [
               <header>
                 Current Venue
-</header>,
+              </header>,
               <div
                 className="venue-info-main"
->
+              >
                 <p>
-                                Ogden Theatre
+                  Ogden Theatre
                 </p>
                 <p>
-                                935 East Colfax Avenue
+                  935 East Colfax Avenue
                 </p>
                 <p>
-                                Denver
-                                , 
-                                CO
+                  Denver
+                  , 
+                  CO
                 </p>
                 <p>
-                                Capacity: 
-                                1600
+                  Capacity: 
+                  1600
                 </p>
-</div>,
+              </div>,
             ],
             "className": "venue-info",
           },
@@ -574,19 +606,19 @@ ShallowWrapper {
                 "children": Array [
                   <p>
                     Ogden Theatre
-</p>,
+                  </p>,
                   <p>
                     935 East Colfax Avenue
-</p>,
+                  </p>,
                   <p>
                     Denver
                     , 
                     CO
-</p>,
+                  </p>,
                   <p>
                     Capacity: 
                     1600
-</p>,
+                  </p>,
                 ],
                 "className": "venue-info-main",
               },
