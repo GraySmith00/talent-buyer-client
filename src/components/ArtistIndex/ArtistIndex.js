@@ -10,7 +10,7 @@ import { PrefixTrie } from 'complete-me';
 import { getAllArtists } from '../../Utils/backendApiCalls';
 import { toggleArtistThunk } from '../../actions/watchlistActions';
 import { allGenres } from '../../Utils/allGenres';
-import { capitalize } from '../../Utils/capitalize';
+import { capitalize, capitalizeArtists } from '../../Utils/capitalize';
 import { ArtistTableHeader } from '../ArtistTableHeader/ArtistTableHeader';
 import './ArtistIndex.css';
 
@@ -102,12 +102,24 @@ export class ArtistIndex extends Component {
 
   handleSearchChange = e => {
     const { artistTrie } = this.state;
-    let autoCompleteResults;
+    let searchMatches;
     if (e.target.value === '') {
-      autoCompleteResults = [];
+      searchMatches = [];
     } else {
-      autoCompleteResults = artistTrie.suggest(e.target.value);
+      searchMatches = artistTrie.suggest(e.target.value);
     }
+
+    const autoCompleteResults = capitalizeArtists(searchMatches);
+
+    if (!autoCompleteResults) {
+      this.setState({
+        searchValue: '',
+        autoCompleteResults: [],
+        showDatalist: false
+      });
+      return;
+    }
+
     const showDatalist = autoCompleteResults.length > 0;
     this.setState({
       autoCompleteResults,
