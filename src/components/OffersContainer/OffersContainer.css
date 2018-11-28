@@ -1,11 +1,22 @@
-.offers-container {
+.offers-container .table-headings {
+  display: grid;
+  grid-template-columns: repeat(4, 10fr);
+  border-bottom: 1px solid #fff;
+  align-items: center;
+  padding-left: 2rem;
+  margin: 1rem 0 0 0; }
+  .offers-container .table-headings h3 {
+    margin-bottom: 0; }
+
+.offers-container .rows {
   height: 140px;
   overflow: scroll;
   background-color: #32333e; }
-  .offers-container .table-row {
-    display: grid;
-    grid-template-columns: repeat(4, 10fr);
-    align-items: center;
-    justify-content: center;
-    margin-left: 2rem;
-    font-weight: 300; }
+
+.offers-container .table-row {
+  display: grid;
+  grid-template-columns: repeat(4, 10fr);
+  align-items: center;
+  justify-content: center;
+  margin-left: 2rem;
+  font-weight: 300; }

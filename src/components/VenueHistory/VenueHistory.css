@@ -1,0 +1,34 @@
+.venue-history h3 {
+  margin-bottom: 0;
+  font-weight: 300;
+  font-size: 1.3rem; }
+
+.venue-history .city {
+  color: #C73B96; }
+
+.venue-history .event-details {
+  font-size: 1.5em; }
+
+.venue-history .event-container {
+  max-height: 140px;
+  overflow: scroll;
+  background-color: #32333e; }
+
+.venue-history .table-headings {
+  display: grid;
+  grid-template-columns: repeat(3, 10fr);
+  border-bottom: 1px solid #fff;
+  align-items: center;
+  padding-left: 2rem;
+  margin: 0; }
+  .venue-history .table-headings h4 {
+    margin-bottom: 5px; }
+
+.venue-history .table-row {
+  display: grid;
+  grid-template-columns: repeat(3, 10fr);
+  align-items: center;
+  justify-content: center;
+  margin-left: 2rem;
+  font-weight: 300;
+  font-size: 0.6rem; }

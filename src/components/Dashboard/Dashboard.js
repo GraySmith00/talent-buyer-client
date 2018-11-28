@@ -87,12 +87,6 @@ class Dashboard extends Component {
                 <i className="fas fa-plus" />
                 Create Offer
               </ModalButton>
-              <div className="table-headings">
-                <h3>Artist</h3>
-                <h3>Status</h3>
-                <h3>Edit</h3>
-                <h3>View</h3>
-              </div>
               <OffersContainer
                 date={date}
                 openEditOfferModal={this.openEditOfferModal}

@@ -1,7 +1,21 @@
 .offers-container {
-  height: 140px;
-  overflow: scroll;
-  background-color: #32333e;
+  .table-headings {
+    display: grid;
+    grid-template-columns: repeat(4, 10fr);
+    border-bottom: 1px solid #fff;
+    align-items: center;
+    padding-left: 2rem;
+    margin: 1rem 0 0 0;
+    h3 {
+      margin-bottom: 0;
+    }
+  }
+
+  .rows {
+    height: 140px;
+    overflow: scroll;
+    background-color: #32333e;
+  }
 
   .table-row {
     display: grid;
