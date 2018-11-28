@@ -21,15 +21,17 @@ export class ViewOfferModal extends Component {
     this.setState({ offer });
   }
 
-  downloadPdf() {
+  downloadPdf = () => {
+    const { artist_name } = this.state.offer;
+    const { name } = this.props.currentVenue;
     const input = document.querySelector('.inner-modal');
     html2canvas(input).then(canvas => {
       const imgData = canvas.toDataURL('image/png');
       const pdf = new jsPDF('l', 'pt', [792, 612]);
       pdf.addImage(imgData, 'PNG', 0, 0, 792, 612);
-      pdf.save('download.pdf');
+      pdf.save(`${artist_name}-${name}-offer.pdf`);
     });
-  }
+  };
 
   render() {
     const { closeViewOfferModal, currentVenue, currentUser } = this.props;
