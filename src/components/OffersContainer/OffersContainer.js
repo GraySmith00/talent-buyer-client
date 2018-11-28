@@ -50,7 +50,17 @@ export class OffersContainer extends Component {
       ));
     }
 
-    return <div className="offers-container">{displayOffers}</div>;
+    return (
+      <div className="offers-container">
+        <div className="table-headings">
+          <h3>Artist</h3>
+          <h3>Status</h3>
+          <h3>Edit</h3>
+          <h3>View</h3>
+        </div>
+        <div className="rows">{displayOffers}</div>
+      </div>
+    );
   }
 }
 
