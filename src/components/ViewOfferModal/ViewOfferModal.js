@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import axios from 'axios';
 import { connect } from 'react-redux';
+import html2canvas from 'html2canvas';
+import * as jsPDF from 'jspdf';
 
 import './ViewOfferModal.css';
 
@@ -17,6 +19,16 @@ export class ViewOfferModal extends Component {
     );
     const offer = offers.find(offer => offer.id === offerId);
     this.setState({ offer });
+  }
+
+  downloadPdf() {
+    const input = document.querySelector('.inner-modal');
+    html2canvas(input).then(canvas => {
+      const imgData = canvas.toDataURL('image/png');
+      const pdf = new jsPDF('l', 'pt', [792, 612]);
+      pdf.addImage(imgData, 'PNG', 0, 0, 792, 612);
+      pdf.save('download.pdf');
+    });
   }
 
   render() {
@@ -37,7 +49,7 @@ export class ViewOfferModal extends Component {
                 <span className="field">Date:</span> {offer.date}
               </p>
               <p>
-                <span className="field">spanArtist:</span> {offer.artist_name}
+                <span className="field">Artist:</span> {offer.artist_name}
               </p>
               <p>
                 <span className="field">Buyer:</span> {currentUser.first_name}{' '}
@@ -100,17 +112,23 @@ export class ViewOfferModal extends Component {
               </p>
             </div>
           </div>
-          <p onClick={closeViewOfferModal}>x Close</p>
         </div>
       );
     }
 
     return (
       <div className="view-offer-modal">
+        <header>
+          <nav className="header-nav">
+            <p onClick={this.downloadPdf}>
+              Download PDF <i className="fas fa-file-download" />
+            </p>
+            <i className="far fa-times-circle" onClick={closeViewOfferModal} />
+          </nav>
+        </header>
         <div className="inner-modal">
           <h1>{currentVenue.name}</h1>
           {displayOfferInfo}
-          <p onClick={closeViewOfferModal}>x Cancel</p>
         </div>
       </div>
     );
