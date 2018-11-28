@@ -19,3 +19,7 @@ class LocalStorageMock {
 }
 
 global.localStorage = new LocalStorageMock();
+
+HTMLCanvasElement.prototype.getContext = () => {
+  // return whatever getContext has to return
+};

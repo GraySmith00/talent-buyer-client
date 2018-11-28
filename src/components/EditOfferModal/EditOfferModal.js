@@ -78,124 +78,130 @@ export class EditOfferModal extends Component {
   };
 
   render() {
-    const { closeEditOfferModal } = this.props;
+    const { closeEditOfferModal, currentVenue } = this.props;
     const { status } = this.state;
 
     return (
       <div className="edit-offer-modal">
         <div className="inner-modal">
+          <i className="fas fa-times-circle" onClick={closeEditOfferModal} />
+          <h1>{currentVenue.name}</h1>
           <form className="offer-form" onSubmit={this.handleSubmit}>
-            <div className="input-column-1">
-              <div className="select-wrapper">
-                <label>
-                  <h4>Status</h4>
-                  <select
-                    name="status"
-                    onChange={this.handleChange}
-                    value={status}
-                  >
-                    <option value={'pending'}>Pending</option>
-                    <option value={'confirmed'}>Confirmed</option>
-                    <option value={'rejected'}>Rejected</option>
-                  </select>
-                </label>
-              </div>
+            <div className="select-wrapper">
               <label>
-                <h4>Artist</h4>
-                <input
-                  type="text"
-                  name="artist_name"
-                  value={this.state.artist_name}
-                  placeholder="artist_name"
+                <h4>Status</h4>
+                <select
+                  name="status"
                   onChange={this.handleChange}
-                />
-              </label>
-              <label>
-                <h4>Guarantee</h4>
-                <input
-                  type="number"
-                  name="guarantee"
-                  value={this.state.guarantee}
-                  placeholder="guarantee"
-                  onChange={this.handleChange}
-                />
-              </label>
-              <label>
-                <h4>Bonuses</h4>
-                <input
-                  type="text"
-                  name="bonuses"
-                  value={this.state.bonuses}
-                  placeholder="bonuses"
-                  onChange={this.handleChange}
-                />
-              </label>
-              <label>
-                <h4>Radius Clause</h4>
-                <input
-                  type="text"
-                  name="radius_clause"
-                  value={this.state.radius_clause}
-                  placeholder="Radius Clause"
-                  onChange={this.handleChange}
-                />
-              </label>
-              <label>
-                <h4>Total Expenses</h4>
-                <input
-                  type="number"
-                  name="total_expenses"
-                  value={this.state.total_expenses}
-                  placeholder="Total Expenses"
-                  onChange={this.handleChange}
-                />
+                  value={status}
+                >
+                  <option value={'pending'}>Pending</option>
+                  <option value={'confirmed'}>Confirmed</option>
+                  <option value={'rejected'}>Rejected</option>
+                </select>
               </label>
             </div>
-            <div className="input-column-2">
-              <label>
-                <h4>Gross Potential</h4>
-                <input
-                  type="number"
-                  name="gross_potential"
-                  value={this.state.gross_potential}
-                  placeholder="Gross Potential"
-                  onChange={this.handleChange}
-                />
-              </label>
-              <label>
-                <h4>Door Times</h4>
-                <input
-                  type="text"
-                  name="door_times"
-                  value={this.state.door_times}
-                  placeholder="Door Times"
-                  onChange={this.handleChange}
-                />
-              </label>
-              <label>
-                <h4>Ages</h4>
-                <input
-                  type="text"
-                  name="age_range"
-                  value={this.state.age_range}
-                  placeholder="Age Range"
-                  onChange={this.handleChange}
-                />
-              </label>
-              <label>
-                <h4>Merch Split</h4>
-                <input
-                  type="text"
-                  name="merch_split"
-                  value={this.state.merch_split}
-                  placeholder="Merch Split"
-                  onChange={this.handleChange}
-                />
-              </label>
+            <div className="form-inner">
+              <div className="input-column-1">
+                <label>
+                  <h4>Artist</h4>
+                  <input
+                    type="text"
+                    name="artist_name"
+                    value={this.state.artist_name}
+                    placeholder="artist_name"
+                    onChange={this.handleChange}
+                  />
+                </label>
+                <label>
+                  <h4>Guarantee</h4>
+                  <input
+                    type="number"
+                    name="guarantee"
+                    value={this.state.guarantee}
+                    placeholder="guarantee"
+                    onChange={this.handleChange}
+                  />
+                </label>
+                <label>
+                  <h4>Bonuses</h4>
+                  <input
+                    type="text"
+                    name="bonuses"
+                    value={this.state.bonuses}
+                    placeholder="bonuses"
+                    onChange={this.handleChange}
+                  />
+                </label>
+                <label>
+                  <h4>Radius Clause</h4>
+                  <input
+                    type="text"
+                    name="radius_clause"
+                    value={this.state.radius_clause}
+                    placeholder="Radius Clause"
+                    onChange={this.handleChange}
+                  />
+                </label>
+                <label>
+                  <h4>Total Expenses</h4>
+                  <input
+                    type="number"
+                    name="total_expenses"
+                    value={this.state.total_expenses}
+                    placeholder="Total Expenses"
+                    onChange={this.handleChange}
+                  />
+                </label>
+              </div>
+              <div className="input-column-2">
+                <label>
+                  <h4>Gross Potential</h4>
+                  <input
+                    type="number"
+                    name="gross_potential"
+                    value={this.state.gross_potential}
+                    placeholder="Gross Potential"
+                    onChange={this.handleChange}
+                  />
+                </label>
+                <label>
+                  <h4>Door Times</h4>
+                  <input
+                    type="text"
+                    name="door_times"
+                    value={this.state.door_times}
+                    placeholder="Door Times"
+                    onChange={this.handleChange}
+                  />
+                </label>
+
+                <label>
+                  <h4>Ages</h4>
+                  <input
+                    type="text"
+                    name="age_range"
+                    value={this.state.age_range}
+                    placeholder="Age Range"
+                    onChange={this.handleChange}
+                  />
+                </label>
+                <label>
+                  <h4>Merch Split</h4>
+                  <input
+                    type="text"
+                    name="merch_split"
+                    value={this.state.merch_split}
+                    placeholder="Merch Split"
+                    onChange={this.handleChange}
+                  />
+                </label>
+              </div>
+            </div>
+            <div className="button-container">
               <button>Submit</button>
             </div>
           </form>
-          <p onClick={closeEditOfferModal}>x Cancel</p>
         </div>
       </div>
     );
@@ -205,7 +211,8 @@ export class EditOfferModal extends Component {
 EditOfferModal.propTypes = {
   closeEditOfferModal: PropTypes.func.isRequired,
   offerId: PropTypes.number.isRequired,
-  offers: PropTypes.array.isRequired
+  offers: PropTypes.array.isRequired,
+  currentVenue: PropTypes.object.isRequired
 };
 
 export const mapStateToProps = state => ({

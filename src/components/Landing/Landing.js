@@ -3,6 +3,7 @@ import SignUp from '../SignUp/SignUp';
 import LogIn from '../LogIn/LogIn';
 import Splash from '../Splash/Splash';
 import dashImage from './dashImage.jpg';
+import artistIndexImage from './artistIndexImage.png';
 import './Landing.css';
 
 class Landing extends Component {
@@ -71,10 +72,14 @@ class Landing extends Component {
           <img src={dashImage} alt="dashboard" style={{ height: '250px' }} />
         </section>
         <section className="market-browse">
-          <img src={dashImage} alt="dashboard" style={{ height: '320px' }} />
+          <img
+            src={artistIndexImage}
+            alt="dashboard"
+            style={{ height: '320px' }}
+          />
           <div className="market-dash-text">
             <h2 className="section-title">
-              Organize all your shows in the dashboard.
+              Quickly find the perfect artist to book.
             </h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni

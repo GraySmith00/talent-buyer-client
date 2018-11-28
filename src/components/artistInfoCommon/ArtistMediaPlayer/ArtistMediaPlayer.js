@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import ReactPlayer from 'react-player';
 import './ArtistMediaPlayer.css';
 
@@ -19,5 +20,9 @@ class ArtistMediaPlayer extends Component {
     );
   }
 }
+
+ArtistMediaPlayer.propTypes = {
+  name: PropTypes.string.isRequired
+};
 
 export default ArtistMediaPlayer;

@@ -352,1692 +352,26 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <div
-        className="inner-modal"
-      >
-        <h1>
-          Ogden Theatre
-        </h1>
-        <div
-          className="offer-info"
-        >
-          <div
-            className="view-offer-top"
+      "children": Array [
+        <header>
+          <nav
+            className="header-nav"
           >
-            <section
-              className="basic-details"
-            >
-              <h3>
-                Offer
-              </h3>
-              <p>
-                <span
-                  className="field"
-                >
-                  Date:
-                </span>
-                 
-                2018-10-29
-              </p>
-              <p>
-                <span
-                  className="field"
-                >
-                  spanArtist:
-                </span>
-                 
-                Calvin Harris
-              </p>
-              <p>
-                <span
-                  className="field"
-                >
-                  Buyer:
-                </span>
-                 
-                Michael
-                 
-                Jackson
-              </p>
-              <p>
-                <span
-                  className="field"
-                >
-                  Buyer Email:
-                </span>
-                 
-                michael@example.com
-              </p>
-            </section>
-            <section
-              className="view-venue-info"
-            >
-              <h3>
-                Venue Info
-              </h3>
-              <p>
-                <span
-                  className="field"
-                >
-                  Venue:
-                </span>
-                 
-                Ogden Theatre
-              </p>
-              <p>
-                <span
-                  className="field"
-                >
-                  Address:
-                </span>
-                 
-                935 East Colfax Avenue
-              </p>
-              <p>
-                <span
-                  className="field"
-                >
-                  City:
-                </span>
-                 
-                Denver
-                ,
-                 
-                CO
-              </p>
-              <p>
-                <span
-                  className="field"
-                >
-                  Capacity:
-                </span>
-                 
-                1600
-              </p>
-            </section>
-          </div>
-          <div
-            className="view-offer-bottom"
-          >
-            <section
-              className="terms"
-            >
-              <h3>
-                Terms
-              </h3>
-              <p>
-                <span
-                  className="field"
-                >
-                  Bonuses:
-                </span>
-                 
-                +$1k at 600 sold
-              </p>
-              <p>
-                <span
-                  className="field"
-                >
-                  Radius Clause:
-                </span>
-                120mi +/- 60days
-              </p>
-              <p>
-                <span
-                  className="field"
-                >
-                  Door Times:
-                </span>
-                 
-                9pm-12am
-              </p>
-              <p>
-                <span
-                  className="field"
-                >
-                  Ages:
-                </span>
-                 
-                16+
-              </p>
-              <p>
-                <span
-                  className="field"
-                >
-                  Merch Split:
-                </span>
-                 
-                80/20 artist/venue
-              </p>
-            </section>
-            <div
-              className="financials"
-            >
-              <h3>
-                Financials
-              </h3>
-              <p>
-                <span
-                  className="field"
-                >
-                  Guarentee:
-                </span>
-                 $
-                5000
-              </p>
-              <p>
-                <span
-                  className="field"
-                >
-                  Total Expenses:
-                </span>
-                 $
-                2000
-              </p>
-              <p>
-                <span
-                  className="field"
-                >
-                  Gross Potential:
-                </span>
-                 $
-                8500
-              </p>
-            </div>
-          </div>
-          <p
-            onClick={[MockFunction]}
-          >
-            x Close
-          </p>
-        </div>
-        <p
-          onClick={[MockFunction]}
-        >
-          x Cancel
-        </p>
-      </div>,
-      "className": "view-offer-modal",
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <h1>
-            Ogden Theatre
-          </h1>,
-          <div
-            className="offer-info"
-          >
-            <div
-              className="view-offer-top"
-            >
-              <section
-                className="basic-details"
-              >
-                <h3>
-                  Offer
-                </h3>
-                <p>
-                  <span
-                    className="field"
-                  >
-                    Date:
-                  </span>
-                   
-                  2018-10-29
-                </p>
-                <p>
-                  <span
-                    className="field"
-                  >
-                    spanArtist:
-                  </span>
-                   
-                  Calvin Harris
-                </p>
-                <p>
-                  <span
-                    className="field"
-                  >
-                    Buyer:
-                  </span>
-                   
-                  Michael
-                   
-                  Jackson
-                </p>
-                <p>
-                  <span
-                    className="field"
-                  >
-                    Buyer Email:
-                  </span>
-                   
-                  michael@example.com
-                </p>
-              </section>
-              <section
-                className="view-venue-info"
-              >
-                <h3>
-                  Venue Info
-                </h3>
-                <p>
-                  <span
-                    className="field"
-                  >
-                    Venue:
-                  </span>
-                   
-                  Ogden Theatre
-                </p>
-                <p>
-                  <span
-                    className="field"
-                  >
-                    Address:
-                  </span>
-                   
-                  935 East Colfax Avenue
-                </p>
-                <p>
-                  <span
-                    className="field"
-                  >
-                    City:
-                  </span>
-                   
-                  Denver
-                  ,
-                   
-                  CO
-                </p>
-                <p>
-                  <span
-                    className="field"
-                  >
-                    Capacity:
-                  </span>
-                   
-                  1600
-                </p>
-              </section>
-            </div>
-            <div
-              className="view-offer-bottom"
-            >
-              <section
-                className="terms"
-              >
-                <h3>
-                  Terms
-                </h3>
-                <p>
-                  <span
-                    className="field"
-                  >
-                    Bonuses:
-                  </span>
-                   
-                  +$1k at 600 sold
-                </p>
-                <p>
-                  <span
-                    className="field"
-                  >
-                    Radius Clause:
-                  </span>
-                  120mi +/- 60days
-                </p>
-                <p>
-                  <span
-                    className="field"
-                  >
-                    Door Times:
-                  </span>
-                   
-                  9pm-12am
-                </p>
-                <p>
-                  <span
-                    className="field"
-                  >
-                    Ages:
-                  </span>
-                   
-                  16+
-                </p>
-                <p>
-                  <span
-                    className="field"
-                  >
-                    Merch Split:
-                  </span>
-                   
-                  80/20 artist/venue
-                </p>
-              </section>
-              <div
-                className="financials"
-              >
-                <h3>
-                  Financials
-                </h3>
-                <p>
-                  <span
-                    className="field"
-                  >
-                    Guarentee:
-                  </span>
-                   $
-                  5000
-                </p>
-                <p>
-                  <span
-                    className="field"
-                  >
-                    Total Expenses:
-                  </span>
-                   $
-                  2000
-                </p>
-                <p>
-                  <span
-                    className="field"
-                  >
-                    Gross Potential:
-                  </span>
-                   $
-                  8500
-                </p>
-              </div>
-            </div>
             <p
-              onClick={[MockFunction]}
+              onClick={[Function]}
             >
-              x Close
+              Download PDF 
+              <i
+                className="fas fa-file-download"
+              />
             </p>
-          </div>,
-          <p
-            onClick={[MockFunction]}
-          >
-            x Cancel
-          </p>,
-        ],
-        "className": "inner-modal",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Ogden Theatre",
-          },
-          "ref": null,
-          "rendered": "Ogden Theatre",
-          "type": "h1",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <div
-                className="view-offer-top"
-              >
-                <section
-                  className="basic-details"
-                >
-                  <h3>
-                    Offer
-                  </h3>
-                  <p>
-                    <span
-                      className="field"
-                    >
-                      Date:
-                    </span>
-                     
-                    2018-10-29
-                  </p>
-                  <p>
-                    <span
-                      className="field"
-                    >
-                      spanArtist:
-                    </span>
-                     
-                    Calvin Harris
-                  </p>
-                  <p>
-                    <span
-                      className="field"
-                    >
-                      Buyer:
-                    </span>
-                     
-                    Michael
-                     
-                    Jackson
-                  </p>
-                  <p>
-                    <span
-                      className="field"
-                    >
-                      Buyer Email:
-                    </span>
-                     
-                    michael@example.com
-                  </p>
-                </section>
-                <section
-                  className="view-venue-info"
-                >
-                  <h3>
-                    Venue Info
-                  </h3>
-                  <p>
-                    <span
-                      className="field"
-                    >
-                      Venue:
-                    </span>
-                     
-                    Ogden Theatre
-                  </p>
-                  <p>
-                    <span
-                      className="field"
-                    >
-                      Address:
-                    </span>
-                     
-                    935 East Colfax Avenue
-                  </p>
-                  <p>
-                    <span
-                      className="field"
-                    >
-                      City:
-                    </span>
-                     
-                    Denver
-                    ,
-                     
-                    CO
-                  </p>
-                  <p>
-                    <span
-                      className="field"
-                    >
-                      Capacity:
-                    </span>
-                     
-                    1600
-                  </p>
-                </section>
-              </div>,
-              <div
-                className="view-offer-bottom"
-              >
-                <section
-                  className="terms"
-                >
-                  <h3>
-                    Terms
-                  </h3>
-                  <p>
-                    <span
-                      className="field"
-                    >
-                      Bonuses:
-                    </span>
-                     
-                    +$1k at 600 sold
-                  </p>
-                  <p>
-                    <span
-                      className="field"
-                    >
-                      Radius Clause:
-                    </span>
-                    120mi +/- 60days
-                  </p>
-                  <p>
-                    <span
-                      className="field"
-                    >
-                      Door Times:
-                    </span>
-                     
-                    9pm-12am
-                  </p>
-                  <p>
-                    <span
-                      className="field"
-                    >
-                      Ages:
-                    </span>
-                     
-                    16+
-                  </p>
-                  <p>
-                    <span
-                      className="field"
-                    >
-                      Merch Split:
-                    </span>
-                     
-                    80/20 artist/venue
-                  </p>
-                </section>
-                <div
-                  className="financials"
-                >
-                  <h3>
-                    Financials
-                  </h3>
-                  <p>
-                    <span
-                      className="field"
-                    >
-                      Guarentee:
-                    </span>
-                     $
-                    5000
-                  </p>
-                  <p>
-                    <span
-                      className="field"
-                    >
-                      Total Expenses:
-                    </span>
-                     $
-                    2000
-                  </p>
-                  <p>
-                    <span
-                      className="field"
-                    >
-                      Gross Potential:
-                    </span>
-                     $
-                    8500
-                  </p>
-                </div>
-              </div>,
-              <p
-                onClick={[MockFunction]}
-              >
-                x Close
-              </p>,
-            ],
-            "className": "offer-info",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  <section
-                    className="basic-details"
-                  >
-                    <h3>
-                      Offer
-                    </h3>
-                    <p>
-                      <span
-                        className="field"
-                      >
-                        Date:
-                      </span>
-                       
-                      2018-10-29
-                    </p>
-                    <p>
-                      <span
-                        className="field"
-                      >
-                        spanArtist:
-                      </span>
-                       
-                      Calvin Harris
-                    </p>
-                    <p>
-                      <span
-                        className="field"
-                      >
-                        Buyer:
-                      </span>
-                       
-                      Michael
-                       
-                      Jackson
-                    </p>
-                    <p>
-                      <span
-                        className="field"
-                      >
-                        Buyer Email:
-                      </span>
-                       
-                      michael@example.com
-                    </p>
-                  </section>,
-                  <section
-                    className="view-venue-info"
-                  >
-                    <h3>
-                      Venue Info
-                    </h3>
-                    <p>
-                      <span
-                        className="field"
-                      >
-                        Venue:
-                      </span>
-                       
-                      Ogden Theatre
-                    </p>
-                    <p>
-                      <span
-                        className="field"
-                      >
-                        Address:
-                      </span>
-                       
-                      935 East Colfax Avenue
-                    </p>
-                    <p>
-                      <span
-                        className="field"
-                      >
-                        City:
-                      </span>
-                       
-                      Denver
-                      ,
-                       
-                      CO
-                    </p>
-                    <p>
-                      <span
-                        className="field"
-                      >
-                        Capacity:
-                      </span>
-                       
-                      1600
-                    </p>
-                  </section>,
-                ],
-                "className": "view-offer-top",
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <h3>
-                        Offer
-                      </h3>,
-                      <p>
-                        <span
-                          className="field"
-                        >
-                          Date:
-                        </span>
-                         
-                        2018-10-29
-                      </p>,
-                      <p>
-                        <span
-                          className="field"
-                        >
-                          spanArtist:
-                        </span>
-                         
-                        Calvin Harris
-                      </p>,
-                      <p>
-                        <span
-                          className="field"
-                        >
-                          Buyer:
-                        </span>
-                         
-                        Michael
-                         
-                        Jackson
-                      </p>,
-                      <p>
-                        <span
-                          className="field"
-                        >
-                          Buyer Email:
-                        </span>
-                         
-                        michael@example.com
-                      </p>,
-                    ],
-                    "className": "basic-details",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Offer",
-                      },
-                      "ref": null,
-                      "rendered": "Offer",
-                      "type": "h3",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <span
-                            className="field"
-                          >
-                            Date:
-                          </span>,
-                          " ",
-                          "2018-10-29",
-                        ],
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": "Date:",
-                            "className": "field",
-                          },
-                          "ref": null,
-                          "rendered": "Date:",
-                          "type": "span",
-                        },
-                        " ",
-                        "2018-10-29",
-                      ],
-                      "type": "p",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <span
-                            className="field"
-                          >
-                            spanArtist:
-                          </span>,
-                          " ",
-                          "Calvin Harris",
-                        ],
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": "spanArtist:",
-                            "className": "field",
-                          },
-                          "ref": null,
-                          "rendered": "spanArtist:",
-                          "type": "span",
-                        },
-                        " ",
-                        "Calvin Harris",
-                      ],
-                      "type": "p",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <span
-                            className="field"
-                          >
-                            Buyer:
-                          </span>,
-                          " ",
-                          "Michael",
-                          " ",
-                          "Jackson",
-                        ],
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": "Buyer:",
-                            "className": "field",
-                          },
-                          "ref": null,
-                          "rendered": "Buyer:",
-                          "type": "span",
-                        },
-                        " ",
-                        "Michael",
-                        " ",
-                        "Jackson",
-                      ],
-                      "type": "p",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <span
-                            className="field"
-                          >
-                            Buyer Email:
-                          </span>,
-                          " ",
-                          "michael@example.com",
-                        ],
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": "Buyer Email:",
-                            "className": "field",
-                          },
-                          "ref": null,
-                          "rendered": "Buyer Email:",
-                          "type": "span",
-                        },
-                        " ",
-                        "michael@example.com",
-                      ],
-                      "type": "p",
-                    },
-                  ],
-                  "type": "section",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <h3>
-                        Venue Info
-                      </h3>,
-                      <p>
-                        <span
-                          className="field"
-                        >
-                          Venue:
-                        </span>
-                         
-                        Ogden Theatre
-                      </p>,
-                      <p>
-                        <span
-                          className="field"
-                        >
-                          Address:
-                        </span>
-                         
-                        935 East Colfax Avenue
-                      </p>,
-                      <p>
-                        <span
-                          className="field"
-                        >
-                          City:
-                        </span>
-                         
-                        Denver
-                        ,
-                         
-                        CO
-                      </p>,
-                      <p>
-                        <span
-                          className="field"
-                        >
-                          Capacity:
-                        </span>
-                         
-                        1600
-                      </p>,
-                    ],
-                    "className": "view-venue-info",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Venue Info",
-                      },
-                      "ref": null,
-                      "rendered": "Venue Info",
-                      "type": "h3",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <span
-                            className="field"
-                          >
-                            Venue:
-                          </span>,
-                          " ",
-                          "Ogden Theatre",
-                        ],
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": "Venue:",
-                            "className": "field",
-                          },
-                          "ref": null,
-                          "rendered": "Venue:",
-                          "type": "span",
-                        },
-                        " ",
-                        "Ogden Theatre",
-                      ],
-                      "type": "p",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <span
-                            className="field"
-                          >
-                            Address:
-                          </span>,
-                          " ",
-                          "935 East Colfax Avenue",
-                        ],
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": "Address:",
-                            "className": "field",
-                          },
-                          "ref": null,
-                          "rendered": "Address:",
-                          "type": "span",
-                        },
-                        " ",
-                        "935 East Colfax Avenue",
-                      ],
-                      "type": "p",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <span
-                            className="field"
-                          >
-                            City:
-                          </span>,
-                          " ",
-                          "Denver",
-                          ",",
-                          " ",
-                          "CO",
-                        ],
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": "City:",
-                            "className": "field",
-                          },
-                          "ref": null,
-                          "rendered": "City:",
-                          "type": "span",
-                        },
-                        " ",
-                        "Denver",
-                        ",",
-                        " ",
-                        "CO",
-                      ],
-                      "type": "p",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <span
-                            className="field"
-                          >
-                            Capacity:
-                          </span>,
-                          " ",
-                          1600,
-                        ],
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": "Capacity:",
-                            "className": "field",
-                          },
-                          "ref": null,
-                          "rendered": "Capacity:",
-                          "type": "span",
-                        },
-                        " ",
-                        1600,
-                      ],
-                      "type": "p",
-                    },
-                  ],
-                  "type": "section",
-                },
-              ],
-              "type": "div",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  <section
-                    className="terms"
-                  >
-                    <h3>
-                      Terms
-                    </h3>
-                    <p>
-                      <span
-                        className="field"
-                      >
-                        Bonuses:
-                      </span>
-                       
-                      +$1k at 600 sold
-                    </p>
-                    <p>
-                      <span
-                        className="field"
-                      >
-                        Radius Clause:
-                      </span>
-                      120mi +/- 60days
-                    </p>
-                    <p>
-                      <span
-                        className="field"
-                      >
-                        Door Times:
-                      </span>
-                       
-                      9pm-12am
-                    </p>
-                    <p>
-                      <span
-                        className="field"
-                      >
-                        Ages:
-                      </span>
-                       
-                      16+
-                    </p>
-                    <p>
-                      <span
-                        className="field"
-                      >
-                        Merch Split:
-                      </span>
-                       
-                      80/20 artist/venue
-                    </p>
-                  </section>,
-                  <div
-                    className="financials"
-                  >
-                    <h3>
-                      Financials
-                    </h3>
-                    <p>
-                      <span
-                        className="field"
-                      >
-                        Guarentee:
-                      </span>
-                       $
-                      5000
-                    </p>
-                    <p>
-                      <span
-                        className="field"
-                      >
-                        Total Expenses:
-                      </span>
-                       $
-                      2000
-                    </p>
-                    <p>
-                      <span
-                        className="field"
-                      >
-                        Gross Potential:
-                      </span>
-                       $
-                      8500
-                    </p>
-                  </div>,
-                ],
-                "className": "view-offer-bottom",
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <h3>
-                        Terms
-                      </h3>,
-                      <p>
-                        <span
-                          className="field"
-                        >
-                          Bonuses:
-                        </span>
-                         
-                        +$1k at 600 sold
-                      </p>,
-                      <p>
-                        <span
-                          className="field"
-                        >
-                          Radius Clause:
-                        </span>
-                        120mi +/- 60days
-                      </p>,
-                      <p>
-                        <span
-                          className="field"
-                        >
-                          Door Times:
-                        </span>
-                         
-                        9pm-12am
-                      </p>,
-                      <p>
-                        <span
-                          className="field"
-                        >
-                          Ages:
-                        </span>
-                         
-                        16+
-                      </p>,
-                      <p>
-                        <span
-                          className="field"
-                        >
-                          Merch Split:
-                        </span>
-                         
-                        80/20 artist/venue
-                      </p>,
-                    ],
-                    "className": "terms",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Terms",
-                      },
-                      "ref": null,
-                      "rendered": "Terms",
-                      "type": "h3",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <span
-                            className="field"
-                          >
-                            Bonuses:
-                          </span>,
-                          " ",
-                          "+$1k at 600 sold",
-                        ],
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": "Bonuses:",
-                            "className": "field",
-                          },
-                          "ref": null,
-                          "rendered": "Bonuses:",
-                          "type": "span",
-                        },
-                        " ",
-                        "+$1k at 600 sold",
-                      ],
-                      "type": "p",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <span
-                            className="field"
-                          >
-                            Radius Clause:
-                          </span>,
-                          "120mi +/- 60days",
-                        ],
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": "Radius Clause:",
-                            "className": "field",
-                          },
-                          "ref": null,
-                          "rendered": "Radius Clause:",
-                          "type": "span",
-                        },
-                        "120mi +/- 60days",
-                      ],
-                      "type": "p",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <span
-                            className="field"
-                          >
-                            Door Times:
-                          </span>,
-                          " ",
-                          "9pm-12am",
-                        ],
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": "Door Times:",
-                            "className": "field",
-                          },
-                          "ref": null,
-                          "rendered": "Door Times:",
-                          "type": "span",
-                        },
-                        " ",
-                        "9pm-12am",
-                      ],
-                      "type": "p",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <span
-                            className="field"
-                          >
-                            Ages:
-                          </span>,
-                          " ",
-                          "16+",
-                        ],
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": "Ages:",
-                            "className": "field",
-                          },
-                          "ref": null,
-                          "rendered": "Ages:",
-                          "type": "span",
-                        },
-                        " ",
-                        "16+",
-                      ],
-                      "type": "p",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <span
-                            className="field"
-                          >
-                            Merch Split:
-                          </span>,
-                          " ",
-                          "80/20 artist/venue",
-                        ],
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": "Merch Split:",
-                            "className": "field",
-                          },
-                          "ref": null,
-                          "rendered": "Merch Split:",
-                          "type": "span",
-                        },
-                        " ",
-                        "80/20 artist/venue",
-                      ],
-                      "type": "p",
-                    },
-                  ],
-                  "type": "section",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <h3>
-                        Financials
-                      </h3>,
-                      <p>
-                        <span
-                          className="field"
-                        >
-                          Guarentee:
-                        </span>
-                         $
-                        5000
-                      </p>,
-                      <p>
-                        <span
-                          className="field"
-                        >
-                          Total Expenses:
-                        </span>
-                         $
-                        2000
-                      </p>,
-                      <p>
-                        <span
-                          className="field"
-                        >
-                          Gross Potential:
-                        </span>
-                         $
-                        8500
-                      </p>,
-                    ],
-                    "className": "financials",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Financials",
-                      },
-                      "ref": null,
-                      "rendered": "Financials",
-                      "type": "h3",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <span
-                            className="field"
-                          >
-                            Guarentee:
-                          </span>,
-                          " $",
-                          5000,
-                        ],
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": "Guarentee:",
-                            "className": "field",
-                          },
-                          "ref": null,
-                          "rendered": "Guarentee:",
-                          "type": "span",
-                        },
-                        " $",
-                        5000,
-                      ],
-                      "type": "p",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <span
-                            className="field"
-                          >
-                            Total Expenses:
-                          </span>,
-                          " $",
-                          2000,
-                        ],
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": "Total Expenses:",
-                            "className": "field",
-                          },
-                          "ref": null,
-                          "rendered": "Total Expenses:",
-                          "type": "span",
-                        },
-                        " $",
-                        2000,
-                      ],
-                      "type": "p",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <span
-                            className="field"
-                          >
-                            Gross Potential:
-                          </span>,
-                          " $",
-                          8500,
-                        ],
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": "Gross Potential:",
-                            "className": "field",
-                          },
-                          "ref": null,
-                          "rendered": "Gross Potential:",
-                          "type": "span",
-                        },
-                        " $",
-                        8500,
-                      ],
-                      "type": "p",
-                    },
-                  ],
-                  "type": "div",
-                },
-              ],
-              "type": "div",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "x Close",
-                "onClick": [MockFunction],
-              },
-              "ref": null,
-              "rendered": "x Close",
-              "type": "p",
-            },
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "x Cancel",
-            "onClick": [MockFunction],
-          },
-          "ref": null,
-          "rendered": "x Cancel",
-          "type": "p",
-        },
-      ],
-      "type": "div",
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <div
+            <i
+              className="far fa-times-circle"
+              onClick={[MockFunction]}
+            />
+          </nav>
+        </header>,
+        <div
           className="inner-modal"
         >
           <h1>
@@ -2068,7 +402,7 @@ ShallowWrapper {
                   <span
                     className="field"
                   >
-                    spanArtist:
+                    Artist:
                   </span>
                    
                   Calvin Harris
@@ -2230,22 +564,107 @@ ShallowWrapper {
                 </p>
               </div>
             </div>
-            <p
-              onClick={[MockFunction]}
-            >
-              x Close
-            </p>
           </div>
-          <p
-            onClick={[MockFunction]}
-          >
-            x Cancel
-          </p>
         </div>,
-        "className": "view-offer-modal",
+      ],
+      "className": "view-offer-modal",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <nav
+            className="header-nav"
+          >
+            <p
+              onClick={[Function]}
+            >
+              Download PDF 
+              <i
+                className="fas fa-file-download"
+              />
+            </p>
+            <i
+              className="far fa-times-circle"
+              onClick={[MockFunction]}
+            />
+          </nav>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p
+                onClick={[Function]}
+              >
+                Download PDF 
+                <i
+                  className="fas fa-file-download"
+                />
+              </p>,
+              <i
+                className="far fa-times-circle"
+                onClick={[MockFunction]}
+              />,
+            ],
+            "className": "header-nav",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Download PDF ",
+                  <i
+                    className="fas fa-file-download"
+                  />,
+                ],
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Download PDF ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fas fa-file-download",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "far fa-times-circle",
+                "onClick": [MockFunction],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+          ],
+          "type": "nav",
+        },
+        "type": "header",
       },
-      "ref": null,
-      "rendered": Object {
+      Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
@@ -2279,7 +698,7 @@ ShallowWrapper {
                     <span
                       className="field"
                     >
-                      spanArtist:
+                      Artist:
                     </span>
                      
                     Calvin Harris
@@ -2441,17 +860,7 @@ ShallowWrapper {
                   </p>
                 </div>
               </div>
-              <p
-                onClick={[MockFunction]}
-              >
-                x Close
-              </p>
             </div>,
-            <p
-              onClick={[MockFunction]}
-            >
-              x Cancel
-            </p>,
           ],
           "className": "inner-modal",
         },
@@ -2496,7 +905,7 @@ ShallowWrapper {
                       <span
                         className="field"
                       >
-                        spanArtist:
+                        Artist:
                       </span>
                        
                       Calvin Harris
@@ -2658,11 +1067,6 @@ ShallowWrapper {
                     </p>
                   </div>
                 </div>,
-                <p
-                  onClick={[MockFunction]}
-                >
-                  x Close
-                </p>,
               ],
               "className": "offer-info",
             },
@@ -2693,7 +1097,7 @@ ShallowWrapper {
                         <span
                           className="field"
                         >
-                          spanArtist:
+                          Artist:
                         </span>
                          
                         Calvin Harris
@@ -2792,7 +1196,7 @@ ShallowWrapper {
                           <span
                             className="field"
                           >
-                            spanArtist:
+                            Artist:
                           </span>
                            
                           Calvin Harris
@@ -2876,7 +1280,7 @@ ShallowWrapper {
                             <span
                               className="field"
                             >
-                              spanArtist:
+                              Artist:
                             </span>,
                             " ",
                             "Calvin Harris",
@@ -2889,11 +1293,11 @@ ShallowWrapper {
                             "key": undefined,
                             "nodeType": "host",
                             "props": Object {
-                              "children": "spanArtist:",
+                              "children": "Artist:",
                               "className": "field",
                             },
                             "ref": null,
-                            "rendered": "spanArtist:",
+                            "rendered": "Artist:",
                             "type": "span",
                           },
                           " ",
@@ -3684,36 +2088,1764 @@ ShallowWrapper {
                 ],
                 "type": "div",
               },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <header>
+            <nav
+              className="header-nav"
+            >
+              <p
+                onClick={[Function]}
+              >
+                Download PDF 
+                <i
+                  className="fas fa-file-download"
+                />
+              </p>
+              <i
+                className="far fa-times-circle"
+                onClick={[MockFunction]}
+              />
+            </nav>
+          </header>,
+          <div
+            className="inner-modal"
+          >
+            <h1>
+              Ogden Theatre
+            </h1>
+            <div
+              className="offer-info"
+            >
+              <div
+                className="view-offer-top"
+              >
+                <section
+                  className="basic-details"
+                >
+                  <h3>
+                    Offer
+                  </h3>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Date:
+                    </span>
+                     
+                    2018-10-29
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Artist:
+                    </span>
+                     
+                    Calvin Harris
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Buyer:
+                    </span>
+                     
+                    Michael
+                     
+                    Jackson
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Buyer Email:
+                    </span>
+                     
+                    michael@example.com
+                  </p>
+                </section>
+                <section
+                  className="view-venue-info"
+                >
+                  <h3>
+                    Venue Info
+                  </h3>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Venue:
+                    </span>
+                     
+                    Ogden Theatre
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Address:
+                    </span>
+                     
+                    935 East Colfax Avenue
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      City:
+                    </span>
+                     
+                    Denver
+                    ,
+                     
+                    CO
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Capacity:
+                    </span>
+                     
+                    1600
+                  </p>
+                </section>
+              </div>
+              <div
+                className="view-offer-bottom"
+              >
+                <section
+                  className="terms"
+                >
+                  <h3>
+                    Terms
+                  </h3>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Bonuses:
+                    </span>
+                     
+                    +$1k at 600 sold
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Radius Clause:
+                    </span>
+                    120mi +/- 60days
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Door Times:
+                    </span>
+                     
+                    9pm-12am
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Ages:
+                    </span>
+                     
+                    16+
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Merch Split:
+                    </span>
+                     
+                    80/20 artist/venue
+                  </p>
+                </section>
+                <div
+                  className="financials"
+                >
+                  <h3>
+                    Financials
+                  </h3>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Guarentee:
+                    </span>
+                     $
+                    5000
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Total Expenses:
+                    </span>
+                     $
+                    2000
+                  </p>
+                  <p>
+                    <span
+                      className="field"
+                    >
+                      Gross Potential:
+                    </span>
+                     $
+                    8500
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>,
+        ],
+        "className": "view-offer-modal",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <nav
+              className="header-nav"
+            >
+              <p
+                onClick={[Function]}
+              >
+                Download PDF 
+                <i
+                  className="fas fa-file-download"
+                />
+              </p>
+              <i
+                className="far fa-times-circle"
+                onClick={[MockFunction]}
+              />
+            </nav>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  onClick={[Function]}
+                >
+                  Download PDF 
+                  <i
+                    className="fas fa-file-download"
+                  />
+                </p>,
+                <i
+                  className="far fa-times-circle"
+                  onClick={[MockFunction]}
+                />,
+              ],
+              "className": "header-nav",
+            },
+            "ref": null,
+            "rendered": Array [
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "x Close",
+                  "children": Array [
+                    "Download PDF ",
+                    <i
+                      className="fas fa-file-download"
+                    />,
+                  ],
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Download PDF ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "fas fa-file-download",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "far fa-times-circle",
                   "onClick": [MockFunction],
                 },
                 "ref": null,
-                "rendered": "x Close",
-                "type": "p",
+                "rendered": null,
+                "type": "i",
               },
             ],
-            "type": "div",
+            "type": "nav",
           },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "x Cancel",
-              "onClick": [MockFunction],
+          "type": "header",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1>
+                Ogden Theatre
+              </h1>,
+              <div
+                className="offer-info"
+              >
+                <div
+                  className="view-offer-top"
+                >
+                  <section
+                    className="basic-details"
+                  >
+                    <h3>
+                      Offer
+                    </h3>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Date:
+                      </span>
+                       
+                      2018-10-29
+                    </p>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Artist:
+                      </span>
+                       
+                      Calvin Harris
+                    </p>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Buyer:
+                      </span>
+                       
+                      Michael
+                       
+                      Jackson
+                    </p>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Buyer Email:
+                      </span>
+                       
+                      michael@example.com
+                    </p>
+                  </section>
+                  <section
+                    className="view-venue-info"
+                  >
+                    <h3>
+                      Venue Info
+                    </h3>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Venue:
+                      </span>
+                       
+                      Ogden Theatre
+                    </p>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Address:
+                      </span>
+                       
+                      935 East Colfax Avenue
+                    </p>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        City:
+                      </span>
+                       
+                      Denver
+                      ,
+                       
+                      CO
+                    </p>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Capacity:
+                      </span>
+                       
+                      1600
+                    </p>
+                  </section>
+                </div>
+                <div
+                  className="view-offer-bottom"
+                >
+                  <section
+                    className="terms"
+                  >
+                    <h3>
+                      Terms
+                    </h3>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Bonuses:
+                      </span>
+                       
+                      +$1k at 600 sold
+                    </p>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Radius Clause:
+                      </span>
+                      120mi +/- 60days
+                    </p>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Door Times:
+                      </span>
+                       
+                      9pm-12am
+                    </p>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Ages:
+                      </span>
+                       
+                      16+
+                    </p>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Merch Split:
+                      </span>
+                       
+                      80/20 artist/venue
+                    </p>
+                  </section>
+                  <div
+                    className="financials"
+                  >
+                    <h3>
+                      Financials
+                    </h3>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Guarentee:
+                      </span>
+                       $
+                      5000
+                    </p>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Total Expenses:
+                      </span>
+                       $
+                      2000
+                    </p>
+                    <p>
+                      <span
+                        className="field"
+                      >
+                        Gross Potential:
+                      </span>
+                       $
+                      8500
+                    </p>
+                  </div>
+                </div>
+              </div>,
+            ],
+            "className": "inner-modal",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Ogden Theatre",
+              },
+              "ref": null,
+              "rendered": "Ogden Theatre",
+              "type": "h1",
             },
-            "ref": null,
-            "rendered": "x Cancel",
-            "type": "p",
-          },
-        ],
-        "type": "div",
-      },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="view-offer-top"
+                  >
+                    <section
+                      className="basic-details"
+                    >
+                      <h3>
+                        Offer
+                      </h3>
+                      <p>
+                        <span
+                          className="field"
+                        >
+                          Date:
+                        </span>
+                         
+                        2018-10-29
+                      </p>
+                      <p>
+                        <span
+                          className="field"
+                        >
+                          Artist:
+                        </span>
+                         
+                        Calvin Harris
+                      </p>
+                      <p>
+                        <span
+                          className="field"
+                        >
+                          Buyer:
+                        </span>
+                         
+                        Michael
+                         
+                        Jackson
+                      </p>
+                      <p>
+                        <span
+                          className="field"
+                        >
+                          Buyer Email:
+                        </span>
+                         
+                        michael@example.com
+                      </p>
+                    </section>
+                    <section
+                      className="view-venue-info"
+                    >
+                      <h3>
+                        Venue Info
+                      </h3>
+                      <p>
+                        <span
+                          className="field"
+                        >
+                          Venue:
+                        </span>
+                         
+                        Ogden Theatre
+                      </p>
+                      <p>
+                        <span
+                          className="field"
+                        >
+                          Address:
+                        </span>
+                         
+                        935 East Colfax Avenue
+                      </p>
+                      <p>
+                        <span
+                          className="field"
+                        >
+                          City:
+                        </span>
+                         
+                        Denver
+                        ,
+                         
+                        CO
+                      </p>
+                      <p>
+                        <span
+                          className="field"
+                        >
+                          Capacity:
+                        </span>
+                         
+                        1600
+                      </p>
+                    </section>
+                  </div>,
+                  <div
+                    className="view-offer-bottom"
+                  >
+                    <section
+                      className="terms"
+                    >
+                      <h3>
+                        Terms
+                      </h3>
+                      <p>
+                        <span
+                          className="field"
+                        >
+                          Bonuses:
+                        </span>
+                         
+                        +$1k at 600 sold
+                      </p>
+                      <p>
+                        <span
+                          className="field"
+                        >
+                          Radius Clause:
+                        </span>
+                        120mi +/- 60days
+                      </p>
+                      <p>
+                        <span
+                          className="field"
+                        >
+                          Door Times:
+                        </span>
+                         
+                        9pm-12am
+                      </p>
+                      <p>
+                        <span
+                          className="field"
+                        >
+                          Ages:
+                        </span>
+                         
+                        16+
+                      </p>
+                      <p>
+                        <span
+                          className="field"
+                        >
+                          Merch Split:
+                        </span>
+                         
+                        80/20 artist/venue
+                      </p>
+                    </section>
+                    <div
+                      className="financials"
+                    >
+                      <h3>
+                        Financials
+                      </h3>
+                      <p>
+                        <span
+                          className="field"
+                        >
+                          Guarentee:
+                        </span>
+                         $
+                        5000
+                      </p>
+                      <p>
+                        <span
+                          className="field"
+                        >
+                          Total Expenses:
+                        </span>
+                         $
+                        2000
+                      </p>
+                      <p>
+                        <span
+                          className="field"
+                        >
+                          Gross Potential:
+                        </span>
+                         $
+                        8500
+                      </p>
+                    </div>
+                  </div>,
+                ],
+                "className": "offer-info",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <section
+                        className="basic-details"
+                      >
+                        <h3>
+                          Offer
+                        </h3>
+                        <p>
+                          <span
+                            className="field"
+                          >
+                            Date:
+                          </span>
+                           
+                          2018-10-29
+                        </p>
+                        <p>
+                          <span
+                            className="field"
+                          >
+                            Artist:
+                          </span>
+                           
+                          Calvin Harris
+                        </p>
+                        <p>
+                          <span
+                            className="field"
+                          >
+                            Buyer:
+                          </span>
+                           
+                          Michael
+                           
+                          Jackson
+                        </p>
+                        <p>
+                          <span
+                            className="field"
+                          >
+                            Buyer Email:
+                          </span>
+                           
+                          michael@example.com
+                        </p>
+                      </section>,
+                      <section
+                        className="view-venue-info"
+                      >
+                        <h3>
+                          Venue Info
+                        </h3>
+                        <p>
+                          <span
+                            className="field"
+                          >
+                            Venue:
+                          </span>
+                           
+                          Ogden Theatre
+                        </p>
+                        <p>
+                          <span
+                            className="field"
+                          >
+                            Address:
+                          </span>
+                           
+                          935 East Colfax Avenue
+                        </p>
+                        <p>
+                          <span
+                            className="field"
+                          >
+                            City:
+                          </span>
+                           
+                          Denver
+                          ,
+                           
+                          CO
+                        </p>
+                        <p>
+                          <span
+                            className="field"
+                          >
+                            Capacity:
+                          </span>
+                           
+                          1600
+                        </p>
+                      </section>,
+                    ],
+                    "className": "view-offer-top",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <h3>
+                            Offer
+                          </h3>,
+                          <p>
+                            <span
+                              className="field"
+                            >
+                              Date:
+                            </span>
+                             
+                            2018-10-29
+                          </p>,
+                          <p>
+                            <span
+                              className="field"
+                            >
+                              Artist:
+                            </span>
+                             
+                            Calvin Harris
+                          </p>,
+                          <p>
+                            <span
+                              className="field"
+                            >
+                              Buyer:
+                            </span>
+                             
+                            Michael
+                             
+                            Jackson
+                          </p>,
+                          <p>
+                            <span
+                              className="field"
+                            >
+                              Buyer Email:
+                            </span>
+                             
+                            michael@example.com
+                          </p>,
+                        ],
+                        "className": "basic-details",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Offer",
+                          },
+                          "ref": null,
+                          "rendered": "Offer",
+                          "type": "h3",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <span
+                                className="field"
+                              >
+                                Date:
+                              </span>,
+                              " ",
+                              "2018-10-29",
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Date:",
+                                "className": "field",
+                              },
+                              "ref": null,
+                              "rendered": "Date:",
+                              "type": "span",
+                            },
+                            " ",
+                            "2018-10-29",
+                          ],
+                          "type": "p",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <span
+                                className="field"
+                              >
+                                Artist:
+                              </span>,
+                              " ",
+                              "Calvin Harris",
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Artist:",
+                                "className": "field",
+                              },
+                              "ref": null,
+                              "rendered": "Artist:",
+                              "type": "span",
+                            },
+                            " ",
+                            "Calvin Harris",
+                          ],
+                          "type": "p",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <span
+                                className="field"
+                              >
+                                Buyer:
+                              </span>,
+                              " ",
+                              "Michael",
+                              " ",
+                              "Jackson",
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Buyer:",
+                                "className": "field",
+                              },
+                              "ref": null,
+                              "rendered": "Buyer:",
+                              "type": "span",
+                            },
+                            " ",
+                            "Michael",
+                            " ",
+                            "Jackson",
+                          ],
+                          "type": "p",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <span
+                                className="field"
+                              >
+                                Buyer Email:
+                              </span>,
+                              " ",
+                              "michael@example.com",
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Buyer Email:",
+                                "className": "field",
+                              },
+                              "ref": null,
+                              "rendered": "Buyer Email:",
+                              "type": "span",
+                            },
+                            " ",
+                            "michael@example.com",
+                          ],
+                          "type": "p",
+                        },
+                      ],
+                      "type": "section",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <h3>
+                            Venue Info
+                          </h3>,
+                          <p>
+                            <span
+                              className="field"
+                            >
+                              Venue:
+                            </span>
+                             
+                            Ogden Theatre
+                          </p>,
+                          <p>
+                            <span
+                              className="field"
+                            >
+                              Address:
+                            </span>
+                             
+                            935 East Colfax Avenue
+                          </p>,
+                          <p>
+                            <span
+                              className="field"
+                            >
+                              City:
+                            </span>
+                             
+                            Denver
+                            ,
+                             
+                            CO
+                          </p>,
+                          <p>
+                            <span
+                              className="field"
+                            >
+                              Capacity:
+                            </span>
+                             
+                            1600
+                          </p>,
+                        ],
+                        "className": "view-venue-info",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Venue Info",
+                          },
+                          "ref": null,
+                          "rendered": "Venue Info",
+                          "type": "h3",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <span
+                                className="field"
+                              >
+                                Venue:
+                              </span>,
+                              " ",
+                              "Ogden Theatre",
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Venue:",
+                                "className": "field",
+                              },
+                              "ref": null,
+                              "rendered": "Venue:",
+                              "type": "span",
+                            },
+                            " ",
+                            "Ogden Theatre",
+                          ],
+                          "type": "p",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <span
+                                className="field"
+                              >
+                                Address:
+                              </span>,
+                              " ",
+                              "935 East Colfax Avenue",
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Address:",
+                                "className": "field",
+                              },
+                              "ref": null,
+                              "rendered": "Address:",
+                              "type": "span",
+                            },
+                            " ",
+                            "935 East Colfax Avenue",
+                          ],
+                          "type": "p",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <span
+                                className="field"
+                              >
+                                City:
+                              </span>,
+                              " ",
+                              "Denver",
+                              ",",
+                              " ",
+                              "CO",
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "City:",
+                                "className": "field",
+                              },
+                              "ref": null,
+                              "rendered": "City:",
+                              "type": "span",
+                            },
+                            " ",
+                            "Denver",
+                            ",",
+                            " ",
+                            "CO",
+                          ],
+                          "type": "p",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <span
+                                className="field"
+                              >
+                                Capacity:
+                              </span>,
+                              " ",
+                              1600,
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Capacity:",
+                                "className": "field",
+                              },
+                              "ref": null,
+                              "rendered": "Capacity:",
+                              "type": "span",
+                            },
+                            " ",
+                            1600,
+                          ],
+                          "type": "p",
+                        },
+                      ],
+                      "type": "section",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <section
+                        className="terms"
+                      >
+                        <h3>
+                          Terms
+                        </h3>
+                        <p>
+                          <span
+                            className="field"
+                          >
+                            Bonuses:
+                          </span>
+                           
+                          +$1k at 600 sold
+                        </p>
+                        <p>
+                          <span
+                            className="field"
+                          >
+                            Radius Clause:
+                          </span>
+                          120mi +/- 60days
+                        </p>
+                        <p>
+                          <span
+                            className="field"
+                          >
+                            Door Times:
+                          </span>
+                           
+                          9pm-12am
+                        </p>
+                        <p>
+                          <span
+                            className="field"
+                          >
+                            Ages:
+                          </span>
+                           
+                          16+
+                        </p>
+                        <p>
+                          <span
+                            className="field"
+                          >
+                            Merch Split:
+                          </span>
+                           
+                          80/20 artist/venue
+                        </p>
+                      </section>,
+                      <div
+                        className="financials"
+                      >
+                        <h3>
+                          Financials
+                        </h3>
+                        <p>
+                          <span
+                            className="field"
+                          >
+                            Guarentee:
+                          </span>
+                           $
+                          5000
+                        </p>
+                        <p>
+                          <span
+                            className="field"
+                          >
+                            Total Expenses:
+                          </span>
+                           $
+                          2000
+                        </p>
+                        <p>
+                          <span
+                            className="field"
+                          >
+                            Gross Potential:
+                          </span>
+                           $
+                          8500
+                        </p>
+                      </div>,
+                    ],
+                    "className": "view-offer-bottom",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <h3>
+                            Terms
+                          </h3>,
+                          <p>
+                            <span
+                              className="field"
+                            >
+                              Bonuses:
+                            </span>
+                             
+                            +$1k at 600 sold
+                          </p>,
+                          <p>
+                            <span
+                              className="field"
+                            >
+                              Radius Clause:
+                            </span>
+                            120mi +/- 60days
+                          </p>,
+                          <p>
+                            <span
+                              className="field"
+                            >
+                              Door Times:
+                            </span>
+                             
+                            9pm-12am
+                          </p>,
+                          <p>
+                            <span
+                              className="field"
+                            >
+                              Ages:
+                            </span>
+                             
+                            16+
+                          </p>,
+                          <p>
+                            <span
+                              className="field"
+                            >
+                              Merch Split:
+                            </span>
+                             
+                            80/20 artist/venue
+                          </p>,
+                        ],
+                        "className": "terms",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Terms",
+                          },
+                          "ref": null,
+                          "rendered": "Terms",
+                          "type": "h3",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <span
+                                className="field"
+                              >
+                                Bonuses:
+                              </span>,
+                              " ",
+                              "+$1k at 600 sold",
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Bonuses:",
+                                "className": "field",
+                              },
+                              "ref": null,
+                              "rendered": "Bonuses:",
+                              "type": "span",
+                            },
+                            " ",
+                            "+$1k at 600 sold",
+                          ],
+                          "type": "p",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <span
+                                className="field"
+                              >
+                                Radius Clause:
+                              </span>,
+                              "120mi +/- 60days",
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Radius Clause:",
+                                "className": "field",
+                              },
+                              "ref": null,
+                              "rendered": "Radius Clause:",
+                              "type": "span",
+                            },
+                            "120mi +/- 60days",
+                          ],
+                          "type": "p",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <span
+                                className="field"
+                              >
+                                Door Times:
+                              </span>,
+                              " ",
+                              "9pm-12am",
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Door Times:",
+                                "className": "field",
+                              },
+                              "ref": null,
+                              "rendered": "Door Times:",
+                              "type": "span",
+                            },
+                            " ",
+                            "9pm-12am",
+                          ],
+                          "type": "p",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <span
+                                className="field"
+                              >
+                                Ages:
+                              </span>,
+                              " ",
+                              "16+",
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Ages:",
+                                "className": "field",
+                              },
+                              "ref": null,
+                              "rendered": "Ages:",
+                              "type": "span",
+                            },
+                            " ",
+                            "16+",
+                          ],
+                          "type": "p",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <span
+                                className="field"
+                              >
+                                Merch Split:
+                              </span>,
+                              " ",
+                              "80/20 artist/venue",
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Merch Split:",
+                                "className": "field",
+                              },
+                              "ref": null,
+                              "rendered": "Merch Split:",
+                              "type": "span",
+                            },
+                            " ",
+                            "80/20 artist/venue",
+                          ],
+                          "type": "p",
+                        },
+                      ],
+                      "type": "section",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <h3>
+                            Financials
+                          </h3>,
+                          <p>
+                            <span
+                              className="field"
+                            >
+                              Guarentee:
+                            </span>
+                             $
+                            5000
+                          </p>,
+                          <p>
+                            <span
+                              className="field"
+                            >
+                              Total Expenses:
+                            </span>
+                             $
+                            2000
+                          </p>,
+                          <p>
+                            <span
+                              className="field"
+                            >
+                              Gross Potential:
+                            </span>
+                             $
+                            8500
+                          </p>,
+                        ],
+                        "className": "financials",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Financials",
+                          },
+                          "ref": null,
+                          "rendered": "Financials",
+                          "type": "h3",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <span
+                                className="field"
+                              >
+                                Guarentee:
+                              </span>,
+                              " $",
+                              5000,
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Guarentee:",
+                                "className": "field",
+                              },
+                              "ref": null,
+                              "rendered": "Guarentee:",
+                              "type": "span",
+                            },
+                            " $",
+                            5000,
+                          ],
+                          "type": "p",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <span
+                                className="field"
+                              >
+                                Total Expenses:
+                              </span>,
+                              " $",
+                              2000,
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Total Expenses:",
+                                "className": "field",
+                              },
+                              "ref": null,
+                              "rendered": "Total Expenses:",
+                              "type": "span",
+                            },
+                            " $",
+                            2000,
+                          ],
+                          "type": "p",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <span
+                                className="field"
+                              >
+                                Gross Potential:
+                              </span>,
+                              " $",
+                              8500,
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Gross Potential:",
+                                "className": "field",
+                              },
+                              "ref": null,
+                              "rendered": "Gross Potential:",
+                              "type": "span",
+                            },
+                            " $",
+                            8500,
+                          ],
+                          "type": "p",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
       "type": "div",
     },
   ],
