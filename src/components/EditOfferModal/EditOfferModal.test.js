@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { mockOffers } from '../../Utils/mockData';
+import { mockOffers, mockVenue } from '../../Utils/mockData';
 import { EditOfferModal } from './EditOfferModal';
 
 describe('EditOfferModal component', () => {
@@ -17,6 +17,7 @@ describe('EditOfferModal component', () => {
         closeEditOfferModal={mockCloseEditOfferModal}
         offerId={mockOfferId}
         offers={mockOffers}
+        currentVenue={mockVenue}
       />
     );
   });
