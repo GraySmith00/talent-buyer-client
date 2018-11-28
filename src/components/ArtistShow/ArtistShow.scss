@@ -4,166 +4,79 @@
   background-color: #21222b;
   color: #fff;
   display: flex;
-  overflow: scroll;
 
-  .artist-name {
-    text-decoration: underline;
-    text-decoration-color: $pink-four;
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    padding: 3rem 3rem;
+    height: 100vh;
+    width: 100%;
   }
 
-  .back-button {
-    width: 3em;
+  .fa-arrow-left {
+    color: #fff;
+    font-size: 1.8rem;
+  }
+
+  section {
+    margin-top: 2rem;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    img {
+      border-radius: 50%;
+      width: 15em;
+    }
+
+    h1 {
+      margin: 0;
+      font-weight: 300;
+      font-size: 3rem;
+    }
+    .stat-wrap {
+      display: flex;
+      flex-direction: column;
+      margin-left: 3em;
+      width: 100%;
+    }
+
+    .stat {
+      display: flex;
+      align-items: center;
+      font-size: 1.2em;
+      width: 100%;
+      margin-top: 1rem;
+      font-size: 1.1rem;
+
+      h3 {
+        margin: 0;
+      }
+
+      p {
+        color: $pink-two;
+        margin: 0 0 0 0.5rem;
+      }
+    }
+
+    .social-links {
+      margin-top: 1rem;
+
+      a:not(:first-child) {
+        margin-left: 1rem;
+      }
+
+      img {
+        width: 2.5rem;
+      }
+    }
   }
 
   .bio {
     font-size: 1em;
-  }
-
-  .button {
-    padding-left: 1em;
-  }
-
-  .city-header {
-    color: $pink-four;
-    padding-left: 0.4em;
-  }
-
-  .description-stats {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .genre {
-    color: $pink-two;
-    padding-left: 1em;
-  }
-
-  .genre-wrap {
-    align-items: center;
-    display: flex;
-    font-size: 1.2em;
-    width: 100%;
-  }
-
-  .event-details {
-    font-size: 1.5em;
-  }
-
-  .followers {
-    color: $pink-two;
-    padding-left: 1em;
-    padding-right: 1em;
-  }
-
-  .followers-wrap {
-    align-items: center;
-    display: flex;
-    font-size: 1.2em;
-  }
-
-  .main-content {
-    background-color: #131621;
-    border-radius: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 47em;
-    margin: auto;
-    overflow: hidden visible;
-    padding: 1.5em;
-    padding-top: 10em;
-    width: 72em;
-  }
-
-  .main-content-frame {
-    align-items: center;
-    background-color: $pink-four;
-    border-radius: 1.5rem;
-    display: flex;
-    justify-content: center;
-    height: 47.3em;
-    margin: auto;
-    width: 72.3em;
-  }
-
-  .name-wrap {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    height: 10%;
-    width: 96%;
-  }
-
-  .event-container {
-    height: 140px;
-    overflow: scroll;
-    background-color: #32333e;
-  }
-
-  .portrait-wrap {
-    display: flex;
-    height: 17em;
-    width: 100%;
-  }
-
-  .profile-image {
-    border-radius: 50%;
-    margin-top: 2.5em;
-    width: 15em;
-  }
-
-  .profile-frame {
-    align-items: center;
-    background-color: #131621;
-    border-radius: 50%;
-    display: flex;
-    height: 15.25rem;
-    justify-content: center;
-    width: 15.25rem;
-  }
-
-  .similar {
-    color: $pink-two;
-    padding-left: 1em;
-  }
-
-  .similar-wrap {
-    align-items: center;
-    display: flex;
-    font-size: 1.2em;
-  }
-
-  .spotify-icon {
-    width: 3em;
-  }
-
-  .stat-wrap {
-    display: flex;
-    flex-direction: column;
-    margin-left: 1em;
-    width: 100%;
-  }
-
-  .recent-table-headings {
-    display: grid;
-    grid-template-columns: repeat(3, 10fr);
-    border-bottom: 1px solid #fff;
-    align-items: center;
-    padding-left: 2rem;
-    margin: 0;
-    h3 {
-      margin-bottom: 5px;
-    }
-  }
-
-  .table-row {
-    display: grid;
-    grid-template-columns: repeat(3, 10fr);
-    align-items: center;
-    justify-content: center;
-    margin-left: 2rem;
-    font-weight: 300;
-    font-size: 0.7rem;
   }
 }

@@ -9,7 +9,7 @@ import './ArtistShow.css';
 import ArtistMediaPlayer from '../artistInfoCommon/ArtistMediaPlayer/ArtistMediaPlayer';
 import Nav from '../Nav/Nav';
 import LoadingSpinner from '../LoadingSpinner/LoadingSpinner';
-import VenueHistory from '../artistInfoCommon/VenueHistory/VenueHistory';
+import VenueHistory from '../VenueHistory/VenueHistory';
 
 export class ArtistShow extends Component {
   state = {
@@ -47,75 +47,48 @@ export class ArtistShow extends Component {
       spotify_url
     } = this.state.artist;
 
-    let displayGenres;
-    let similarArtistDisplay;
     let displayArtist;
 
     if (!similarArtists || !genres) {
       displayArtist = <LoadingSpinner />;
-      displayGenres = <LoadingSpinner />;
-      similarArtistDisplay = <LoadingSpinner />;
     } else {
-      displayGenres = genres.map((genre, index) => (
-        <p className="genre" key={genre + index}>
-          {genre.name}
-        </p>
-      ));
-
-      similarArtistDisplay = similarArtists.map((artist, index) => (
-        <p className="similar" key={`${artist.name}-${index}`}>
-          {artist.name}
-        </p>
-      ));
       displayArtist = (
         <Fragment>
-          <div className="portrait-wrap">
-            <div className="profile-frame">
-              <img className="profile-image" src={image} alt="artist-profile" />
-            </div>
+          <section className="profile">
+            <img className="profile-image" src={image} alt="artist-profile" />
             <div className="stat-wrap">
-              <span className="name-wrap">
-                <h1 className="artist-name">{name}</h1>
-                <span className="button-wrap">
-                  <a
-                    href={spotify_url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      className="spotify-icon button"
-                      src={require('./Spotify_Icon_RGB_White.png')}
-                      alt="spotify"
-                    />
-                  </a>
-                  <Link to={`/artists`}>
-                    <img
-                      className="back-button button"
-                      src={require('./back.svg')}
-                      alt="back"
-                    />
-                  </Link>
-                </span>
+              <h1>{name}</h1>
+              <span className="stat">
+                <h3>Spotify Followers:</h3>
+                <p>{spotify_followers}</p>
               </span>
-              <div className="description-stats">
-                <span className="followers-wrap">
-                  <h3>Spotify Followers:</h3>
-                  <p className="followers">{spotify_followers}</p>
-                </span>
-                <span className="genre-wrap">
-                  <h3 className="genres">Genres:</h3>
-                  {displayGenres}
-                </span>
-                <span className="similar-wrap">
-                  <h3 className="similar-artists">Similar Artists:</h3>
-                  {similarArtistDisplay}
-                </span>
+              <span className="stat">
+                <h3>Genres:</h3>
+                <p>{genres.map(g => g.name).join(', ')}</p>
+              </span>
+              <span className="stat">
+                <h3>Similar Artists:</h3>
+                <p>{similarArtists.map(a => a.name).join(', ')}</p>
+              </span>
+              <div className="social-links">
+                <a href={spotify_url} target="_blank" rel="noopener noreferrer">
+                  <img src={require('./spotifyIcon.png')} alt="spotify" />
+                </a>
+                <a href={spotify_url} target="_blank" rel="noopener noreferrer">
+                  <img src={require('./soundcloudIcon.png')} alt="spotify" />
+                </a>
               </div>
             </div>
-          </div>
-          <p className="bio">{bio}</p>
-          <ArtistMediaPlayer name={this.cleanName(name)} />
-          <VenueHistory artist={artist} currentVenue={currentVenue} />
+          </section>
+          <section className="bio">
+            <p>{bio}</p>
+          </section>
+          <section className="media-player">
+            <ArtistMediaPlayer name={this.cleanName(name)} />
+          </section>
+          <section className="venue-history">
+            <VenueHistory artist={artist} currentVenue={currentVenue} />
+          </section>
         </Fragment>
       );
     }
@@ -123,8 +96,11 @@ export class ArtistShow extends Component {
     return (
       <div className="artist-show">
         <Nav />
-        <div className="main-content-frame">
-          <div className="main-content">{displayArtist}</div>
+        <div className="main-content">
+          <Link to={`/artists`}>
+            <i className="fas fa-arrow-left" />
+          </Link>
+          {displayArtist}
         </div>
       </div>
     );

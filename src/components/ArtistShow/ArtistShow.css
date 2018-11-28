@@ -1,117 +1,52 @@
 .artist-show {
   background-color: #21222b;
   color: #fff;
-  display: flex;
-  overflow: scroll; }
-  .artist-show .artist-name {
-    text-decoration: underline;
-    text-decoration-color: #C73B96; }
-  .artist-show .back-button {
-    width: 3em; }
+  display: flex; }
+  .artist-show .main-content {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    padding: 3rem 3rem;
+    height: 100vh;
+    width: 100%; }
+  .artist-show .fa-arrow-left {
+    color: #fff;
+    font-size: 1.8rem; }
+  .artist-show section {
+    margin-top: 2rem; }
+  .artist-show .profile {
+    display: flex;
+    align-items: center;
+    width: 100%; }
+    .artist-show .profile img {
+      border-radius: 50%;
+      width: 15em; }
+    .artist-show .profile h1 {
+      margin: 0;
+      font-weight: 300;
+      font-size: 3rem; }
+    .artist-show .profile .stat-wrap {
+      display: flex;
+      flex-direction: column;
+      margin-left: 3em;
+      width: 100%; }
+    .artist-show .profile .stat {
+      display: flex;
+      align-items: center;
+      font-size: 1.2em;
+      width: 100%;
+      margin-top: 1rem;
+      font-size: 1.1rem; }
+      .artist-show .profile .stat h3 {
+        margin: 0; }
+      .artist-show .profile .stat p {
+        color: #D52F7F;
+        margin: 0 0 0 0.5rem; }
+    .artist-show .profile .social-links {
+      margin-top: 1rem; }
+      .artist-show .profile .social-links a:not(:first-child) {
+        margin-left: 1rem; }
+      .artist-show .profile .social-links img {
+        width: 2.5rem; }
   .artist-show .bio {
     font-size: 1em; }
-  .artist-show .button {
-    padding-left: 1em; }
-  .artist-show .city-header {
-    color: #C73B96;
-    padding-left: 0.4em; }
-  .artist-show .description-stats {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; }
-  .artist-show .genre {
-    color: #D52F7F;
-    padding-left: 1em; }
-  .artist-show .genre-wrap {
-    align-items: center;
-    display: flex;
-    font-size: 1.2em;
-    width: 100%; }
-  .artist-show .event-details {
-    font-size: 1.5em; }
-  .artist-show .followers {
-    color: #D52F7F;
-    padding-left: 1em;
-    padding-right: 1em; }
-  .artist-show .followers-wrap {
-    align-items: center;
-    display: flex;
-    font-size: 1.2em; }
-  .artist-show .main-content {
-    background-color: #131621;
-    border-radius: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 47em;
-    margin: auto;
-    overflow: hidden visible;
-    padding: 1.5em;
-    padding-top: 10em;
-    width: 72em; }
-  .artist-show .main-content-frame {
-    align-items: center;
-    background-color: #C73B96;
-    border-radius: 1.5rem;
-    display: flex;
-    justify-content: center;
-    height: 47.3em;
-    margin: auto;
-    width: 72.3em; }
-  .artist-show .name-wrap {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    height: 10%;
-    width: 96%; }
-  .artist-show .event-container {
-    height: 140px;
-    overflow: scroll;
-    background-color: #32333e; }
-  .artist-show .portrait-wrap {
-    display: flex;
-    height: 17em;
-    width: 100%; }
-  .artist-show .profile-image {
-    border-radius: 50%;
-    margin-top: 2.5em;
-    width: 15em; }
-  .artist-show .profile-frame {
-    align-items: center;
-    background-color: #131621;
-    border-radius: 50%;
-    display: flex;
-    height: 15.25rem;
-    justify-content: center;
-    width: 15.25rem; }
-  .artist-show .similar {
-    color: #D52F7F;
-    padding-left: 1em; }
-  .artist-show .similar-wrap {
-    align-items: center;
-    display: flex;
-    font-size: 1.2em; }
-  .artist-show .spotify-icon {
-    width: 3em; }
-  .artist-show .stat-wrap {
-    display: flex;
-    flex-direction: column;
-    margin-left: 1em;
-    width: 100%; }
-  .artist-show .recent-table-headings {
-    display: grid;
-    grid-template-columns: repeat(3, 10fr);
-    border-bottom: 1px solid #fff;
-    align-items: center;
-    padding-left: 2rem;
-    margin: 0; }
-    .artist-show .recent-table-headings h3 {
-      margin-bottom: 5px; }
-  .artist-show .table-row {
-    display: grid;
-    grid-template-columns: repeat(3, 10fr);
-    align-items: center;
-    justify-content: center;
-    margin-left: 2rem;
-    font-weight: 300;
-    font-size: 0.7rem; }
