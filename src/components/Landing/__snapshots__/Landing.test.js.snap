@@ -74,7 +74,7 @@ ShallowWrapper {
         >
           <img
             alt="dashboard"
-            src="dashImage.jpg"
+            src="artistIndexImage.png"
             style={
               Object {
                 "height": "320px",
@@ -87,7 +87,7 @@ ShallowWrapper {
             <h2
               className="section-title"
             >
-              Organize all your shows in the dashboard.
+              Quickly find the perfect artist to book.
             </h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
@@ -317,7 +317,7 @@ ShallowWrapper {
           "children": Array [
             <img
               alt="dashboard"
-              src="dashImage.jpg"
+              src="artistIndexImage.png"
               style={
                 Object {
                   "height": "320px",
@@ -330,7 +330,7 @@ ShallowWrapper {
               <h2
                 className="section-title"
               >
-                Organize all your shows in the dashboard.
+                Quickly find the perfect artist to book.
               </h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
@@ -347,7 +347,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "alt": "dashboard",
-              "src": "dashImage.jpg",
+              "src": "artistIndexImage.png",
               "style": Object {
                 "height": "320px",
               },
@@ -365,7 +365,7 @@ ShallowWrapper {
                 <h2
                   className="section-title"
                 >
-                  Organize all your shows in the dashboard.
+                  Quickly find the perfect artist to book.
                 </h2>,
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
@@ -380,11 +380,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Organize all your shows in the dashboard.",
+                  "children": "Quickly find the perfect artist to book.",
                   "className": "section-title",
                 },
                 "ref": null,
-                "rendered": "Organize all your shows in the dashboard.",
+                "rendered": "Quickly find the perfect artist to book.",
                 "type": "h2",
               },
               Object {
@@ -470,7 +470,7 @@ ShallowWrapper {
           >
             <img
               alt="dashboard"
-              src="dashImage.jpg"
+              src="artistIndexImage.png"
               style={
                 Object {
                   "height": "320px",
@@ -483,7 +483,7 @@ ShallowWrapper {
               <h2
                 className="section-title"
               >
-                Organize all your shows in the dashboard.
+                Quickly find the perfect artist to book.
               </h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
@@ -713,7 +713,7 @@ ShallowWrapper {
             "children": Array [
               <img
                 alt="dashboard"
-                src="dashImage.jpg"
+                src="artistIndexImage.png"
                 style={
                   Object {
                     "height": "320px",
@@ -726,7 +726,7 @@ ShallowWrapper {
                 <h2
                   className="section-title"
                 >
-                  Organize all your shows in the dashboard.
+                  Quickly find the perfect artist to book.
                 </h2>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
@@ -743,7 +743,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "alt": "dashboard",
-                "src": "dashImage.jpg",
+                "src": "artistIndexImage.png",
                 "style": Object {
                   "height": "320px",
                 },
@@ -761,7 +761,7 @@ ShallowWrapper {
                   <h2
                     className="section-title"
                   >
-                    Organize all your shows in the dashboard.
+                    Quickly find the perfect artist to book.
                   </h2>,
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni illum voluptates maiores eveniet minus eum laboriosam quos quo soluta!
@@ -776,11 +776,11 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Organize all your shows in the dashboard.",
+                    "children": "Quickly find the perfect artist to book.",
                     "className": "section-title",
                   },
                   "ref": null,
-                  "rendered": "Organize all your shows in the dashboard.",
+                  "rendered": "Quickly find the perfect artist to book.",
                   "type": "h2",
                 },
                 Object {
