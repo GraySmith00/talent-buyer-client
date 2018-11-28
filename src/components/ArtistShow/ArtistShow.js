@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { getArtist } from '../../Utils/backendApiCalls';
 import { getLastFMInfo } from '../../Utils/lastFM/lastFMApiCalls';
 import './ArtistShow.css';
-
+import ArtistMediaPlayer from '../artistInfoCommon/ArtistMediaPlayer/ArtistMediaPlayer';
 import Nav from '../Nav/Nav';
 import LoadingSpinner from '../LoadingSpinner/LoadingSpinner';
 import VenueHistory from '../artistInfoCommon/VenueHistory/VenueHistory';
@@ -28,6 +28,11 @@ export class ArtistShow extends Component {
       }
     });
   }
+
+  cleanName = name => {
+    const trimSpace = name.replace(/ /g, '');
+    return trimSpace;
+  };
 
   render() {
     const { artist } = this.state;
@@ -92,21 +97,24 @@ export class ArtistShow extends Component {
                   </Link>
                 </span>
               </span>
-              <span className="followers-wrap">
-                <h3>Spotify Followers:</h3>
-                <p className="followers">{spotify_followers}</p>
-              </span>
-              <span className="genre-wrap">
-                <h3 className="genres">Genres:</h3>
-                {displayGenres}
-              </span>
+              <div className="description-stats">
+                <span className="followers-wrap">
+                  <h3>Spotify Followers:</h3>
+                  <p className="followers">{spotify_followers}</p>
+                </span>
+                <span className="genre-wrap">
+                  <h3 className="genres">Genres:</h3>
+                  {displayGenres}
+                </span>
+                <span className="similar-wrap">
+                  <h3 className="similar-artists">Similar Artists:</h3>
+                  {similarArtistDisplay}
+                </span>
+              </div>
             </div>
           </div>
           <p className="bio">{bio}</p>
-          <span className="similar-wrap">
-            <h3 className="similar-artists">Similar Artists:</h3>
-            {similarArtistDisplay}
-          </span>
+          <ArtistMediaPlayer name={this.cleanName(name)} />
           <VenueHistory artist={artist} currentVenue={currentVenue} />
         </Fragment>
       );
