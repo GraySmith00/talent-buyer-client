@@ -3,7 +3,7 @@ import { lastFMCleaner } from './lastFMCleaner';
 //retrieve artist details from lastfm
 export const getLastFMInfo = async artistName => {
   const name = await formatName(artistName);
-  const url = `http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=${name}&api_key=${
+  const url = `https://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=${name}&api_key=${
     process.env.REACT_APP_LASTFM_API
   }&format=json`;
   const response = await fetch(url);
