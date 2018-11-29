@@ -3,7 +3,7 @@ An organizational tool for music talent buyers to browse artists at all the majo
 
 
 ### Links
-- <a href="https://talent-buyer.herokuapp.com/">live on Heroku</a>
+- <a href="https://talent-buyer.herokuapp.com/">Live on Heroku</a>
 - <a href="https://github.com/colinwarmstrong/talent-buyer-api">TalentBuyer API repo on Github</a>
 
 ### Technologies Used
