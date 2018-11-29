@@ -3,7 +3,7 @@ import SignUp from '../SignUp/SignUp';
 import LogIn from '../LogIn/LogIn';
 import Splash from '../Splash/Splash';
 import dashImage from './dashImage.jpg';
-import artistIndexImage from './artistIndexImage.png';
+import artistIndexImage from './artistIndexImage.jpg';
 import './Landing.css';
 
 class Landing extends Component {
