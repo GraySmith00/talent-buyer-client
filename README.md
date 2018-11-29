@@ -1,5 +1,5 @@
 ## Talent Buyer
-An organizational tool for music talent buyers to browse artists at all the major agencies, keep track of their venue's calendar and create and edit offers to send out to agents. 
+A full-service organizational tool for music talent buyers to browse artists at all the major agencies, keep track of their venue's calendar and create and edit offers to send out to agents. 
 
 
 ### Links
