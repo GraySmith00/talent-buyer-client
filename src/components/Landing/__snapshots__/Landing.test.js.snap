@@ -74,7 +74,7 @@ ShallowWrapper {
         >
           <img
             alt="dashboard"
-            src="artistIndexImage.png"
+            src="artistIndexImage.jpg"
             style={
               Object {
                 "height": "320px",
@@ -317,7 +317,7 @@ ShallowWrapper {
           "children": Array [
             <img
               alt="dashboard"
-              src="artistIndexImage.png"
+              src="artistIndexImage.jpg"
               style={
                 Object {
                   "height": "320px",
@@ -347,7 +347,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "alt": "dashboard",
-              "src": "artistIndexImage.png",
+              "src": "artistIndexImage.jpg",
               "style": Object {
                 "height": "320px",
               },
@@ -470,7 +470,7 @@ ShallowWrapper {
           >
             <img
               alt="dashboard"
-              src="artistIndexImage.png"
+              src="artistIndexImage.jpg"
               style={
                 Object {
                   "height": "320px",
@@ -713,7 +713,7 @@ ShallowWrapper {
             "children": Array [
               <img
                 alt="dashboard"
-                src="artistIndexImage.png"
+                src="artistIndexImage.jpg"
                 style={
                   Object {
                     "height": "320px",
@@ -743,7 +743,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "alt": "dashboard",
-                "src": "artistIndexImage.png",
+                "src": "artistIndexImage.jpg",
                 "style": Object {
                   "height": "320px",
                 },
