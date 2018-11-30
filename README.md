@@ -3,7 +3,7 @@ A full-service organizational tool for music talent buyers to browse artists at 
 
 
 ### Links
-- <a href="https://talent-buyer.herokuapp.com/">Live on Heroku</a>
+- <a href="https://talent-buyer.netlify.com/">View Live App</a>
 - <a href="https://github.com/colinwarmstrong/talent-buyer-api">TalentBuyer API repo on Github</a>
 
 ### Technologies Used
